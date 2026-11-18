@@ -1,0 +1,29 @@
+[
+  {
+    "banner_id": "jinxin-banner-1",
+    "message_role": "complete-seat-and-component-offer",
+    "headline": "Automotive Seating, From Structure to Assembly",
+    "supporting_copy": "Explore seat assemblies, structural frames and molded foam components.",
+    "evidence_refs": ["customer banner/1.jpg", "product workbook categories"],
+    "primary_cta_label": "Explore Products",
+    "primary_cta_target": "/products"
+  },
+  {
+    "banner_id": "jinxin-banner-2",
+    "message_role": "molded-foam-product-selection",
+    "headline": "Molded Foam for Seat Applications",
+    "supporting_copy": "Find foam components in the supplied product range and discuss fit for your project.",
+    "evidence_refs": ["customer banner/2.jpg", "product workbook foam rows"],
+    "primary_cta_label": "Explore Foam Components",
+    "primary_cta_target": "/products?category=molded-foam"
+  },
+  {
+    "banner_id": "jinxin-banner-3",
+    "message_role": "seat-frame-product-selection",
+    "headline": "Explore the Structure Beneath the Seat",
+    "supporting_copy": "Browse seat frame components and bring your application requirements to the conversation.",
+    "evidence_refs": ["customer banner/3.jpg", "product workbook frame rows"],
+    "primary_cta_label": "Explore Seat Frames",
+    "primary_cta_target": "/products?category=seat-frames"
+  }
+]

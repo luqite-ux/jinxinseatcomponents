@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "templateFamily": "oem-fabrication",
+  "navigation": [
+    {
+      "label": "Home",
+      "route": "/",
+      "level": 0,
+      "source": "jinxinseatcomponents-site-brief.md and customer product workbook",
+      "referencePeer": "adient.com"
+    },
+    {
+      "label": "Products",
+      "route": "/products",
+      "level": 0,
+      "source": "jinxinseatcomponents-site-brief.md and customer product workbook",
+      "referencePeer": "adient.com"
+    },
+    {
+      "label": "Seat Assemblies",
+      "route": "/products?category=seat-assemblies",
+      "level": 1,
+      "source": "jinxinseatcomponents-site-brief.md and customer product workbook",
+      "referencePeer": "adient.com"
+    },
+    {
+      "label": "Seat Frames",
+      "route": "/products?category=seat-frames",
+      "level": 1,
+      "source": "jinxinseatcomponents-site-brief.md and customer product workbook",
+      "referencePeer": "adient.com"
+    },
+    {
+      "label": "Molded Foam",
+      "route": "/products?category=molded-foam",
+      "level": 1,
+      "source": "jinxinseatcomponents-site-brief.md and customer product workbook",
+      "referencePeer": "adient.com"
+    },
+    {
+      "label": "Applications",
+      "route": "/applications",
+      "level": 0,
+      "source": "jinxinseatcomponents-site-brief.md and customer product workbook",
+      "referencePeer": "adient.com"
+    },
+    {
+      "label": "Manufacturing",
+      "route": "/manufacturing",
+      "level": 0,
+      "source": "jinxinseatcomponents-site-brief.md and customer product workbook",
+      "referencePeer": "adient.com"
+    },
+    {
+      "label": "About",
+      "route": "/about",
+      "level": 0,
+      "source": "jinxinseatcomponents-site-brief.md and customer product workbook",
+      "referencePeer": "adient.com"
+    },
+    {
+      "label": "News",
+      "route": "/news",
+      "level": 0,
+      "source": "jinxinseatcomponents-site-brief.md and customer product workbook",
+      "referencePeer": "adient.com"
+    },
+    {
+      "label": "Contact",
+      "route": "/contact",
+      "level": 0,
+      "source": "jinxinseatcomponents-site-brief.md and customer product workbook",
+      "referencePeer": "adient.com"
+    }
+  ],
+  "productTaxonomy": [
+    {
+      "customerProduct": "Seat assemblies",
+      "category": "Seat Assemblies",
+      "route": "/products?category=seat-assemblies",
+      "source": "77-row product workbook and site brief"
+    },
+    {
+      "customerProduct": "Seat frames",
+      "category": "Seat Frames",
+      "route": "/products?category=seat-frames",
+      "source": "77-row product workbook and site brief"
+    },
+    {
+      "customerProduct": "Molded foam",
+      "category": "Molded Foam",
+      "route": "/products?category=molded-foam",
+      "source": "77-row product workbook and site brief"
+    }
+  ],
+  "homepageSections": [
+    {
+      "sectionId": "hero",
+      "type": "content",
+      "informationGain": "Identify the complete seating/component offer and immediate catalog path",
+      "purpose": "Identify the complete seating/component offer and immediate catalog path",
+      "factSource": "customer banner/1.jpg, 2.jpg, 3.jpg",
+      "contentType": "full-width image carousel",
+      "desktopStrategy": "Light editorial composition, genuine media and legible DOM text",
+      "mobile390Strategy": "Single reading flow, full product visibility and touch controls",
+      "componentDecision": "Customer-specific implementation; library candidates recorded separately",
+      "referencePeers": [
+        "adient.com"
+      ]
+    },
+    {
+      "sectionId": "product-families",
+      "type": "content",
+      "informationGain": "Compare three separate purchasing categories",
+      "purpose": "Compare three separate purchasing categories",
+      "factSource": "product workbook classifications and photos",
+      "contentType": "category cards",
+      "desktopStrategy": "Light editorial composition, genuine media and legible DOM text",
+      "mobile390Strategy": "Single reading flow, full product visibility and touch controls",
+      "componentDecision": "Customer-specific implementation; library candidates recorded separately",
+      "referencePeers": [
+        "adient.com"
+      ]
+    },
+    {
+      "sectionId": "featured-products",
+      "type": "content",
+      "informationGain": "Inspect representative real models before full catalog",
+      "purpose": "Inspect representative real models before full catalog",
+      "factSource": "product workbook row-linked images",
+      "contentType": "product gallery",
+      "desktopStrategy": "Light editorial composition, genuine media and legible DOM text",
+      "mobile390Strategy": "Single reading flow, full product visibility and touch controls",
+      "componentDecision": "Customer-specific implementation; library candidates recorded separately",
+      "referencePeers": [
+        "adient.com"
+      ]
+    },
+    {
+      "sectionId": "applications",
+      "type": "content",
+      "informationGain": "Understand supported seat and component uses without OEM claims",
+      "purpose": "Understand supported seat and component uses without OEM claims",
+      "factSource": "PPT seat/application images",
+      "contentType": "image and text sequence",
+      "desktopStrategy": "Light editorial composition, genuine media and legible DOM text",
+      "mobile390Strategy": "Single reading flow, full product visibility and touch controls",
+      "componentDecision": "Customer-specific implementation; library candidates recorded separately",
+      "referencePeers": [
+        "adient.com"
+      ]
+    },
+    {
+      "sectionId": "manufacturing",
+      "type": "content",
+      "informationGain": "See genuine process and equipment evidence",
+      "purpose": "See genuine process and equipment evidence",
+      "factSource": "PPT process and equipment photographs",
+      "contentType": "process story",
+      "desktopStrategy": "Light editorial composition, genuine media and legible DOM text",
+      "mobile390Strategy": "Single reading flow, full product visibility and touch controls",
+      "componentDecision": "Customer-specific implementation; library candidates recorded separately",
+      "referencePeers": [
+        "adient.com"
+      ]
+    },
+    {
+      "sectionId": "quality",
+      "type": "content",
+      "informationGain": "Check the single current company certificate",
+      "purpose": "Check the single current company certificate",
+      "factSource": "2024–2027 IATF 16949 certificate image",
+      "contentType": "certificate document",
+      "desktopStrategy": "Light editorial composition, genuine media and legible DOM text",
+      "mobile390Strategy": "Single reading flow, full product visibility and touch controls",
+      "componentDecision": "Customer-specific implementation; library candidates recorded separately",
+      "referencePeers": [
+        "adient.com"
+      ]
+    },
+    {
+      "sectionId": "facility",
+      "type": "content",
+      "informationGain": "Inspect real company/factory imagery",
+      "purpose": "Inspect real company/factory imagery",
+      "factSource": "PPT factory photographs",
+      "contentType": "editorial image module",
+      "desktopStrategy": "Light editorial composition, genuine media and legible DOM text",
+      "mobile390Strategy": "Single reading flow, full product visibility and touch controls",
+      "componentDecision": "Customer-specific implementation; library candidates recorded separately",
+      "referencePeers": [
+        "adient.com"
+      ]
+    },
+    {
+      "sectionId": "cooperation",
+      "type": "content",
+      "informationGain": "Learn how to submit project requirements",
+      "purpose": "Learn how to submit project requirements",
+      "factSource": "customer contact facts and inquiry task",
+      "contentType": "step sequence",
+      "desktopStrategy": "Light editorial composition, genuine media and legible DOM text",
+      "mobile390Strategy": "Single reading flow, full product visibility and touch controls",
+      "componentDecision": "Customer-specific implementation; library candidates recorded separately",
+      "referencePeers": [
+        "adient.com"
+      ]
+    },
+    {
+      "sectionId": "contact",
+      "type": "content",
+      "informationGain": "Start a qualified product inquiry",
+      "purpose": "Start a qualified product inquiry",
+      "factSource": "formal domain email and contact facts",
+      "contentType": "contact CTA",
+      "desktopStrategy": "Light editorial composition, genuine media and legible DOM text",
+      "mobile390Strategy": "Single reading flow, full product visibility and touch controls",
+      "componentDecision": "Customer-specific implementation; library candidates recorded separately",
+      "referencePeers": [
+        "adient.com"
+      ]
+    }
+  ]
+}

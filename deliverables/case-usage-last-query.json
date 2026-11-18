@@ -1,0 +1,92 @@
+{
+  "context": {
+    "projectId": "project-d844711a-da57-4bd5-b166-2a1de91a9b64",
+    "runId": "run-f814820d-b087-4e84-b2ff-328672fa899e",
+    "purpose": "build"
+  },
+  "localRequestId": "query-a6cb1570-e69e-419e-9a94-ece07a536317",
+  "request": {
+    "match": "fuzzy",
+    "sort": "relevance",
+    "limit": "5",
+    "query": "automotive seat components",
+    "industry": "Automotive"
+  },
+  "at": "2026-11-18T14:07:53.995Z",
+  "status": 200,
+  "response": {
+    "total": 1,
+    "limit": 5,
+    "items": [
+      {
+        "slug": "cnbrakecylinder-com-mv3tbhmm",
+        "company": "CH（Yuhuan Chihong）",
+        "companyEn": "Yuhuan Chihong Auto Parts Co., Ltd",
+        "website": "https://www.cnbrakecylinder.com/",
+        "region": "中国浙江省台州市玉环市",
+        "industry": "汽车与交通零部件",
+        "subIndustry": "液压制动与离合器件",
+        "products": [
+          "制动总泵",
+          "离合器总泵",
+          "离合器分泵",
+          "制动轮缸",
+          "制动比例阀"
+        ],
+        "summary": "CH 官网主体为 Yuhuan Chihong Auto Parts Co., Ltd.，联系地址位于浙江玉环。产品包括制动总泵、离合器总泵/分泵、制动轮缸及比例阀，按车型品牌组织目录。公司页展示铸造、CNC加工、装配与检测工序，并提供OEM定制及询盘入口。成立时间、厂区面积、产能、客户关系与检测次数均属官网自述，未独立核验。",
+        "overallScore": 65,
+        "designScore": null,
+        "strengths": [
+          "官网呈现：定位清晰：官网首页直接说明为专业制动泵制造厂，产品线集中在液压制动与离合器",
+          "官网呈现：OEM 背书：官网称是 Changan Auto 供应商，并展示整车厂采购经理评价",
+          "官网呈现：制造可信度：自有模具、铸造、4 轴 CNC、深孔钻、装配与测试全流程",
+          "官网呈现：检测环节具体：气密、真空、疲劳、400,000+ 次寿命测试等可量化表述",
+          "官网呈现：多语言：站内提供 English、Russian、Spanish、French、Arabic、Portuguese、German 切换"
+        ],
+        "opportunities": [
+          "可借鉴按车型品牌与制动件类型交叉组织目录",
+          "将OE编号、尺寸与适配条件作为采购检索入口",
+          "用工艺、检测与定制字段支持技术询盘"
+        ],
+        "recommendations": [
+          "将联系邮箱更换为企业域名邮箱，并统一所有页面公司年限与规模数据",
+          "建立认证专页，列出认证名称、编号与第三方检测报告摘要",
+          "为 Brake/Clutch 各类气缸建立 OEM 编号与车型适配对照表，强化长尾 SEO 与 GEO",
+          "增加可核验客户案例与第三方测试引用，替换无出处的评价文本",
+          "先检查页面实际结构化数据和索引状态，再决定SEO/GEO改进措施。"
+        ]
+      }
+    ],
+    "meta": {
+      "searchVersion": "fuzzy-v2",
+      "normalizedIndustry": "汽车与交通零部件",
+      "normalizedRegion": null,
+      "normalizedSort": "relevance",
+      "concepts": [
+        "automotive",
+        "seat",
+        "components"
+      ],
+      "rawTerms": [
+        "seat",
+        "components"
+      ],
+      "ignoredGenericTerms": true,
+      "matchDetails": [
+        {
+          "slug": "cnbrakecylinder-com-mv3tbhmm",
+          "matchedConcepts": [
+            "automotive",
+            "components"
+          ]
+        }
+      ],
+      "experimental": true,
+      "requestId": "query-a6cb1570-e69e-419e-9a94-ece07a536317",
+      "traceStatus": "recorded",
+      "responseHash": "83e0ac6763cbc203b2be43d7290d58a31ee8aac8d140ea7d063228e19a9e0236",
+      "contextStatus": "linked",
+      "transport": "mcp"
+    }
+  }
+}

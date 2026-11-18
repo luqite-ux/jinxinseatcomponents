@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "guardVersion": "1",
+  "publicStatusPath": "/api/public/service-status/",
+  "defaults": { "serviceExpiryDate": null, "enforcementEnabled": false },
+  "databaseDefaults": { "expires_on": null, "enforcement_enabled": false, "verified": false },
+  "identity": {
+    "taskId": "092eb2af-f4cd-4d6d-9d34-f8be88035476",
+    "customerTenantId": "d189a65a-480c-4800-ab12-ac21a9d724d7",
+    "environmentId": null,
+    "deploymentSha": null
+  },
+  "guardFiles": ["lib/service-status.ts"],
+  "integrationFiles": ["middleware.ts"],
+  "dependencyFiles": ["lib/admin-session.ts"],
+  "expiredPageFiles": ["app/service-expired/page.tsx", "components/service-expired-page.tsx"],
+  "publicRoutes": ["/", "/products", "/products/ambulance-auxiliary-seat-assembly-jca001-045", "/applications", "/manufacturing", "/about", "/news", "/contact"],
+  "productionChecks": {},
+  "testResourceCleanup": null
+}

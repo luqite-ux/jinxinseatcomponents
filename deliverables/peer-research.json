@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "customerIndustry": "Automotive seating components",
+  "products": [
+    "Seat assemblies",
+    "Seat frames",
+    "Molded foam"
+  ],
+  "targetBuyers": [
+    "Automotive seating component buyers (role hypothesis)",
+    "Seat assembly procurement teams (role hypothesis)"
+  ],
+  "peers": [
+    {
+      "url": "https://www.adient.com/",
+      "normalizedDomain": "adient.com",
+      "source": "web",
+      "pagesReviewed": [
+        {
+          "kind": "home",
+          "url": "https://www.adient.com/",
+          "observation": "Home separates products, innovation and company. Product navigation exposes complete seats, structures/mechanisms and foam. Buyer can move from family to detail. Homepage observed as a public site.",
+          "checkedAt": "2026-11-18T14:10:39.357Z",
+          "evidence": {
+            "path": "deliverables/blueprint-evidence/adient-com-home.txt",
+            "sha256": "0c404c71215df290a70811464c385e451dadf82023cdffdff2509b33451c95ae"
+          }
+        },
+        {
+          "kind": "navigation",
+          "url": "https://www.adient.com/",
+          "observation": "Home separates products, innovation and company. Product navigation exposes complete seats, structures/mechanisms and foam. Buyer can move from family to detail. Navigation reviewed at the public homepage; mobile behavior requires later live browser confirmation.",
+          "checkedAt": "2026-11-18T14:10:39.357Z",
+          "evidence": {
+            "path": "deliverables/blueprint-evidence/adient-com-navigation.txt",
+            "sha256": "7d7f59b8bad03cf61a8d9a81e465ba31913dbe0a2d5788e7768086fb22a46347"
+          }
+        },
+        {
+          "kind": "products",
+          "url": "https://www.adient.com/products/",
+          "observation": "Home separates products, innovation and company. Product navigation exposes complete seats, structures/mechanisms and foam. Buyer can move from family to detail. Product page/category entry reviewed.",
+          "checkedAt": "2026-11-18T14:10:39.357Z",
+          "evidence": {
+            "path": "deliverables/blueprint-evidence/adient-com-products.txt",
+            "sha256": "1168adfc7afef686517e7f63516fca7cb53e8f27d84b06ab8b3adc4ef2463508"
+          }
+        }
+      ],
+      "overseasEvidence": {
+        "country": "United States",
+        "whyCompetitor": "Overseas automotive seating manufacturer with public product navigation",
+        "sourceUrl": "https://www.adient.com/"
+      },
+      "homeSections": [
+        "Products",
+        "Innovation",
+        "Company"
+      ],
+      "navigation": [
+        "Products",
+        "Innovation",
+        "Company"
+      ],
+      "productTaxonomy": [
+        "Complete Seats",
+        "Structures & Mechanisms",
+        "Foam"
+      ],
+      "adopt": [
+        "Separate product selection from company proof and innovation narrative"
+      ],
+      "reject": [
+        "Do not reuse their size, OEM relationships, product performance, media or text"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.adient.com/",
+          "observation": "Home separates products, innovation and company. Product navigation exposes complete seats, structures/mechanisms and foam. Buyer can move from family to detail."
+        }
+      ]
+    },
+    {
+      "url": "https://www.lear.com/",
+      "normalizedDomain": "lear.com",
+      "source": "web",
+      "pagesReviewed": [
+        {
+          "kind": "home",
+          "url": "https://www.lear.com/",
+          "observation": "Seating page distinguishes complete seats, structures, foam and surface materials. Product categories are not conflated with company capability. Homepage observed as a public site.",
+          "checkedAt": "2026-11-18T14:10:39.357Z",
+          "evidence": {
+            "path": "deliverables/blueprint-evidence/lear-com-home.txt",
+            "sha256": "9a9c82f1626e01420960b196fe388e1e8ce6c21a8b922aef7aa37f43ccef63dc"
+          }
+        },
+        {
+          "kind": "navigation",
+          "url": "https://www.lear.com/",
+          "observation": "Seating page distinguishes complete seats, structures, foam and surface materials. Product categories are not conflated with company capability. Navigation reviewed at the public homepage; mobile behavior requires later live browser confirmation.",
+          "checkedAt": "2026-11-18T14:10:39.357Z",
+          "evidence": {
+            "path": "deliverables/blueprint-evidence/lear-com-navigation.txt",
+            "sha256": "66c3cd0226c0fd076dd456fdf4f64ff89882ee4c864fdc4ca0a500e54b0d11f3"
+          }
+        },
+        {
+          "kind": "products",
+          "url": "https://www.lear.com/technology/seating",
+          "observation": "Seating page distinguishes complete seats, structures, foam and surface materials. Product categories are not conflated with company capability. Product page/category entry reviewed.",
+          "checkedAt": "2026-11-18T14:10:39.357Z",
+          "evidence": {
+            "path": "deliverables/blueprint-evidence/lear-com-products.txt",
+            "sha256": "ddfb3641f531c60155a2badf041b33e9ac02d3b9538b592e15b4999ce1164a51"
+          }
+        }
+      ],
+      "overseasEvidence": {
+        "country": "United States",
+        "whyCompetitor": "Overseas automotive seating manufacturer with public product navigation",
+        "sourceUrl": "https://www.lear.com/"
+      },
+      "homeSections": [
+        "Seating",
+        "Technology",
+        "Company"
+      ],
+      "navigation": [
+        "Seating",
+        "Technology",
+        "Company"
+      ],
+      "productTaxonomy": [
+        "Complete Seats",
+        "Structures & Mechanisms",
+        "Foam"
+      ],
+      "adopt": [
+        "Separate product selection from company proof and innovation narrative"
+      ],
+      "reject": [
+        "Do not reuse their size, OEM relationships, product performance, media or text"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.lear.com/",
+          "observation": "Seating page distinguishes complete seats, structures, foam and surface materials. Product categories are not conflated with company capability."
+        }
+      ]
+    },
+    {
+      "url": "https://www.toyota-boshoku.com/global/",
+      "normalizedDomain": "toyota-boshoku.com",
+      "source": "web",
+      "pagesReviewed": [
+        {
+          "kind": "home",
+          "url": "https://www.toyota-boshoku.com/global/",
+          "observation": "Global navigation gives product, technology and company separate entrances; automotive seat has a dedicated product page. Homepage observed as a public site.",
+          "checkedAt": "2026-11-18T14:10:39.357Z",
+          "evidence": {
+            "path": "deliverables/blueprint-evidence/toyota-boshoku-com-home.txt",
+            "sha256": "3642e07c2d0179bf94e0dcddfa710ae760a66f20f182de758f6364bc20554056"
+          }
+        },
+        {
+          "kind": "navigation",
+          "url": "https://www.toyota-boshoku.com/global/",
+          "observation": "Global navigation gives product, technology and company separate entrances; automotive seat has a dedicated product page. Navigation reviewed at the public homepage; mobile behavior requires later live browser confirmation.",
+          "checkedAt": "2026-11-18T14:10:39.357Z",
+          "evidence": {
+            "path": "deliverables/blueprint-evidence/toyota-boshoku-com-navigation.txt",
+            "sha256": "4b20ee691f272b56f391c976f46f1128455c1123a3718f7f6b0acd59a4abee7d"
+          }
+        },
+        {
+          "kind": "products",
+          "url": "https://www.toyota-boshoku.com/global/products/seat/seat/",
+          "observation": "Global navigation gives product, technology and company separate entrances; automotive seat has a dedicated product page. Product page/category entry reviewed.",
+          "checkedAt": "2026-11-18T14:10:39.357Z",
+          "evidence": {
+            "path": "deliverables/blueprint-evidence/toyota-boshoku-com-products.txt",
+            "sha256": "049bccd2711619d94620f4261f1cd0c07624c1c4695584e3ee88369ccc16a06d"
+          }
+        }
+      ],
+      "overseasEvidence": {
+        "country": "Japan",
+        "whyCompetitor": "Overseas automotive seating manufacturer with public product navigation",
+        "sourceUrl": "https://www.toyota-boshoku.com/global/"
+      },
+      "homeSections": [
+        "Products",
+        "Technology",
+        "Company"
+      ],
+      "navigation": [
+        "Products",
+        "Technology",
+        "Company"
+      ],
+      "productTaxonomy": [
+        "Automotive Seats",
+        "Interior Components"
+      ],
+      "adopt": [
+        "Separate product selection from company proof and innovation narrative"
+      ],
+      "reject": [
+        "Do not reuse their size, OEM relationships, product performance, media or text"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.toyota-boshoku.com/global/",
+          "observation": "Global navigation gives product, technology and company separate entrances; automotive seat has a dedicated product page."
+        }
+      ]
+    }
+  ],
+  "caseIntake": []
+}

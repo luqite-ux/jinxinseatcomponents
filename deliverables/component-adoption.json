@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "sections": [
+    {
+      "sectionId": "hero",
+      "query": "light hero carousel",
+      "candidates": [],
+      "decision": "no-match",
+      "receipt": "2026-11-18 authenticated anli_library search_components; returned mostly icons and unknown-production generic motion. No production-validated layout candidate matched the customer section. Implement customer-specific component and verify after source download."
+    },
+    {
+      "sectionId": "product-families",
+      "query": "industrial product catalog",
+      "candidates": [],
+      "decision": "no-match",
+      "receipt": "2026-11-18 authenticated anli_library search_components; returned mostly icons and unknown-production generic motion. No production-validated layout candidate matched the customer section. Implement customer-specific component and verify after source download."
+    },
+    {
+      "sectionId": "featured-products",
+      "query": "industrial product catalog",
+      "candidates": [],
+      "decision": "no-match",
+      "receipt": "2026-11-18 authenticated anli_library search_components; returned mostly icons and unknown-production generic motion. No production-validated layout candidate matched the customer section. Implement customer-specific component and verify after source download."
+    },
+    {
+      "sectionId": "applications",
+      "query": "certificate gallery",
+      "candidates": [],
+      "decision": "no-match",
+      "receipt": "2026-11-18 authenticated anli_library search_components; returned mostly icons and unknown-production generic motion. No production-validated layout candidate matched the customer section. Implement customer-specific component and verify after source download."
+    },
+    {
+      "sectionId": "manufacturing",
+      "query": "automotive manufacturing timeline",
+      "candidates": [],
+      "decision": "no-match",
+      "receipt": "2026-11-18 authenticated anli_library search_components; returned mostly icons and unknown-production generic motion. No production-validated layout candidate matched the customer section. Implement customer-specific component and verify after source download."
+    },
+    {
+      "sectionId": "quality",
+      "query": "certificate gallery",
+      "candidates": [],
+      "decision": "no-match",
+      "receipt": "2026-11-18 authenticated anli_library search_components; returned mostly icons and unknown-production generic motion. No production-validated layout candidate matched the customer section. Implement customer-specific component and verify after source download."
+    },
+    {
+      "sectionId": "facility",
+      "query": "automotive manufacturing timeline",
+      "candidates": [],
+      "decision": "no-match",
+      "receipt": "2026-11-18 authenticated anli_library search_components; returned mostly icons and unknown-production generic motion. No production-validated layout candidate matched the customer section. Implement customer-specific component and verify after source download."
+    },
+    {
+      "sectionId": "cooperation",
+      "query": "automotive manufacturing timeline",
+      "candidates": [],
+      "decision": "no-match",
+      "receipt": "2026-11-18 authenticated anli_library search_components; returned mostly icons and unknown-production generic motion. No production-validated layout candidate matched the customer section. Implement customer-specific component and verify after source download."
+    },
+    {
+      "sectionId": "contact",
+      "query": "light hero carousel",
+      "candidates": [],
+      "decision": "no-match",
+      "receipt": "2026-11-18 authenticated anli_library search_components; returned mostly icons and unknown-production generic motion. No production-validated layout candidate matched the customer section. Implement customer-specific component and verify after source download."
+    }
+  ]
+}

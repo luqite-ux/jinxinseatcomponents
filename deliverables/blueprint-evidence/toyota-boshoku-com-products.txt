@@ -1,0 +1,4 @@
+URL: https://www.toyota-boshoku.com/global/products/seat/seat/
+Checked: 2026-11-18T14:10:39.357Z
+Observation: Global navigation gives product, technology and company separate entrances; automotive seat has a dedicated product page. Product page/category entry reviewed.
+Scope: public page structure; no customer facts transferred.

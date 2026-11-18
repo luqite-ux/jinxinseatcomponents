@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "queries": [
+    {
+      "query": "automotive product reveal",
+      "at": "2026-11-18T14:08:28.847Z",
+      "catalogHash": "2d190f64d6275820fc8fb818f19c0f360155d8f4545790b900628e67c200afdd",
+      "ids": []
+    },
+    {
+      "query": "scroll image reveal",
+      "at": "2026-11-18T14:08:32.722Z",
+      "catalogHash": "2d190f64d6275820fc8fb818f19c0f360155d8f4545790b900628e67c200afdd",
+      "ids": []
+    }
+  ],
+  "decision": "none",
+  "items": [],
+  "reason": "本轮组件库检索 automotive product reveal 和 scroll image reveal 均无匹配；采用已记录的 Motion 官方机制和轻量 Three.js 结构线，自行实现并在双端验证，避免伪套不适配组件。"
+}

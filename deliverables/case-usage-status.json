@@ -1,0 +1,42 @@
+{
+  "context": {
+    "projectId": "project-d844711a-da57-4bd5-b166-2a1de91a9b64",
+    "runId": "run-f814820d-b087-4e84-b2ff-328672fa899e",
+    "purpose": "build"
+  },
+  "scope": "current-run-only",
+  "otherRunIds": [],
+  "checkedAt": "2026-11-18T14:14:50.345Z",
+  "complete": false,
+  "issues": [
+    "DELIVERY_UNRECORDED"
+  ],
+  "pending": 0,
+  "failedQueryCount": 0,
+  "queries": [
+    {
+      "receiptPath": "D:\\Cursor\\Grand\\dulizhan\\jinxinseatcomponents\\deliverables\\case-query-query-a6cb1570-e69e-419e-9a94-ece07a536317.json",
+      "requestId": "query-a6cb1570-e69e-419e-9a94-ece07a536317",
+      "request": {
+        "match": "fuzzy",
+        "sort": "relevance",
+        "limit": "5",
+        "query": "automotive seat components",
+        "industry": "Automotive"
+      },
+      "status": 200,
+      "traceStatus": "recorded",
+      "decision": "none",
+      "decisionSent": true,
+      "caseSlugs": [],
+      "reason": "汽车制动件案例仅有目录与询盘结构参考，产品形态和认证不同；本站采用已审阅的座椅同行信息架构及客户自身素材，不复制该案例事实。",
+      "externalReferences": [
+        "https://www.adient.com/products/",
+        "https://www.lear.com/technology/seating",
+        "https://www.toyota-boshoku.com/global/products/seat/seat/"
+      ]
+    }
+  ],
+  "deliveries": [],
+  "note": "Current run only; other runs are not certified. Adoption is agent-reported, not Owner acceptance or proven design improvement."
+}

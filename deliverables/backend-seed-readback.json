@@ -1,0 +1,15 @@
+{
+  "result": "PASS",
+  "tenantId": "d189a65a-480c-4800-ab12-ac21a9d724d7",
+  "taskId": "092eb2af-f4cd-4d6d-9d34-f8be88035476",
+  "domain": "jinxinseatcomponents.com",
+  "adminEmail": "info@jinxinseatcomponents.com",
+  "productCount": 77,
+  "categoryCount": 17,
+  "imageCount": 77,
+  "logoUrl": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/brand/25e8e1fe9ca327b1fefe0b3d.png",
+  "faviconUrl": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/brand/25e8e1fe9ca327b1fefe0b3d.png",
+  "adminGroup": null,
+  "seoEnabled": false,
+  "verifiedAt": "2026-11-18T15:13:38.260Z"
+}

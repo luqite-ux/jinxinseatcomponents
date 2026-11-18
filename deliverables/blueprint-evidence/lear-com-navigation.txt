@@ -1,0 +1,4 @@
+URL: https://www.lear.com/
+Checked: 2026-11-18T14:10:39.357Z
+Observation: Seating page distinguishes complete seats, structures, foam and surface materials. Product categories are not conflated with company capability. Navigation reviewed at the public homepage; mobile behavior requires later live browser confirmation.
+Scope: public page structure; no customer facts transferred.
