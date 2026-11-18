@@ -6,7 +6,7 @@ import { getCategories } from '@/lib/products'
 import { navItems, site } from '@/lib/site'
 
 export function SiteFooter() {
-  const categories = getCategories()
+  const categories = getCategories().filter((category) => !category.parentSlug)
 
   return (
     <footer className="border-t border-line bg-mist">

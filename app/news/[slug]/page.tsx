@@ -5,7 +5,7 @@ import { notFound } from 'next/navigation'
 import { ArrowLeft } from 'lucide-react'
 import { PageHeader } from '@/components/site/page-header'
 import { getPublishedArticle } from '@/lib/articles-db'
-import { buttonSecondary } from '@/lib/site'
+import { buttonSecondary, site } from '@/lib/site'
 
 type Params = Promise<{ slug: string }>
 
@@ -20,6 +20,12 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
     title: article.title,
     description: article.excerpt,
     alternates: { canonical: `/news/${article.slug}` },
+    openGraph: {
+      type: 'article', title: article.title, description: article.excerpt,
+      url: `${site.url}/news/${article.slug}`,
+      publishedTime: article.publishedAt,
+      images: article.coverImage ? [{ url: article.coverImage.src, alt: article.coverImage.alt }] : undefined,
+    },
   }
 }
 
@@ -27,9 +33,29 @@ export default async function NewsArticlePage({ params }: { params: Params }) {
   const { slug } = await params
   const article = await getPublishedArticle(slug)
   if (!article) notFound()
+  const articleLd = {
+    '@context': 'https://schema.org', '@type': 'Article',
+    '@id': `${site.url}/news/${article.slug}#article`,
+    headline: article.title, description: article.excerpt,
+    datePublished: article.publishedAt,
+    image: article.coverImage?.src,
+    publisher: { '@type': 'Organization', '@id': `${site.url}/#organization`, name: site.name },
+    mainEntityOfPage: `${site.url}/news/${article.slug}`,
+  }
+  const breadcrumbLd = {
+    '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+    '@id': `${site.url}/news/${article.slug}#breadcrumb`,
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: site.url },
+      { '@type': 'ListItem', position: 2, name: 'News', item: `${site.url}/news` },
+      { '@type': 'ListItem', position: 3, name: article.title, item: `${site.url}/news/${article.slug}` },
+    ],
+  }
 
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleLd).replace(/</g, '\\u003c') }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd).replace(/</g, '\\u003c') }} />
       <PageHeader
         eyebrow="News"
         title={article.title}

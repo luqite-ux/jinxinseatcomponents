@@ -9,6 +9,7 @@ type DbArticle = {
   featured_image: string | null
   published_at: string | null
   updated_at: string | null
+  sort_order: number | null
 }
 
 function toArticle(row: DbArticle, locale: string): Article {
@@ -42,8 +43,8 @@ export async function getPublishedArticles(locale = defaultLocale): Promise<Arti
   const url = new URL(`${base}/rest/v1/articles`)
   url.searchParams.set('tenant_id', `eq.${tenant}`)
   url.searchParams.set('is_published', 'eq.true')
-  url.searchParams.set('select', 'slug,title_i18n,excerpt_i18n,content_i18n,featured_image,published_at,updated_at')
-  url.searchParams.set('order', 'published_at.desc.nullslast')
+  url.searchParams.set('select', 'slug,title_i18n,excerpt_i18n,content_i18n,featured_image,published_at,updated_at,sort_order')
+  url.searchParams.set('order', 'sort_order.asc,published_at.desc.nullslast,id.asc')
   url.searchParams.set('limit', '1000')
   try {
     const response = await fetch(url, { headers: { apikey: key, authorization: `Bearer ${key}` }, next: { revalidate: 60 } })

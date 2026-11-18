@@ -3,6 +3,7 @@ import { ApplicationsSection } from '@/components/home/applications-section'
 import { ContactSection } from '@/components/home/contact-section'
 import { CooperationSection } from '@/components/home/cooperation-section'
 import { FacilitySection } from '@/components/home/facility-section'
+import { FaqSection } from '@/components/home/faq-section'
 import { FeaturedProductsSection } from '@/components/home/featured-products-section'
 import { HeroCarousel } from '@/components/home/hero-carousel'
 import { ManufacturingSection } from '@/components/home/manufacturing-section'
@@ -27,6 +28,7 @@ export default function HomePage() {
       <QualitySection />
       <FacilitySection />
       <CooperationSection />
+      <FaqSection />
       <ContactSection />
     </>
   )

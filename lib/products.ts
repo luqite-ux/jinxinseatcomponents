@@ -2,9 +2,13 @@ import { defaultLocale, pickLocalized, text, type Localized } from '@/lib/i18n'
 import sourceCatalog from '@/lib/product-catalog.json'
 
 export type CategorySlug = 'seat-assemblies' | 'seat-frames' | 'molded-foam'
+  | 'ambulance-seats' | 'golf-cart-seats' | 'atv-seats' | 'commercial-seats' | 'special-seats'
+  | 'lumbar-cushions' | 'pet-foam' | 'headrest-foam' | 'seat-foam' | 'integral-skin-foam'
+  | 'seat-frames-sub' | 'headrest-rods' | 'headrest-frames' | 'armrest-frames'
 
 export type CategoryRecord = {
   slug: CategorySlug
+  parentSlug?: CategorySlug
   name: Localized
   tagline: Localized
   description: Localized
@@ -22,6 +26,7 @@ export type ProductRecord = {
   id: string
   slug: string
   categorySlug: CategorySlug
+  subcategorySlug?: CategorySlug
   name: Localized
   summary: Localized
   images: ProductImageRecord[]
@@ -35,6 +40,7 @@ export type ProductRecord = {
 
 export type Category = {
   slug: CategorySlug
+  parentSlug?: CategorySlug
   name: string
   tagline: string
   description: string
@@ -45,6 +51,7 @@ export type Product = {
   id: string
   slug: string
   categorySlug: CategorySlug
+  parentCategorySlug?: CategorySlug
   categoryName: string
   name: string
   summary: string
@@ -54,7 +61,7 @@ export type Product = {
   featured: boolean
 }
 
-const categoryRecords: CategoryRecord[] = [
+const rootCategoryRecords: CategoryRecord[] = [
   {
     slug: 'seat-assemblies',
     name: { en: 'Seat Assemblies' },
@@ -97,6 +104,36 @@ const categoryRecords: CategoryRecord[] = [
       alt: { en: 'Molded seat cushion foam with contoured edge and recessed areas' },
     },
   },
+]
+
+const subcategoryDefinitions: { slug: CategorySlug; parentSlug: CategorySlug; name: string; firstRow: number }[] = [
+  { slug: 'ambulance-seats', parentSlug: 'seat-assemblies', name: 'Ambulance Seats', firstRow: 5 },
+  { slug: 'golf-cart-seats', parentSlug: 'seat-assemblies', name: 'Golf Cart Seats', firstRow: 8 },
+  { slug: 'atv-seats', parentSlug: 'seat-assemblies', name: 'ATV Seats', firstRow: 11 },
+  { slug: 'commercial-seats', parentSlug: 'seat-assemblies', name: 'Commercial Vehicle Seats', firstRow: 13 },
+  { slug: 'special-seats', parentSlug: 'seat-assemblies', name: 'Special Vehicle Seats', firstRow: 23 },
+  { slug: 'lumbar-cushions', parentSlug: 'molded-foam', name: 'Lumbar Cushions', firstRow: 24 },
+  { slug: 'pet-foam', parentSlug: 'molded-foam', name: 'Pet Foam', firstRow: 33 },
+  { slug: 'headrest-foam', parentSlug: 'molded-foam', name: 'Headrest Foam', firstRow: 36 },
+  { slug: 'seat-foam', parentSlug: 'molded-foam', name: 'Seat Foam', firstRow: 45 },
+  { slug: 'integral-skin-foam', parentSlug: 'molded-foam', name: 'Integral-Skin Foam', firstRow: 55 },
+  { slug: 'seat-frames-sub', parentSlug: 'seat-frames', name: 'Seat Frames', firstRow: 63 },
+  { slug: 'headrest-rods', parentSlug: 'seat-frames', name: 'Headrest Rods', firstRow: 69 },
+  { slug: 'headrest-frames', parentSlug: 'seat-frames', name: 'Headrest Frames', firstRow: 74 },
+  { slug: 'armrest-frames', parentSlug: 'seat-frames', name: 'Armrest Frames', firstRow: 77 },
+]
+
+const categoryRecords: CategoryRecord[] = [
+  ...rootCategoryRecords,
+  ...subcategoryDefinitions.map(({ slug, parentSlug, name, firstRow }) => {
+    const product = sourceCatalog.find((item) => item.sourceRow === firstRow)
+    if (!product) throw new Error(`Missing source image for ${slug}`)
+    return {
+      slug, parentSlug, name: { en: name }, tagline: { en: name },
+      description: { en: `Browse ${name.toLowerCase()} in the Jinxin product catalog.` },
+      image: product.images[0],
+    }
+  }),
 ]
 
 /**
@@ -233,6 +270,7 @@ const productRecords: ProductRecord[] = sourceCatalog as ProductRecord[]
 function localizeCategory(record: CategoryRecord, locale: string): Category {
   return {
     slug: record.slug,
+    parentSlug: record.parentSlug,
     name: text(record.name, locale),
     tagline: text(record.tagline, locale),
     description: text(record.description, locale),
@@ -241,11 +279,12 @@ function localizeCategory(record: CategoryRecord, locale: string): Category {
 }
 
 function localizeProduct(record: ProductRecord, locale: string): Product {
-  const category = categoryRecords.find((c) => c.slug === record.categorySlug)
+  const category = categoryRecords.find((c) => c.slug === (record.subcategorySlug ?? record.categorySlug))
   return {
     id: record.id,
     slug: record.slug,
-    categorySlug: record.categorySlug,
+    categorySlug: record.subcategorySlug ?? record.categorySlug,
+    parentCategorySlug: record.categorySlug,
     categoryName: category ? text(category.name, locale) : '',
     name: text(record.name, locale),
     summary: text(record.summary, locale),
@@ -277,7 +316,7 @@ export function getProducts(
 ) {
   const { category, page = 1, pageSize = 24, locale = defaultLocale } = options
   const filtered = productRecords
-    .filter((p) => !category || p.categorySlug === category)
+    .filter((p) => !category || p.categorySlug === category || p.subcategorySlug === category)
     .sort((a, b) => a.sortOrder - b.sortOrder)
   const totalPages = Math.max(1, Math.ceil(filtered.length / pageSize))
   const safePage = Math.min(Math.max(1, page), totalPages)
@@ -304,7 +343,7 @@ export function getFeaturedProducts(limit = 4, locale: string = defaultLocale): 
 
 export function getRelatedProducts(product: Product, limit = 3, locale: string = defaultLocale): Product[] {
   return productRecords
-    .filter((p) => p.categorySlug === product.categorySlug && p.slug !== product.slug)
+    .filter((p) => (p.subcategorySlug ?? p.categorySlug) === product.categorySlug && p.slug !== product.slug)
     .sort((a, b) => a.sortOrder - b.sortOrder)
     .slice(0, limit)
     .map((p) => localizeProduct(p, locale))

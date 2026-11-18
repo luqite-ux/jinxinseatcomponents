@@ -3,7 +3,7 @@ import { SectionHeading } from '@/components/site/section-heading'
 import { getCategories } from '@/lib/products'
 
 export function ProductFamiliesSection() {
-  const categories = getCategories()
+  const categories = getCategories().filter((category) => !category.parentSlug)
   return (
     <section id="product-families" aria-labelledby="product-families-heading" className="bg-paper">
       <div className="mx-auto max-w-[88rem] px-5 py-16 md:px-10 md:py-24">

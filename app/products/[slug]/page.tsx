@@ -27,7 +27,13 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
     title: product.name,
     description: product.summary,
     alternates: { canonical: `/products/${product.slug}` },
-    openGraph: { images: product.images[0] ? [{ url: product.images[0].src, alt: product.images[0].alt }] : undefined },
+    openGraph: {
+      type: 'website',
+      title: product.name,
+      description: product.summary,
+      url: `${site.url}/products/${product.slug}`,
+      images: product.images[0] ? [{ url: product.images[0].src, alt: product.images[0].alt }] : undefined,
+    },
   }
 }
 
@@ -42,6 +48,7 @@ export default async function ProductDetailPage({ params }: { params: Params }) 
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Product',
+    '@id': `${site.url}/products/${product.slug}#product`,
     name: product.name,
     description: product.summary,
     image: product.images.map((i) => i.src.startsWith('http') ? i.src : `${site.url}${i.src}`),
@@ -49,10 +56,21 @@ export default async function ProductDetailPage({ params }: { params: Params }) 
     brand: { '@type': 'Brand', name: site.shortName },
     manufacturer: { '@type': 'Organization', name: site.name, url: site.url },
   }
+  const breadcrumbLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    '@id': `${site.url}/products/${product.slug}#breadcrumb`,
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: site.url },
+      { '@type': 'ListItem', position: 2, name: 'Products', item: `${site.url}/products` },
+      { '@type': 'ListItem', position: 3, name: product.name, item: `${site.url}/products/${product.slug}` },
+    ],
+  }
 
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, '\\u003c') }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd).replace(/</g, '\\u003c') }} />
       <PageHeader
         eyebrow={product.categoryName}
         title={product.name}

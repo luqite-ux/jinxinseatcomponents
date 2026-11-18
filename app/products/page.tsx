@@ -48,7 +48,7 @@ export default async function ProductsPage({ searchParams }: { searchParams: Sea
       />
 
       <section aria-labelledby="product-list-heading" className="mx-auto max-w-[88rem] px-5 py-12 md:px-10 md:py-16">
-        <div className="flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
+        <div className="flex flex-col gap-6">
           <h2 id="product-list-heading" className="text-2xl font-semibold tracking-tight">
             {current ? current.name : 'All products'}
             <span className="ml-3 font-mono text-sm font-normal text-ink-soft">{total}</span>

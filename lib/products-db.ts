@@ -8,7 +8,7 @@ type DbProduct = {
   description_i18n: Record<string, string> | null
   specs: Record<string, string> | null
   image_url: string | null
-  extra_data: { images?: string[]; source_row?: number } | null
+  extra_data: { images?: string[]; source_row?: number; subcategory?: string } | null
   category_slug: string | null
   sort_order: number | null
 }
@@ -34,7 +34,7 @@ async function fetchRows(): Promise<DbProduct[] | null> {
 }
 
 function localize(row: DbProduct, locale: string): Product {
-  const category = getCategories(locale).find((item) => item.slug === row.category_slug)
+  const category = getCategories(locale).find((item) => item.slug === (row.extra_data?.subcategory ?? row.category_slug))
   const name = pickLocalized(row.name_i18n ?? undefined, locale) || row.slug
   const summary = pickLocalized(row.description_i18n ?? undefined, locale) || name
   const sourceImages = Array.isArray(row.extra_data?.images) ? row.extra_data.images : []
@@ -43,6 +43,7 @@ function localize(row: DbProduct, locale: string): Product {
     id: row.id,
     slug: row.slug,
     categorySlug: category?.slug ?? 'seat-assemblies',
+    parentCategorySlug: (row.category_slug as Product['parentCategorySlug']) ?? undefined,
     categoryName: category?.name ?? 'Products',
     name,
     summary,
@@ -57,7 +58,7 @@ export async function fetchProductsData(options: { category?: string; page?: num
   const { category, page = 1, pageSize = 24, locale = defaultLocale } = options
   const rows = await fetchRows()
   if (!rows) return { ...getProducts(options), source: 'fallback' as const }
-  const all = rows.filter((row) => !category || row.category_slug === category)
+  const all = rows.filter((row) => !category || row.category_slug === category || row.extra_data?.subcategory === category)
   const totalPages = Math.max(1, Math.ceil(all.length / pageSize))
   const safePage = Math.min(Math.max(1, page), totalPages)
   return { items: all.slice((safePage - 1) * pageSize, safePage * pageSize).map((row) => localize(row, locale)), total: all.length, totalPages, page: safePage, source: 'backend' as const }
@@ -79,5 +80,5 @@ export async function fetchFeaturedProducts(limit = 4, locale = defaultLocale) {
 export async function fetchRelatedProducts(product: Product, limit = 3, locale = defaultLocale) {
   const rows = await fetchRows()
   if (!rows) return getRelatedProducts(product, limit, locale)
-  return rows.filter((row) => row.category_slug === product.categorySlug && row.slug !== product.slug).slice(0, limit).map((row) => localize(row, locale))
+  return rows.filter((row) => (row.extra_data?.subcategory ?? row.category_slug) === product.categorySlug && row.slug !== product.slug).slice(0, limit).map((row) => localize(row, locale))
 }

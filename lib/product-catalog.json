@@ -3,6 +3,7 @@
     "id": "product-row-5",
     "slug": "ambulance-side-seat-cushion-jca002-032",
     "categorySlug": "seat-assemblies",
+    "subcategorySlug": "ambulance-seats",
     "name": {
       "en": "Ambulance Side Seat Cushion"
     },
@@ -61,6 +62,7 @@
     "id": "product-row-6",
     "slug": "ambulance-side-seat-cushion-jca002-058",
     "categorySlug": "seat-assemblies",
+    "subcategorySlug": "ambulance-seats",
     "name": {
       "en": "Ambulance Side Seat Cushion"
     },
@@ -119,6 +121,7 @@
     "id": "product-row-7",
     "slug": "ambulance-auxiliary-seat-assembly-jca001-045",
     "categorySlug": "seat-assemblies",
+    "subcategorySlug": "ambulance-seats",
     "name": {
       "en": "Ambulance Auxiliary Seat Assembly"
     },
@@ -217,6 +220,7 @@
     "id": "product-row-8",
     "slug": "golf-sightseeing-cart-seat-cushion-mod2932",
     "categorySlug": "seat-assemblies",
+    "subcategorySlug": "golf-cart-seats",
     "name": {
       "en": "Golf Sightseeing Cart Seat Cushion"
     },
@@ -275,6 +279,7 @@
     "id": "product-row-9",
     "slug": "golf-sightseeing-cart-backrest-mod2947",
     "categorySlug": "seat-assemblies",
+    "subcategorySlug": "golf-cart-seats",
     "name": {
       "en": "Golf Sightseeing Cart Backrest"
     },
@@ -333,6 +338,7 @@
     "id": "product-row-10",
     "slug": "golf-sightseeing-cart-seat-cushion-trv022",
     "categorySlug": "seat-assemblies",
+    "subcategorySlug": "golf-cart-seats",
     "name": {
       "en": "Golf Sightseeing Cart Seat Cushion"
     },
@@ -391,6 +397,7 @@
     "id": "product-row-11",
     "slug": "atv-one-piece-front-seat-cushion-assembly-atv-01",
     "categorySlug": "seat-assemblies",
+    "subcategorySlug": "atv-seats",
     "name": {
       "en": "ATV One-Piece Front Seat Cushion Assembly"
     },
@@ -441,6 +448,7 @@
     "id": "product-row-12",
     "slug": "atv-beach-motorcycle-one-piece-rear-seat-cushion-assembly-atv-02",
     "categorySlug": "seat-assemblies",
+    "subcategorySlug": "atv-seats",
     "name": {
       "en": "ATV Beach Motorcycle One-Piece Rear Seat Cushion Assembly"
     },
@@ -475,6 +483,7 @@
     "id": "product-row-13",
     "slug": "upper-sleeper-assembly-7600910-c8302",
     "categorySlug": "seat-assemblies",
+    "subcategorySlug": "commercial-seats",
     "name": {
       "en": "Upper Sleeper Assembly"
     },
@@ -525,6 +534,7 @@
     "id": "product-row-14",
     "slug": "lower-sleeper-assembly-left-7600020-c7304",
     "categorySlug": "seat-assemblies",
+    "subcategorySlug": "commercial-seats",
     "name": {
       "en": "Lower Sleeper Assembly (Left)"
     },
@@ -591,6 +601,7 @@
     "id": "product-row-15",
     "slug": "lower-sleeper-assembly-right-7600040-c7304",
     "categorySlug": "seat-assemblies",
+    "subcategorySlug": "commercial-seats",
     "name": {
       "en": "Lower Sleeper Assembly (Right)"
     },
@@ -657,6 +668,7 @@
     "id": "product-row-16",
     "slug": "passenger-seat-assembly-6900010-c7302",
     "categorySlug": "seat-assemblies",
+    "subcategorySlug": "commercial-seats",
     "name": {
       "en": "Passenger Seat Assembly"
     },
@@ -739,6 +751,7 @@
     "id": "product-row-17",
     "slug": "ppa006-series-manual-four-way-driver-seat-assembly-ppa006",
     "categorySlug": "seat-assemblies",
+    "subcategorySlug": "commercial-seats",
     "name": {
       "en": "PPA006 Series Manual Four-Way Driver Seat Assembly"
     },
@@ -821,6 +834,7 @@
     "id": "product-row-18",
     "slug": "pt008-series-electric-six-way-driver-seat-assembly-pt008",
     "categorySlug": "seat-assemblies",
+    "subcategorySlug": "commercial-seats",
     "name": {
       "en": "PT008 Series Electric Six-Way Driver Seat Assembly"
     },
@@ -903,6 +917,7 @@
     "id": "product-row-19",
     "slug": "e36-series-manual-four-way-driver-seat-assembly-e36",
     "categorySlug": "seat-assemblies",
+    "subcategorySlug": "commercial-seats",
     "name": {
       "en": "E36 Series Manual Four-Way Driver Seat Assembly"
     },
@@ -985,6 +1000,7 @@
     "id": "product-row-20",
     "slug": "passenger-seat-assembly-6900010-c5902",
     "categorySlug": "seat-assemblies",
+    "subcategorySlug": "commercial-seats",
     "name": {
       "en": "Passenger Seat Assembly"
     },
@@ -1043,6 +1059,7 @@
     "id": "product-row-21",
     "slug": "driver-seat-assembly-6800010-c5104",
     "categorySlug": "seat-assemblies",
+    "subcategorySlug": "commercial-seats",
     "name": {
       "en": "Driver Seat Assembly"
     },
@@ -1101,6 +1118,7 @@
     "id": "product-row-22",
     "slug": "crv-17-series-driver-seat-assembly-crv-17",
     "categorySlug": "seat-assemblies",
+    "subcategorySlug": "commercial-seats",
     "name": {
       "en": "CRV-17 Series Driver Seat Assembly"
     },
@@ -1159,6 +1177,7 @@
     "id": "product-row-23",
     "slug": "gaming-chair-jac-008",
     "categorySlug": "seat-assemblies",
+    "subcategorySlug": "special-seats",
     "name": {
       "en": "Gaming Chair"
     },
@@ -1201,6 +1220,7 @@
     "id": "product-row-24",
     "slug": "memory-foam-lumbar-support-jx-a001",
     "categorySlug": "molded-foam",
+    "subcategorySlug": "lumbar-cushions",
     "name": {
       "en": "Memory Foam Lumbar Support"
     },
@@ -1243,6 +1263,7 @@
     "id": "product-row-25",
     "slug": "jx-a002-memory-foam-pillow-jx-a002",
     "categorySlug": "molded-foam",
+    "subcategorySlug": "lumbar-cushions",
     "name": {
       "en": "JX-A002 Memory Foam Pillow"
     },
@@ -1277,6 +1298,7 @@
     "id": "product-row-26",
     "slug": "jx-b012-memory-foam-lumbar-support-jx-b012",
     "categorySlug": "molded-foam",
+    "subcategorySlug": "lumbar-cushions",
     "name": {
       "en": "JX-B012 Memory Foam Lumbar Support"
     },
@@ -1311,6 +1333,7 @@
     "id": "product-row-27",
     "slug": "jx-b063-memory-foam-lumbar-support-jx-b063",
     "categorySlug": "molded-foam",
+    "subcategorySlug": "lumbar-cushions",
     "name": {
       "en": "JX-B063 Memory Foam Lumbar Support"
     },
@@ -1345,6 +1368,7 @@
     "id": "product-row-28",
     "slug": "jx-b063-memory-foam-pillow-jx-b063",
     "categorySlug": "molded-foam",
+    "subcategorySlug": "lumbar-cushions",
     "name": {
       "en": "JX-B063 Memory Foam Pillow"
     },
@@ -1379,6 +1403,7 @@
     "id": "product-row-29",
     "slug": "jx-b008-memory-foam-pillow-jx-b008",
     "categorySlug": "molded-foam",
+    "subcategorySlug": "lumbar-cushions",
     "name": {
       "en": "JX-B008 Memory Foam Pillow"
     },
@@ -1413,6 +1438,7 @@
     "id": "product-row-30",
     "slug": "jx-b008-memory-foam-lumbar-support-jx-b008",
     "categorySlug": "molded-foam",
+    "subcategorySlug": "lumbar-cushions",
     "name": {
       "en": "JX-B008 Memory Foam Lumbar Support"
     },
@@ -1447,6 +1473,7 @@
     "id": "product-row-31",
     "slug": "jx-c005-memory-foam-lumbar-support-jx-c005",
     "categorySlug": "molded-foam",
+    "subcategorySlug": "lumbar-cushions",
     "name": {
       "en": "JX-C005 Memory Foam Lumbar Support"
     },
@@ -1481,6 +1508,7 @@
     "id": "product-row-32",
     "slug": "jx-c006-memory-foam-pillow-jx-c006",
     "categorySlug": "molded-foam",
+    "subcategorySlug": "lumbar-cushions",
     "name": {
       "en": "JX-C006 Memory Foam Pillow"
     },
@@ -1515,6 +1543,7 @@
     "id": "product-row-33",
     "slug": "b-1282-pet-mat-b-1282",
     "categorySlug": "molded-foam",
+    "subcategorySlug": "pet-foam",
     "name": {
       "en": "B-1282 Pet Mat"
     },
@@ -1539,6 +1568,22 @@
         "value": {
           "en": "B-1282"
         }
+      },
+      {
+        "label": {
+          "en": "Material options"
+        },
+        "value": {
+          "en": "Slow-rebound memory foam with supporting foam; molded memory foam options"
+        }
+      },
+      {
+        "label": {
+          "en": "Density options"
+        },
+        "value": {
+          "en": "35D, 40D and 50D"
+        }
       }
     ],
     "sourceRow": 33,
@@ -1549,6 +1594,7 @@
     "id": "product-row-34",
     "slug": "b-1174-pet-mat-b-1174",
     "categorySlug": "molded-foam",
+    "subcategorySlug": "pet-foam",
     "name": {
       "en": "B-1174 Pet Mat"
     },
@@ -1583,6 +1629,7 @@
     "id": "product-row-35",
     "slug": "b-1921-pet-mat-b-1921",
     "categorySlug": "molded-foam",
+    "subcategorySlug": "pet-foam",
     "name": {
       "en": "B-1921 Pet Mat"
     },
@@ -1617,6 +1664,7 @@
     "id": "product-row-36",
     "slug": "g01-241-front-row-headrest-assembly-g01-241",
     "categorySlug": "molded-foam",
+    "subcategorySlug": "headrest-foam",
     "name": {
       "en": "G01-241 Front Row Headrest Assembly"
     },
@@ -1659,6 +1707,7 @@
     "id": "product-row-37",
     "slug": "g01-246-rear-row-headrest-assembly-g01-246",
     "categorySlug": "molded-foam",
+    "subcategorySlug": "headrest-foam",
     "name": {
       "en": "G01-246 Rear Row Headrest Assembly"
     },
@@ -1693,6 +1742,7 @@
     "id": "product-row-38",
     "slug": "fg-1256-front-row-headrest-assembly-fg-1256",
     "categorySlug": "molded-foam",
+    "subcategorySlug": "headrest-foam",
     "name": {
       "en": "FG-1256 Front Row Headrest Assembly"
     },
@@ -1727,6 +1777,7 @@
     "id": "product-row-39",
     "slug": "fg-1224-front-row-headrest-assembly-fg-1224",
     "categorySlug": "molded-foam",
+    "subcategorySlug": "headrest-foam",
     "name": {
       "en": "FG-1224 Front Row Headrest Assembly"
     },
@@ -1761,6 +1812,7 @@
     "id": "product-row-40",
     "slug": "jk908-01-front-row-headrest-assembly-jk908-01",
     "categorySlug": "molded-foam",
+    "subcategorySlug": "headrest-foam",
     "name": {
       "en": "JK908-01 Front Row Headrest Assembly"
     },
@@ -1795,6 +1847,7 @@
     "id": "product-row-41",
     "slug": "fd45-002-rear-row-headrest-assembly-fd45-002",
     "categorySlug": "molded-foam",
+    "subcategorySlug": "headrest-foam",
     "name": {
       "en": "FD45-002 Rear Row Headrest Assembly"
     },
@@ -1829,6 +1882,7 @@
     "id": "product-row-42",
     "slug": "fd46-001-rear-row-center-headrest-fd46-001",
     "categorySlug": "molded-foam",
+    "subcategorySlug": "headrest-foam",
     "name": {
       "en": "FD46-001 Rear Row Center Headrest"
     },
@@ -1863,6 +1917,7 @@
     "id": "product-row-43",
     "slug": "a10-008-front-row-headrest-assembly-a10-008",
     "categorySlug": "molded-foam",
+    "subcategorySlug": "headrest-foam",
     "name": {
       "en": "A10-008 Front Row Headrest Assembly"
     },
@@ -1897,6 +1952,7 @@
     "id": "product-row-44",
     "slug": "a10-009-rear-row-headrest-assembly-a10-009",
     "categorySlug": "molded-foam",
+    "subcategorySlug": "headrest-foam",
     "name": {
       "en": "A10-009 Rear Row Headrest Assembly"
     },
@@ -1931,6 +1987,7 @@
     "id": "product-row-45",
     "slug": "sc-a10-01-driver-seat-cushion-foam-assembly-sc-a10-01",
     "categorySlug": "molded-foam",
+    "subcategorySlug": "seat-foam",
     "name": {
       "en": "SC-A10-01 Driver Seat Cushion Foam Assembly"
     },
@@ -1955,6 +2012,38 @@
         "value": {
           "en": "SC-A10-01"
         }
+      },
+      {
+        "label": {
+          "en": "Main substrate"
+        },
+        "value": {
+          "en": "Polyether polyol"
+        }
+      },
+      {
+        "label": {
+          "en": "Coloring"
+        },
+        "value": {
+          "en": "Carbon black pigment system"
+        }
+      },
+      {
+        "label": {
+          "en": "Blowing agent"
+        },
+        "value": {
+          "en": "Water"
+        }
+      },
+      {
+        "label": {
+          "en": "Foam stabilizer"
+        },
+        "value": {
+          "en": "Silicone surfactant"
+        }
       }
     ],
     "sourceRow": 45,
@@ -1965,6 +2054,7 @@
     "id": "product-row-46",
     "slug": "jf-011-driver-backrest-foam-assembly-jf-011",
     "categorySlug": "molded-foam",
+    "subcategorySlug": "seat-foam",
     "name": {
       "en": "JF-011 Driver Backrest Foam Assembly"
     },
@@ -1989,6 +2079,30 @@
         "value": {
           "en": "JF-011"
         }
+      },
+      {
+        "label": {
+          "en": "Resilience"
+        },
+        "value": {
+          "en": "≥60%"
+        }
+      },
+      {
+        "label": {
+          "en": "Tensile strength"
+        },
+        "value": {
+          "en": "≥110 kPa"
+        }
+      },
+      {
+        "label": {
+          "en": "Tear strength"
+        },
+        "value": {
+          "en": "≥1.9 N/mm"
+        }
       }
     ],
     "sourceRow": 46,
@@ -1999,6 +2113,7 @@
     "id": "product-row-47",
     "slug": "jf-012-driver-seat-cushion-foam-assembly-jf-012",
     "categorySlug": "molded-foam",
+    "subcategorySlug": "seat-foam",
     "name": {
       "en": "JF-012 Driver Seat Cushion Foam Assembly"
     },
@@ -2033,6 +2148,7 @@
     "id": "product-row-48",
     "slug": "lp-03-006-rear-row-4-split-backrest-foam-assembly-lp-03-006",
     "categorySlug": "molded-foam",
+    "subcategorySlug": "seat-foam",
     "name": {
       "en": "LP-03-006 Rear Row 4-Split Backrest Foam Assembly"
     },
@@ -2057,6 +2173,22 @@
         "value": {
           "en": "LP-03-006"
         }
+      },
+      {
+        "label": {
+          "en": "Open-cell rate"
+        },
+        "value": {
+          "en": "≥92%"
+        }
+      },
+      {
+        "label": {
+          "en": "Air permeability"
+        },
+        "value": {
+          "en": "12–18 mm/s"
+        }
       }
     ],
     "sourceRow": 48,
@@ -2067,6 +2199,7 @@
     "id": "product-row-49",
     "slug": "lp-01-001-front-row-foam-assembly-lp-01-001",
     "categorySlug": "molded-foam",
+    "subcategorySlug": "seat-foam",
     "name": {
       "en": "LP-01-001 Front Row Foam Assembly"
     },
@@ -2101,6 +2234,7 @@
     "id": "product-row-50",
     "slug": "lp-03-005-rear-row-4-split-seat-cushion-foam-assembly-lp-03-005",
     "categorySlug": "molded-foam",
+    "subcategorySlug": "seat-foam",
     "name": {
       "en": "LP-03-005 Rear Row 4-Split Seat Cushion Foam Assembly"
     },
@@ -2135,6 +2269,7 @@
     "id": "product-row-51",
     "slug": "lp-01-002-driver-seat-cushion-foam-assembly-lp-01-002",
     "categorySlug": "molded-foam",
+    "subcategorySlug": "seat-foam",
     "name": {
       "en": "LP-01-002 Driver Seat Cushion Foam Assembly"
     },
@@ -2169,6 +2304,7 @@
     "id": "product-row-52",
     "slug": "lp-02-001-second-row-seat-cushion-foam-assembly-lp-02-001",
     "categorySlug": "molded-foam",
+    "subcategorySlug": "seat-foam",
     "name": {
       "en": "LP-02-001 Second Row Seat Cushion Foam Assembly"
     },
@@ -2203,6 +2339,7 @@
     "id": "product-row-53",
     "slug": "hy-b07-front-row-seat-cushion-foam-assembly-hy-b07",
     "categorySlug": "molded-foam",
+    "subcategorySlug": "seat-foam",
     "name": {
       "en": "HY-B07 Front Row Seat Cushion Foam Assembly"
     },
@@ -2227,6 +2364,30 @@
         "value": {
           "en": "HY-B07"
         }
+      },
+      {
+        "label": {
+          "en": "Surface zone density"
+        },
+        "value": {
+          "en": "32–38 kg/m³"
+        }
+      },
+      {
+        "label": {
+          "en": "Load-bearing zone density"
+        },
+        "value": {
+          "en": "42–48 kg/m³"
+        }
+      },
+      {
+        "label": {
+          "en": "Side bolster density"
+        },
+        "value": {
+          "en": "50–55 kg/m³"
+        }
       }
     ],
     "sourceRow": 53,
@@ -2237,6 +2398,7 @@
     "id": "product-row-54",
     "slug": "hy-b07-front-row-backrest-foam-assembly-hy-b07",
     "categorySlug": "molded-foam",
+    "subcategorySlug": "seat-foam",
     "name": {
       "en": "HY-B07 Front Row Backrest Foam Assembly"
     },
@@ -2261,6 +2423,30 @@
         "value": {
           "en": "HY-B07"
         }
+      },
+      {
+        "label": {
+          "en": "Surface zone density"
+        },
+        "value": {
+          "en": "32–38 kg/m³"
+        }
+      },
+      {
+        "label": {
+          "en": "Load-bearing zone density"
+        },
+        "value": {
+          "en": "42–48 kg/m³"
+        }
+      },
+      {
+        "label": {
+          "en": "Side bolster density"
+        },
+        "value": {
+          "en": "50–55 kg/m³"
+        }
       }
     ],
     "sourceRow": 54,
@@ -2271,6 +2457,7 @@
     "id": "product-row-55",
     "slug": "gfdg-45-pu-self-skinning-armrest-assembly-gfdg-45",
     "categorySlug": "molded-foam",
+    "subcategorySlug": "integral-skin-foam",
     "name": {
       "en": "GFDG-45 PU Self-Skinning Armrest Assembly"
     },
@@ -2313,6 +2500,7 @@
     "id": "product-row-56",
     "slug": "wq56-01-pu-self-skinning-armrest-assembly-wq56-01",
     "categorySlug": "molded-foam",
+    "subcategorySlug": "integral-skin-foam",
     "name": {
       "en": "WQ56-01 PU Self-Skinning Armrest Assembly"
     },
@@ -2347,6 +2535,7 @@
     "id": "product-row-57",
     "slug": "dsfu-a-01-pu-self-skinning-armrest-assembly-dsfu-a-01",
     "categorySlug": "molded-foam",
+    "subcategorySlug": "integral-skin-foam",
     "name": {
       "en": "DSFU-A-01 PU Self-Skinning Armrest Assembly"
     },
@@ -2381,6 +2570,7 @@
     "id": "product-row-58",
     "slug": "fdsg-025-pu-self-skinning-armrest-assembly-fdsg-025",
     "categorySlug": "molded-foam",
+    "subcategorySlug": "integral-skin-foam",
     "name": {
       "en": "FDSG-025 PU Self-Skinning Armrest Assembly"
     },
@@ -2415,6 +2605,7 @@
     "id": "product-row-59",
     "slug": "fd-02-01-pu-self-skinning-armrest-assembly-fd-02-01",
     "categorySlug": "molded-foam",
+    "subcategorySlug": "integral-skin-foam",
     "name": {
       "en": "FD-02-01 PU Self-Skinning Armrest Assembly"
     },
@@ -2449,6 +2640,7 @@
     "id": "product-row-60",
     "slug": "gfds-008-pu-self-skinning-armrest-assembly-gfds-008",
     "categorySlug": "molded-foam",
+    "subcategorySlug": "integral-skin-foam",
     "name": {
       "en": "GFDS-008 PU Self-Skinning Armrest Assembly"
     },
@@ -2483,6 +2675,7 @@
     "id": "product-row-61",
     "slug": "fdsa-002-pu-self-skinning-armrest-assembly-fdsa-002",
     "categorySlug": "molded-foam",
+    "subcategorySlug": "integral-skin-foam",
     "name": {
       "en": "FDSA-002 PU Self-Skinning Armrest Assembly"
     },
@@ -2517,6 +2710,7 @@
     "id": "product-row-62",
     "slug": "ly01-b01-pu-self-skinning-wheelchair-tire-assembly-ly01-b01",
     "categorySlug": "molded-foam",
+    "subcategorySlug": "integral-skin-foam",
     "name": {
       "en": "LY01-B01 PU Self-Skinning Wheelchair Tire Assembly"
     },
@@ -2551,6 +2745,7 @@
     "id": "product-row-63",
     "slug": "pt008-series-manual-front-row-backrest-frame-assembly-pt008",
     "categorySlug": "seat-frames",
+    "subcategorySlug": "seat-frames-sub",
     "name": {
       "en": "PT008 Series Manual Front Row Backrest Frame Assembly"
     },
@@ -2575,6 +2770,30 @@
         "value": {
           "en": "PT008系列"
         }
+      },
+      {
+        "label": {
+          "en": "Main frame"
+        },
+        "value": {
+          "en": "Q235 steel tube, 1.2–1.5 mm wall thickness"
+        }
+      },
+      {
+        "label": {
+          "en": "Support spring wire"
+        },
+        "value": {
+          "en": "High-carbon manganese steel, φ3.2–3.8 mm"
+        }
+      },
+      {
+        "label": {
+          "en": "Buffer sleeve"
+        },
+        "value": {
+          "en": "EPDM rubber"
+        }
       }
     ],
     "sourceRow": 63,
@@ -2585,6 +2804,7 @@
     "id": "product-row-64",
     "slug": "pt008-series-electric-front-row-backrest-frame-assembly-pt008",
     "categorySlug": "seat-frames",
+    "subcategorySlug": "seat-frames-sub",
     "name": {
       "en": "PT008 Series Electric Front Row Backrest Frame Assembly"
     },
@@ -2609,6 +2829,30 @@
         "value": {
           "en": "PT008系列"
         }
+      },
+      {
+        "label": {
+          "en": "Main frame"
+        },
+        "value": {
+          "en": "Q235 steel tube, 1.2–1.5 mm wall thickness"
+        }
+      },
+      {
+        "label": {
+          "en": "Support spring wire"
+        },
+        "value": {
+          "en": "High-carbon manganese steel, φ3.2–3.8 mm"
+        }
+      },
+      {
+        "label": {
+          "en": "Buffer sleeve"
+        },
+        "value": {
+          "en": "EPDM rubber"
+        }
       }
     ],
     "sourceRow": 64,
@@ -2619,6 +2863,7 @@
     "id": "product-row-65",
     "slug": "pt008-series-manual-front-seat-cushion-frame-assembly-pt008",
     "categorySlug": "seat-frames",
+    "subcategorySlug": "seat-frames-sub",
     "name": {
       "en": "PT008 Series Manual Front Seat Cushion Frame Assembly"
     },
@@ -2661,6 +2906,7 @@
     "id": "product-row-66",
     "slug": "pt008-series-electric-front-seat-cushion-frame-assembly-pt008",
     "categorySlug": "seat-frames",
+    "subcategorySlug": "seat-frames-sub",
     "name": {
       "en": "PT008 Series Electric Front Seat Cushion Frame Assembly"
     },
@@ -2703,6 +2949,7 @@
     "id": "product-row-67",
     "slug": "pt008-series-rear-seat-cushion-frame-assembly-pt008",
     "categorySlug": "seat-frames",
+    "subcategorySlug": "seat-frames-sub",
     "name": {
       "en": "PT008 Series Rear Seat Cushion Frame Assembly"
     },
@@ -2727,6 +2974,30 @@
         "value": {
           "en": "PT008系列"
         }
+      },
+      {
+        "label": {
+          "en": "Main frame"
+        },
+        "value": {
+          "en": "Q235 steel tube, 1.2–1.4 mm wall thickness"
+        }
+      },
+      {
+        "label": {
+          "en": "Support spring wire"
+        },
+        "value": {
+          "en": "65Mn steel, φ2.8–3.4 mm"
+        }
+      },
+      {
+        "label": {
+          "en": "Split structure"
+        },
+        "value": {
+          "en": "4/6"
+        }
       }
     ],
     "sourceRow": 67,
@@ -2737,6 +3008,7 @@
     "id": "product-row-68",
     "slug": "pt008-series-rear-backrest-frame-assembly-pt008",
     "categorySlug": "seat-frames",
+    "subcategorySlug": "seat-frames-sub",
     "name": {
       "en": "PT008 Series Rear Backrest Frame Assembly"
     },
@@ -2761,6 +3033,30 @@
         "value": {
           "en": "PT008系列"
         }
+      },
+      {
+        "label": {
+          "en": "Main frame"
+        },
+        "value": {
+          "en": "Q235 steel tube, 1.2–1.4 mm wall thickness"
+        }
+      },
+      {
+        "label": {
+          "en": "Buffer sleeve"
+        },
+        "value": {
+          "en": "EPDM rubber"
+        }
+      },
+      {
+        "label": {
+          "en": "Welding process"
+        },
+        "value": {
+          "en": "CO₂ welding"
+        }
       }
     ],
     "sourceRow": 68,
@@ -2771,6 +3067,7 @@
     "id": "product-row-69",
     "slug": "kp01-002-headrest-rod-kp01-002",
     "categorySlug": "seat-frames",
+    "subcategorySlug": "headrest-rods",
     "name": {
       "en": "KP01-002 Headrest Rod"
     },
@@ -2813,6 +3110,7 @@
     "id": "product-row-70",
     "slug": "fgd-01-ds-headrest-rod-fgd-01-ds",
     "categorySlug": "seat-frames",
+    "subcategorySlug": "headrest-rods",
     "name": {
       "en": "FGD-01-DS Headrest Rod"
     },
@@ -2847,6 +3145,7 @@
     "id": "product-row-71",
     "slug": "hfg-01-a-headrest-rod-hfg-01-a",
     "categorySlug": "seat-frames",
+    "subcategorySlug": "headrest-rods",
     "name": {
       "en": "HFG-01-A Headrest Rod"
     },
@@ -2881,6 +3180,7 @@
     "id": "product-row-72",
     "slug": "jhg-02-01-headrest-rod-jhg-02-01",
     "categorySlug": "seat-frames",
+    "subcategorySlug": "headrest-rods",
     "name": {
       "en": "JHG-02-01 Headrest Rod"
     },
@@ -2915,6 +3215,7 @@
     "id": "product-row-73",
     "slug": "fes-01-02-headrest-rod-fes-01-02",
     "categorySlug": "seat-frames",
+    "subcategorySlug": "headrest-rods",
     "name": {
       "en": "FES-01-02 Headrest Rod"
     },
@@ -2949,6 +3250,7 @@
     "id": "product-row-74",
     "slug": "gs-01-04-headrest-frame-assembly-gs-01-04",
     "categorySlug": "seat-frames",
+    "subcategorySlug": "headrest-frames",
     "name": {
       "en": "GS-01-04 Headrest Frame Assembly"
     },
@@ -2973,6 +3275,30 @@
         "value": {
           "en": "GS-01-04"
         }
+      },
+      {
+        "label": {
+          "en": "Vertical lift travel"
+        },
+        "value": {
+          "en": "70–110 mm"
+        }
+      },
+      {
+        "label": {
+          "en": "Tilt adjustment"
+        },
+        "value": {
+          "en": "Forward 5°–15°; rearward 0°–8°"
+        }
+      },
+      {
+        "label": {
+          "en": "Assembly weight"
+        },
+        "value": {
+          "en": "Approximately 150–220 g"
+        }
       }
     ],
     "sourceRow": 74,
@@ -2983,6 +3309,7 @@
     "id": "product-row-75",
     "slug": "31xx-024-headrest-frame-assembly-31xx-024",
     "categorySlug": "seat-frames",
+    "subcategorySlug": "headrest-frames",
     "name": {
       "en": "31XX-024 Headrest Frame Assembly"
     },
@@ -3007,6 +3334,30 @@
         "value": {
           "en": "31XX-024"
         }
+      },
+      {
+        "label": {
+          "en": "Maximum folding angle"
+        },
+        "value": {
+          "en": "90° rearward"
+        }
+      },
+      {
+        "label": {
+          "en": "Unlocking method"
+        },
+        "value": {
+          "en": "Cable-operated mechanical release"
+        }
+      },
+      {
+        "label": {
+          "en": "Cable operating force"
+        },
+        "value": {
+          "en": "25–40 N"
+        }
       }
     ],
     "sourceRow": 75,
@@ -3017,6 +3368,7 @@
     "id": "product-row-76",
     "slug": "k04-20-001-headrest-frame-assembly-k04-20-001",
     "categorySlug": "seat-frames",
+    "subcategorySlug": "headrest-frames",
     "name": {
       "en": "K04-20-001 Headrest Frame Assembly"
     },
@@ -3041,6 +3393,30 @@
         "value": {
           "en": "K04-20-001"
         }
+      },
+      {
+        "label": {
+          "en": "Tilt adjustment"
+        },
+        "value": {
+          "en": "Forward 5°–18°; rearward 0°–10°"
+        }
+      },
+      {
+        "label": {
+          "en": "Vertical travel"
+        },
+        "value": {
+          "en": "70–100 mm"
+        }
+      },
+      {
+        "label": {
+          "en": "Unlock pressing force"
+        },
+        "value": {
+          "en": "20–35 N"
+        }
       }
     ],
     "sourceRow": 76,
@@ -3051,6 +3427,7 @@
     "id": "product-row-77",
     "slug": "p758-rear-center-armrest-frame-assembly-p758",
     "categorySlug": "seat-frames",
+    "subcategorySlug": "armrest-frames",
     "name": {
       "en": "P758 Rear Center Armrest Frame Assembly"
     },
@@ -3075,6 +3452,22 @@
         "value": {
           "en": "P758"
         }
+      },
+      {
+        "label": {
+          "en": "Armrest structure"
+        },
+        "value": {
+          "en": "Foldable frame with hinged locking mechanism"
+        }
+      },
+      {
+        "label": {
+          "en": "Frame integration"
+        },
+        "value": {
+          "en": "Embedded in molded PU foam"
+        }
       }
     ],
     "sourceRow": 77,
@@ -3085,6 +3478,7 @@
     "id": "product-row-78",
     "slug": "p702-rear-center-armrest-frame-assembly-p702",
     "categorySlug": "seat-frames",
+    "subcategorySlug": "armrest-frames",
     "name": {
       "en": "P702 Rear Center Armrest Frame Assembly"
     },
@@ -3119,6 +3513,7 @@
     "id": "product-row-79",
     "slug": "a10-01-front-armrest-frame-assembly-a10-01",
     "categorySlug": "seat-frames",
+    "subcategorySlug": "armrest-frames",
     "name": {
       "en": "A10-01 Front Armrest Frame Assembly"
     },
@@ -3143,6 +3538,14 @@
         "value": {
           "en": "A10-01"
         }
+      },
+      {
+        "label": {
+          "en": "Armrest structure"
+        },
+        "value": {
+          "en": "Multi-position angle adjustment and vertical fold-up"
+        }
       }
     ],
     "sourceRow": 79,
@@ -3153,6 +3556,7 @@
     "id": "product-row-80",
     "slug": "p235-front-armrest-frame-assembly-p235",
     "categorySlug": "seat-frames",
+    "subcategorySlug": "armrest-frames",
     "name": {
       "en": "P235 Front Armrest Frame Assembly"
     },
@@ -3187,6 +3591,7 @@
     "id": "product-row-81",
     "slug": "g029-front-armrest-frame-assembly-g029",
     "categorySlug": "seat-frames",
+    "subcategorySlug": "armrest-frames",
     "name": {
       "en": "G029 Front Armrest Frame Assembly"
     },
