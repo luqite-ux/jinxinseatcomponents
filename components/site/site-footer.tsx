@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { Mail, MapPin } from 'lucide-react'
+import { Mail, MapPin, Phone } from 'lucide-react'
 import { CurrentYear } from '@/components/site/current-year'
 import { getCategories } from '@/lib/products'
 import { navItems, site } from '@/lib/site'
@@ -65,6 +65,12 @@ export function SiteFooter() {
               <Mail aria-hidden className="mt-0.5 size-4 shrink-0 text-jx-deep" />
               <a href={`mailto:${site.email}`} className="break-all transition-colors hover:text-jx-deep">
                 {site.email}
+              </a>
+            </li>
+            <li className="flex gap-3">
+              <Phone aria-hidden className="mt-0.5 size-4 shrink-0 text-jx-deep" />
+              <a href={site.phoneHref} className="transition-colors hover:text-jx-deep">
+                {site.phone}
               </a>
             </li>
             <li className="flex gap-3">

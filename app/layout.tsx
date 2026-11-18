@@ -1,10 +1,12 @@
 import type { Metadata, Viewport } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
+import { cookies } from 'next/headers'
 import { SiteHeader } from '@/components/site/site-header'
 import { SiteFooter } from '@/components/site/site-footer'
 import { RevealObserver } from '@/components/site/reveal-observer'
 import { site } from '@/lib/site'
+import { PREVIEW_COOKIE } from '@/lib/site-content/preview-protection'
 import './globals.css'
 
 const geistSans = Geist({ subsets: ['latin'], variable: '--font-geist-sans' })
@@ -36,7 +38,8 @@ export const viewport: Viewport = {
   initialScale: 1,
 }
 
-export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+export default async function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+  const isPreview = (await cookies()).has(PREVIEW_COOKIE)
   return (
     <html lang="en" suppressHydrationWarning className={`${geistSans.variable} ${geistMono.variable}`}>
       <body className="bg-paper font-sans text-ink antialiased">
@@ -46,6 +49,16 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         >
           Skip to content
         </a>
+        {isPreview && (
+          <div className="flex items-center justify-between gap-4 bg-jx-deep px-5 py-2 text-sm text-white md:px-10">
+            <span>Content preview · changes are not public</span>
+            <form action="/api/site-content/exit-preview" method="post">
+              <button type="submit" className="rounded-sm border border-white/80 px-3 py-1 font-semibold hover:bg-white/15 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
+                Exit preview
+              </button>
+            </form>
+          </div>
+        )}
         <SiteHeader />
         <main id="main">{children}</main>
         <SiteFooter />
@@ -53,7 +66,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <noscript>
           <style>{`[data-reveal]{opacity:1!important;transform:none!important}`}</style>
         </noscript>
-        {process.env.NODE_ENV === 'production' && <Analytics />}
+        {process.env.NODE_ENV === 'production' && !isPreview && <Analytics />}
       </body>
     </html>
   )

@@ -1,6 +1,7 @@
 import { NextResponse, type NextRequest } from 'next/server'
 import { SESSION_COOKIE } from '@/lib/admin-session'
 import { isServiceGuardExcludedPath, isWebsiteServiceAvailable } from '@/lib/service-status'
+import { PREVIEW_COOKIE, protectPreviewResponse } from '@/lib/site-content/preview-protection'
 
 export async function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl
@@ -15,9 +16,12 @@ export async function middleware(request: NextRequest) {
     const response = NextResponse.rewrite(new URL('/service-expired', request.url))
     response.headers.set('Cache-Control', 'private, no-store, max-age=0')
     response.headers.set('X-Robots-Tag', 'noindex, nofollow, noarchive')
+    protectPreviewResponse(response.headers, request.cookies.has(PREVIEW_COOKIE))
     return response
   }
-  return NextResponse.next()
+  const response = NextResponse.next()
+  protectPreviewResponse(response.headers, request.cookies.has(PREVIEW_COOKIE))
+  return response
 }
 
-export const config = { matcher: ['/admin', '/admin/:path*'] }
+export const config = { matcher: ['/:path*'] }

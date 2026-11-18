@@ -4,6 +4,8 @@ export const site = {
   shortName: 'Jinxin',
   url: 'https://jinxinseatcomponents.com',
   email: 'info@jinxinseatcomponents.com',
+  phone: '+86 139 0580 2058',
+  phoneHref: 'tel:+8613905802058',
   address: {
     lines: ['No. 16 Fuyu Road, Dongsha Town', 'Daishan County, Zhoushan, Zhejiang', 'China 316216'],
   },

@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Mail, MapPin, FileText } from 'lucide-react'
+import { Mail, MapPin, FileText, Phone } from 'lucide-react'
 import { ContactForm } from '@/components/contact/contact-form'
 import { PageHeader } from '@/components/site/page-header'
 import { Reveal } from '@/components/site/reveal'
@@ -49,6 +49,15 @@ export default async function ContactPage({ searchParams }: { searchParams: Sear
                   <p className="font-semibold">Email</p>
                   <a href={`mailto:${site.email}`} className="break-all text-ink-soft transition-colors hover:text-jx-deep">
                     {site.email}
+                  </a>
+                </div>
+              </li>
+              <li className="flex gap-3">
+                <Phone aria-hidden className="mt-0.5 size-5 shrink-0 text-jx" />
+                <div>
+                  <p className="font-semibold">Phone</p>
+                  <a href={site.phoneHref} className="text-ink-soft transition-colors hover:text-jx-deep">
+                    {site.phone}
                   </a>
                 </div>
               </li>

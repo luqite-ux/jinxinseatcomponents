@@ -12,7 +12,7 @@
   },
   "guardFiles": ["lib/service-status.ts"],
   "integrationFiles": ["middleware.ts"],
-  "dependencyFiles": ["lib/admin-session.ts"],
+  "dependencyFiles": ["lib/admin-session.ts", "lib/site-content/preview-protection.ts"],
   "expiredPageFiles": ["app/service-expired/page.tsx", "components/service-expired-page.tsx"],
   "publicRoutes": ["/", "/products", "/products/ambulance-auxiliary-seat-assembly-jca001-045", "/applications", "/manufacturing", "/about", "/news", "/contact"],
   "productionChecks": {},
