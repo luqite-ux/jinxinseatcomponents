@@ -111,7 +111,7 @@ export default async function ApplicationsPage() {
               id="supplied-gallery-heading"
               eyebrow="Photo collection"
               title={siteCopy(copy, 'gallery_title', 'More from the supplied photo collection')}
-              description={siteCopy(copy, 'gallery_description', 'Additional customer supplied photographs.')}
+              description={siteCopy(copy, 'gallery_description', 'Seat components and installations in different configurations.')}
             />
             <ul className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {gallery.map((item, index) => (
@@ -130,7 +130,7 @@ export default async function ApplicationsPage() {
       )}
       <SourcePhotoArchive
         id="presentation-products-heading"
-        eyebrow="Presentation archive"
+        eyebrow="Seat components"
         title={siteCopy(copy, 'presentation_gallery_title', 'Product photographs from the supplied presentation')}
         description={siteCopy(copy, 'presentation_gallery_description', 'Additional component photographs from the customer presentation. These images are not assigned to a specific catalog model.')}
         photos={presentationGallery}

@@ -31,7 +31,7 @@ export function SourcePhotoArchive({ id, eyebrow, title, description, photos, fi
         <ul className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">{photos.slice(0, 6).map(tile)}</ul>
         {photos.length > 6 && (
           <details className="mt-6 rounded-xl border border-line bg-white px-5 py-4">
-            <summary className="cursor-pointer font-medium text-ink">View all {photos.length} supplied photographs</summary>
+            <summary className="cursor-pointer font-medium text-ink">View all {photos.length} photographs</summary>
             <ul className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">{photos.slice(6).map((photo, index) => tile(photo, index + 6))}</ul>
           </details>
         )}

@@ -141,7 +141,7 @@ export default async function ManufacturingPage() {
 
       <SourcePhotoArchive
         id="presentation-facility-heading"
-        eyebrow="Presentation archive"
+        eyebrow="Workshop and testing"
         title={siteCopy(copy, 'presentation_gallery_title', 'Workshop and testing photographs')}
         description={siteCopy(copy, 'presentation_gallery_description', 'Additional workshop and testing photographs supplied in the company presentation.')}
         photos={presentationGallery}
