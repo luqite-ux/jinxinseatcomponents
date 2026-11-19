@@ -22,7 +22,7 @@ export async function FeaturedProductsSection({ content, styles }: EditableSecti
           />
           <Reveal index={2}>
             <Link href="/products" className={buttonSecondary}>
-              View all products
+              {siteCopy(content, 'all_cta', 'View all products')}
               <ArrowRight aria-hidden className="size-4" />
             </Link>
           </Reveal>

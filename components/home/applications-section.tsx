@@ -5,9 +5,15 @@ import { Reveal } from '@/components/site/reveal'
 import { SectionHeading } from '@/components/site/section-heading'
 import { applicationExamples } from '@/lib/applications'
 import { buttonSecondary } from '@/lib/site'
-import { siteCopy, type EditableSectionProps } from '@/lib/site-content/copy'
+import { siteCopy, siteImage, type EditableSectionProps } from '@/lib/site-content/copy'
 
 export function ApplicationsSection({ content, styles }: EditableSectionProps = {}) {
+  const sourceExamples = Array.isArray(content?.examples) ? content.examples : undefined
+  const examples = applicationExamples.map((example) => {
+    const row = sourceExamples?.find((item: unknown) => item && typeof item === 'object' && (item as Record<string, unknown>).id === example.slug) as Record<string, unknown> | undefined
+    if (sourceExamples && !row) throw new Error(`Published application missing: ${example.slug}`)
+    return { ...example, title: siteCopy(row, 'title', example.title), summary: siteCopy(row, 'summary', example.summary), cta: siteCopy(row, 'cta', example.cta), href: siteCopy(row, 'href', example.href), image: siteImage(row, 'image', example.image) }
+  })
   return (
     <section id="applications" aria-labelledby="applications-heading" className="bg-paper">
       <div className="mx-auto max-w-[88rem] px-5 py-16 md:px-10 md:py-24">
@@ -21,13 +27,13 @@ export function ApplicationsSection({ content, styles }: EditableSectionProps = 
           />
           <Reveal index={2}>
             <Link href="/applications" className={buttonSecondary}>
-              See applications
+              {siteCopy(content, 'all_cta', 'See applications')}
               <ArrowRight aria-hidden className="size-4" />
             </Link>
           </Reveal>
         </div>
         <ul className="mt-12 grid gap-5 md:grid-cols-2">
-          {applicationExamples.map((item, i) => (
+          {examples.map((item, i) => (
             <Reveal as="li" key={item.slug} index={i} className="list-none">
               <Link
                 href={item.href}

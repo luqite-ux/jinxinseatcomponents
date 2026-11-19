@@ -326,6 +326,14 @@
                   "fontSizeMobile": 16
                 }
               }
+            },
+            {
+              "key": "all_cta",
+              "type": "text",
+              "label": "All products link",
+              "localized": true,
+              "required": true,
+              "maxLength": 80
             }
           ]
         },
@@ -416,6 +424,59 @@
                   "fontSizeMobile": 16
                 }
               }
+            },
+            {
+              "key": "examples",
+              "type": "repeat",
+              "label": "Application cards",
+              "required": true,
+              "maxItems": 2,
+              "fields": [
+                {
+                  "key": "title",
+                  "type": "text",
+                  "label": "Application title",
+                  "localized": true,
+                  "required": true,
+                  "maxLength": 120
+                },
+                {
+                  "key": "summary",
+                  "type": "textarea",
+                  "label": "Application summary",
+                  "localized": true,
+                  "required": true,
+                  "maxLength": 400
+                },
+                {
+                  "key": "cta",
+                  "type": "text",
+                  "label": "Application button",
+                  "localized": true,
+                  "required": true,
+                  "maxLength": 80
+                },
+                {
+                  "key": "href",
+                  "type": "link",
+                  "label": "Application link",
+                  "required": true
+                },
+                {
+                  "key": "image",
+                  "type": "image",
+                  "label": "Customer product image",
+                  "required": true
+                }
+              ]
+            },
+            {
+              "key": "all_cta",
+              "type": "text",
+              "label": "Section link label",
+              "localized": true,
+              "required": true,
+              "maxLength": 80
             }
           ]
         },
@@ -506,6 +567,45 @@
                   "fontSizeMobile": 16
                 }
               }
+            },
+            {
+              "key": "areas",
+              "type": "repeat",
+              "label": "Manufacturing cards",
+              "required": true,
+              "maxItems": 3,
+              "fields": [
+                {
+                  "key": "title",
+                  "type": "text",
+                  "label": "Area title",
+                  "localized": true,
+                  "required": true,
+                  "maxLength": 130
+                },
+                {
+                  "key": "description",
+                  "type": "textarea",
+                  "label": "Area description",
+                  "localized": true,
+                  "required": true,
+                  "maxLength": 400
+                },
+                {
+                  "key": "image",
+                  "type": "image",
+                  "label": "Customer product image",
+                  "required": true
+                }
+              ]
+            },
+            {
+              "key": "all_cta",
+              "type": "text",
+              "label": "Section link label",
+              "localized": true,
+              "required": true,
+              "maxLength": 80
             }
           ]
         },
@@ -596,6 +696,60 @@
                   "fontSizeMobile": 16
                 }
               }
+            },
+            {
+              "key": "certificate_image",
+              "type": "image",
+              "label": "Valid DQS IATF certificate scan",
+              "required": true
+            },
+            {
+              "key": "scope_label",
+              "type": "text",
+              "label": "scope label",
+              "localized": true,
+              "required": true,
+              "maxLength": 350
+            },
+            {
+              "key": "scope_text",
+              "type": "textarea",
+              "label": "scope text",
+              "localized": true,
+              "required": true,
+              "maxLength": 350
+            },
+            {
+              "key": "document_label",
+              "type": "text",
+              "label": "document label",
+              "localized": true,
+              "required": true,
+              "maxLength": 350
+            },
+            {
+              "key": "document_text",
+              "type": "textarea",
+              "label": "document text",
+              "localized": true,
+              "required": true,
+              "maxLength": 350
+            },
+            {
+              "key": "certificate_button",
+              "type": "text",
+              "label": "certificate button",
+              "localized": true,
+              "required": true,
+              "maxLength": 350
+            },
+            {
+              "key": "certificate_title",
+              "type": "text",
+              "label": "certificate title",
+              "localized": true,
+              "required": true,
+              "maxLength": 350
             }
           ]
         },
@@ -686,6 +840,20 @@
                   "fontSizeMobile": 16
                 }
               }
+            },
+            {
+              "key": "image",
+              "type": "image",
+              "label": "Factory floor photograph",
+              "required": true
+            },
+            {
+              "key": "caption",
+              "type": "text",
+              "label": "Photograph caption",
+              "localized": true,
+              "required": true,
+              "maxLength": 150
             }
           ]
         },
@@ -776,6 +944,31 @@
                   "fontSizeMobile": 16
                 }
               }
+            },
+            {
+              "key": "steps",
+              "type": "repeat",
+              "label": "Cooperation steps",
+              "required": true,
+              "maxItems": 3,
+              "fields": [
+                {
+                  "key": "title",
+                  "type": "text",
+                  "label": "Step title",
+                  "localized": true,
+                  "required": true,
+                  "maxLength": 120
+                },
+                {
+                  "key": "text",
+                  "type": "textarea",
+                  "label": "Step text",
+                  "localized": true,
+                  "required": true,
+                  "maxLength": 350
+                }
+              ]
             }
           ]
         },
@@ -956,6 +1149,14 @@
                   "fontSizeMobile": 18
                 }
               }
+            },
+            {
+              "key": "cta_label",
+              "type": "text",
+              "label": "Inquiry button",
+              "localized": true,
+              "required": true,
+              "maxLength": 80
             }
           ]
         },
@@ -1234,6 +1435,12 @@
               "localized": true,
               "required": true,
               "maxLength": 700
+            },
+            {
+              "key": "facility_image",
+              "type": "image",
+              "label": "Factory photograph",
+              "required": true
             }
           ]
         },
@@ -1401,6 +1608,12 @@
                   "key": "href",
                   "type": "link",
                   "label": "Button destination",
+                  "required": true
+                },
+                {
+                  "key": "image",
+                  "type": "image",
+                  "label": "Customer product photograph",
                   "required": true
                 }
               ]
@@ -1617,6 +1830,22 @@
               "maxLength": 500
             },
             {
+              "key": "certificate_button",
+              "type": "text",
+              "label": "certificate button",
+              "localized": true,
+              "required": true,
+              "maxLength": 500
+            },
+            {
+              "key": "certificate_title",
+              "type": "text",
+              "label": "certificate title",
+              "localized": true,
+              "required": true,
+              "maxLength": 500
+            },
+            {
               "key": "cta_title",
               "type": "text",
               "label": "cta title",
@@ -1654,8 +1883,26 @@
                   "localized": true,
                   "required": true,
                   "maxLength": 400
+                },
+                {
+                  "key": "image",
+                  "type": "image",
+                  "label": "Customer product photograph",
+                  "required": true
                 }
               ]
+            },
+            {
+              "key": "floor_image",
+              "type": "image",
+              "label": "Factory floor photograph",
+              "required": true
+            },
+            {
+              "key": "certificate_image",
+              "type": "image",
+              "label": "IATF certificate scan",
+              "required": true
             }
           ]
         },

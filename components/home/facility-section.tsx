@@ -3,9 +3,10 @@ import { MapPin } from 'lucide-react'
 import { Reveal } from '@/components/site/reveal'
 import { SectionHeading } from '@/components/site/section-heading'
 import { site } from '@/lib/site'
-import { siteCopy, type EditableSectionProps } from '@/lib/site-content/copy'
+import { siteCopy, siteImage, type EditableSectionProps } from '@/lib/site-content/copy'
 
 export function FacilitySection({ content, styles }: EditableSectionProps = {}) {
+  const image = siteImage(content, 'image', { src: '/facility/press-line.png', alt: 'Row of stamping presses with yellow robotic arms on the Jinxin factory floor' })
   return (
     <section id="facility" aria-labelledby="facility-heading" className="border-y border-line bg-mist/60">
       <div className="mx-auto grid max-w-[88rem] gap-12 px-5 py-16 md:px-10 md:py-24 lg:grid-cols-[1fr_1.15fr] lg:items-center lg:gap-16">
@@ -31,14 +32,14 @@ export function FacilitySection({ content, styles }: EditableSectionProps = {}) 
         <Reveal index={1}>
           <figure>
             <Image
-              src="/facility/press-line.png"
-              alt="Row of stamping presses with yellow robotic arms on the Jinxin factory floor"
+              src={image.src}
+              alt={image.alt}
               width={823}
               height={452}
               sizes="(min-width: 1024px) 55vw, 94vw"
               className="h-auto w-full"
             />
-            <figcaption className="pt-3 text-xs text-ink-soft">Press line with robotic loading arms.</figcaption>
+            <figcaption className="pt-3 text-xs text-ink-soft">{siteCopy(content, 'caption', 'Press line with robotic loading arms.')}</figcaption>
           </figure>
         </Reveal>
       </div>

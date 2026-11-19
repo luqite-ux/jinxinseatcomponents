@@ -7,7 +7,7 @@ import { PageHeader } from '@/components/site/page-header'
 import { Reveal } from '@/components/site/reveal'
 import { applicationExamples } from '@/lib/applications'
 import { buttonSecondary } from '@/lib/site'
-import { siteCopy } from '@/lib/site-content/copy'
+import { siteCopy, siteImage } from '@/lib/site-content/copy'
 import { getEditablePage } from '@/lib/site-content/page-data'
 import { siteContentMetadata } from '@/lib/site-content/site-content'
 
@@ -30,7 +30,7 @@ export default async function ApplicationsPage() {
   const examples = applicationExamples.map((example) => {
     const row = sourceExamples?.find((item: unknown) => item && typeof item === 'object' && (item as Record<string, unknown>).id === example.slug) as Record<string, unknown> | undefined
     if (sourceExamples && !row) throw new Error(`Published application missing: ${example.slug}`)
-    return { ...example, title: siteCopy(row, 'title', example.title), summary: siteCopy(row, 'summary', example.summary), cta: siteCopy(row, 'cta', example.cta), href: siteCopy(row, 'href', example.href) }
+    return { ...example, title: siteCopy(row, 'title', example.title), summary: siteCopy(row, 'summary', example.summary), cta: siteCopy(row, 'cta', example.cta), href: siteCopy(row, 'href', example.href), image: siteImage(row, 'image', example.image) }
   })
   return (
     <>

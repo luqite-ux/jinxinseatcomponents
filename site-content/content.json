@@ -208,6 +208,9 @@
             },
             "description": {
               "en": "Every product page lists its own specification table and a direct route to a quote request."
+            },
+            "all_cta": {
+              "en": "View all products"
             }
           }
         },
@@ -222,6 +225,49 @@
             },
             "description": {
               "en": "From front seating to folding seats with belts, see the configurations we build and the parts behind them."
+            },
+            "examples": [
+              {
+                "id": "front-seating",
+                "title": {
+                  "en": "Front seating"
+                },
+                "summary": {
+                  "en": "Front seat assemblies with headrest, backrest and cushion, supported by seat frames and molded foam."
+                },
+                "cta": {
+                  "en": "Browse seat assemblies"
+                },
+                "href": "/products?category=seat-assemblies",
+                "image": {
+                  "assetId": "d2ad77e8-a49a-4ac9-8ed1-1e41b7b8eea9",
+                  "alt": {
+                    "en": "Customer supplied front seating photograph"
+                  }
+                }
+              },
+              {
+                "id": "folding-seating",
+                "title": {
+                  "en": "Folding seating with belt"
+                },
+                "summary": {
+                  "en": "Folding seat configurations with an integrated seat belt and an armrest, shown as a complete assembly."
+                },
+                "cta": {
+                  "en": "Browse seat assemblies"
+                },
+                "href": "/products?category=seat-assemblies",
+                "image": {
+                  "assetId": "9c05b385-2725-4c84-8676-238f6fea6ff5",
+                  "alt": {
+                    "en": "Customer supplied folding seating with belt photograph"
+                  }
+                }
+              }
+            ],
+            "all_cta": {
+              "en": "See applications"
             }
           }
         },
@@ -236,6 +282,56 @@
             },
             "description": {
               "en": "Structure, foam and complete assemblies are handled across one product scope."
+            },
+            "areas": [
+              {
+                "id": "frames",
+                "title": {
+                  "en": "Seat frames and structural parts"
+                },
+                "description": {
+                  "en": "Complete seat frames with slide rails, and the stamped brackets and members that carry the seat."
+                },
+                "image": {
+                  "assetId": "8899fa67-0449-4a3b-a380-4d02d4073f91",
+                  "alt": {
+                    "en": "Customer supplied seat frames and structural parts photograph"
+                  }
+                }
+              },
+              {
+                "id": "foam",
+                "title": {
+                  "en": "Molded foam components"
+                },
+                "description": {
+                  "en": "Molded foam for seat cushions and backs, produced to the shape of the seat it supports."
+                },
+                "image": {
+                  "assetId": "bc541ff7-d3d4-438c-8bbb-807fb1d573c4",
+                  "alt": {
+                    "en": "Customer supplied molded foam components photograph"
+                  }
+                }
+              },
+              {
+                "id": "assembly",
+                "title": {
+                  "en": "Seat assembly"
+                },
+                "description": {
+                  "en": "Frame, foam and trim brought together into complete seat configurations."
+                },
+                "image": {
+                  "assetId": "d2ad77e8-a49a-4ac9-8ed1-1e41b7b8eea9",
+                  "alt": {
+                    "en": "Customer supplied seat assembly photograph"
+                  }
+                }
+              }
+            ],
+            "all_cta": {
+              "en": "Manufacturing overview"
             }
           }
         },
@@ -250,6 +346,30 @@
             },
             "description": {
               "en": "Our quality management system is certified by DQS to IATF 16949:2016, covering the design and production of seat components."
+            },
+            "certificate_image": {
+              "assetId": "8bf0c522-9c37-47b4-8f9d-9897984d580c",
+              "alt": {
+                "en": "DQS IATF 16949:2016 certificate for Zhoushan Jinxin Auto Parts"
+              }
+            },
+            "scope_label": {
+              "en": "Scope of certification"
+            },
+            "scope_text": {
+              "en": "Design and production of seat components, with product design included."
+            },
+            "document_label": {
+              "en": "Read the document itself"
+            },
+            "document_text": {
+              "en": "Open the certificate to see its registration details, dates and issuing body."
+            },
+            "certificate_button": {
+              "en": "View full certificate"
+            },
+            "certificate_title": {
+              "en": "IATF 16949:2016 certificate"
             }
           }
         },
@@ -264,6 +384,15 @@
             },
             "description": {
               "en": "A press line with robotic loading, photographed on our factory floor in Daishan County, Zhoushan."
+            },
+            "image": {
+              "assetId": "8c3756b5-5342-47ea-be90-c5c4cd3b2541",
+              "alt": {
+                "en": "Row of stamping presses with yellow robotic arms on the Jinxin factory floor"
+              }
+            },
+            "caption": {
+              "en": "Press line with robotic loading arms."
             }
           }
         },
@@ -278,7 +407,36 @@
             },
             "description": {
               "en": "A short, direct process: tell us what you need and we will discuss whether and how we can fit it."
-            }
+            },
+            "steps": [
+              {
+                "id": "send",
+                "title": {
+                  "en": "Send your requirements"
+                },
+                "text": {
+                  "en": "Share the product, drawing number or sample reference, and the quantity you have in mind."
+                }
+              },
+              {
+                "id": "review",
+                "title": {
+                  "en": "We review the fit"
+                },
+                "text": {
+                  "en": "We look at your request against the products and components we make."
+                }
+              },
+              {
+                "id": "discuss",
+                "title": {
+                  "en": "Discuss the details"
+                },
+                "text": {
+                  "en": "We talk through specifications and next steps directly with you."
+                }
+              }
+            ]
           }
         },
         "faq": {
@@ -306,6 +464,9 @@
             },
             "description": {
               "en": "Send an inquiry for a specific product or describe your requirements."
+            },
+            "cta_label": {
+              "en": "Send an inquiry"
             }
           }
         }
@@ -381,6 +542,12 @@
             },
             "cta_text": {
               "en": "Tell us about your seating requirements and we will respond by email."
+            },
+            "facility_image": {
+              "assetId": "8c3756b5-5342-47ea-be90-c5c4cd3b2541",
+              "alt": {
+                "en": "Row of stamping presses with yellow robotic arms on the Jinxin factory floor"
+              }
             }
           }
         }
@@ -433,7 +600,13 @@
                 "cta": {
                   "en": "Browse seat assemblies"
                 },
-                "href": "/products?category=seat-assemblies"
+                "href": "/products?category=seat-assemblies",
+                "image": {
+                  "assetId": "d2ad77e8-a49a-4ac9-8ed1-1e41b7b8eea9",
+                  "alt": {
+                    "en": "Customer supplied front seating photograph"
+                  }
+                }
               },
               {
                 "id": "folding-seating",
@@ -446,7 +619,13 @@
                 "cta": {
                   "en": "Browse seat assemblies"
                 },
-                "href": "/products?category=seat-assemblies"
+                "href": "/products?category=seat-assemblies",
+                "image": {
+                  "assetId": "9c05b385-2725-4c84-8676-238f6fea6ff5",
+                  "alt": {
+                    "en": "Customer supplied folding seating with belt photograph"
+                  }
+                }
               }
             ],
             "cta_title": {
@@ -518,6 +697,12 @@
             "quality_description": {
               "en": "Our quality management system is certified by DQS to IATF 16949:2016 for the design and production of seat components."
             },
+            "certificate_button": {
+              "en": "View full certificate"
+            },
+            "certificate_title": {
+              "en": "IATF 16949:2016 certificate"
+            },
             "cta_title": {
               "en": "Discuss a component or assembly"
             },
@@ -532,6 +717,12 @@
                 },
                 "description": {
                   "en": "Complete seat frames with slide rails, and the stamped brackets and members that carry the seat."
+                },
+                "image": {
+                  "assetId": "8899fa67-0449-4a3b-a380-4d02d4073f91",
+                  "alt": {
+                    "en": "Customer supplied seat frames and structural parts photograph"
+                  }
                 }
               },
               {
@@ -541,6 +732,12 @@
                 },
                 "description": {
                   "en": "Molded foam for seat cushions and backs, produced to the shape of the seat it supports."
+                },
+                "image": {
+                  "assetId": "bc541ff7-d3d4-438c-8bbb-807fb1d573c4",
+                  "alt": {
+                    "en": "Customer supplied molded foam components photograph"
+                  }
                 }
               },
               {
@@ -550,9 +747,27 @@
                 },
                 "description": {
                   "en": "Frame, foam and trim brought together into complete seat configurations."
+                },
+                "image": {
+                  "assetId": "d2ad77e8-a49a-4ac9-8ed1-1e41b7b8eea9",
+                  "alt": {
+                    "en": "Customer supplied seat assembly photograph"
+                  }
                 }
               }
-            ]
+            ],
+            "floor_image": {
+              "assetId": "8c3756b5-5342-47ea-be90-c5c4cd3b2541",
+              "alt": {
+                "en": "Row of stamping presses with yellow robotic arms on the Jinxin factory floor"
+              }
+            },
+            "certificate_image": {
+              "assetId": "8bf0c522-9c37-47b4-8f9d-9897984d580c",
+              "alt": {
+                "en": "DQS IATF 16949:2016 certificate for Zhoushan Jinxin Auto Parts"
+              }
+            }
           }
         }
       }

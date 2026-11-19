@@ -5,9 +5,16 @@ import { Reveal } from '@/components/site/reveal'
 import { SectionHeading } from '@/components/site/section-heading'
 import { manufacturingAreas } from '@/lib/manufacturing'
 import { buttonSecondary } from '@/lib/site'
-import { siteCopy, type EditableSectionProps } from '@/lib/site-content/copy'
+import { siteCopy, siteImage, type EditableSectionProps } from '@/lib/site-content/copy'
 
 export function ManufacturingSection({ content, styles }: EditableSectionProps = {}) {
+  const sourceAreas = Array.isArray(content?.areas) ? content.areas : undefined
+  const areaIds = ['frames', 'foam', 'assembly']
+  const areas = manufacturingAreas.map((area, index) => {
+    const row = sourceAreas?.find((item: unknown) => item && typeof item === 'object' && (item as Record<string, unknown>).id === areaIds[index]) as Record<string, unknown> | undefined
+    if (sourceAreas && !row) throw new Error(`Published manufacturing area missing: ${areaIds[index]}`)
+    return { ...area, title: siteCopy(row, 'title', area.title), description: siteCopy(row, 'description', area.description), image: siteImage(row, 'image', area.image) }
+  })
   return (
     <section id="manufacturing" aria-labelledby="manufacturing-heading" className="border-y border-line bg-mist/60">
       <div className="mx-auto max-w-[88rem] px-5 py-16 md:px-10 md:py-24">
@@ -21,13 +28,13 @@ export function ManufacturingSection({ content, styles }: EditableSectionProps =
           />
           <Reveal index={2}>
             <Link href="/manufacturing" className={buttonSecondary}>
-              Manufacturing overview
+              {siteCopy(content, 'all_cta', 'Manufacturing overview')}
               <ArrowRight aria-hidden className="size-4" />
             </Link>
           </Reveal>
         </div>
         <ul className="mt-12 grid gap-5 md:grid-cols-3">
-          {manufacturingAreas.map((area, i) => (
+          {areas.map((area, i) => (
             <Reveal as="li" key={area.title} index={i} className="list-none">
               <div className="flex h-full flex-col border border-line bg-white">
                 <div className="relative aspect-[4/3] bg-[#f1eee9]">

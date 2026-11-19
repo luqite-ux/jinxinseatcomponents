@@ -6,7 +6,7 @@ import { PageHeader } from '@/components/site/page-header'
 import { Reveal } from '@/components/site/reveal'
 import { SectionHeading } from '@/components/site/section-heading'
 import { manufacturingAreas } from '@/lib/manufacturing'
-import { siteCopy } from '@/lib/site-content/copy'
+import { siteCopy, siteImage } from '@/lib/site-content/copy'
 import { getEditablePage } from '@/lib/site-content/page-data'
 import { siteContentMetadata } from '@/lib/site-content/site-content'
 
@@ -30,8 +30,10 @@ export default async function ManufacturingPage() {
   const areas = manufacturingAreas.map((area, index) => {
     const row = sourceAreas?.find((item: unknown) => item && typeof item === 'object' && (item as Record<string, unknown>).id === areaIds[index]) as Record<string, unknown> | undefined
     if (sourceAreas && !row) throw new Error(`Published manufacturing area missing: ${areaIds[index]}`)
-    return { ...area, title: siteCopy(row, 'title', area.title), description: siteCopy(row, 'description', area.description) }
+    return { ...area, title: siteCopy(row, 'title', area.title), description: siteCopy(row, 'description', area.description), image: siteImage(row, 'image', area.image) }
   })
+  const floorImage = siteImage(copy, 'floor_image', { src: '/facility/press-line.png', alt: 'Row of stamping presses with yellow robotic arms on the Jinxin factory floor' })
+  const certificateImage = siteImage(copy, 'certificate_image', { src: '/quality/iatf-16949-certificate.jpg', alt: 'IATF 16949:2016 certificate issued by DQS to Zhoushan Jinxin Auto Parts Co., Ltd. for the design and production of seat components' })
   return (
     <>
       <PageHeader
@@ -80,8 +82,8 @@ export default async function ManufacturingPage() {
           <Reveal index={1}>
             <figure>
               <Image
-                src="/facility/press-line.png"
-                alt="Row of stamping presses with yellow robotic arms on the Jinxin factory floor"
+                src={floorImage.src}
+                alt={floorImage.alt}
                 width={823}
                 height={452}
                 sizes="(min-width: 1024px) 55vw, 94vw"
@@ -101,7 +103,7 @@ export default async function ManufacturingPage() {
             description={siteCopy(copy, 'quality_description', 'Our quality management system is certified by DQS to IATF 16949:2016 for the design and production of seat components.')}
           />
           <Reveal index={1} className="flex justify-center lg:justify-end">
-            <CertificateViewer />
+            <CertificateViewer image={certificateImage} buttonLabel={siteCopy(copy, 'certificate_button', 'View full certificate')} dialogTitle={siteCopy(copy, 'certificate_title', 'IATF 16949:2016 certificate')} />
           </Reveal>
         </div>
       </section>

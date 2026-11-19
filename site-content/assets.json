@@ -1,0 +1,40 @@
+{
+  "tenantId": "d189a65a-480c-4800-ab12-ac21a9d724d7",
+  "assets": {
+    "facility/press-line.png": {
+      "assetId": "8c3756b5-5342-47ea-be90-c5c4cd3b2541",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/site-content/b0be9c7be4b6ddcfd839a7ce.png",
+      "sha256": "b0be9c7be4b6ddcfd839a7ce78809742c092a260cf6800b390927a009e489bba"
+    },
+    "quality/iatf-16949-certificate.jpg": {
+      "assetId": "8bf0c522-9c37-47b4-8f9d-9897984d580c",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/site-content/de2de9cbc44f460ed442c06f.jpg",
+      "sha256": "de2de9cbc44f460ed442c06f5a275edfc6d8bf13ed31fe2c3b907bb9792ec4e9"
+    },
+    "products/front-seat-assembly.jpg": {
+      "assetId": "d2ad77e8-a49a-4ac9-8ed1-1e41b7b8eea9",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/site-content/46ff1f7be1ce3b9d1c31a8c3.jpg",
+      "sha256": "46ff1f7be1ce3b9d1c31a8c3699597c02273e80b4274170a2617a182045aeac3"
+    },
+    "products/folding-seat-assembly.jpg": {
+      "assetId": "9c05b385-2725-4c84-8676-238f6fea6ff5",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/site-content/ae3f9a9377c72a13c1a9c994.jpg",
+      "sha256": "ae3f9a9377c72a13c1a9c9944b0bcc54888912edd7fe1d75c5557c28ce7c60ff"
+    },
+    "products/stamped-seat-bracket.jpg": {
+      "assetId": "09a726a3-bdec-4c6a-a1e4-f1849623fdf7",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/site-content/d9ad38799b19c957851e595c.jpg",
+      "sha256": "d9ad38799b19c957851e595c9b44eec0365fb792070907e4e4cce0c682355c07"
+    },
+    "products/seat-frame-with-slide-rails.jpg": {
+      "assetId": "8899fa67-0449-4a3b-a380-4d02d4073f91",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/site-content/23703c7d6ea5a263347e118d.jpg",
+      "sha256": "23703c7d6ea5a263347e118d73aad90e94a7dfd40a20e030b6397b693b4a4d79"
+    },
+    "products/molded-seat-cushion-foam.jpg": {
+      "assetId": "bc541ff7-d3d4-438c-8bbb-807fb1d573c4",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/site-content/bf6ecebbc90ee75983d61229.jpg",
+      "sha256": "bf6ecebbc90ee75983d612297353e06f4aa09636fd11814a7cc3e4ae296449f9"
+    }
+  }
+}

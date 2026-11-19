@@ -26,7 +26,7 @@ export function ContactSection({ content, styles }: EditableSectionProps = {}) {
           </Reveal>
           <Reveal index={3} className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center">
             <Link href="/contact" className={buttonPrimary}>
-              Send an inquiry
+              {siteCopy(content, 'cta_label', 'Send an inquiry')}
               <ArrowRight aria-hidden className="size-4" />
             </Link>
             <a href={`mailto:${site.email}`} className="inline-flex items-center gap-2 text-sm font-semibold hover:text-jx-deep">

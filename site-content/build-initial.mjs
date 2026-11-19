@@ -1,8 +1,14 @@
-import { mkdirSync, writeFileSync } from 'node:fs'
+import { mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { dirname, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const root = dirname(fileURLToPath(import.meta.url))
+const registeredAssets = JSON.parse(readFileSync(resolve(root, 'assets.json'), 'utf8')).assets
+const pageImage = (relative, alt) => {
+  const assetId = registeredAssets[relative]?.assetId
+  if (!assetId) throw new Error(`Missing registered asset: ${relative}`)
+  return { assetId, alt: { en: alt } }
+}
 const local = (value) => ({ en: value })
 const family = (key, label) => ({ key, label })
 const type = (key, kind, label, extra = {}) => ({ key, type: kind, label, ...extra })
@@ -114,6 +120,8 @@ const aboutPage = definition.pages.find((page) => page.key === 'about')
 aboutPage.modules.splice(1, 0, module('copy', 'About page content', Object.keys(aboutCopy).map((key) => type(key, key.includes('paragraph') || key.endsWith('description') || key === 'cta_text' ? 'textarea' : 'text', key.replaceAll('_', ' '), { localized: true, required: true, maxLength: 700 }))))
 content.pages.about.order.splice(1, 0, 'copy')
 content.pages.about.modules.copy = { hidden: false, values: Object.fromEntries(Object.entries(aboutCopy).map(([key, value]) => [key, local(value)])) }
+aboutPage.modules.find((item) => item.key === 'copy').fields.push(type('facility_image', 'image', 'Factory photograph', { required: true }))
+content.pages.about.modules.copy.values.facility_image = pageImage('facility/press-line.png', 'Row of stamping presses with yellow robotic arms on the Jinxin factory floor')
 integration.modules.push('about.copy')
 const manufacturingCopy = {
   scope_eyebrow: 'Product scope', scope_title: 'What we make',
@@ -121,6 +129,7 @@ const manufacturingCopy = {
   floor_description: 'A row of stamping presses served by robotic arms, photographed at our facility in Daishan County.',
   quality_eyebrow: 'Quality', quality_title: 'IATF 16949:2016 certified',
   quality_description: 'Our quality management system is certified by DQS to IATF 16949:2016 for the design and production of seat components.',
+  certificate_button: 'View full certificate', certificate_title: 'IATF 16949:2016 certificate',
   cta_title: 'Discuss a component or assembly', cta_text: 'Send your drawing or sample reference and we will review the fit.',
 }
 const areas = [
@@ -131,10 +140,12 @@ const areas = [
 const manufacturingPage = definition.pages.find((page) => page.key === 'manufacturing_page')
 manufacturingPage.modules.splice(1, 0, module('copy', 'Manufacturing content', [
   ...Object.keys(manufacturingCopy).map((key) => type(key, key.endsWith('description') || key === 'cta_text' ? 'textarea' : 'text', key.replaceAll('_', ' '), { localized: true, required: true, maxLength: 500 })),
-  type('areas', 'repeat', 'Product scope', { required: true, maxItems: 3, fields: [type('title', 'text', 'Area title', { localized: true, required: true, maxLength: 130 }), type('description', 'textarea', 'Area description', { localized: true, required: true, maxLength: 400 })] }),
+  type('areas', 'repeat', 'Product scope', { required: true, maxItems: 3, fields: [type('title', 'text', 'Area title', { localized: true, required: true, maxLength: 130 }), type('description', 'textarea', 'Area description', { localized: true, required: true, maxLength: 400 }), type('image', 'image', 'Customer product photograph', { required: true })] }),
+  type('floor_image', 'image', 'Factory floor photograph', { required: true }),
+  type('certificate_image', 'image', 'IATF certificate scan', { required: true }),
 ]))
 content.pages.manufacturing_page.order.splice(1, 0, 'copy')
-content.pages.manufacturing_page.modules.copy = { hidden: false, values: { ...Object.fromEntries(Object.entries(manufacturingCopy).map(([key, value]) => [key, local(value)])), areas: areas.map((area) => ({ id: area.id, title: local(area.title), description: local(area.description) })) } }
+content.pages.manufacturing_page.modules.copy = { hidden: false, values: { ...Object.fromEntries(Object.entries(manufacturingCopy).map(([key, value]) => [key, local(value)])), areas: areas.map((area) => ({ id: area.id, title: local(area.title), description: local(area.description), image: pageImage(area.id === 'frames' ? 'products/seat-frame-with-slide-rails.jpg' : area.id === 'foam' ? 'products/molded-seat-cushion-foam.jpg' : 'products/front-seat-assembly.jpg', `Customer supplied ${area.title.toLowerCase()} photograph`) })), floor_image: pageImage('facility/press-line.png', 'Row of stamping presses with yellow robotic arms on the Jinxin factory floor'), certificate_image: pageImage('quality/iatf-16949-certificate.jpg', 'DQS IATF 16949:2016 certificate for Zhoushan Jinxin Auto Parts') } }
 integration.modules.push('manufacturing_page.copy')
 const applicationExamples = [
   { id: 'front-seating', title: 'Front seating', summary: 'Front seat assemblies with headrest, backrest and cushion, supported by seat frames and molded foam.', cta: 'Browse seat assemblies', href: '/products?category=seat-assemblies' },
@@ -147,13 +158,14 @@ applicationsPage.modules.splice(1, 0, module('copy', 'Application examples and C
     type('summary', 'textarea', 'Example summary', { localized: true, required: true, maxLength: 400 }),
     type('cta', 'text', 'Button label', { localized: true, required: true, maxLength: 80 }),
     type('href', 'link', 'Button destination', { required: true }),
+    type('image', 'image', 'Customer product photograph', { required: true }),
   ] }),
   type('cta_title', 'text', 'CTA title', { localized: true, required: true, maxLength: 140 }),
   type('cta_text', 'textarea', 'CTA text', { localized: true, required: true, maxLength: 350 }),
 ]))
 content.pages.applications_page.order.splice(1, 0, 'copy')
 content.pages.applications_page.modules.copy = { hidden: false, values: {
-  examples: applicationExamples.map(({ id, title, summary, cta, href }) => ({ id, title: local(title), summary: local(summary), cta: local(cta), href })),
+  examples: applicationExamples.map(({ id, title, summary, cta, href }) => ({ id, title: local(title), summary: local(summary), cta: local(cta), href, image: pageImage(id === 'front-seating' ? 'products/front-seat-assembly.jpg' : 'products/folding-seat-assembly.jpg', `Customer supplied ${title.toLowerCase()} photograph`) })),
   cta_title: local('Have a seat position in mind?'), cta_text: local('Describe the application and we will review which products fit.'),
 } }
 integration.modules.push('applications_page.copy')
@@ -182,6 +194,51 @@ for (const [key, values] of simpleCopies) {
   content.pages[key].modules.copy = { hidden: false, values: Object.fromEntries(Object.entries(values).map(([field, value]) => [field, local(value)])) }
   integration.modules.push(`${key}.copy`)
 }
+const homeModule = (key) => definition.pages[0].modules.find((item) => item.key === key)
+const homeValues = (key) => content.pages.home.modules[key].values
+homeModule('facility').fields.push(type('image', 'image', 'Factory floor photograph', { required: true }), type('caption', 'text', 'Photograph caption', { localized: true, required: true, maxLength: 150 }))
+Object.assign(homeValues('facility'), { image: pageImage('facility/press-line.png', 'Row of stamping presses with yellow robotic arms on the Jinxin factory floor'), caption: local('Press line with robotic loading arms.') })
+homeModule('quality').fields.push(type('certificate_image', 'image', 'Valid DQS IATF certificate scan', { required: true }))
+homeValues('quality').certificate_image = pageImage('quality/iatf-16949-certificate.jpg', 'DQS IATF 16949:2016 certificate for Zhoushan Jinxin Auto Parts')
+const qualityDetails = {
+  scope_label: 'Scope of certification', scope_text: 'Design and production of seat components, with product design included.',
+  document_label: 'Read the document itself', document_text: 'Open the certificate to see its registration details, dates and issuing body.',
+  certificate_button: 'View full certificate', certificate_title: 'IATF 16949:2016 certificate',
+}
+for (const [key, value] of Object.entries(qualityDetails)) {
+  homeModule('quality').fields.push(type(key, key.endsWith('_text') ? 'textarea' : 'text', key.replaceAll('_', ' '), { localized: true, required: true, maxLength: 350 }))
+  homeValues('quality')[key] = local(value)
+}
+homeModule('applications').fields.push(type('examples', 'repeat', 'Application cards', { required: true, maxItems: 2, fields: [
+  type('title', 'text', 'Application title', { localized: true, required: true, maxLength: 120 }),
+  type('summary', 'textarea', 'Application summary', { localized: true, required: true, maxLength: 400 }),
+  type('cta', 'text', 'Application button', { localized: true, required: true, maxLength: 80 }),
+  type('href', 'link', 'Application link', { required: true }),
+  type('image', 'image', 'Customer product image', { required: true }),
+] }), type('all_cta', 'text', 'Section link label', { localized: true, required: true, maxLength: 80 }))
+homeValues('applications').examples = content.pages.applications_page.modules.copy.values.examples
+homeValues('applications').all_cta = local('See applications')
+homeModule('manufacturing').fields.push(type('areas', 'repeat', 'Manufacturing cards', { required: true, maxItems: 3, fields: [
+  type('title', 'text', 'Area title', { localized: true, required: true, maxLength: 130 }),
+  type('description', 'textarea', 'Area description', { localized: true, required: true, maxLength: 400 }),
+  type('image', 'image', 'Customer product image', { required: true }),
+] }), type('all_cta', 'text', 'Section link label', { localized: true, required: true, maxLength: 80 }))
+homeValues('manufacturing').areas = content.pages.manufacturing_page.modules.copy.values.areas
+homeValues('manufacturing').all_cta = local('Manufacturing overview')
+homeModule('featured_products').fields.push(type('all_cta', 'text', 'All products link', { localized: true, required: true, maxLength: 80 }))
+homeValues('featured_products').all_cta = local('View all products')
+homeModule('contact').fields.push(type('cta_label', 'text', 'Inquiry button', { localized: true, required: true, maxLength: 80 }))
+homeValues('contact').cta_label = local('Send an inquiry')
+const steps = [
+  { id: 'send', title: 'Send your requirements', text: 'Share the product, drawing number or sample reference, and the quantity you have in mind.' },
+  { id: 'review', title: 'We review the fit', text: 'We look at your request against the products and components we make.' },
+  { id: 'discuss', title: 'Discuss the details', text: 'We talk through specifications and next steps directly with you.' },
+]
+homeModule('cooperation').fields.push(type('steps', 'repeat', 'Cooperation steps', { required: true, maxItems: 3, fields: [
+  type('title', 'text', 'Step title', { localized: true, required: true, maxLength: 120 }),
+  type('text', 'textarea', 'Step text', { localized: true, required: true, maxLength: 350 }),
+] }))
+homeValues('cooperation').steps = steps.map(({ id, title, text }) => ({ id, title: local(title), text: local(text) }))
 for (const [name, value] of Object.entries({ definition, content, integration })) {
   const output = resolve(root, `${name}.json`)
   mkdirSync(dirname(output), { recursive: true })

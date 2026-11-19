@@ -7,7 +7,7 @@ import { PageHeader } from '@/components/site/page-header'
 import { Reveal } from '@/components/site/reveal'
 import { SectionHeading } from '@/components/site/section-heading'
 import { buttonSecondary, site } from '@/lib/site'
-import { siteCopy } from '@/lib/site-content/copy'
+import { siteCopy, siteImage } from '@/lib/site-content/copy'
 import { getEditablePage } from '@/lib/site-content/page-data'
 import { siteContentMetadata } from '@/lib/site-content/site-content'
 
@@ -26,6 +26,7 @@ export default async function AboutPage() {
   const page = await getEditablePage('/about')
   const intro = page.module('intro')
   const copy = page.module('copy')?.values
+  const facilityImage = siteImage(copy, 'facility_image', { src: '/facility/press-line.png', alt: 'Row of stamping presses with yellow robotic arms on the Jinxin factory floor' })
   return (
     <>
       <PageHeader
@@ -120,8 +121,8 @@ export default async function AboutPage() {
         <div className="mx-auto grid max-w-[88rem] gap-10 px-5 py-14 md:px-10 md:py-20 lg:grid-cols-[1.2fr_1fr] lg:items-center lg:gap-16">
           <Reveal>
             <Image
-              src="/facility/press-line.png"
-              alt="Row of stamping presses with yellow robotic arms on the Jinxin factory floor"
+              src={facilityImage.src}
+              alt={facilityImage.alt}
               width={823}
               height={452}
               sizes="(min-width: 1024px) 55vw, 94vw"
