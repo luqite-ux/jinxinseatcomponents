@@ -21,11 +21,7 @@ export class InquiryNotConfiguredError extends Error {
   }
 }
 
-/**
- * Persistence hook. Replace the body with the Supabase insert (plus CAPTCHA
- * verification) when the back end is connected. Until then the route reports
- * an honest failure instead of pretending the inquiry was delivered.
- */
+/** Persist a verified inquiry for this site's tenant. CAPTCHA is consumed by the route first. */
 export async function saveInquiry(input: InquiryInput): Promise<{ id: string }> {
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL?.trim().replace(/\/$/, '')
   const key = process.env.SUPABASE_SERVICE_ROLE_KEY?.trim()
