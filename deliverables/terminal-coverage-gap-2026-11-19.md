@@ -2,7 +2,7 @@
 
 ## 2026-11-19 最新复核
 
-77/77 个正式产品详情页已由无头 Edge 逐页打开，均返回 200；154 个公开名称与型号字段和真实 DOM、目录数据一致，证据见 `product-frontend-browser-fields-2026-11-19.json`。后台 241/241 个原始非空业务字段已按精确租户回读，原始中文名称、型号、39 行参数和 48 行描述分别保留，公开英文名称/型号也与来源转换记录一致，见 `product-source-field-backend-audit-2026-11-19.json`。当前总控终态产品报告仅余 39 项前台规格键差异和 17 个分类证据缺项；39 项源参数已明确标为 `backend_only`，公开页只展示审校过的规格，不能为了校验器通过而假称原始参数已经逐字公开。分类源哈希是中文名称，首发英文页面展示英文译名，现有校验器要求二者哈希相同，需按真实双语映射处理。最新工作报告是 `product-coverage-terminal-working-report.json`，`pass=false`，不得登记为通过。
+77/77 个正式产品详情页已由无头 Edge 逐页打开，均返回 200；154 个公开名称与型号字段和真实 DOM、目录数据一致，证据见 `product-frontend-browser-fields-2026-11-19.json`。后台 241/241 个原始非空业务字段已按精确租户回读，原始中文名称、型号、39 行参数和 48 行描述分别保留，公开英文名称/型号也与来源转换记录一致，见 `product-source-field-backend-audit-2026-11-19.json`。17 个分类的后台层级和产品归属、后台中文原名及英文正式页 H1 均已逐项回读，见 `category-backend-readback-2026-11-19.json`、`category-bilingual-backend-2026-11-19.json` 与 `category-frontend-browser-2026-11-19.json`。当前总控终态产品报告仅余 39 项前台规格键差异和 17 项中英文分类名称哈希差异；39 项源参数已明确标为 `backend_only`，公开页只展示审校过的规格，不能为了校验器通过而假称原始参数已经逐字公开。分类源哈希是中文名称，首发英文页面展示英文译名，现有校验器要求二者哈希相同。最新工作报告是 `product-coverage-terminal-working-report.json`，`pass=false`，不得登记为通过。
 
 最新 Production SHA `9be06186a76504ca43d1acbab9467270736da8d1` 的 Sitemap 共 84 个 URL，逐页 HTTP 与中英文禁用词扫描均通过，见 `public-page-scan-latest-2026-11-19.json`。新增核定参数的 20、21、24、36、69 行页面 HTTP 200 且规格文本存在。以下段落记录各轮形成过程，不能将其中旧的“待核数量”视为当前余量。
 

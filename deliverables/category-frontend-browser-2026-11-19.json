@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "productionDomain": "https://jinxinseatcomponents.com",
+  "deploymentSha": "d69e18c41d1a77d0136738fcc5bf580d43fde221",
+  "checkedAt": "2026-11-19T05:19:23.621Z",
+  "pass": true,
+  "failures": [],
+  "categories": [
+    {
+      "slug": "seat-assemblies",
+      "route": "/products?category=seat-assemblies",
+      "status": 200,
+      "name": "Seat Assemblies",
+      "visible": true,
+      "cards": 19
+    },
+    {
+      "slug": "seat-frames",
+      "route": "/products?category=seat-frames",
+      "status": 200,
+      "name": "Seat Frames",
+      "visible": true,
+      "cards": 19
+    },
+    {
+      "slug": "molded-foam",
+      "route": "/products?category=molded-foam",
+      "status": 200,
+      "name": "Molded Foam",
+      "visible": true,
+      "cards": 24
+    },
+    {
+      "slug": "ambulance-seats",
+      "route": "/products?category=ambulance-seats",
+      "status": 200,
+      "name": "Ambulance Seats",
+      "visible": true,
+      "cards": 3
+    },
+    {
+      "slug": "golf-cart-seats",
+      "route": "/products?category=golf-cart-seats",
+      "status": 200,
+      "name": "Golf Cart Seats",
+      "visible": true,
+      "cards": 3
+    },
+    {
+      "slug": "atv-seats",
+      "route": "/products?category=atv-seats",
+      "status": 200,
+      "name": "ATV Seats",
+      "visible": true,
+      "cards": 2
+    },
+    {
+      "slug": "commercial-seats",
+      "route": "/products?category=commercial-seats",
+      "status": 200,
+      "name": "Commercial Vehicle Seats",
+      "visible": true,
+      "cards": 10
+    },
+    {
+      "slug": "special-seats",
+      "route": "/products?category=special-seats",
+      "status": 200,
+      "name": "Special Vehicle Seats",
+      "visible": true,
+      "cards": 1
+    },
+    {
+      "slug": "lumbar-cushions",
+      "route": "/products?category=lumbar-cushions",
+      "status": 200,
+      "name": "Lumbar Cushions",
+      "visible": true,
+      "cards": 9
+    },
+    {
+      "slug": "pet-foam",
+      "route": "/products?category=pet-foam",
+      "status": 200,
+      "name": "Pet Foam",
+      "visible": true,
+      "cards": 3
+    },
+    {
+      "slug": "headrest-foam",
+      "route": "/products?category=headrest-foam",
+      "status": 200,
+      "name": "Headrest Foam",
+      "visible": true,
+      "cards": 9
+    },
+    {
+      "slug": "seat-foam",
+      "route": "/products?category=seat-foam",
+      "status": 200,
+      "name": "Seat Foam",
+      "visible": true,
+      "cards": 10
+    },
+    {
+      "slug": "integral-skin-foam",
+      "route": "/products?category=integral-skin-foam",
+      "status": 200,
+      "name": "Integral-Skin Foam",
+      "visible": true,
+      "cards": 8
+    },
+    {
+      "slug": "seat-frames-sub",
+      "route": "/products?category=seat-frames-sub",
+      "status": 200,
+      "name": "Seat Frames",
+      "visible": true,
+      "cards": 6
+    },
+    {
+      "slug": "headrest-rods",
+      "route": "/products?category=headrest-rods",
+      "status": 200,
+      "name": "Headrest Rods",
+      "visible": true,
+      "cards": 5
+    },
+    {
+      "slug": "headrest-frames",
+      "route": "/products?category=headrest-frames",
+      "status": 200,
+      "name": "Headrest Frames",
+      "visible": true,
+      "cards": 3
+    },
+    {
+      "slug": "armrest-frames",
+      "route": "/products?category=armrest-frames",
+      "status": 200,
+      "name": "Armrest Frames",
+      "visible": true,
+      "cards": 5
+    }
+  ]
+}
