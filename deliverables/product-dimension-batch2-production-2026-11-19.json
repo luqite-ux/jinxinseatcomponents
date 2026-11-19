@@ -1,0 +1,344 @@
+{
+  "schemaVersion": 1,
+  "deploymentSha": "2fb28a30e3cf62227718e985f7084ed1f47c00b6",
+  "checkedAt": "2026-11-19T04:50:26.436Z",
+  "count": 42,
+  "pass": true,
+  "checks": [
+    {
+      "row": 13,
+      "route": "/products/upper-sleeper-assembly-7600910-c8302",
+      "label": "Upper berth effective net length",
+      "value": "1900mm; 1750–1850mm; 1700mm–2000mm",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "row": 13,
+      "route": "/products/upper-sleeper-assembly-7600910-c8302",
+      "label": "Effective width",
+      "value": "700–750mm; 600–680mm; 550–800mm",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "row": 13,
+      "route": "/products/upper-sleeper-assembly-7600910-c8302",
+      "label": "Overall cushion thickness",
+      "value": "50mm (standard); 40mm; 30–70mm, thickened as needed",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "row": 13,
+      "route": "/products/upper-sleeper-assembly-7600910-c8302",
+      "label": "Flip travel",
+      "value": "folds upward 90° to fit against the roof; folds upward 85°; customized according to cab interior height",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "row": 13,
+      "route": "/products/upper-sleeper-assembly-7600910-c8302",
+      "label": "Complete assembly net weight (fixed type)",
+      "value": "12–15kg; 9–12kg; adjusted with steel pipe wall thickness",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "row": 14,
+      "route": "/products/lower-sleeper-assembly-left-7600020-c7304",
+      "label": "Effective rest length",
+      "value": "1900mm; 1700–1820mm; 1650–2000mm",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "row": 14,
+      "route": "/products/lower-sleeper-assembly-left-7600020-c7304",
+      "label": "Effective berth width",
+      "value": "720mm; 620–680mm; 580–780mm",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "row": 14,
+      "route": "/products/lower-sleeper-assembly-left-7600020-c7304",
+      "label": "Cushion thickness",
+      "value": "50mm (standard); 40mm; 30mm–70mm, thickened as needed",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "row": 14,
+      "route": "/products/lower-sleeper-assembly-left-7600020-c7304",
+      "label": "Overall assembly net weight",
+      "value": "14–17kg; 10–13kg; adjusted according to pipe wall thickness",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "row": 15,
+      "route": "/products/lower-sleeper-assembly-right-7600040-c7304",
+      "label": "Effective rest length",
+      "value": "1900mm; 1700–1820mm; 1650–2000mm",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "row": 15,
+      "route": "/products/lower-sleeper-assembly-right-7600040-c7304",
+      "label": "Effective sleeper width",
+      "value": "720mm; 620–680mm; 580–780mm",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "row": 15,
+      "route": "/products/lower-sleeper-assembly-right-7600040-c7304",
+      "label": "Cushion thickness",
+      "value": "50mm (standard); 40mm; 30mm–70mm, thickened as required",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "row": 15,
+      "route": "/products/lower-sleeper-assembly-right-7600040-c7304",
+      "label": "Net weight of complete assembly",
+      "value": "14–17kg; 10–13kg; Adjusted according to pipe wall thickness",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "row": 15,
+      "route": "/products/lower-sleeper-assembly-right-7600040-c7304",
+      "label": "Installation position source conflict",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "row": 16,
+      "route": "/products/passenger-seat-assembly-6900010-c7302",
+      "label": "Overall seat height",
+      "value": "920mm; 850–980mm",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "row": 16,
+      "route": "/products/passenger-seat-assembly-6900010-c7302",
+      "label": "Effective cushion seating width × depth",
+      "value": "440mm×400mm; 400–480mm×370–430mm",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "row": 16,
+      "route": "/products/passenger-seat-assembly-6900010-c7302",
+      "label": "Cushion foam thickness",
+      "value": "45mm; 35–60mm",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "row": 16,
+      "route": "/products/passenger-seat-assembly-6900010-c7302",
+      "label": "Backrest foam thickness",
+      "value": "40mm; 30–50mm",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "row": 16,
+      "route": "/products/passenger-seat-assembly-6900010-c7302",
+      "label": "Slide rail fore-aft adjustment travel",
+      "value": "0–180mm; 100–250mm adjustable",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "row": 17,
+      "route": "/products/ppa006-series-manual-four-way-driver-seat-assembly-ppa006",
+      "label": "Overall seat height (including headrest)",
+      "value": "1060mm; 990–1120mm",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "row": 17,
+      "route": "/products/ppa006-series-manual-four-way-driver-seat-assembly-ppa006",
+      "label": "Effective cushion width × depth",
+      "value": "460mm×410mm; 420–490mm×380–440mm",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "row": 17,
+      "route": "/products/ppa006-series-manual-four-way-driver-seat-assembly-ppa006",
+      "label": "Cushion foam thickness",
+      "value": "48mm; 38–60mm",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "row": 17,
+      "route": "/products/ppa006-series-manual-four-way-driver-seat-assembly-ppa006",
+      "label": "Backrest foam thickness",
+      "value": "40mm; 32–52mm",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "row": 17,
+      "route": "/products/ppa006-series-manual-four-way-driver-seat-assembly-ppa006",
+      "label": "Fore-aft slide rail travel",
+      "value": "180mm; 110–220mm",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "row": 17,
+      "route": "/products/ppa006-series-manual-four-way-driver-seat-assembly-ppa006",
+      "label": "Cushion lift travel",
+      "value": "60mm; 35–80mm",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "row": 17,
+      "route": "/products/ppa006-series-manual-four-way-driver-seat-assembly-ppa006",
+      "label": "Backrest adjustable angle",
+      "value": "90°–122°, position locking; 85°–130° customizable as required",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "row": 18,
+      "route": "/products/pt008-series-electric-six-way-driver-seat-assembly-pt008",
+      "label": "Overall seat height (including headrest)",
+      "value": "1050mm; 980–1130mm",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "row": 18,
+      "route": "/products/pt008-series-electric-six-way-driver-seat-assembly-pt008",
+      "label": "Effective cushion seating width × depth",
+      "value": "465mm×415mm; 420–500mm×380–450mm",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "row": 18,
+      "route": "/products/pt008-series-electric-six-way-driver-seat-assembly-pt008",
+      "label": "Cushion foam thickness",
+      "value": "50mm; 40–65mm",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "row": 18,
+      "route": "/products/pt008-series-electric-six-way-driver-seat-assembly-pt008",
+      "label": "Backrest foam thickness",
+      "value": "42mm; 33–55mm",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "row": 18,
+      "route": "/products/pt008-series-electric-six-way-driver-seat-assembly-pt008",
+      "label": "Fore-aft electric adjustment travel",
+      "value": "0–200mm; 130–240mm",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "row": 18,
+      "route": "/products/pt008-series-electric-six-way-driver-seat-assembly-pt008",
+      "label": "Cushion overall lift travel",
+      "value": "0–75mm; 40–90mm",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "row": 18,
+      "route": "/products/pt008-series-electric-six-way-driver-seat-assembly-pt008",
+      "label": "Cushion front-end tilt adjustment travel",
+      "value": "±15°; ±10°–±20°",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "row": 18,
+      "route": "/products/pt008-series-electric-six-way-driver-seat-assembly-pt008",
+      "label": "Backrest electric adjustment angle",
+      "value": "90°–128°; 85°–135°",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "row": 18,
+      "route": "/products/pt008-series-electric-six-way-driver-seat-assembly-pt008",
+      "label": "Power supply voltage",
+      "value": "12V DC; 24V version configurable",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "row": 19,
+      "route": "/products/e36-series-manual-four-way-driver-seat-assembly-e36",
+      "label": "Overall seat height (including headrest)",
+      "value": "1060mm; 990–1120mm",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "row": 19,
+      "route": "/products/e36-series-manual-four-way-driver-seat-assembly-e36",
+      "label": "Effective cushion width × depth",
+      "value": "460mm×410mm; 420–490mm×380–440mm",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "row": 19,
+      "route": "/products/e36-series-manual-four-way-driver-seat-assembly-e36",
+      "label": "Cushion foam thickness",
+      "value": "48mm; 38–60mm",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "row": 19,
+      "route": "/products/e36-series-manual-four-way-driver-seat-assembly-e36",
+      "label": "Backrest foam thickness",
+      "value": "40mm; 32–52mm",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "row": 19,
+      "route": "/products/e36-series-manual-four-way-driver-seat-assembly-e36",
+      "label": "Fore-aft slide rail travel",
+      "value": "180mm; 110–220mm",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "row": 19,
+      "route": "/products/e36-series-manual-four-way-driver-seat-assembly-e36",
+      "label": "Cushion lift travel",
+      "value": "60mm; 35–80mm",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "row": 19,
+      "route": "/products/e36-series-manual-four-way-driver-seat-assembly-e36",
+      "label": "Backrest adjustable angle",
+      "value": "90°–122°, position locking; 85°–130° customizable as required",
+      "http": 200,
+      "rendered": true
+    }
+  ]
+}

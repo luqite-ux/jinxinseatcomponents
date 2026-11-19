@@ -1,0 +1,49 @@
+{
+  "checkedAt": "2026-11-19T04:50:59.530Z",
+  "count": 7,
+  "additions": [
+    {
+      "row": 20,
+      "sourceLocator": "具体产品!H20",
+      "label": "Assembly weight",
+      "value": "11.8–12.8kg"
+    },
+    {
+      "row": 21,
+      "sourceLocator": "具体产品!H21",
+      "label": "Complete assembly net weight",
+      "value": "17–19kg"
+    },
+    {
+      "row": 24,
+      "sourceLocator": "具体产品!H24",
+      "label": "Density options",
+      "value": "35D (35kg/m³); 40D; 50D"
+    },
+    {
+      "row": 36,
+      "sourceLocator": "具体产品!H36",
+      "label": "Support rod diameter",
+      "value": "φ10–16mm"
+    },
+    {
+      "row": 36,
+      "sourceLocator": "具体产品!H36",
+      "label": "Dual-rod center mounting distance",
+      "value": "140mm / 160mm"
+    },
+    {
+      "row": 36,
+      "sourceLocator": "具体产品!H36",
+      "label": "Lift stroke",
+      "value": "Approximately 90mm; 8–10 positions"
+    },
+    {
+      "row": 69,
+      "sourceLocator": "具体产品!H69",
+      "label": "Common tube diameters",
+      "value": "φ8mm / φ10mm; wall thickness 1.0–1.5mm"
+    }
+  ],
+  "withheld": "Safety load ratings, claimed certifications, service life and temperature endurance remain in tenant-scoped backend source text only."
+}

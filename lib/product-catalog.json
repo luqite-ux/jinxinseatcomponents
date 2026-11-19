@@ -1193,6 +1193,14 @@
         "value": {
           "en": "445mm×410mm"
         }
+      },
+      {
+        "label": {
+          "en": "Assembly weight"
+        },
+        "value": {
+          "en": "11.8–12.8kg"
+        }
       }
     ],
     "sourceRow": 20,
@@ -1251,6 +1259,14 @@
         },
         "value": {
           "en": "direct four-bolt mounting to the original cab floor points"
+        }
+      },
+      {
+        "label": {
+          "en": "Complete assembly net weight"
+        },
+        "value": {
+          "en": "17–19kg"
         }
       }
     ],
@@ -1396,6 +1412,14 @@
         },
         "value": {
           "en": "domestic slow-rebound memory foam"
+        }
+      },
+      {
+        "label": {
+          "en": "Density options"
+        },
+        "value": {
+          "en": "35D (35kg/m³); 40D; 50D"
         }
       }
     ],
@@ -1840,6 +1864,30 @@
         },
         "value": {
           "en": "high-density PUR polyurethane foam for automotive use"
+        }
+      },
+      {
+        "label": {
+          "en": "Support rod diameter"
+        },
+        "value": {
+          "en": "φ10–16mm"
+        }
+      },
+      {
+        "label": {
+          "en": "Dual-rod center mounting distance"
+        },
+        "value": {
+          "en": "140mm / 160mm"
+        }
+      },
+      {
+        "label": {
+          "en": "Lift stroke"
+        },
+        "value": {
+          "en": "Approximately 90mm; 8–10 positions"
         }
       }
     ],
@@ -3243,6 +3291,14 @@
         },
         "value": {
           "en": "high-precision cold-rolled hollow bright steel tube"
+        }
+      },
+      {
+        "label": {
+          "en": "Common tube diameters"
+        },
+        "value": {
+          "en": "φ8mm / φ10mm; wall thickness 1.0–1.5mm"
         }
       }
     ],
