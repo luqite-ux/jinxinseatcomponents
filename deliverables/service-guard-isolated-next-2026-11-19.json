@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "scope": "ISOLATED_NEXT_PRODUCTION_BUILD",
+  "productionVerified": false,
+  "result": "PASS",
+  "guardVersion": "1",
+  "guardHash": "a1d25b8a1bf50f60836b53ca51eff9b9ed67f8da49e7725057b537f8704b607f",
+  "routingHash": "d365a114a4863880ad419e8f7992a3ba4a379ea5352f544839d41862a8033aa6",
+  "runtimeCacheMode": "COLD_PROBE",
+  "warmCacheRecoveryVerified": false,
+  "externalResourcesCreated": 0,
+  "fixtureClosed": true,
+  "runtimeCleanup": { "processStopped": true, "filesRemoved": true },
+  "verifiedAt": "2026-11-19T03:46:49.174Z",
+  "note": "Summary of verifier exit code 0 and JSON output. This is an isolated local Next Production build, not the four required live Production probes."
+}
