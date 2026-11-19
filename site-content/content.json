@@ -37,13 +37,13 @@
                 "desktop_image": {
                   "assetId": "503eda8e-11fb-4dff-86bb-2f100ae152be",
                   "alt": {
-                    "en": "Customer supplied photograph of an ambulance auxiliary seat assembly"
+                    "en": "Photograph of an ambulance auxiliary seat assembly"
                   }
                 },
                 "mobile_image": {
                   "assetId": "503eda8e-11fb-4dff-86bb-2f100ae152be",
                   "alt": {
-                    "en": "Customer supplied photograph of an ambulance auxiliary seat assembly"
+                    "en": "Photograph of an ambulance auxiliary seat assembly"
                   }
                 },
                 "cta_label": {
@@ -68,13 +68,13 @@
                 "desktop_image": {
                   "assetId": "a45edc71-8f71-4b8c-b175-01e805a21780",
                   "alt": {
-                    "en": "Customer supplied photograph of a molded seat foam component"
+                    "en": "Photograph of a molded seat foam component"
                   }
                 },
                 "mobile_image": {
                   "assetId": "a45edc71-8f71-4b8c-b175-01e805a21780",
                   "alt": {
-                    "en": "Customer supplied photograph of a molded seat foam component"
+                    "en": "Photograph of a molded seat foam component"
                   }
                 },
                 "cta_label": {
@@ -99,13 +99,13 @@
                 "desktop_image": {
                   "assetId": "1b13a0a2-19c1-482d-91fa-89f8ff48bfad",
                   "alt": {
-                    "en": "Customer supplied photograph of a seat frame component"
+                    "en": "Photograph of a seat frame component"
                   }
                 },
                 "mobile_image": {
                   "assetId": "1b13a0a2-19c1-482d-91fa-89f8ff48bfad",
                   "alt": {
-                    "en": "Customer supplied photograph of a seat frame component"
+                    "en": "Photograph of a seat frame component"
                   }
                 },
                 "cta_label": {
@@ -242,7 +242,7 @@
                 "image": {
                   "assetId": "393cb83f-20d3-464a-a62a-8d3781adb58b",
                   "alt": {
-                    "en": "Customer supplied front seating photograph"
+                    "en": "front seating photograph"
                   }
                 }
               },
@@ -261,7 +261,7 @@
                 "image": {
                   "assetId": "503eda8e-11fb-4dff-86bb-2f100ae152be",
                   "alt": {
-                    "en": "Customer supplied folding seating with belt photograph"
+                    "en": "folding seating with belt photograph"
                   }
                 }
               }
@@ -295,7 +295,7 @@
                 "image": {
                   "assetId": "1b13a0a2-19c1-482d-91fa-89f8ff48bfad",
                   "alt": {
-                    "en": "Customer supplied seat frames and structural parts photograph"
+                    "en": "seat frames and structural parts photograph"
                   }
                 }
               },
@@ -310,7 +310,7 @@
                 "image": {
                   "assetId": "a45edc71-8f71-4b8c-b175-01e805a21780",
                   "alt": {
-                    "en": "Customer supplied molded foam components photograph"
+                    "en": "molded foam components photograph"
                   }
                 }
               },
@@ -325,7 +325,7 @@
                 "image": {
                   "assetId": "393cb83f-20d3-464a-a62a-8d3781adb58b",
                   "alt": {
-                    "en": "Customer supplied seat assembly photograph"
+                    "en": "seat assembly photograph"
                   }
                 }
               }
@@ -449,7 +449,7 @@
               "en": "Questions before you order"
             },
             "description": {
-              "en": "Practical details from the company's supplied FAQ."
+              "en": "Answers about models, customization, samples and order planning."
             }
           }
         },
@@ -526,7 +526,7 @@
               "en": "Past supply experience across the automotive sector"
             },
             "customers_description": {
-              "en": "Our company presentation names Dongfeng Commercial Vehicle, Lear, GAC Gonow, Geely and Shanghai Daimay among historical customers served. This is a record of past supply experience, not a statement of current partnership or endorsement."
+              "en": "Past seat component customers include Dongfeng Commercial Vehicle, Lear, GAC Gonow, Geely and Shanghai Daimay."
             },
             "facility_eyebrow": {
               "en": "Our facility"
@@ -604,7 +604,7 @@
                 "image": {
                   "assetId": "393cb83f-20d3-464a-a62a-8d3781adb58b",
                   "alt": {
-                    "en": "Customer supplied front seating photograph"
+                    "en": "front seating photograph"
                   }
                 }
               },
@@ -623,7 +623,7 @@
                 "image": {
                   "assetId": "503eda8e-11fb-4dff-86bb-2f100ae152be",
                   "alt": {
-                    "en": "Customer supplied folding seating with belt photograph"
+                    "en": "folding seating with belt photograph"
                   }
                 }
               }
@@ -635,10 +635,10 @@
               "en": "Describe the application and we will review which products fit."
             },
             "gallery_title": {
-              "en": "More from the supplied photo collection"
+              "en": "Seat components and production"
             },
             "gallery_description": {
-              "en": "Additional seat, frame and foam photographs supplied by the company. These images are not assigned to a specific catalog model."
+              "en": "Explore seat back assemblies, frames, foam components and production views."
             },
             "gallery": [
               {
@@ -649,7 +649,7 @@
                 "image": {
                   "assetId": "6992608c-62ac-4cbf-a5ed-addb73080453",
                   "alt": {
-                    "en": "Customer supplied photograph: seat back assembly"
+                    "en": "Photograph of seat back assembly"
                   }
                 }
               },
@@ -661,7 +661,7 @@
                 "image": {
                   "assetId": "31467f1d-8f7b-4c58-bb0f-dd1507568497",
                   "alt": {
-                    "en": "Customer supplied photograph: seat frame storage"
+                    "en": "Photograph of seat frame storage"
                   }
                 }
               },
@@ -673,7 +673,7 @@
                 "image": {
                   "assetId": "23116257-2007-4e69-8519-461df93d300d",
                   "alt": {
-                    "en": "Customer supplied photograph: light upholstery assembly"
+                    "en": "Photograph of light upholstery assembly"
                   }
                 }
               },
@@ -685,7 +685,7 @@
                 "image": {
                   "assetId": "bd8f05d7-49a0-4939-8983-1563eaa2d48a",
                   "alt": {
-                    "en": "Customer supplied photograph: molded foam storage"
+                    "en": "Photograph of molded foam storage"
                   }
                 }
               },
@@ -697,7 +697,7 @@
                 "image": {
                   "assetId": "cd47a9a2-df4b-4e72-86d8-27b998b6625c",
                   "alt": {
-                    "en": "Customer supplied photograph: seat frames in production"
+                    "en": "Photograph of seat frames in production"
                   }
                 }
               },
@@ -709,7 +709,7 @@
                 "image": {
                   "assetId": "6cc7a545-49bc-4630-b37a-002813fdfeb6",
                   "alt": {
-                    "en": "Customer supplied photograph: black seat assembly"
+                    "en": "Photograph of black seat assembly"
                   }
                 }
               },
@@ -721,7 +721,7 @@
                 "image": {
                   "assetId": "42f2aa92-52ce-440d-a8c5-c5ef496f3524",
                   "alt": {
-                    "en": "Customer supplied photograph: metal frame assemblies"
+                    "en": "Photograph of metal frame assemblies"
                   }
                 }
               },
@@ -733,7 +733,7 @@
                 "image": {
                   "assetId": "4245282d-f5d4-4e21-acaa-c8ec7896352d",
                   "alt": {
-                    "en": "Customer supplied photograph: foam profiles"
+                    "en": "Photograph of foam profiles"
                   }
                 }
               },
@@ -745,16 +745,16 @@
                 "image": {
                   "assetId": "651f3929-1cde-4eaa-9678-d27e6a7c39ca",
                   "alt": {
-                    "en": "Customer supplied photograph: molded foam components"
+                    "en": "Photograph of molded foam components"
                   }
                 }
               }
             ],
             "presentation_gallery_title": {
-              "en": "Product photographs from the supplied presentation"
+              "en": "Seat installations and components"
             },
             "presentation_gallery_description": {
-              "en": "Additional component photographs from the customer presentation. These images are not assigned to a specific catalog model."
+              "en": "Seat installations, frames and molded foam in different configurations."
             },
             "presentation_gallery": [
               {
@@ -765,7 +765,7 @@
                 "image": {
                   "assetId": "f3a2ab62-42d6-49f4-ac48-1fd7a8bf4e01",
                   "alt": {
-                    "en": "Customer presentation: seat installation photograph"
+                    "en": "seat installation photograph"
                   }
                 }
               },
@@ -777,7 +777,7 @@
                 "image": {
                   "assetId": "12ee2f58-2690-4333-bffa-e01469efb56a",
                   "alt": {
-                    "en": "Customer presentation: seat installation photograph"
+                    "en": "seat installation photograph"
                   }
                 }
               },
@@ -789,7 +789,7 @@
                 "image": {
                   "assetId": "8518f3eb-f4aa-4fdd-9f84-8cdb02469862",
                   "alt": {
-                    "en": "Customer presentation: seat installation photograph"
+                    "en": "seat installation photograph"
                   }
                 }
               },
@@ -801,7 +801,7 @@
                 "image": {
                   "assetId": "5bc2c269-c8cd-4bf7-b189-4f920f60ed1a",
                   "alt": {
-                    "en": "Customer presentation: seat installation photograph"
+                    "en": "seat installation photograph"
                   }
                 }
               },
@@ -813,7 +813,7 @@
                 "image": {
                   "assetId": "9cf1e720-f6d8-450e-b60a-acd2ec31a58e",
                   "alt": {
-                    "en": "Customer presentation: seat installation photograph"
+                    "en": "seat installation photograph"
                   }
                 }
               },
@@ -825,7 +825,7 @@
                 "image": {
                   "assetId": "706ca95c-28e9-43df-9167-381ae56fc63f",
                   "alt": {
-                    "en": "Customer presentation: seat installation photograph"
+                    "en": "seat installation photograph"
                   }
                 }
               },
@@ -837,7 +837,7 @@
                 "image": {
                   "assetId": "ca1c5bf9-f8d4-4b46-921e-6bb5906d2337",
                   "alt": {
-                    "en": "Customer presentation: seat installation photograph"
+                    "en": "seat installation photograph"
                   }
                 }
               },
@@ -849,7 +849,7 @@
                 "image": {
                   "assetId": "ac2e4340-7fc2-445d-b52b-22e42f36b616",
                   "alt": {
-                    "en": "Customer presentation: seat installation photograph"
+                    "en": "seat installation photograph"
                   }
                 }
               },
@@ -861,7 +861,7 @@
                 "image": {
                   "assetId": "c7ac099c-a52a-48ee-b072-933574d2e1ec",
                   "alt": {
-                    "en": "Customer presentation: seat installation photograph"
+                    "en": "seat installation photograph"
                   }
                 }
               },
@@ -873,7 +873,7 @@
                 "image": {
                   "assetId": "1ebc9504-4532-49c3-ad40-3dce274117a0",
                   "alt": {
-                    "en": "Customer presentation: seat installation photograph"
+                    "en": "seat installation photograph"
                   }
                 }
               },
@@ -885,7 +885,7 @@
                 "image": {
                   "assetId": "176f585e-b416-47c7-9247-e4c1d5f137a2",
                   "alt": {
-                    "en": "Customer presentation: headrest or interior component photograph"
+                    "en": "headrest or interior component photograph"
                   }
                 }
               },
@@ -897,7 +897,7 @@
                 "image": {
                   "assetId": "7e165fb7-7673-46b7-be33-a744eb77138a",
                   "alt": {
-                    "en": "Customer presentation: headrest or interior component photograph"
+                    "en": "headrest or interior component photograph"
                   }
                 }
               },
@@ -909,7 +909,7 @@
                 "image": {
                   "assetId": "fe9a4bc9-5dff-425f-b7b7-dc7a5dd742b5",
                   "alt": {
-                    "en": "Customer presentation: headrest or interior component photograph"
+                    "en": "headrest or interior component photograph"
                   }
                 }
               },
@@ -921,7 +921,7 @@
                 "image": {
                   "assetId": "7244adae-eea4-4469-a699-85bfca5b9285",
                   "alt": {
-                    "en": "Customer presentation: headrest or interior component photograph"
+                    "en": "headrest or interior component photograph"
                   }
                 }
               },
@@ -933,7 +933,7 @@
                 "image": {
                   "assetId": "9ae53a4e-2325-4e21-ae2f-9f620327b201",
                   "alt": {
-                    "en": "Customer presentation: headrest or interior component photograph"
+                    "en": "headrest or interior component photograph"
                   }
                 }
               },
@@ -945,7 +945,7 @@
                 "image": {
                   "assetId": "b93b5f11-f4c4-4381-8667-7f0d04765d93",
                   "alt": {
-                    "en": "Customer presentation: headrest or interior component photograph"
+                    "en": "headrest or interior component photograph"
                   }
                 }
               },
@@ -957,7 +957,7 @@
                 "image": {
                   "assetId": "65032ded-7bf5-4183-8bbf-c3cd1976212c",
                   "alt": {
-                    "en": "Customer presentation: headrest or interior component photograph"
+                    "en": "headrest or interior component photograph"
                   }
                 }
               },
@@ -969,7 +969,7 @@
                 "image": {
                   "assetId": "0be63751-d45e-4939-aefc-043b25357a9e",
                   "alt": {
-                    "en": "Customer presentation: seat frame photograph"
+                    "en": "seat frame photograph"
                   }
                 }
               },
@@ -981,7 +981,7 @@
                 "image": {
                   "assetId": "badae053-b633-4046-88e7-c84db794fc40",
                   "alt": {
-                    "en": "Customer presentation: seat frame photograph"
+                    "en": "seat frame photograph"
                   }
                 }
               },
@@ -993,7 +993,7 @@
                 "image": {
                   "assetId": "b671c3a1-b806-4f7b-bf78-01fd4cc35a21",
                   "alt": {
-                    "en": "Customer presentation: seat frame photograph"
+                    "en": "seat frame photograph"
                   }
                 }
               },
@@ -1005,7 +1005,7 @@
                 "image": {
                   "assetId": "43cacadb-f6d8-4bb4-b05d-4462505d34c3",
                   "alt": {
-                    "en": "Customer presentation: seat frame photograph"
+                    "en": "seat frame photograph"
                   }
                 }
               },
@@ -1017,7 +1017,7 @@
                 "image": {
                   "assetId": "f514b86b-f4e4-462e-bf20-d0e2c95c1f56",
                   "alt": {
-                    "en": "Customer presentation: seat frame photograph"
+                    "en": "seat frame photograph"
                   }
                 }
               },
@@ -1029,7 +1029,7 @@
                 "image": {
                   "assetId": "55b1b40d-bee7-4120-97f0-36dc326bf11b",
                   "alt": {
-                    "en": "Customer presentation: seat frame photograph"
+                    "en": "seat frame photograph"
                   }
                 }
               },
@@ -1041,7 +1041,7 @@
                 "image": {
                   "assetId": "dee122ac-8b72-450c-8649-0f409260657b",
                   "alt": {
-                    "en": "Customer presentation: seat frame photograph"
+                    "en": "seat frame photograph"
                   }
                 }
               },
@@ -1053,7 +1053,7 @@
                 "image": {
                   "assetId": "450bdc14-52e3-4dc5-ae2a-6bfc2ef97b41",
                   "alt": {
-                    "en": "Customer presentation: seat frame photograph"
+                    "en": "seat frame photograph"
                   }
                 }
               },
@@ -1065,7 +1065,7 @@
                 "image": {
                   "assetId": "011d72c8-c6fa-4dc2-9f38-e70472a0c329",
                   "alt": {
-                    "en": "Customer presentation: seat frame photograph"
+                    "en": "seat frame photograph"
                   }
                 }
               },
@@ -1077,7 +1077,7 @@
                 "image": {
                   "assetId": "aa90b58f-a339-4932-b5fe-c187aa8efad0",
                   "alt": {
-                    "en": "Customer presentation: seat frame photograph"
+                    "en": "seat frame photograph"
                   }
                 }
               },
@@ -1089,7 +1089,7 @@
                 "image": {
                   "assetId": "75fb962d-17ef-4edc-9684-7084c9f91d16",
                   "alt": {
-                    "en": "Customer presentation: seat frame photograph"
+                    "en": "seat frame photograph"
                   }
                 }
               },
@@ -1101,7 +1101,7 @@
                 "image": {
                   "assetId": "99dd6af3-93eb-4e6f-a68b-5b0b3d66134a",
                   "alt": {
-                    "en": "Customer presentation: seat frame photograph"
+                    "en": "seat frame photograph"
                   }
                 }
               },
@@ -1113,7 +1113,7 @@
                 "image": {
                   "assetId": "f1651705-13b3-4bc2-a9c9-28bee8e3be2f",
                   "alt": {
-                    "en": "Customer presentation: seat frame photograph"
+                    "en": "seat frame photograph"
                   }
                 }
               },
@@ -1125,7 +1125,7 @@
                 "image": {
                   "assetId": "8f20a64b-280b-4e79-a004-f16858e75bb7",
                   "alt": {
-                    "en": "Customer presentation: seat frame photograph"
+                    "en": "seat frame photograph"
                   }
                 }
               },
@@ -1137,7 +1137,7 @@
                 "image": {
                   "assetId": "a447970c-68e6-4750-8041-5ddf155b3bba",
                   "alt": {
-                    "en": "Customer presentation: seat frame photograph"
+                    "en": "seat frame photograph"
                   }
                 }
               },
@@ -1149,7 +1149,7 @@
                 "image": {
                   "assetId": "6511f4c2-017a-4149-9bca-69cf458649ee",
                   "alt": {
-                    "en": "Customer presentation: molded foam component photograph"
+                    "en": "molded foam component photograph"
                   }
                 }
               },
@@ -1161,7 +1161,7 @@
                 "image": {
                   "assetId": "2899b5ef-2ec9-43e2-9ad9-baba02ccfc06",
                   "alt": {
-                    "en": "Customer presentation: molded foam component photograph"
+                    "en": "molded foam component photograph"
                   }
                 }
               },
@@ -1173,7 +1173,7 @@
                 "image": {
                   "assetId": "d5d9fd16-5795-4d87-8d39-4530c129632a",
                   "alt": {
-                    "en": "Customer presentation: molded foam component photograph"
+                    "en": "molded foam component photograph"
                   }
                 }
               },
@@ -1185,7 +1185,7 @@
                 "image": {
                   "assetId": "fb051496-49b2-4be5-bb13-425c74c2c90a",
                   "alt": {
-                    "en": "Customer presentation: molded foam component photograph"
+                    "en": "molded foam component photograph"
                   }
                 }
               },
@@ -1197,7 +1197,7 @@
                 "image": {
                   "assetId": "a0ce227e-17a8-443f-94bd-4c59d79a28a4",
                   "alt": {
-                    "en": "Customer presentation: molded foam component photograph"
+                    "en": "molded foam component photograph"
                   }
                 }
               },
@@ -1209,7 +1209,7 @@
                 "image": {
                   "assetId": "73f91e26-7bc8-4a2f-8ffd-749943109d78",
                   "alt": {
-                    "en": "Customer presentation: molded foam component photograph"
+                    "en": "molded foam component photograph"
                   }
                 }
               },
@@ -1221,7 +1221,7 @@
                 "image": {
                   "assetId": "832978ed-fcd1-440d-b069-1b8a9cb44e6f",
                   "alt": {
-                    "en": "Customer presentation: molded foam component photograph"
+                    "en": "molded foam component photograph"
                   }
                 }
               },
@@ -1233,7 +1233,7 @@
                 "image": {
                   "assetId": "cb46b5f0-2ee1-48df-bb83-c335e472ef5e",
                   "alt": {
-                    "en": "Customer presentation: molded foam component photograph"
+                    "en": "molded foam component photograph"
                   }
                 }
               },
@@ -1245,7 +1245,7 @@
                 "image": {
                   "assetId": "c3a34a08-531f-45a1-84f3-334cf66ef6c4",
                   "alt": {
-                    "en": "Customer presentation: molded foam component photograph"
+                    "en": "molded foam component photograph"
                   }
                 }
               },
@@ -1257,7 +1257,7 @@
                 "image": {
                   "assetId": "b86d2b86-a675-4133-b01d-bb9770418155",
                   "alt": {
-                    "en": "Customer presentation: molded foam component photograph"
+                    "en": "molded foam component photograph"
                   }
                 }
               },
@@ -1269,7 +1269,7 @@
                 "image": {
                   "assetId": "3d8f72a6-de78-4042-8e07-312e5dd16893",
                   "alt": {
-                    "en": "Customer presentation: molded foam component photograph"
+                    "en": "molded foam component photograph"
                   }
                 }
               },
@@ -1281,7 +1281,7 @@
                 "image": {
                   "assetId": "055b4858-5c3b-4bc2-82a4-f5312e6b557e",
                   "alt": {
-                    "en": "Customer presentation: molded foam component photograph"
+                    "en": "molded foam component photograph"
                   }
                 }
               }
@@ -1373,7 +1373,7 @@
                 "image": {
                   "assetId": "1b13a0a2-19c1-482d-91fa-89f8ff48bfad",
                   "alt": {
-                    "en": "Customer supplied seat frames and structural parts photograph"
+                    "en": "seat frames and structural parts photograph"
                   }
                 }
               },
@@ -1388,7 +1388,7 @@
                 "image": {
                   "assetId": "a45edc71-8f71-4b8c-b175-01e805a21780",
                   "alt": {
-                    "en": "Customer supplied molded foam components photograph"
+                    "en": "molded foam components photograph"
                   }
                 }
               },
@@ -1403,7 +1403,7 @@
                 "image": {
                   "assetId": "393cb83f-20d3-464a-a62a-8d3781adb58b",
                   "alt": {
-                    "en": "Customer supplied seat assembly photograph"
+                    "en": "seat assembly photograph"
                   }
                 }
               }
@@ -1424,7 +1424,7 @@
               "en": "Inside the company profile"
             },
             "gallery_description": {
-              "en": "Workshop, equipment, office and building photographs supplied in the company information workbook."
+              "en": "Explore the workshop, equipment, team and company building in Zhoushan."
             },
             "gallery": [
               {
@@ -1528,30 +1528,30 @@
               "en": "Workshop and testing photographs"
             },
             "presentation_gallery_description": {
-              "en": "Additional workshop and testing photographs supplied in the company presentation."
+              "en": "Explore workshop equipment and seat testing activities."
             },
             "presentation_gallery": [
               {
                 "id": "ppt-6",
                 "title": {
-                  "en": "Building photograph from presentation"
+                  "en": "Company building"
                 },
                 "image": {
                   "assetId": "1469d359-d15f-46d3-a1f6-4fdb386cf80d",
                   "alt": {
-                    "en": "Customer presentation: building photograph from presentation"
+                    "en": "building photograph"
                   }
                 }
               },
               {
                 "id": "ppt-7",
                 "title": {
-                  "en": "Seat showroom photograph from presentation"
+                  "en": "Seat showroom"
                 },
                 "image": {
                   "assetId": "780a8ec0-cf47-43a3-81c9-4925b2698f48",
                   "alt": {
-                    "en": "Customer presentation: seat showroom photograph from presentation"
+                    "en": "seat showroom photograph"
                   }
                 }
               },
@@ -1563,7 +1563,7 @@
                 "image": {
                   "assetId": "e0a50290-b04f-45e9-a0c8-32e64e892e5e",
                   "alt": {
-                    "en": "Customer presentation: workshop equipment photograph"
+                    "en": "workshop equipment photograph"
                   }
                 }
               },
@@ -1575,7 +1575,7 @@
                 "image": {
                   "assetId": "c8d9aca4-d52d-4dd4-a81b-17260ff8dbf1",
                   "alt": {
-                    "en": "Customer presentation: testing equipment photograph"
+                    "en": "testing equipment photograph"
                   }
                 }
               },
@@ -1587,7 +1587,7 @@
                 "image": {
                   "assetId": "fbc2400e-b61e-49d3-8360-a237dbac1364",
                   "alt": {
-                    "en": "Customer presentation: testing equipment photograph"
+                    "en": "testing equipment photograph"
                   }
                 }
               },
@@ -1599,7 +1599,7 @@
                 "image": {
                   "assetId": "c8812276-4b11-4abf-96d6-5ce6247d3c5a",
                   "alt": {
-                    "en": "Customer presentation: testing equipment photograph"
+                    "en": "testing equipment photograph"
                   }
                 }
               },
@@ -1611,7 +1611,7 @@
                 "image": {
                   "assetId": "a1f24967-6b8e-42b1-8085-c0efedf24502",
                   "alt": {
-                    "en": "Customer presentation: testing equipment photograph"
+                    "en": "testing equipment photograph"
                   }
                 }
               },
@@ -1623,7 +1623,7 @@
                 "image": {
                   "assetId": "2aa3e4a2-1e55-44e6-a794-c8d72cd9ad73",
                   "alt": {
-                    "en": "Customer presentation: testing equipment photograph"
+                    "en": "testing equipment photograph"
                   }
                 }
               },
@@ -1635,7 +1635,7 @@
                 "image": {
                   "assetId": "24f3fb3a-5d99-4992-8f8b-6fdd1c42857d",
                   "alt": {
-                    "en": "Customer presentation: testing equipment photograph"
+                    "en": "testing equipment photograph"
                   }
                 }
               },
@@ -1647,7 +1647,7 @@
                 "image": {
                   "assetId": "08bf9231-9e43-49aa-ad1d-ced914ac8729",
                   "alt": {
-                    "en": "Customer presentation: testing equipment photograph"
+                    "en": "testing equipment photograph"
                   }
                 }
               },
@@ -1659,7 +1659,7 @@
                 "image": {
                   "assetId": "55dc28e7-2da7-40c6-9d2d-cbb2fd804422",
                   "alt": {
-                    "en": "Customer presentation: testing equipment photograph"
+                    "en": "testing equipment photograph"
                   }
                 }
               },
@@ -1671,7 +1671,7 @@
                 "image": {
                   "assetId": "b23028a9-6f81-401a-b5e2-4a940033e8da",
                   "alt": {
-                    "en": "Customer presentation: testing equipment photograph"
+                    "en": "testing equipment photograph"
                   }
                 }
               },
@@ -1683,7 +1683,7 @@
                 "image": {
                   "assetId": "b897e7e1-eeb5-4b22-bfc8-6ee367b630f5",
                   "alt": {
-                    "en": "Customer presentation: production workshop photograph"
+                    "en": "production workshop photograph"
                   }
                 }
               },
@@ -1695,7 +1695,7 @@
                 "image": {
                   "assetId": "75c6bd39-62f0-467f-8cf1-50476e8101c9",
                   "alt": {
-                    "en": "Customer presentation: production workshop photograph"
+                    "en": "production workshop photograph"
                   }
                 }
               },
@@ -1707,7 +1707,7 @@
                 "image": {
                   "assetId": "7813520e-8f4b-46ab-96d6-0b6f84e09a0e",
                   "alt": {
-                    "en": "Customer presentation: production workshop photograph"
+                    "en": "production workshop photograph"
                   }
                 }
               },
@@ -1719,7 +1719,7 @@
                 "image": {
                   "assetId": "c1038c4d-deec-4738-a52b-d75aeeb90b7a",
                   "alt": {
-                    "en": "Customer presentation: production workshop photograph"
+                    "en": "production workshop photograph"
                   }
                 }
               },
@@ -1731,7 +1731,7 @@
                 "image": {
                   "assetId": "55e05b54-7d43-40bb-bcc6-ef5a3bf1ea73",
                   "alt": {
-                    "en": "Customer presentation: production workshop photograph"
+                    "en": "production workshop photograph"
                   }
                 }
               },
@@ -1743,7 +1743,7 @@
                 "image": {
                   "assetId": "457a25eb-c74d-4b04-b894-f87a4cee69db",
                   "alt": {
-                    "en": "Customer presentation: production workshop photograph"
+                    "en": "production workshop photograph"
                   }
                 }
               },
@@ -1755,7 +1755,7 @@
                 "image": {
                   "assetId": "a23a967c-5a17-4b3e-9e5f-f91033e1da33",
                   "alt": {
-                    "en": "Customer presentation: production workshop photograph"
+                    "en": "production workshop photograph"
                   }
                 }
               },
@@ -1767,7 +1767,7 @@
                 "image": {
                   "assetId": "5e80c0bb-9e48-4d4e-b24d-a3288d278b71",
                   "alt": {
-                    "en": "Customer presentation: production workshop photograph"
+                    "en": "production workshop photograph"
                   }
                 }
               },
@@ -1779,7 +1779,7 @@
                 "image": {
                   "assetId": "8446f491-38cf-40f1-8d3a-60f5b16f6559",
                   "alt": {
-                    "en": "Customer presentation: production workshop photograph"
+                    "en": "production workshop photograph"
                   }
                 }
               },
@@ -1791,7 +1791,7 @@
                 "image": {
                   "assetId": "72e30c3a-66e8-46d4-9bfe-1b9c986d2b13",
                   "alt": {
-                    "en": "Customer presentation: production workshop photograph"
+                    "en": "production workshop photograph"
                   }
                 }
               },
@@ -1803,7 +1803,7 @@
                 "image": {
                   "assetId": "1b2ec1af-cdca-4a96-acf4-837b2b9b534a",
                   "alt": {
-                    "en": "Customer presentation: production workshop photograph"
+                    "en": "production workshop photograph"
                   }
                 }
               },
@@ -1815,7 +1815,7 @@
                 "image": {
                   "assetId": "419ddd0c-a149-4c32-8469-9dbc38d1460d",
                   "alt": {
-                    "en": "Customer presentation: production workshop photograph"
+                    "en": "production workshop photograph"
                   }
                 }
               },
@@ -1827,7 +1827,7 @@
                 "image": {
                   "assetId": "4311961b-133c-4e8b-89ab-a5f26a70b145",
                   "alt": {
-                    "en": "Customer presentation: production workshop photograph"
+                    "en": "production workshop photograph"
                   }
                 }
               },
@@ -1839,7 +1839,7 @@
                 "image": {
                   "assetId": "2139adc3-568a-46af-8ed4-7e2747b77dee",
                   "alt": {
-                    "en": "Customer presentation: production workshop photograph"
+                    "en": "production workshop photograph"
                   }
                 }
               }
