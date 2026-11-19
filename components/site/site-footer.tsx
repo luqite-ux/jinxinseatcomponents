@@ -89,7 +89,7 @@ export async function SiteFooter({ items }: { items?: NavItem[] }) {
       </div>
       <div className="border-t border-line">
         <p className="mx-auto max-w-[88rem] px-5 py-5 text-xs text-ink-soft md:px-10">
-          &copy; <CurrentYear /> Zhoushan Jinxin Auto Parts Co., Ltd. All rights reserved.
+          &copy; <CurrentYear /> {site.name.replace(/[.;:!?；：！？。]+\s*$/, '')}. All rights reserved.
         </p>
       </div>
     </footer>

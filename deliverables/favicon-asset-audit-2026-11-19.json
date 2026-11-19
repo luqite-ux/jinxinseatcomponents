@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "deploymentSha": "1b4bea1f7ed897b54bb5f147ee23e935e7b770cf",
+  "checkedAt": "2026-11-19T05:23:03.240Z",
+  "host": "https://jinxinseatcomponents.com",
+  "pageStatus": 200,
+  "declaredLinks": [
+    "<link rel=\"icon\" href=\"/icon.png\"/>",
+    "<link rel=\"apple-touch-icon\" href=\"/apple-icon.png\"/>"
+  ],
+  "files": [
+    {
+      "path": "/icon.png",
+      "status": 200,
+      "expected": 200,
+      "adoptedBrandHash": true,
+      "pass": true
+    },
+    {
+      "path": "/apple-icon.png",
+      "status": 200,
+      "expected": 200,
+      "adoptedBrandHash": true,
+      "pass": true
+    },
+    {
+      "path": "/icon.svg",
+      "status": 404,
+      "expected": 404,
+      "adoptedBrandHash": null,
+      "pass": true
+    },
+    {
+      "path": "/icon-light-32x32.png",
+      "status": 404,
+      "expected": 404,
+      "adoptedBrandHash": null,
+      "pass": true
+    },
+    {
+      "path": "/icon-dark-32x32.png",
+      "status": 404,
+      "expected": 404,
+      "adoptedBrandHash": null,
+      "pass": true
+    },
+    {
+      "path": "/favicon.ico",
+      "status": 404,
+      "expected": 404,
+      "adoptedBrandHash": null,
+      "pass": true
+    }
+  ],
+  "pass": true
+}

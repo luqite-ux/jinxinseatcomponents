@@ -1,0 +1,1018 @@
+{
+  "schemaVersion": 1,
+  "deploymentSha": "66161c973205dc9e047d7a7212b0ec03f3466238",
+  "checkedAt": "2026-11-19T05:28:14.464Z",
+  "sitemapStatus": 200,
+  "robotsStatus": 200,
+  "robotsHasSitemap": true,
+  "urlCount": 84,
+  "duplicateUrlCount": 0,
+  "wrongHostCount": 0,
+  "pass": true,
+  "issues": [],
+  "checks": [
+    {
+      "url": "https://jinxinseatcomponents.com/",
+      "http": 200,
+      "title": "Zhoushan Jinxin Auto Parts | Automotive Seat Assemblies, Frames and Molded Foam",
+      "description": "Zhoushan Jinxin Auto Parts Co., Ltd. makes automotive seat assemblies, seat frames and molded foam components. Browse products and send an inquiry.",
+      "canonical": "https://jinxinseatcomponents.com",
+      "schemaTypes": [
+        "Organization",
+        "WebSite",
+        "FAQPage"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products",
+      "http": 200,
+      "title": "Products | Zhoushan Jinxin Auto Parts",
+      "description": "Seat assemblies, seat frames and molded foam components from Zhoushan Jinxin Auto Parts.",
+      "canonical": "https://jinxinseatcomponents.com/products",
+      "schemaTypes": [
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/applications",
+      "http": 200,
+      "title": "Applications | Zhoushan Jinxin Auto Parts",
+      "description": "Seat configurations from Zhoushan Jinxin Auto Parts, including front seating and folding seating with belt, and the frames and foam behind them.",
+      "canonical": "https://jinxinseatcomponents.com/applications",
+      "schemaTypes": [
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/manufacturing",
+      "http": 200,
+      "title": "Manufacturing | Zhoushan Jinxin Auto Parts",
+      "description": "Design and production of seat components: seat frames, molded foam and seat assemblies from Zhoushan Jinxin Auto Parts, certified to IATF 16949:2016.",
+      "canonical": "https://jinxinseatcomponents.com/manufacturing",
+      "schemaTypes": [
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/about",
+      "http": 200,
+      "title": "About | Zhoushan Jinxin Auto Parts",
+      "description": "Zhoushan Jinxin Auto Parts Co., Ltd. designs and produces automotive seat components: seat assemblies, seat frames and molded foam.",
+      "canonical": "https://jinxinseatcomponents.com/about",
+      "schemaTypes": [
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/news",
+      "http": 200,
+      "title": "News | Zhoushan Jinxin Auto Parts",
+      "description": "News from Zhoushan Jinxin Auto Parts Co., Ltd.",
+      "canonical": "https://jinxinseatcomponents.com/news",
+      "schemaTypes": [
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/contact",
+      "http": 200,
+      "title": "Contact | Zhoushan Jinxin Auto Parts",
+      "description": "Send your seat assembly, seat frame or molded foam requirements to Zhoushan Jinxin Auto Parts and discuss fit with our team.",
+      "canonical": "https://jinxinseatcomponents.com/contact",
+      "schemaTypes": [
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/ambulance-side-seat-cushion-jca002-032",
+      "http": 200,
+      "title": "Ambulance Side Seat Cushion | Zhoushan Jinxin Auto Parts",
+      "description": "Ambulance Side Seat Cushion, model JCA002-032. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/ambulance-side-seat-cushion-jca002-032",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/ambulance-side-seat-cushion-jca002-058",
+      "http": 200,
+      "title": "Ambulance Side Seat Cushion | Zhoushan Jinxin Auto Parts",
+      "description": "Ambulance Side Seat Cushion, model JCA002-058. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/ambulance-side-seat-cushion-jca002-058",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/ambulance-auxiliary-seat-assembly-jca001-045",
+      "http": 200,
+      "title": "Ambulance Auxiliary Seat Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "Ambulance Auxiliary Seat Assembly, model JCA001-045. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/ambulance-auxiliary-seat-assembly-jca001-045",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/golf-sightseeing-cart-seat-cushion-mod2932",
+      "http": 200,
+      "title": "Golf Sightseeing Cart Seat Cushion | Zhoushan Jinxin Auto Parts",
+      "description": "Golf Sightseeing Cart Seat Cushion, model MOD2932. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/golf-sightseeing-cart-seat-cushion-mod2932",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/golf-sightseeing-cart-backrest-mod2947",
+      "http": 200,
+      "title": "Golf Sightseeing Cart Backrest | Zhoushan Jinxin Auto Parts",
+      "description": "Golf Sightseeing Cart Backrest, model MOD2947. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/golf-sightseeing-cart-backrest-mod2947",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/golf-sightseeing-cart-seat-cushion-trv022",
+      "http": 200,
+      "title": "Golf Sightseeing Cart Seat Cushion | Zhoushan Jinxin Auto Parts",
+      "description": "Golf Sightseeing Cart Seat Cushion, model TRV022. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/golf-sightseeing-cart-seat-cushion-trv022",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/atv-one-piece-front-seat-cushion-assembly-atv-01",
+      "http": 200,
+      "title": "ATV One-Piece Front Seat Cushion Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "ATV One-Piece Front Seat Cushion Assembly, model ATV-01. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/atv-one-piece-front-seat-cushion-assembly-atv-01",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/atv-beach-motorcycle-one-piece-rear-seat-cushion-assembly-atv-02",
+      "http": 200,
+      "title": "ATV Beach Motorcycle One-Piece Rear Seat Cushion Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "ATV Beach Motorcycle One-Piece Rear Seat Cushion Assembly, model ATV-02. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/atv-beach-motorcycle-one-piece-rear-seat-cushion-assembly-atv-02",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/upper-sleeper-assembly-7600910-c8302",
+      "http": 200,
+      "title": "Upper Sleeper Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "Upper Sleeper Assembly, model 7600910-C8302. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/upper-sleeper-assembly-7600910-c8302",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/lower-sleeper-assembly-left-7600020-c7304",
+      "http": 200,
+      "title": "Lower Sleeper Assembly (Left) | Zhoushan Jinxin Auto Parts",
+      "description": "Lower Sleeper Assembly (Left), model 7600020-C7304. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/lower-sleeper-assembly-left-7600020-c7304",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/lower-sleeper-assembly-right-7600040-c7304",
+      "http": 200,
+      "title": "Lower Sleeper Assembly (Right) | Zhoushan Jinxin Auto Parts",
+      "description": "Lower Sleeper Assembly (Right), model 7600040-C7304. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/lower-sleeper-assembly-right-7600040-c7304",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/passenger-seat-assembly-6900010-c7302",
+      "http": 200,
+      "title": "Passenger Seat Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "Passenger Seat Assembly, model 6900010-C7302. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/passenger-seat-assembly-6900010-c7302",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/ppa006-series-manual-four-way-driver-seat-assembly-ppa006",
+      "http": 200,
+      "title": "PPA006 Series Manual Four-Way Driver Seat Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "PPA006 Series Manual Four-Way Driver Seat Assembly, model PPA006 Series. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/ppa006-series-manual-four-way-driver-seat-assembly-ppa006",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/pt008-series-electric-six-way-driver-seat-assembly-pt008",
+      "http": 200,
+      "title": "PT008 Series Electric Six-Way Driver Seat Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "PT008 Series Electric Six-Way Driver Seat Assembly, model PT008 Series. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/pt008-series-electric-six-way-driver-seat-assembly-pt008",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/e36-series-manual-four-way-driver-seat-assembly-e36",
+      "http": 200,
+      "title": "E36 Series Manual Four-Way Driver Seat Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "E36 Series Manual Four-Way Driver Seat Assembly, model E36 Series. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/e36-series-manual-four-way-driver-seat-assembly-e36",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/passenger-seat-assembly-6900010-c5902",
+      "http": 200,
+      "title": "Passenger Seat Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "Passenger Seat Assembly, model 6900010-C5902. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/passenger-seat-assembly-6900010-c5902",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/driver-seat-assembly-6800010-c5104",
+      "http": 200,
+      "title": "Driver Seat Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "Driver Seat Assembly, model 6800010-C5104. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/driver-seat-assembly-6800010-c5104",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/crv-17-series-driver-seat-assembly-crv-17",
+      "http": 200,
+      "title": "CRV-17 Series Driver Seat Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "CRV-17 Series Driver Seat Assembly, model CRV-17 Series. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/crv-17-series-driver-seat-assembly-crv-17",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/gaming-chair-jac-008",
+      "http": 200,
+      "title": "Gaming Chair | Zhoushan Jinxin Auto Parts",
+      "description": "Gaming Chair, model JAC-008. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/gaming-chair-jac-008",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/memory-foam-lumbar-support-jx-a001",
+      "http": 200,
+      "title": "Memory Foam Lumbar Support | Zhoushan Jinxin Auto Parts",
+      "description": "Memory Foam Lumbar Support, model JX-A001. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/memory-foam-lumbar-support-jx-a001",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/jx-a002-memory-foam-pillow-jx-a002",
+      "http": 200,
+      "title": "JX-A002 Memory Foam Pillow | Zhoushan Jinxin Auto Parts",
+      "description": "JX-A002 Memory Foam Pillow, model JX-A002. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/jx-a002-memory-foam-pillow-jx-a002",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/jx-b012-memory-foam-lumbar-support-jx-b012",
+      "http": 200,
+      "title": "JX-B012 Memory Foam Lumbar Support | Zhoushan Jinxin Auto Parts",
+      "description": "JX-B012 Memory Foam Lumbar Support, model JX-B012. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/jx-b012-memory-foam-lumbar-support-jx-b012",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/jx-b063-memory-foam-lumbar-support-jx-b063",
+      "http": 200,
+      "title": "JX-B063 Memory Foam Lumbar Support | Zhoushan Jinxin Auto Parts",
+      "description": "JX-B063 Memory Foam Lumbar Support, model JX-B063. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/jx-b063-memory-foam-lumbar-support-jx-b063",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/jx-b063-memory-foam-pillow-jx-b063",
+      "http": 200,
+      "title": "JX-B063 Memory Foam Pillow | Zhoushan Jinxin Auto Parts",
+      "description": "JX-B063 Memory Foam Pillow, model JX-B063. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/jx-b063-memory-foam-pillow-jx-b063",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/jx-b008-memory-foam-pillow-jx-b008",
+      "http": 200,
+      "title": "JX-B008 Memory Foam Pillow | Zhoushan Jinxin Auto Parts",
+      "description": "JX-B008 Memory Foam Pillow, model JX-B008. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/jx-b008-memory-foam-pillow-jx-b008",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/jx-b008-memory-foam-lumbar-support-jx-b008",
+      "http": 200,
+      "title": "JX-B008 Memory Foam Lumbar Support | Zhoushan Jinxin Auto Parts",
+      "description": "JX-B008 Memory Foam Lumbar Support, model JX-B008. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/jx-b008-memory-foam-lumbar-support-jx-b008",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/jx-c005-memory-foam-lumbar-support-jx-c005",
+      "http": 200,
+      "title": "JX-C005 Memory Foam Lumbar Support | Zhoushan Jinxin Auto Parts",
+      "description": "JX-C005 Memory Foam Lumbar Support, model JX-C005. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/jx-c005-memory-foam-lumbar-support-jx-c005",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/jx-c006-memory-foam-pillow-jx-c006",
+      "http": 200,
+      "title": "JX-C006 Memory Foam Pillow | Zhoushan Jinxin Auto Parts",
+      "description": "JX-C006 Memory Foam Pillow, model JX-C006. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/jx-c006-memory-foam-pillow-jx-c006",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/b-1282-pet-mat-b-1282",
+      "http": 200,
+      "title": "B-1282 Pet Mat | Zhoushan Jinxin Auto Parts",
+      "description": "B-1282 Pet Mat, model B-1282. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/b-1282-pet-mat-b-1282",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/b-1174-pet-mat-b-1174",
+      "http": 200,
+      "title": "B-1174 Pet Mat | Zhoushan Jinxin Auto Parts",
+      "description": "B-1174 Pet Mat, model B-1174. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/b-1174-pet-mat-b-1174",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/b-1921-pet-mat-b-1921",
+      "http": 200,
+      "title": "B-1921 Pet Mat | Zhoushan Jinxin Auto Parts",
+      "description": "B-1921 Pet Mat, model B-1921. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/b-1921-pet-mat-b-1921",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/g01-241-front-row-headrest-assembly-g01-241",
+      "http": 200,
+      "title": "G01-241 Front Row Headrest Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "G01-241 Front Row Headrest Assembly, model G01-241. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/g01-241-front-row-headrest-assembly-g01-241",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/g01-246-rear-row-headrest-assembly-g01-246",
+      "http": 200,
+      "title": "G01-246 Rear Row Headrest Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "G01-246 Rear Row Headrest Assembly, model G01-246. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/g01-246-rear-row-headrest-assembly-g01-246",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/fg-1256-front-row-headrest-assembly-fg-1256",
+      "http": 200,
+      "title": "FG-1256 Front Row Headrest Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "FG-1256 Front Row Headrest Assembly, model FG-1256. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/fg-1256-front-row-headrest-assembly-fg-1256",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/fg-1224-front-row-headrest-assembly-fg-1224",
+      "http": 200,
+      "title": "FG-1224 Front Row Headrest Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "FG-1224 Front Row Headrest Assembly, model FG-1224. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/fg-1224-front-row-headrest-assembly-fg-1224",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/jk908-01-front-row-headrest-assembly-jk908-01",
+      "http": 200,
+      "title": "JK908-01 Front Row Headrest Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "JK908-01 Front Row Headrest Assembly, model JK908-01. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/jk908-01-front-row-headrest-assembly-jk908-01",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/fd45-002-rear-row-headrest-assembly-fd45-002",
+      "http": 200,
+      "title": "FD45-002 Rear Row Headrest Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "FD45-002 Rear Row Headrest Assembly, model FD45-002. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/fd45-002-rear-row-headrest-assembly-fd45-002",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/fd46-001-rear-row-center-headrest-fd46-001",
+      "http": 200,
+      "title": "FD46-001 Rear Row Center Headrest | Zhoushan Jinxin Auto Parts",
+      "description": "FD46-001 Rear Row Center Headrest, model FD46-001. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/fd46-001-rear-row-center-headrest-fd46-001",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/a10-008-front-row-headrest-assembly-a10-008",
+      "http": 200,
+      "title": "A10-008 Front Row Headrest Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "A10-008 Front Row Headrest Assembly, model A10-008. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/a10-008-front-row-headrest-assembly-a10-008",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/a10-009-rear-row-headrest-assembly-a10-009",
+      "http": 200,
+      "title": "A10-009 Rear Row Headrest Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "A10-009 Rear Row Headrest Assembly, model A10-009. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/a10-009-rear-row-headrest-assembly-a10-009",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/sc-a10-01-driver-seat-cushion-foam-assembly-sc-a10-01",
+      "http": 200,
+      "title": "SC-A10-01 Driver Seat Cushion Foam Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "SC-A10-01 Driver Seat Cushion Foam Assembly, model SC-A10-01. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/sc-a10-01-driver-seat-cushion-foam-assembly-sc-a10-01",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/jf-011-driver-backrest-foam-assembly-jf-011",
+      "http": 200,
+      "title": "JF-011 Driver Backrest Foam Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "JF-011 Driver Backrest Foam Assembly, model JF-011. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/jf-011-driver-backrest-foam-assembly-jf-011",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/jf-012-driver-seat-cushion-foam-assembly-jf-012",
+      "http": 200,
+      "title": "JF-012 Driver Seat Cushion Foam Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "JF-012 Driver Seat Cushion Foam Assembly, model JF-012. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/jf-012-driver-seat-cushion-foam-assembly-jf-012",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/lp-03-006-rear-row-4-split-backrest-foam-assembly-lp-03-006",
+      "http": 200,
+      "title": "LP-03-006 Rear Row 4-Split Backrest Foam Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "LP-03-006 Rear Row 4-Split Backrest Foam Assembly, model LP-03-006. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/lp-03-006-rear-row-4-split-backrest-foam-assembly-lp-03-006",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/lp-01-001-front-row-foam-assembly-lp-01-001",
+      "http": 200,
+      "title": "LP-01-001 Front Row Foam Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "LP-01-001 Front Row Foam Assembly, model LP-01-001. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/lp-01-001-front-row-foam-assembly-lp-01-001",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/lp-03-005-rear-row-4-split-seat-cushion-foam-assembly-lp-03-005",
+      "http": 200,
+      "title": "LP-03-005 Rear Row 4-Split Seat Cushion Foam Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "LP-03-005 Rear Row 4-Split Seat Cushion Foam Assembly, model LP-03-005. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/lp-03-005-rear-row-4-split-seat-cushion-foam-assembly-lp-03-005",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/lp-01-002-driver-seat-cushion-foam-assembly-lp-01-002",
+      "http": 200,
+      "title": "LP-01-002 Driver Seat Cushion Foam Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "LP-01-002 Driver Seat Cushion Foam Assembly, model LP-01-002. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/lp-01-002-driver-seat-cushion-foam-assembly-lp-01-002",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/lp-02-001-second-row-seat-cushion-foam-assembly-lp-02-001",
+      "http": 200,
+      "title": "LP-02-001 Second Row Seat Cushion Foam Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "LP-02-001 Second Row Seat Cushion Foam Assembly, model LP-02-001. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/lp-02-001-second-row-seat-cushion-foam-assembly-lp-02-001",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/hy-b07-front-row-seat-cushion-foam-assembly-hy-b07",
+      "http": 200,
+      "title": "HY-B07 Front Row Seat Cushion Foam Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "HY-B07 Front Row Seat Cushion Foam Assembly, model HY-B07. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/hy-b07-front-row-seat-cushion-foam-assembly-hy-b07",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/hy-b07-front-row-backrest-foam-assembly-hy-b07",
+      "http": 200,
+      "title": "HY-B07 Front Row Backrest Foam Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "HY-B07 Front Row Backrest Foam Assembly, model HY-B07. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/hy-b07-front-row-backrest-foam-assembly-hy-b07",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/gfdg-45-pu-self-skinning-armrest-assembly-gfdg-45",
+      "http": 200,
+      "title": "GFDG-45 PU Self-Skinning Armrest Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "GFDG-45 PU Self-Skinning Armrest Assembly, model GFDG-45. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/gfdg-45-pu-self-skinning-armrest-assembly-gfdg-45",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/wq56-01-pu-self-skinning-armrest-assembly-wq56-01",
+      "http": 200,
+      "title": "WQ56-01 PU Self-Skinning Armrest Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "WQ56-01 PU Self-Skinning Armrest Assembly, model WQ56-01. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/wq56-01-pu-self-skinning-armrest-assembly-wq56-01",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/dsfu-a-01-pu-self-skinning-armrest-assembly-dsfu-a-01",
+      "http": 200,
+      "title": "DSFU-A-01 PU Self-Skinning Armrest Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "DSFU-A-01 PU Self-Skinning Armrest Assembly, model DSFU-A-01. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/dsfu-a-01-pu-self-skinning-armrest-assembly-dsfu-a-01",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/fdsg-025-pu-self-skinning-armrest-assembly-fdsg-025",
+      "http": 200,
+      "title": "FDSG-025 PU Self-Skinning Armrest Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "FDSG-025 PU Self-Skinning Armrest Assembly, model FDSG-025. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/fdsg-025-pu-self-skinning-armrest-assembly-fdsg-025",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/fd-02-01-pu-self-skinning-armrest-assembly-fd-02-01",
+      "http": 200,
+      "title": "FD-02-01 PU Self-Skinning Armrest Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "FD-02-01 PU Self-Skinning Armrest Assembly, model FD-02-01. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/fd-02-01-pu-self-skinning-armrest-assembly-fd-02-01",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/gfds-008-pu-self-skinning-armrest-assembly-gfds-008",
+      "http": 200,
+      "title": "GFDS-008 PU Self-Skinning Armrest Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "GFDS-008 PU Self-Skinning Armrest Assembly, model GFDS-008. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/gfds-008-pu-self-skinning-armrest-assembly-gfds-008",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/fdsa-002-pu-self-skinning-armrest-assembly-fdsa-002",
+      "http": 200,
+      "title": "FDSA-002 PU Self-Skinning Armrest Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "FDSA-002 PU Self-Skinning Armrest Assembly, model FDSA-002. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/fdsa-002-pu-self-skinning-armrest-assembly-fdsa-002",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/ly01-b01-pu-self-skinning-wheelchair-tire-assembly-ly01-b01",
+      "http": 200,
+      "title": "LY01-B01 PU Self-Skinning Wheelchair Tire Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "LY01-B01 PU Self-Skinning Wheelchair Tire Assembly, model LY01-B01. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/ly01-b01-pu-self-skinning-wheelchair-tire-assembly-ly01-b01",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/pt008-series-manual-front-row-backrest-frame-assembly-pt008",
+      "http": 200,
+      "title": "PT008 Series Manual Front Row Backrest Frame Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "PT008 Series Manual Front Row Backrest Frame Assembly, model PT008 Series. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/pt008-series-manual-front-row-backrest-frame-assembly-pt008",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/pt008-series-electric-front-row-backrest-frame-assembly-pt008",
+      "http": 200,
+      "title": "PT008 Series Electric Front Row Backrest Frame Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "PT008 Series Electric Front Row Backrest Frame Assembly, model PT008 Series. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/pt008-series-electric-front-row-backrest-frame-assembly-pt008",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/pt008-series-manual-front-seat-cushion-frame-assembly-pt008",
+      "http": 200,
+      "title": "PT008 Series Manual Front Seat Cushion Frame Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "PT008 Series Manual Front Seat Cushion Frame Assembly, model PT008 Series. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/pt008-series-manual-front-seat-cushion-frame-assembly-pt008",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/pt008-series-electric-front-seat-cushion-frame-assembly-pt008",
+      "http": 200,
+      "title": "PT008 Series Electric Front Seat Cushion Frame Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "PT008 Series Electric Front Seat Cushion Frame Assembly, model PT008 Series. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/pt008-series-electric-front-seat-cushion-frame-assembly-pt008",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/pt008-series-rear-seat-cushion-frame-assembly-pt008",
+      "http": 200,
+      "title": "PT008 Series Rear Seat Cushion Frame Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "PT008 Series Rear Seat Cushion Frame Assembly, model PT008 Series. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/pt008-series-rear-seat-cushion-frame-assembly-pt008",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/pt008-series-rear-backrest-frame-assembly-pt008",
+      "http": 200,
+      "title": "PT008 Series Rear Backrest Frame Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "PT008 Series Rear Backrest Frame Assembly, model PT008 Series. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/pt008-series-rear-backrest-frame-assembly-pt008",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/kp01-002-headrest-rod-kp01-002",
+      "http": 200,
+      "title": "KP01-002 Headrest Rod | Zhoushan Jinxin Auto Parts",
+      "description": "KP01-002 Headrest Rod, model KP01-002. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/kp01-002-headrest-rod-kp01-002",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/fgd-01-ds-headrest-rod-fgd-01-ds",
+      "http": 200,
+      "title": "FGD-01-DS Headrest Rod | Zhoushan Jinxin Auto Parts",
+      "description": "FGD-01-DS Headrest Rod, model FGD-01-DS. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/fgd-01-ds-headrest-rod-fgd-01-ds",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/hfg-01-a-headrest-rod-hfg-01-a",
+      "http": 200,
+      "title": "HFG-01-A Headrest Rod | Zhoushan Jinxin Auto Parts",
+      "description": "HFG-01-A Headrest Rod, model HFG-01-A. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/hfg-01-a-headrest-rod-hfg-01-a",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/jhg-02-01-headrest-rod-jhg-02-01",
+      "http": 200,
+      "title": "JHG-02-01 Headrest Rod | Zhoushan Jinxin Auto Parts",
+      "description": "JHG-02-01 Headrest Rod, model JHG-02-01. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/jhg-02-01-headrest-rod-jhg-02-01",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/fes-01-02-headrest-rod-fes-01-02",
+      "http": 200,
+      "title": "FES-01-02 Headrest Rod | Zhoushan Jinxin Auto Parts",
+      "description": "FES-01-02 Headrest Rod, model FES-01-02. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/fes-01-02-headrest-rod-fes-01-02",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/gs-01-04-headrest-frame-assembly-gs-01-04",
+      "http": 200,
+      "title": "GS-01-04 Headrest Frame Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "GS-01-04 Headrest Frame Assembly, model GS-01-04. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/gs-01-04-headrest-frame-assembly-gs-01-04",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/31xx-024-headrest-frame-assembly-31xx-024",
+      "http": 200,
+      "title": "31XX-024 Headrest Frame Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "31XX-024 Headrest Frame Assembly, model 31XX-024. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/31xx-024-headrest-frame-assembly-31xx-024",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/k04-20-001-headrest-frame-assembly-k04-20-001",
+      "http": 200,
+      "title": "K04-20-001 Headrest Frame Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "K04-20-001 Headrest Frame Assembly, model K04-20-001. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/k04-20-001-headrest-frame-assembly-k04-20-001",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/p758-rear-center-armrest-frame-assembly-p758",
+      "http": 200,
+      "title": "P758 Rear Center Armrest Frame Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "P758 Rear Center Armrest Frame Assembly, model P758. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/p758-rear-center-armrest-frame-assembly-p758",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/p702-rear-center-armrest-frame-assembly-p702",
+      "http": 200,
+      "title": "P702 Rear Center Armrest Frame Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "P702 Rear Center Armrest Frame Assembly, model P702. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/p702-rear-center-armrest-frame-assembly-p702",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/a10-01-front-armrest-frame-assembly-a10-01",
+      "http": 200,
+      "title": "A10-01 Front Armrest Frame Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "A10-01 Front Armrest Frame Assembly, model A10-01. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/a10-01-front-armrest-frame-assembly-a10-01",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/p235-front-armrest-frame-assembly-p235",
+      "http": 200,
+      "title": "P235 Front Armrest Frame Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "P235 Front Armrest Frame Assembly, model P235. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/p235-front-armrest-frame-assembly-p235",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    },
+    {
+      "url": "https://jinxinseatcomponents.com/products/g029-front-armrest-frame-assembly-g029",
+      "http": 200,
+      "title": "G029 Front Armrest Frame Assembly | Zhoushan Jinxin Auto Parts",
+      "description": "G029 Front Armrest Frame Assembly, model G029. Review the listed specifications and confirm final requirements with our team.",
+      "canonical": "https://jinxinseatcomponents.com/products/g029-front-armrest-frame-assembly-g029",
+      "schemaTypes": [
+        "Product",
+        "BreadcrumbList"
+      ],
+      "problems": []
+    }
+  ]
+}
