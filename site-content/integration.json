@@ -1,7 +1,9 @@
 {
   "domain": "jinxinseatcomponents.com",
   "adapterVersion": "1",
-  "capabilities": [],
+  "capabilities": [
+    "preview"
+  ],
   "modules": [
     "home.hero",
     "home.navigation",

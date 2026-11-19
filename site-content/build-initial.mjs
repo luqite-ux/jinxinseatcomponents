@@ -60,7 +60,7 @@ const content = { pages: { home: { order: ['hero', 'navigation', 'seo'], modules
   navigation: { hidden: false, values: { links: nav.map(([id, label, href]) => ({ id, label: local(label), href })) } },
   seo: { hidden: false, values: { title: local('Zhoushan Jinxin Auto Parts | Automotive Seat Assemblies, Frames and Molded Foam'), description: local('Zhoushan Jinxin Auto Parts Co., Ltd. makes automotive seat assemblies, seat frames and molded foam components. Browse products and send an inquiry.') } },
 } } } }
-const integration = { domain: 'jinxinseatcomponents.com', adapterVersion: '1', capabilities: [], modules: ['home.hero', 'home.navigation', 'home.seo'] }
+const integration = { domain: 'jinxinseatcomponents.com', adapterVersion: '1', capabilities: ['preview'], modules: ['home.hero', 'home.navigation', 'home.seo'] }
 const headings = [
   ['product_families', 'Product families', 'Three families, one seat', 'Start with the family that matches your program, then open individual products to inspect specifications.'],
   ['featured_products', 'Featured products', 'Look closely at the parts', 'Every product page lists its own specification table and a direct route to a quote request.'],

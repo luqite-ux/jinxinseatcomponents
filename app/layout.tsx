@@ -42,7 +42,14 @@ export const viewport: Viewport = {
 
 export default async function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   const isPreview = (await cookies()).has(PREVIEW_COOKIE)
-  const snapshot = await getSiteContent('en')
+  let snapshot: Awaited<ReturnType<typeof getSiteContent>> = null
+  let previewError = false
+  try {
+    snapshot = await getSiteContent('en')
+  } catch (error) {
+    if (!isPreview) throw error
+    previewError = true
+  }
   const navigation = snapshot?.pages.find((page) => page.path === '/')?.modules.find((module) => module.type === 'navigation')
   const rows = navigation?.values.links
   const navItems: NavItem[] | undefined = Array.isArray(rows) ? rows.map((row) => {
@@ -72,7 +79,19 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
           </div>
         )}
         <SiteHeader items={navItems} styles={navigation?.styles} />
-        <main id="main">{children}</main>
+        <main id="main">
+          {previewError ? (
+            <section className="mx-auto max-w-2xl px-5 py-20 md:px-10">
+              <h1 className="text-3xl font-semibold tracking-tight">Preview expired or unavailable</h1>
+              <p className="mt-4 leading-relaxed text-ink-soft">Exit preview and return to the public site. You can start a new preview from the admin.</p>
+              <form action="/api/site-content/exit-preview" method="post" className="mt-8">
+                <button type="submit" className="rounded-sm bg-jx px-5 py-3 font-semibold text-white hover:bg-jx-deep focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-jx">
+                  Exit preview
+                </button>
+              </form>
+            </section>
+          ) : children}
+        </main>
         <SiteFooter items={navItems} />
         <RevealObserver />
         <noscript>
