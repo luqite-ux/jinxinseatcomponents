@@ -307,10 +307,26 @@
       },
       {
         "label": {
+          "en": "Overall height × width"
+        },
+        "value": {
+          "en": "420 × 390 mm (standard single seat); height 360–480 mm available to order"
+        }
+      },
+      {
+        "label": {
           "en": "Overall backrest thickness"
         },
         "value": {
           "en": "45mm (effective foam cushioning thickness); 35–60mm optional range"
+        }
+      },
+      {
+        "label": {
+          "en": "Rear mounting hole spacing"
+        },
+        "value": {
+          "en": "260 mm horizontal × 120 mm vertical; custom hole positions to customer drawings"
         }
       },
       {
@@ -3283,6 +3299,14 @@
         },
         "value": {
           "en": "KP01-002"
+        }
+      },
+      {
+        "label": {
+          "en": "Material grade"
+        },
+        "value": {
+          "en": "20# precision cold-drawn steel tube"
         }
       },
       {
