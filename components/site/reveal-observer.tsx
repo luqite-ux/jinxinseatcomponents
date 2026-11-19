@@ -15,15 +15,15 @@ export function RevealObserver() {
     }
 
     let observer: IntersectionObserver | undefined
+    let additions: MutationObserver | undefined
     try {
       const candidates = Array.from(document.querySelectorAll<HTMLElement>('[data-reveal]:not(.is-visible)'))
       const viewport = window.innerHeight
-      const pending: HTMLElement[] = []
-
-      for (const el of candidates) {
+      const register = (el: HTMLElement) => {
+        if (el.classList.contains('is-visible')) return
         const rect = el.getBoundingClientRect()
         if (rect.top < viewport * 0.92 && rect.bottom > 0) el.classList.add('is-visible')
-        else pending.push(el)
+        else observer?.observe(el)
       }
 
       observer = new IntersectionObserver(
@@ -37,13 +37,24 @@ export function RevealObserver() {
         },
         { rootMargin: '0px 0px -8% 0px', threshold: 0.08 },
       )
-      pending.forEach((el) => observer?.observe(el))
+      candidates.forEach(register)
+      if (typeof MutationObserver === 'undefined') throw new Error('MutationObserver unavailable')
+      additions = new MutationObserver((records) => {
+        for (const record of records) for (const node of record.addedNodes) {
+          if (!(node instanceof HTMLElement)) continue
+          if (node.matches('[data-reveal]')) register(node)
+          node.querySelectorAll<HTMLElement>('[data-reveal]').forEach(register)
+        }
+      })
+      additions.observe(document.body, { childList: true, subtree: true })
       root.setAttribute('data-reveal', 'ready')
     } catch {
+      additions?.disconnect()
+      observer?.disconnect()
       root.removeAttribute('data-reveal')
     }
 
-    return () => observer?.disconnect()
+    return () => { additions?.disconnect(); observer?.disconnect() }
   }, [pathname])
 
   return null
