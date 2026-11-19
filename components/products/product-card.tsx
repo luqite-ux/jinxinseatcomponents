@@ -9,7 +9,7 @@ export function ProductImageFrame({
   alt,
   sizes,
   priority,
-  className = 'aspect-[4/3]',
+  className = 'aspect-square',
 }: {
   src: string
   alt: string
@@ -25,7 +25,7 @@ export function ProductImageFrame({
         fill
         sizes={sizes}
         priority={priority}
-        className="object-contain p-3 transition-transform duration-500 ease-out group-hover:scale-[1.02] md:p-5"
+        className="object-contain"
       />
     </div>
   )

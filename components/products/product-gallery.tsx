@@ -13,7 +13,7 @@ export function ProductGallery({ images }: { images: GalleryImage[] }) {
 
   return (
     <div>
-      <div className="relative aspect-[4/3] overflow-hidden bg-white md:aspect-[5/4]">
+      <div className="relative aspect-square overflow-hidden bg-white">
         <Image
           key={current.src}
           src={current.src}
@@ -21,7 +21,7 @@ export function ProductGallery({ images }: { images: GalleryImage[] }) {
           fill
           priority
           sizes="(min-width: 1024px) 50vw, 100vw"
-          className="animate-in fade-in object-contain p-4 duration-300 md:p-8"
+          className="animate-in fade-in object-contain duration-300"
         />
       </div>
       {images.length > 1 && (
@@ -43,7 +43,7 @@ export function ProductGallery({ images }: { images: GalleryImage[] }) {
                   alt=""
                   fill
                   sizes="120px"
-                  className="object-contain p-1.5"
+                  className="object-contain"
                 />
               </button>
             </li>

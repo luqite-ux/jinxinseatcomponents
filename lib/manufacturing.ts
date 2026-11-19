@@ -13,7 +13,7 @@ export const manufacturingAreas: ManufacturingArea[] = [
     description: 'Complete seat frames with slide rails, and the stamped brackets and members that carry the seat.',
     icon: Cog,
     image: {
-      src: '/products/seat-frame-with-slide-rails.jpg',
+      src: '/catalog/cutouts/product-row-65.webp',
       alt: 'Seat frame with slide rails and recliner mechanism',
     },
   },
@@ -22,7 +22,7 @@ export const manufacturingAreas: ManufacturingArea[] = [
     description: 'Molded foam for seat cushions and backs, produced to the shape of the seat it supports.',
     icon: Boxes,
     image: {
-      src: '/products/molded-seat-cushion-foam.jpg',
+      src: '/catalog/cutouts/product-row-46.webp',
       alt: 'Molded seat cushion foam component',
     },
   },
@@ -31,7 +31,7 @@ export const manufacturingAreas: ManufacturingArea[] = [
     description: 'Frame, foam and trim brought together into complete seat configurations.',
     icon: Armchair,
     image: {
-      src: '/products/front-seat-assembly.jpg',
+      src: '/catalog/cutouts/product-row-17.webp',
       alt: 'Completed front seat assembly with tan leather trim',
     },
   },

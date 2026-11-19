@@ -40,7 +40,7 @@ export default async function ApplicationsPage() {
         return {
           id: typeof row.id === 'string' ? row.id : String(index),
           title: siteCopy(row, 'title', 'Customer supplied photograph'),
-          image: siteImage(row, 'image', { src: '/products/front-seat-assembly.jpg', alt: 'Customer supplied seat photograph' }),
+          image: siteImage(row, 'image', { src: '/catalog/cutouts/product-row-17.webp', alt: 'Customer supplied seat photograph' }),
         }
       })
     : []
@@ -50,7 +50,7 @@ export default async function ApplicationsPage() {
         return {
           id: typeof row.id === 'string' ? row.id : String(index),
           title: siteCopy(row, 'title', 'Product photograph'),
-          image: siteImage(row, 'image', { src: '/products/front-seat-assembly.jpg', alt: 'Customer supplied product photograph' }),
+          image: siteImage(row, 'image', { src: '/catalog/cutouts/product-row-17.webp', alt: 'Customer supplied product photograph' }),
         }
       })
     : []

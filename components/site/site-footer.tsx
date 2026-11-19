@@ -20,9 +20,6 @@ export async function SiteFooter({ items }: { items?: NavItem[] }) {
           <p className="mt-4 max-w-sm text-sm leading-relaxed text-ink-soft">
             Automotive seat assemblies, seat frames and molded foam components.
           </p>
-          <p className="mt-2 text-sm text-ink-soft" lang="zh-Hans">
-            {site.nameZh}
-          </p>
         </div>
 
         <nav aria-label="Footer">

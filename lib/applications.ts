@@ -20,7 +20,7 @@ export const applicationExamples: ApplicationExample[] = [
     href: '/products?category=seat-assemblies',
     icon: Armchair,
     image: {
-      src: '/products/front-seat-assembly.jpg',
+      src: '/catalog/cutouts/product-row-17.webp',
       alt: 'Front seat assembly with tan perforated leather upholstery',
     },
   },
@@ -32,7 +32,7 @@ export const applicationExamples: ApplicationExample[] = [
     href: '/products?category=seat-assemblies',
     icon: Layers,
     image: {
-      src: '/products/folding-seat-assembly.jpg',
+      src: '/catalog/cutouts/product-row-7.webp',
       alt: 'Folding seat assembly with teal upholstery, armrest and seat belt',
     },
   },

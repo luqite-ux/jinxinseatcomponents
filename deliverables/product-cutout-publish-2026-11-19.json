@@ -1,0 +1,623 @@
+{
+  "tenantId": "d189a65a-480c-4800-ab12-ac21a9d724d7",
+  "count": 77,
+  "publishedAt": "2026-11-19T06:41:40.818Z",
+  "products": [
+    {
+      "row": 5,
+      "slug": "ambulance-side-seat-cushion-jca002-032",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-5-0c6f76a468b35384275c.webp",
+      "sha256": "0c6f76a468b35384275c966b68484385635ea203136bc062f85877a674146396",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-5/8c7ea8acf77de53065109d8a.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 6,
+      "slug": "ambulance-side-seat-cushion-jca002-058",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-6-2bd9506290f4ddf05da1.webp",
+      "sha256": "2bd9506290f4ddf05da11a72e4d5234975261a0694b2da7d0a741eff0cc8ac4c",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-6/09cd9ab14c1eaa4c36087d8a.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 7,
+      "slug": "ambulance-auxiliary-seat-assembly-jca001-045",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-7-dad948366aa3e12f2df7.webp",
+      "sha256": "dad948366aa3e12f2df78a9250e99876757474a392294e643dd6521efc5e2886",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-7/2b73d4203bc641716ac1cdae.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 8,
+      "slug": "golf-sightseeing-cart-seat-cushion-mod2932",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-8-56c4e895007e58148709.webp",
+      "sha256": "56c4e895007e58148709d7c627feed065aa5866d2d1aad82a6f001aeaa80f4c4",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-8/a2d5d38e4d15565c80181cc8.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 9,
+      "slug": "golf-sightseeing-cart-backrest-mod2947",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-9-2d85e91bcbf6eb8c198e.webp",
+      "sha256": "2d85e91bcbf6eb8c198ea683768d856c01f56a369c377d7cae482f00e160d282",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-9/f043b09d429fef4b7f874570.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 10,
+      "slug": "golf-sightseeing-cart-seat-cushion-trv022",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-10-97c9d3b0e398a1d94214.webp",
+      "sha256": "97c9d3b0e398a1d94214e3a32f5f75b9c3c9e08205eb77c7841a4a58697c7cdc",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-10/c9a61948decf6e6e45709c61.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 11,
+      "slug": "atv-one-piece-front-seat-cushion-assembly-atv-01",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-11-0cb7d16af8d8b7f089e9.webp",
+      "sha256": "0cb7d16af8d8b7f089e9ab029c2560e38265e8749d134b1427a4e03cd310bc08",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-11/b38d6c307ed75a98554de1c7.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 12,
+      "slug": "atv-beach-motorcycle-one-piece-rear-seat-cushion-assembly-atv-02",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-12-e08227f8ae1cd0aad8c0.webp",
+      "sha256": "e08227f8ae1cd0aad8c034903c09ff60bb65123ca3ebe471052dd37295f85bcf",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-12/fab9a93a4000d00453fd9149.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 13,
+      "slug": "upper-sleeper-assembly-7600910-c8302",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-13-301417516a843031c0bd.webp",
+      "sha256": "301417516a843031c0bd6702c9f4a0da86a049b963f75cd42522c88481d7cc66",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-13/1fe7b9872acbc37611d95e7b.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 14,
+      "slug": "lower-sleeper-assembly-left-7600020-c7304",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-14-d78ad614c3a9c429add2.webp",
+      "sha256": "d78ad614c3a9c429add2ea827aa1e4d8b86afc2e56bc5f05f53a941fa4f3199f",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-14/f220ad75603f65f6f19156a7.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 15,
+      "slug": "lower-sleeper-assembly-right-7600040-c7304",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-15-ebafb528267f256a80a8.webp",
+      "sha256": "ebafb528267f256a80a8a7061e0cc2548def92ec8b50cdad9eb92c93c41afe3d",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-15/b30d883d4f68a1980bec11ba.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 16,
+      "slug": "passenger-seat-assembly-6900010-c7302",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-16-d390920649740a5f0eac.webp",
+      "sha256": "d390920649740a5f0eac27b3087d299f332dfdd0ac49750853eb90776101b4b4",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-16/bf4c68746f74148b4389f710.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 17,
+      "slug": "ppa006-series-manual-four-way-driver-seat-assembly-ppa006",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-17-894e4d40a8615bac915d.webp",
+      "sha256": "894e4d40a8615bac915de82dc1ecf532fc6fee2d1b105027919358f268141536",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-17/b3957fb589e590132aa95bae.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 18,
+      "slug": "pt008-series-electric-six-way-driver-seat-assembly-pt008",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-18-c7f0351e06d06f0ad573.webp",
+      "sha256": "c7f0351e06d06f0ad573cbba22f97927fdc62dc959f6423b999a965972d9a20f",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-18/2c49306dce329177dccb60a4.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 19,
+      "slug": "e36-series-manual-four-way-driver-seat-assembly-e36",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-19-9bb53f77d7e8b823898d.webp",
+      "sha256": "9bb53f77d7e8b823898dc0bf5aedeb31b0a08c82200605f743653e5b00f6af7a",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-19/27da54fe4eb1541bd5b0043e.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 20,
+      "slug": "passenger-seat-assembly-6900010-c5902",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-20-b8c911c097192f6142ed.webp",
+      "sha256": "b8c911c097192f6142ed5e623e01ebbb089a71323279fc1d7c1c8ce930f84599",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-20/afdc45d696c6cd8d2342ace9.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 21,
+      "slug": "driver-seat-assembly-6800010-c5104",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-21-1ae0194baec0dbfe5934.webp",
+      "sha256": "1ae0194baec0dbfe59348a35e386729e34255566aa8accbe53ab04acb4fe8b6f",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-21/ee3c0e9690e07477c4d4b070.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 22,
+      "slug": "crv-17-series-driver-seat-assembly-crv-17",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-22-2fb024aad6034e384082.webp",
+      "sha256": "2fb024aad6034e38408239a3fac470eb45d8f941d69543935d76cfec4bfaeb77",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-22/127fbe0585a42dc0a62318bc.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 23,
+      "slug": "gaming-chair-jac-008",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-23-daf834ba6d7246046eaf.webp",
+      "sha256": "daf834ba6d7246046eaf5e180892d162bf0b8681de6254c2e3c6a77187cb49c3",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-23/cb87b9d67a6635ea851f575d.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 24,
+      "slug": "memory-foam-lumbar-support-jx-a001",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-24-514f3f7fba7e1d6c328b.webp",
+      "sha256": "514f3f7fba7e1d6c328b71e4d88e9a9fbb17949a712af5b7cf140923c2026e26",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-24/b99f8e7f9003b349756854f6.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 25,
+      "slug": "jx-a002-memory-foam-pillow-jx-a002",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-25-b1613575521ee76082c0.webp",
+      "sha256": "b1613575521ee76082c04980c79ca6c9fd069d1e8a6be2c1b4bf6629960dc515",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-25/8a1f5ddc7a574828f8dbd56a.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 26,
+      "slug": "jx-b012-memory-foam-lumbar-support-jx-b012",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-26-72d14c8e949c37354e64.webp",
+      "sha256": "72d14c8e949c37354e64d9044f6bd3722ed0da65ec1323e77a0e50892d563fdf",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-26/1a27fae6b13376620d0504b0.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 27,
+      "slug": "jx-b063-memory-foam-lumbar-support-jx-b063",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-27-c9f8bb382e0d7e23c376.webp",
+      "sha256": "c9f8bb382e0d7e23c376e2dd2b178b4d13e49e6cd9e0a7a737a9f31552b1c4c5",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-27/1aa7412d2478bd090f569b17.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 28,
+      "slug": "jx-b063-memory-foam-pillow-jx-b063",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-28-aa6adf8ca02dab673bfb.webp",
+      "sha256": "aa6adf8ca02dab673bfbd320bf0774c47f79975e2c0955651a2583d62ffec6fe",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-28/ebd77f03ca5efcf03fc2bb15.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 29,
+      "slug": "jx-b008-memory-foam-pillow-jx-b008",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-29-b1c3b5c252bc84347636.webp",
+      "sha256": "b1c3b5c252bc84347636755ef42c931ae1fcc7524a9d87eec7f5abb024efc237",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-29/bcd64ccce2df905efce46a83.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 30,
+      "slug": "jx-b008-memory-foam-lumbar-support-jx-b008",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-30-ca2838dbafe329f436b3.webp",
+      "sha256": "ca2838dbafe329f436b353aaef7477dd2edfa996d6d02ad69eee918d1658c76d",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-30/9d4853768b1a51058a81a376.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 31,
+      "slug": "jx-c005-memory-foam-lumbar-support-jx-c005",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-31-f69f1acadb5d20ad81a3.webp",
+      "sha256": "f69f1acadb5d20ad81a3e3a6db6b226e47ab60b1be054e327fd38266f5d17a8d",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-31/739a0427af9b15a6377ec0f3.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 32,
+      "slug": "jx-c006-memory-foam-pillow-jx-c006",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-32-90e404d78df6f3ddd0e8.webp",
+      "sha256": "90e404d78df6f3ddd0e877c883f8471e22b408248d7d2497850c296a1da97584",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-32/002276c035137ecd2edaef7b.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 33,
+      "slug": "b-1282-pet-mat-b-1282",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-33-a83c69dfedee77add5e7.webp",
+      "sha256": "a83c69dfedee77add5e7bf5b2ab95b5ad553716114dc4f1bcfc939ba424e06ae",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-33/9abada1163447fa773439a87.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 34,
+      "slug": "b-1174-pet-mat-b-1174",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-34-11b97e94adb49d44c46d.webp",
+      "sha256": "11b97e94adb49d44c46d3ffd2afe2ec9dd76ed2f54f63ecf13d3d75cf530c74d",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-34/4697648b553efa9be6a231f0.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 35,
+      "slug": "b-1921-pet-mat-b-1921",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-35-8489426c1e7a00486f25.webp",
+      "sha256": "8489426c1e7a00486f257f4e9cbf0fcb307d198f9a7f7fe87b61fb305e396061",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-35/c1d97d725b13fa753b2285cf.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 36,
+      "slug": "g01-241-front-row-headrest-assembly-g01-241",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-36-c997da8ddb70374df67b.webp",
+      "sha256": "c997da8ddb70374df67bc5e430aba6ff6d7df3d7e4fdd5fe92c49e7bcd3b4e77",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-36/cf08547aff3f0c5edf8d62c3.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 37,
+      "slug": "g01-246-rear-row-headrest-assembly-g01-246",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-37-8d66a3cffb3ca33115cf.webp",
+      "sha256": "8d66a3cffb3ca33115cf2e087ee8ffa8fc836007645860fd50fe77768ed04763",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-37/1f1eeb2fc83f077ab940da2b.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 38,
+      "slug": "fg-1256-front-row-headrest-assembly-fg-1256",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-38-cb9045bd15e2ee03aac8.webp",
+      "sha256": "cb9045bd15e2ee03aac8ce39035514e66207a7556a58205cbbe1593daa0fb223",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-38/cd2b367196f3f2a47253a9be.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 39,
+      "slug": "fg-1224-front-row-headrest-assembly-fg-1224",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-39-0c8bced03f7238988566.webp",
+      "sha256": "0c8bced03f72389885665596d7741d408496121ab0f32f2a80bd2e5d3a70efe7",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-39/5ae24f2e2244a6a4b541db2c.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 40,
+      "slug": "jk908-01-front-row-headrest-assembly-jk908-01",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-40-7fcd05d0d0057395255c.webp",
+      "sha256": "7fcd05d0d0057395255c9344f1634103c7146c2a3d1d7349cd9af580d8479742",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-40/2a5c70a75b52572eabcd45aa.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 41,
+      "slug": "fd45-002-rear-row-headrest-assembly-fd45-002",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-41-b1608be995ebdbd1c6d0.webp",
+      "sha256": "b1608be995ebdbd1c6d0fcb650161aa05dadddb99ec665ca4ac099f50d7f5a82",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-41/35b64235b5ce7fde7978691a.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 42,
+      "slug": "fd46-001-rear-row-center-headrest-fd46-001",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-42-f3ce040bb42bdb715cc6.webp",
+      "sha256": "f3ce040bb42bdb715cc675ce6118e3d59b91918f2c9ecf002e74c1b5e5fa17e1",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-42/c682359cb3f8c59fe8d7eb94.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 43,
+      "slug": "a10-008-front-row-headrest-assembly-a10-008",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-43-fbe7577798c04ed7598a.webp",
+      "sha256": "fbe7577798c04ed7598aeff14ac05aa921ac6c5d72c61e49e966c0706d4aa8b3",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-43/247b73b8d053e7c38c5447aa.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 44,
+      "slug": "a10-009-rear-row-headrest-assembly-a10-009",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-44-a4c3fe82b20a66476ec5.webp",
+      "sha256": "a4c3fe82b20a66476ec529ba1c0a3b524eebdc82b2ac317d85dac79c68ab3aba",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-44/75d304ba032b2a83c77d69d5.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 45,
+      "slug": "sc-a10-01-driver-seat-cushion-foam-assembly-sc-a10-01",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-45-91e244e4425d07f70c68.webp",
+      "sha256": "91e244e4425d07f70c6810a2cdb7702ec4b873f70eb78df52fd41bc7c59fab7a",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-45/79da0d7d0770ec587d5b3d9b.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 46,
+      "slug": "jf-011-driver-backrest-foam-assembly-jf-011",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-46-a774a066966227a83b1e.webp",
+      "sha256": "a774a066966227a83b1e3d6306ac1693deae2caf876d110ca15f3fcbd793d1d7",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-46/068694ed02c094932df6500e.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 47,
+      "slug": "jf-012-driver-seat-cushion-foam-assembly-jf-012",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-47-4a0f77ebab41671141c7.webp",
+      "sha256": "4a0f77ebab41671141c7c37c012d832cc52bdecabad845a3ecd9385a856b88b0",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-47/706fe2c2390a251c9d4ab520.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 48,
+      "slug": "lp-03-006-rear-row-4-split-backrest-foam-assembly-lp-03-006",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-48-3b2a06fe8e97977bac47.webp",
+      "sha256": "3b2a06fe8e97977bac47fc8097afca62e14cd6960550bcdabadff2e0d65bb812",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-48/c89e2727e0418d6461f004d0.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 49,
+      "slug": "lp-01-001-front-row-foam-assembly-lp-01-001",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-49-6b653fe0c5cbe08b3cdd.webp",
+      "sha256": "6b653fe0c5cbe08b3cdd4b9358c5aa3e4fae13b43af79da00b4f35d1dd720560",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-49/0dcb992b8db894d37af50263.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 50,
+      "slug": "lp-03-005-rear-row-4-split-seat-cushion-foam-assembly-lp-03-005",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-50-d09646e690bde9049b2d.webp",
+      "sha256": "d09646e690bde9049b2d86ed5f7c38e9015cc1be32fe71b429240ed7b6a7bf09",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-50/0b188ce3ad30a48d52092fd4.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 51,
+      "slug": "lp-01-002-driver-seat-cushion-foam-assembly-lp-01-002",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-51-2f68978c6df442498ff7.webp",
+      "sha256": "2f68978c6df442498ff7534a0ade50444f75833c9f4bdc982a7dafbce4fd9d1c",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-51/6d004a11ab3a58bdd7bb751e.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 52,
+      "slug": "lp-02-001-second-row-seat-cushion-foam-assembly-lp-02-001",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-52-f8a73ccbcd1dbadd7778.webp",
+      "sha256": "f8a73ccbcd1dbadd77783c002cf24cb34cfe0da901021913433c74dce27088aa",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-52/4bae09e17fc0808830631f15.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 53,
+      "slug": "hy-b07-front-row-seat-cushion-foam-assembly-hy-b07",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-53-48b11c3df832473d068c.webp",
+      "sha256": "48b11c3df832473d068ca581e4e6d250febeca013a1fb6dd055e1e354814066d",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-53/038bcadfa2d17e68f34b3bd5.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 54,
+      "slug": "hy-b07-front-row-backrest-foam-assembly-hy-b07",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-54-05cfb7f7a02f1cbf64dc.webp",
+      "sha256": "05cfb7f7a02f1cbf64dc814541a42a932f44f2f766d3d59d7fa1739f0b289819",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-54/7da10da4bb7089224e640ab8.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 55,
+      "slug": "gfdg-45-pu-self-skinning-armrest-assembly-gfdg-45",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-55-dbead14547e51f9efa75.webp",
+      "sha256": "dbead14547e51f9efa75198bc6e14f5f8b8ee2686940bbba36f7f83b4f7dd1c4",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-55/d923ca09320278f99bfc5d0e.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 56,
+      "slug": "wq56-01-pu-self-skinning-armrest-assembly-wq56-01",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-56-0b92ddbe6ca79a769d8d.webp",
+      "sha256": "0b92ddbe6ca79a769d8dda5d7b148db82638db66500ddcb02c071712ce156688",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-56/0361a76ff6aee416f7a6fd82.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 57,
+      "slug": "dsfu-a-01-pu-self-skinning-armrest-assembly-dsfu-a-01",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-57-9f556649ca40555fd234.webp",
+      "sha256": "9f556649ca40555fd234167c5e674c133a1166b23fa696e4252e1911cac10aad",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-57/f1c86eb44e3dd1b2e362399e.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 58,
+      "slug": "fdsg-025-pu-self-skinning-armrest-assembly-fdsg-025",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-58-9fd133788dc06f1c017e.webp",
+      "sha256": "9fd133788dc06f1c017e62ceba73e25692631e89a79bfac9c172427eb130021b",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-58/e91ab354fc29fa2381eecfde.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 59,
+      "slug": "fd-02-01-pu-self-skinning-armrest-assembly-fd-02-01",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-59-9249750f467133538587.webp",
+      "sha256": "9249750f467133538587c7698e5f9599de7b1da557e0fbafbfa5598c4b6ca50a",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-59/8024377be6816fa5cb837674.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 60,
+      "slug": "gfds-008-pu-self-skinning-armrest-assembly-gfds-008",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-60-84e71e26060a765aac4b.webp",
+      "sha256": "84e71e26060a765aac4b0dbd4b6ebc8d7fa3420ff9d0c6355bd08b4e9b4298a2",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-60/d088c0aa5982587995a3506b.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 61,
+      "slug": "fdsa-002-pu-self-skinning-armrest-assembly-fdsa-002",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-61-638ecc2b28788550b19d.webp",
+      "sha256": "638ecc2b28788550b19dd8218d877ca4e9c43bf23ea0338f2d00850aff459bc7",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-61/e472ca0c9c7fdb5c32f3cce4.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 62,
+      "slug": "ly01-b01-pu-self-skinning-wheelchair-tire-assembly-ly01-b01",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-62-b92f10ba68cbef696725.webp",
+      "sha256": "b92f10ba68cbef69672504c1684fd18e0b62f110e656304e2f7ddd6e77154ac9",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-62/3fe08cecd514d868712c2daa.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 63,
+      "slug": "pt008-series-manual-front-row-backrest-frame-assembly-pt008",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-63-c05a2215b8a591e70338.webp",
+      "sha256": "c05a2215b8a591e703388edabf06d8ab48d561361740541f513c39efff5a7605",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-63/5d9ab6c7ceca94346c57a7b1.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 64,
+      "slug": "pt008-series-electric-front-row-backrest-frame-assembly-pt008",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-64-2070df00089d37167998.webp",
+      "sha256": "2070df00089d3716799853bfa6e7d6f6bb0c5f2ba431c76bc7483ecf6f561bcd",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-64/25b94cbba0c9f7a76e401543.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 65,
+      "slug": "pt008-series-manual-front-seat-cushion-frame-assembly-pt008",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-65-56ceac65e1b017e9510f.webp",
+      "sha256": "56ceac65e1b017e9510f967982c6cdaebc7b8f65ee31a1d8e63d69d9f05294a9",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-65/5b36bad0ae688f3d47192c85.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 66,
+      "slug": "pt008-series-electric-front-seat-cushion-frame-assembly-pt008",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-66-8fd182934b0d0dabd6d0.webp",
+      "sha256": "8fd182934b0d0dabd6d0af8a334eea79a510d6ba495c337e707fae73d7f1b4b7",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-66/91644a15f1270415a5d32a14.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 67,
+      "slug": "pt008-series-rear-seat-cushion-frame-assembly-pt008",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-67-25e6aee9f8e413d12e34.webp",
+      "sha256": "25e6aee9f8e413d12e34270ff05bb9fb617e9d752f562bb71a132ea7162fb0c3",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-67/592139d416ca9ebcc0ba0666.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 68,
+      "slug": "pt008-series-rear-backrest-frame-assembly-pt008",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-68-ec413812120a51c9d5f1.webp",
+      "sha256": "ec413812120a51c9d5f1e2d40914a28a417070a7653b4f4238933d2cc5d77a65",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-68/68ff99899087a7c4ff639e02.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 69,
+      "slug": "kp01-002-headrest-rod-kp01-002",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-69-006e5ee10aac828d70c1.webp",
+      "sha256": "006e5ee10aac828d70c1b1380180e9cdd741e875348b0e048d20cdd0b71d0c6e",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-69/753f487b9163e157c365b9bb.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 70,
+      "slug": "fgd-01-ds-headrest-rod-fgd-01-ds",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-70-dae77dec975a4d464c90.webp",
+      "sha256": "dae77dec975a4d464c901742c1910477069e391ffa1afbc6272158630d1e3052",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-70/7c0037d654a4a01bd43965bd.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 71,
+      "slug": "hfg-01-a-headrest-rod-hfg-01-a",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-71-085de244bdad3fabf621.webp",
+      "sha256": "085de244bdad3fabf621dbd3fb5477911487b46c9d3f29b03fb273ea55611ec7",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-71/2f64e1426335870f4a8ed64d.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 72,
+      "slug": "jhg-02-01-headrest-rod-jhg-02-01",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-72-7198279a5b543dd61fde.webp",
+      "sha256": "7198279a5b543dd61fdec30d4f4d420427d0e5cd3df82fe7568d5fd8493aa593",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-72/80f65edbcc92756ba4c0aa5c.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 73,
+      "slug": "fes-01-02-headrest-rod-fes-01-02",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-73-ee90b6c130805c7d0d76.webp",
+      "sha256": "ee90b6c130805c7d0d767f1c73d2af9ac28b6ffebbe0018a5bae81a0695adc0d",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-73/68f7236baaeb65c0ad97991c.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 74,
+      "slug": "gs-01-04-headrest-frame-assembly-gs-01-04",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-74-320dbfc0a32c71f58d45.webp",
+      "sha256": "320dbfc0a32c71f58d45f8115131d9b81802b58fb8b1db906878b84e70314b91",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-74/68843a60ed2cf7b30cbd334b.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 75,
+      "slug": "31xx-024-headrest-frame-assembly-31xx-024",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-75-92765e869c09f490bac4.webp",
+      "sha256": "92765e869c09f490bac41f32a29490203fa72c2bdc5ca23ac26345d9c6a0e770",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-75/ec97b9fea5accaeaeca8cd11.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 76,
+      "slug": "k04-20-001-headrest-frame-assembly-k04-20-001",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-76-6332fa4b86fa71bac434.webp",
+      "sha256": "6332fa4b86fa71bac434e354feee5255702bab255d4cd4afce87062f2f2fb056",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-76/1072fb18bd8c56aa4966c226.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 77,
+      "slug": "p758-rear-center-armrest-frame-assembly-p758",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-77-9961e4403bf1352435af.webp",
+      "sha256": "9961e4403bf1352435af48c504a5b924afccdc61b8e87810e7b5382640367cb1",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-77/0355269cc9206da2818c0ebf.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 78,
+      "slug": "p702-rear-center-armrest-frame-assembly-p702",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-78-23dc0acc0cc25fc8e53e.webp",
+      "sha256": "23dc0acc0cc25fc8e53eeaa9745bd2a01c0b886a6fe7eb5cb4a1ce72bd659d38",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-78/c9b24c05c0e0555fd17294e1.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 79,
+      "slug": "a10-01-front-armrest-frame-assembly-a10-01",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-79-f7d1e435c2c9a1d73351.webp",
+      "sha256": "f7d1e435c2c9a1d733516ad7dbd32a4b763a6d29b309f43314d8f539487bfd55",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-79/e20981f4ddcbc7fc00b6336e.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 80,
+      "slug": "p235-front-armrest-frame-assembly-p235",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-80-965d62a2172660ce7adc.webp",
+      "sha256": "965d62a2172660ce7adca272d3c5c84fd6c50283d7fc7f84d33e33c31b13896a",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-80/6670dbcfd706f50315e8e244.jpg",
+      "oldGalleryCount": 1
+    },
+    {
+      "row": 81,
+      "slug": "g029-front-armrest-frame-assembly-g029",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/cutouts/product-row-81-f731b356eddfac50158f.webp",
+      "sha256": "f731b356eddfac50158f9f419ee7eb030874eb0dc8e047af6b19e368fbd4d5bd",
+      "oldImage": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/products/product-row-81/ff2543635ff30b29da24278e.jpg",
+      "oldGalleryCount": 1
+    }
+  ]
+}

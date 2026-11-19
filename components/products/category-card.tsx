@@ -15,7 +15,7 @@ export function CategoryCard({ category, index = 0 }: { category: Category; inde
           src={category.image.src}
           alt={category.image.alt}
           sizes="(min-width: 1024px) 30vw, (min-width: 640px) 45vw, 92vw"
-          className="aspect-[4/3]"
+          className="aspect-square"
         />
         <div className="flex flex-1 flex-col gap-2 border-t border-line p-5">
           <p className="font-mono text-[11px] uppercase tracking-[0.14em] text-ink-soft">{category.tagline}</p>
