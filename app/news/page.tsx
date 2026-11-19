@@ -6,40 +6,52 @@ import { PageHeader } from '@/components/site/page-header'
 import { Reveal } from '@/components/site/reveal'
 import { getPublishedArticles } from '@/lib/articles-db'
 import { buttonPrimary, buttonSecondary } from '@/lib/site'
+import { siteCopy } from '@/lib/site-content/copy'
+import { getEditablePage } from '@/lib/site-content/page-data'
+import { siteContentMetadata } from '@/lib/site-content/site-content'
 
-export const metadata: Metadata = {
+const fallbackMetadata: Metadata = {
   title: 'News',
   description: 'News from Zhoushan Jinxin Auto Parts Co., Ltd.',
   alternates: { canonical: '/news' },
+}
+
+export async function generateMetadata(): Promise<Metadata> {
+  return { ...fallbackMetadata, ...(await siteContentMetadata('/news', 'en')) }
 }
 
 export const revalidate = 60
 
 export default async function NewsPage() {
   const articles = await getPublishedArticles()
+  const page = await getEditablePage('/news')
+  const intro = page.module('intro')
+  const copy = page.module('copy')?.values
 
   return (
     <>
       <PageHeader
-        eyebrow="News"
-        title="News"
-        description="Company updates and product announcements."
+        eyebrow={siteCopy(intro?.values, 'eyebrow', 'News')}
+        title={siteCopy(intro?.values, 'title', 'News')}
+        description={siteCopy(intro?.values, 'description', 'Company updates and product announcements.')}
+        styles={intro?.styles}
+        contentVersion={intro ? page.version : undefined}
         crumbs={[{ label: 'News' }]}
       />
       <section aria-label="Articles" className="mx-auto max-w-[88rem] px-5 py-12 md:px-10 md:py-20">
         {articles.length === 0 ? (
           <Reveal className="mx-auto flex max-w-xl flex-col items-center border border-dashed border-line bg-white px-6 py-16 text-center">
             <Newspaper aria-hidden className="size-10 text-ink-soft" />
-            <h2 className="mt-5 text-xl font-semibold tracking-tight">No articles published yet</h2>
+            <h2 className="mt-5 text-xl font-semibold tracking-tight">{siteCopy(copy, 'empty_title', 'No articles published yet')}</h2>
             <p className="mt-2 text-sm leading-relaxed text-ink-soft">
-              News will appear here when we publish it. In the meantime, browse our products or get in touch.
+              {siteCopy(copy, 'empty_description', 'News will appear here when we publish it. In the meantime, browse our products or get in touch.')}
             </p>
             <div className="mt-6 flex flex-col gap-3 sm:flex-row">
               <Link href="/products" className={buttonPrimary}>
-                Browse products
+                {siteCopy(copy, 'products_cta', 'Browse products')}
               </Link>
               <Link href="/contact" className={buttonSecondary}>
-                Contact us
+                {siteCopy(copy, 'contact_cta', 'Contact us')}
               </Link>
             </div>
           </Reveal>

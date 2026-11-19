@@ -7,6 +7,8 @@ import { SiteFooter } from '@/components/site/site-footer'
 import { RevealObserver } from '@/components/site/reveal-observer'
 import { site } from '@/lib/site'
 import { PREVIEW_COOKIE } from '@/lib/site-content/preview-protection'
+import { getSiteContent } from '@/lib/site-content/site-content'
+import { navItems as defaultNavItems, type NavItem } from '@/lib/site'
 import './globals.css'
 
 const geistSans = Geist({ subsets: ['latin'], variable: '--font-geist-sans' })
@@ -40,6 +42,16 @@ export const viewport: Viewport = {
 
 export default async function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   const isPreview = (await cookies()).has(PREVIEW_COOKIE)
+  const snapshot = await getSiteContent('en')
+  const navigation = snapshot?.pages.find((page) => page.path === '/')?.modules.find((module) => module.type === 'navigation')
+  const rows = navigation?.values.links
+  const navItems: NavItem[] | undefined = Array.isArray(rows) ? rows.map((row) => {
+    if (!row || typeof row !== 'object') throw new Error('Invalid published navigation row')
+    const item = row as Record<string, unknown>
+    if (typeof item.id !== 'string' || typeof item.label !== 'string' || typeof item.href !== 'string') throw new Error('Invalid published navigation link')
+    const baseline = defaultNavItems.find((entry) => entry.href === item.href)
+    return { id: item.id, label: item.label, href: item.href, ...(baseline?.children ? { children: baseline.children } : {}) }
+  }) : undefined
   return (
     <html lang="en" suppressHydrationWarning className={`${geistSans.variable} ${geistMono.variable}`}>
       <body className="bg-paper font-sans text-ink antialiased">
@@ -59,9 +71,9 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
             </form>
           </div>
         )}
-        <SiteHeader />
+        <SiteHeader items={navItems} styles={navigation?.styles} />
         <main id="main">{children}</main>
-        <SiteFooter />
+        <SiteFooter items={navItems} />
         <RevealObserver />
         <noscript>
           <style>{`[data-reveal]{opacity:1!important;transform:none!important}`}</style>

@@ -3,9 +3,10 @@ import Link from 'next/link'
 import { Mail, MapPin, Phone } from 'lucide-react'
 import { CurrentYear } from '@/components/site/current-year'
 import { getCategories } from '@/lib/products'
-import { navItems, site } from '@/lib/site'
+import { navItems as defaultNavItems, site, type NavItem } from '@/lib/site'
 
-export function SiteFooter() {
+export function SiteFooter({ items }: { items?: NavItem[] }) {
+  const navItems = items ?? defaultNavItems
   const categories = getCategories().filter((category) => !category.parentSlug)
 
   return (

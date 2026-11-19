@@ -6,15 +6,18 @@ import { usePathname } from 'next/navigation'
 import { useState } from 'react'
 import { ChevronDown, Menu } from 'lucide-react'
 import { Sheet, SheetClose, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet'
-import { navItems, site } from '@/lib/site'
+import { navItems as defaultNavItems, site, type NavItem } from '@/lib/site'
 import { cn } from '@/lib/utils'
+import { siteTypographyStyle } from '@/lib/site-content/typography'
 
 function isActive(pathname: string, href: string) {
   const path = href.split('?')[0]
   return path === '/' ? pathname === '/' : pathname === path || pathname.startsWith(`${path}/`)
 }
 
-export function SiteHeader() {
+export function SiteHeader({ items, styles }: { items?: NavItem[]; styles?: Record<string, Record<string, unknown>> }) {
+  const navItems = items ?? defaultNavItems
+  const linkStyle = (item: NavItem) => item.id ? siteTypographyStyle(styles, `links.${item.id}.label`, { 'site-sans': 'var(--font-geist-sans)' }) : undefined
   const pathname = usePathname()
   const [open, setOpen] = useState(false)
 
@@ -38,9 +41,10 @@ export function SiteHeader() {
                   <li key={item.href} className="group relative">
                     <Link
                       href={item.href}
+                      style={linkStyle(item)}
                       aria-current={active ? 'page' : undefined}
                       className={cn(
-                        'relative flex items-center gap-1 px-3 py-2 text-sm font-medium transition-colors hover:text-jx-deep',
+                        'hq-typography relative flex items-center gap-1 px-3 py-2 text-sm font-medium transition-colors hover:text-jx-deep',
                         active && 'text-jx-deep',
                       )}
                     >
@@ -79,9 +83,10 @@ export function SiteHeader() {
                 <li key={item.href} className="relative">
                   <Link
                     href={item.href}
+                    style={linkStyle(item)}
                     aria-current={active ? 'page' : undefined}
                     className={cn(
-                      'group/link relative block px-3 py-2 text-sm font-medium transition-colors hover:text-jx-deep',
+                      'hq-typography group/link relative block px-3 py-2 text-sm font-medium transition-colors hover:text-jx-deep',
                       active && 'text-jx-deep',
                     )}
                   >
@@ -129,9 +134,10 @@ export function SiteHeader() {
                       <SheetClose asChild>
                         <Link
                           href={item.href}
+                          style={linkStyle(item)}
                           aria-current={isActive(pathname, item.href) ? 'page' : undefined}
                           className={cn(
-                            'flex min-h-12 items-center rounded-sm px-3 text-base font-semibold transition-colors hover:bg-mist',
+                            'hq-typography flex min-h-12 items-center rounded-sm px-3 text-base font-medium transition-colors hover:bg-mist',
                             isActive(pathname, item.href) && 'text-jx-deep',
                           )}
                         >

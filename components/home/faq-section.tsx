@@ -2,8 +2,9 @@ import { Plus } from 'lucide-react'
 import { getProcurementFaq } from '@/lib/faq-db'
 import { Reveal } from '@/components/site/reveal'
 import { SectionHeading } from '@/components/site/section-heading'
+import { siteCopy, type EditableSectionProps } from '@/lib/site-content/copy'
 
-export async function FaqSection() {
+export async function FaqSection({ content, styles }: EditableSectionProps = {}) {
   const items = await getProcurementFaq()
   if (!items.length) return null
   const jsonLd = {
@@ -14,7 +15,7 @@ export async function FaqSection() {
     <section id="faq" aria-labelledby="faq-heading" className="border-t border-line bg-paper">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, '\\u003c') }} />
       <div className="mx-auto max-w-[88rem] px-5 py-16 md:px-10 md:py-24">
-        <SectionHeading id="faq-heading" eyebrow="Ordering" title="Questions before you order" description="Practical details from the company's supplied FAQ." />
+        <SectionHeading id="faq-heading" eyebrow={siteCopy(content, 'eyebrow', 'Ordering')} title={siteCopy(content, 'title', 'Questions before you order')} description={siteCopy(content, 'description', "Practical details from the company's supplied FAQ.")} styles={styles} />
         <div className="mt-10 grid items-start gap-3 md:grid-cols-2 md:gap-4">
           {items.map((item, index) => (
             <Reveal key={item.id} index={index % 4}>

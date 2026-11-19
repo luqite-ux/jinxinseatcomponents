@@ -1,0 +1,2179 @@
+{
+  "version": 1,
+  "fontFamilies": [
+    {
+      "key": "site-sans",
+      "label": "Geist Sans"
+    },
+    {
+      "key": "site-mono",
+      "label": "Geist Mono"
+    }
+  ],
+  "pages": [
+    {
+      "key": "home",
+      "path": "/",
+      "label": "Homepage",
+      "modules": [
+        {
+          "key": "hero",
+          "type": "hero",
+          "label": "Hero carousel",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "slides",
+              "type": "repeat",
+              "label": "Three customer supplied slides",
+              "maxItems": 3,
+              "required": true,
+              "fields": [
+                {
+                  "key": "label",
+                  "type": "text",
+                  "label": "Slide label",
+                  "localized": true,
+                  "required": true,
+                  "maxLength": 50
+                },
+                {
+                  "key": "eyebrow",
+                  "type": "text",
+                  "label": "Eyebrow",
+                  "localized": true,
+                  "required": true,
+                  "maxLength": 160,
+                  "typography": {
+                    "fontFamilies": [
+                      "site-mono"
+                    ],
+                    "fontWeights": [
+                      400,
+                      500
+                    ],
+                    "fontSize": {
+                      "min": 10,
+                      "max": 80
+                    },
+                    "defaults": {
+                      "fontFamily": "site-mono",
+                      "fontWeight": 400,
+                      "fontSizeDesktop": 12,
+                      "fontSizeMobile": 12
+                    }
+                  }
+                },
+                {
+                  "key": "title",
+                  "type": "text",
+                  "label": "Headline",
+                  "localized": true,
+                  "required": true,
+                  "maxLength": 160,
+                  "typography": {
+                    "fontFamilies": [
+                      "site-sans"
+                    ],
+                    "fontWeights": [
+                      600,
+                      400
+                    ],
+                    "fontSize": {
+                      "min": 10,
+                      "max": 80
+                    },
+                    "defaults": {
+                      "fontFamily": "site-sans",
+                      "fontWeight": 600,
+                      "fontSizeDesktop": 54,
+                      "fontSizeMobile": 32
+                    }
+                  }
+                },
+                {
+                  "key": "body",
+                  "type": "textarea",
+                  "label": "Body copy",
+                  "localized": true,
+                  "required": true,
+                  "maxLength": 500,
+                  "typography": {
+                    "fontFamilies": [
+                      "site-sans"
+                    ],
+                    "fontWeights": [
+                      400,
+                      500
+                    ],
+                    "fontSize": {
+                      "min": 10,
+                      "max": 80
+                    },
+                    "defaults": {
+                      "fontFamily": "site-sans",
+                      "fontWeight": 400,
+                      "fontSizeDesktop": 18,
+                      "fontSizeMobile": 16
+                    }
+                  }
+                },
+                {
+                  "key": "desktop_image",
+                  "type": "image",
+                  "label": "Desktop customer image",
+                  "required": true
+                },
+                {
+                  "key": "mobile_image",
+                  "type": "image",
+                  "label": "Mobile customer image",
+                  "required": true
+                },
+                {
+                  "key": "cta_label",
+                  "type": "text",
+                  "label": "Button label",
+                  "localized": true,
+                  "required": true,
+                  "maxLength": 50
+                },
+                {
+                  "key": "cta_href",
+                  "type": "link",
+                  "label": "Button link",
+                  "required": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "product_families",
+          "type": "product_families",
+          "label": "Product families section",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "eyebrow",
+              "type": "text",
+              "label": "Eyebrow",
+              "localized": true,
+              "required": true,
+              "maxLength": 160,
+              "typography": {
+                "fontFamilies": [
+                  "site-mono"
+                ],
+                "fontWeights": [
+                  400,
+                  500
+                ],
+                "fontSize": {
+                  "min": 10,
+                  "max": 80
+                },
+                "defaults": {
+                  "fontFamily": "site-mono",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 12,
+                  "fontSizeMobile": 12
+                }
+              }
+            },
+            {
+              "key": "title",
+              "type": "text",
+              "label": "Section heading",
+              "localized": true,
+              "required": true,
+              "maxLength": 160,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  600,
+                  400
+                ],
+                "fontSize": {
+                  "min": 10,
+                  "max": 80
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 600,
+                  "fontSizeDesktop": 36,
+                  "fontSizeMobile": 30
+                }
+              }
+            },
+            {
+              "key": "description",
+              "type": "textarea",
+              "label": "Section introduction",
+              "localized": true,
+              "required": true,
+              "maxLength": 500,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  400,
+                  500
+                ],
+                "fontSize": {
+                  "min": 10,
+                  "max": 80
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 18,
+                  "fontSizeMobile": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "key": "featured_products",
+          "type": "featured_products",
+          "label": "Featured products section",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "eyebrow",
+              "type": "text",
+              "label": "Eyebrow",
+              "localized": true,
+              "required": true,
+              "maxLength": 160,
+              "typography": {
+                "fontFamilies": [
+                  "site-mono"
+                ],
+                "fontWeights": [
+                  400,
+                  500
+                ],
+                "fontSize": {
+                  "min": 10,
+                  "max": 80
+                },
+                "defaults": {
+                  "fontFamily": "site-mono",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 12,
+                  "fontSizeMobile": 12
+                }
+              }
+            },
+            {
+              "key": "title",
+              "type": "text",
+              "label": "Section heading",
+              "localized": true,
+              "required": true,
+              "maxLength": 160,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  600,
+                  400
+                ],
+                "fontSize": {
+                  "min": 10,
+                  "max": 80
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 600,
+                  "fontSizeDesktop": 36,
+                  "fontSizeMobile": 30
+                }
+              }
+            },
+            {
+              "key": "description",
+              "type": "textarea",
+              "label": "Section introduction",
+              "localized": true,
+              "required": true,
+              "maxLength": 500,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  400,
+                  500
+                ],
+                "fontSize": {
+                  "min": 10,
+                  "max": 80
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 18,
+                  "fontSizeMobile": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "key": "applications",
+          "type": "applications",
+          "label": "Applications section",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "eyebrow",
+              "type": "text",
+              "label": "Eyebrow",
+              "localized": true,
+              "required": true,
+              "maxLength": 160,
+              "typography": {
+                "fontFamilies": [
+                  "site-mono"
+                ],
+                "fontWeights": [
+                  400,
+                  500
+                ],
+                "fontSize": {
+                  "min": 10,
+                  "max": 80
+                },
+                "defaults": {
+                  "fontFamily": "site-mono",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 12,
+                  "fontSizeMobile": 12
+                }
+              }
+            },
+            {
+              "key": "title",
+              "type": "text",
+              "label": "Section heading",
+              "localized": true,
+              "required": true,
+              "maxLength": 160,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  600,
+                  400
+                ],
+                "fontSize": {
+                  "min": 10,
+                  "max": 80
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 600,
+                  "fontSizeDesktop": 36,
+                  "fontSizeMobile": 30
+                }
+              }
+            },
+            {
+              "key": "description",
+              "type": "textarea",
+              "label": "Section introduction",
+              "localized": true,
+              "required": true,
+              "maxLength": 500,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  400,
+                  500
+                ],
+                "fontSize": {
+                  "min": 10,
+                  "max": 80
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 18,
+                  "fontSizeMobile": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "key": "manufacturing",
+          "type": "manufacturing",
+          "label": "Manufacturing section",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "eyebrow",
+              "type": "text",
+              "label": "Eyebrow",
+              "localized": true,
+              "required": true,
+              "maxLength": 160,
+              "typography": {
+                "fontFamilies": [
+                  "site-mono"
+                ],
+                "fontWeights": [
+                  400,
+                  500
+                ],
+                "fontSize": {
+                  "min": 10,
+                  "max": 80
+                },
+                "defaults": {
+                  "fontFamily": "site-mono",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 12,
+                  "fontSizeMobile": 12
+                }
+              }
+            },
+            {
+              "key": "title",
+              "type": "text",
+              "label": "Section heading",
+              "localized": true,
+              "required": true,
+              "maxLength": 160,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  600,
+                  400
+                ],
+                "fontSize": {
+                  "min": 10,
+                  "max": 80
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 600,
+                  "fontSizeDesktop": 36,
+                  "fontSizeMobile": 30
+                }
+              }
+            },
+            {
+              "key": "description",
+              "type": "textarea",
+              "label": "Section introduction",
+              "localized": true,
+              "required": true,
+              "maxLength": 500,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  400,
+                  500
+                ],
+                "fontSize": {
+                  "min": 10,
+                  "max": 80
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 18,
+                  "fontSizeMobile": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "key": "quality",
+          "type": "quality",
+          "label": "Quality section",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "eyebrow",
+              "type": "text",
+              "label": "Eyebrow",
+              "localized": true,
+              "required": true,
+              "maxLength": 160,
+              "typography": {
+                "fontFamilies": [
+                  "site-mono"
+                ],
+                "fontWeights": [
+                  400,
+                  500
+                ],
+                "fontSize": {
+                  "min": 10,
+                  "max": 80
+                },
+                "defaults": {
+                  "fontFamily": "site-mono",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 12,
+                  "fontSizeMobile": 12
+                }
+              }
+            },
+            {
+              "key": "title",
+              "type": "text",
+              "label": "Section heading",
+              "localized": true,
+              "required": true,
+              "maxLength": 160,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  600,
+                  400
+                ],
+                "fontSize": {
+                  "min": 10,
+                  "max": 80
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 600,
+                  "fontSizeDesktop": 36,
+                  "fontSizeMobile": 30
+                }
+              }
+            },
+            {
+              "key": "description",
+              "type": "textarea",
+              "label": "Section introduction",
+              "localized": true,
+              "required": true,
+              "maxLength": 500,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  400,
+                  500
+                ],
+                "fontSize": {
+                  "min": 10,
+                  "max": 80
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 18,
+                  "fontSizeMobile": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "key": "facility",
+          "type": "facility",
+          "label": "Facility section",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "eyebrow",
+              "type": "text",
+              "label": "Eyebrow",
+              "localized": true,
+              "required": true,
+              "maxLength": 160,
+              "typography": {
+                "fontFamilies": [
+                  "site-mono"
+                ],
+                "fontWeights": [
+                  400,
+                  500
+                ],
+                "fontSize": {
+                  "min": 10,
+                  "max": 80
+                },
+                "defaults": {
+                  "fontFamily": "site-mono",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 12,
+                  "fontSizeMobile": 12
+                }
+              }
+            },
+            {
+              "key": "title",
+              "type": "text",
+              "label": "Section heading",
+              "localized": true,
+              "required": true,
+              "maxLength": 160,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  600,
+                  400
+                ],
+                "fontSize": {
+                  "min": 10,
+                  "max": 80
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 600,
+                  "fontSizeDesktop": 36,
+                  "fontSizeMobile": 30
+                }
+              }
+            },
+            {
+              "key": "description",
+              "type": "textarea",
+              "label": "Section introduction",
+              "localized": true,
+              "required": true,
+              "maxLength": 500,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  400,
+                  500
+                ],
+                "fontSize": {
+                  "min": 10,
+                  "max": 80
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 18,
+                  "fontSizeMobile": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "key": "cooperation",
+          "type": "cooperation",
+          "label": "Cooperation section",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "eyebrow",
+              "type": "text",
+              "label": "Eyebrow",
+              "localized": true,
+              "required": true,
+              "maxLength": 160,
+              "typography": {
+                "fontFamilies": [
+                  "site-mono"
+                ],
+                "fontWeights": [
+                  400,
+                  500
+                ],
+                "fontSize": {
+                  "min": 10,
+                  "max": 80
+                },
+                "defaults": {
+                  "fontFamily": "site-mono",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 12,
+                  "fontSizeMobile": 12
+                }
+              }
+            },
+            {
+              "key": "title",
+              "type": "text",
+              "label": "Section heading",
+              "localized": true,
+              "required": true,
+              "maxLength": 160,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  600,
+                  400
+                ],
+                "fontSize": {
+                  "min": 10,
+                  "max": 80
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 600,
+                  "fontSizeDesktop": 36,
+                  "fontSizeMobile": 30
+                }
+              }
+            },
+            {
+              "key": "description",
+              "type": "textarea",
+              "label": "Section introduction",
+              "localized": true,
+              "required": true,
+              "maxLength": 500,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  400,
+                  500
+                ],
+                "fontSize": {
+                  "min": 10,
+                  "max": 80
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 18,
+                  "fontSizeMobile": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "key": "faq",
+          "type": "faq",
+          "label": "Ordering section",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "eyebrow",
+              "type": "text",
+              "label": "Eyebrow",
+              "localized": true,
+              "required": true,
+              "maxLength": 160,
+              "typography": {
+                "fontFamilies": [
+                  "site-mono"
+                ],
+                "fontWeights": [
+                  400,
+                  500
+                ],
+                "fontSize": {
+                  "min": 10,
+                  "max": 80
+                },
+                "defaults": {
+                  "fontFamily": "site-mono",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 12,
+                  "fontSizeMobile": 12
+                }
+              }
+            },
+            {
+              "key": "title",
+              "type": "text",
+              "label": "Section heading",
+              "localized": true,
+              "required": true,
+              "maxLength": 160,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  600,
+                  400
+                ],
+                "fontSize": {
+                  "min": 10,
+                  "max": 80
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 600,
+                  "fontSizeDesktop": 36,
+                  "fontSizeMobile": 30
+                }
+              }
+            },
+            {
+              "key": "description",
+              "type": "textarea",
+              "label": "Section introduction",
+              "localized": true,
+              "required": true,
+              "maxLength": 500,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  400,
+                  500
+                ],
+                "fontSize": {
+                  "min": 10,
+                  "max": 80
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 18,
+                  "fontSizeMobile": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "key": "contact",
+          "type": "contact",
+          "label": "Contact section",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "eyebrow",
+              "type": "text",
+              "label": "Eyebrow",
+              "localized": true,
+              "required": true,
+              "maxLength": 160,
+              "typography": {
+                "fontFamilies": [
+                  "site-mono"
+                ],
+                "fontWeights": [
+                  400,
+                  500
+                ],
+                "fontSize": {
+                  "min": 10,
+                  "max": 80
+                },
+                "defaults": {
+                  "fontFamily": "site-mono",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 12,
+                  "fontSizeMobile": 12
+                }
+              }
+            },
+            {
+              "key": "title",
+              "type": "text",
+              "label": "Section heading",
+              "localized": true,
+              "required": true,
+              "maxLength": 160,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  600,
+                  400
+                ],
+                "fontSize": {
+                  "min": 10,
+                  "max": 80
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 600,
+                  "fontSizeDesktop": 36,
+                  "fontSizeMobile": 30
+                }
+              }
+            },
+            {
+              "key": "description",
+              "type": "textarea",
+              "label": "Section introduction",
+              "localized": true,
+              "required": true,
+              "maxLength": 500,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  400,
+                  500
+                ],
+                "fontSize": {
+                  "min": 10,
+                  "max": 80
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 18,
+                  "fontSizeMobile": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "key": "navigation",
+          "type": "navigation",
+          "label": "Main navigation",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "links",
+              "type": "repeat",
+              "label": "Main links",
+              "maxItems": 10,
+              "required": true,
+              "fields": [
+                {
+                  "key": "label",
+                  "type": "text",
+                  "label": "Link label",
+                  "localized": true,
+                  "required": true,
+                  "maxLength": 160,
+                  "typography": {
+                    "fontFamilies": [
+                      "site-sans"
+                    ],
+                    "fontWeights": [
+                      500,
+                      400
+                    ],
+                    "fontSize": {
+                      "min": 10,
+                      "max": 80
+                    },
+                    "defaults": {
+                      "fontFamily": "site-sans",
+                      "fontWeight": 500,
+                      "fontSizeDesktop": 14,
+                      "fontSizeMobile": 16
+                    }
+                  }
+                },
+                {
+                  "key": "href",
+                  "type": "link",
+                  "label": "Link destination",
+                  "required": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "seo",
+          "type": "seo",
+          "label": "Homepage search result",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "title",
+              "type": "text",
+              "label": "Page title",
+              "localized": true,
+              "required": true,
+              "maxLength": 160
+            },
+            {
+              "key": "description",
+              "type": "textarea",
+              "label": "Page description",
+              "localized": true,
+              "required": true,
+              "maxLength": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "about",
+      "path": "/about",
+      "label": "About page",
+      "modules": [
+        {
+          "key": "intro",
+          "type": "intro",
+          "label": "Page introduction",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "eyebrow",
+              "type": "text",
+              "label": "Eyebrow",
+              "localized": true,
+              "required": true,
+              "maxLength": 160,
+              "typography": {
+                "fontFamilies": [
+                  "site-mono"
+                ],
+                "fontWeights": [
+                  400,
+                  500
+                ],
+                "fontSize": {
+                  "min": 10,
+                  "max": 80
+                },
+                "defaults": {
+                  "fontFamily": "site-mono",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 12,
+                  "fontSizeMobile": 12
+                }
+              }
+            },
+            {
+              "key": "title",
+              "type": "text",
+              "label": "Page heading",
+              "localized": true,
+              "required": true,
+              "maxLength": 160,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  600,
+                  400
+                ],
+                "fontSize": {
+                  "min": 10,
+                  "max": 80
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 600,
+                  "fontSizeDesktop": 60,
+                  "fontSizeMobile": 36
+                }
+              }
+            },
+            {
+              "key": "description",
+              "type": "textarea",
+              "label": "Page introduction",
+              "localized": true,
+              "required": true,
+              "maxLength": 500,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  400,
+                  500
+                ],
+                "fontSize": {
+                  "min": 10,
+                  "max": 80
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 18,
+                  "fontSizeMobile": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "key": "copy",
+          "type": "copy",
+          "label": "About page content",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "who_eyebrow",
+              "type": "text",
+              "label": "who eyebrow",
+              "localized": true,
+              "required": true,
+              "maxLength": 700
+            },
+            {
+              "key": "who_title",
+              "type": "text",
+              "label": "who title",
+              "localized": true,
+              "required": true,
+              "maxLength": 700
+            },
+            {
+              "key": "who_paragraph_1",
+              "type": "textarea",
+              "label": "who paragraph 1",
+              "localized": true,
+              "required": true,
+              "maxLength": 700
+            },
+            {
+              "key": "who_paragraph_2",
+              "type": "textarea",
+              "label": "who paragraph 2",
+              "localized": true,
+              "required": true,
+              "maxLength": 700
+            },
+            {
+              "key": "customers_eyebrow",
+              "type": "text",
+              "label": "customers eyebrow",
+              "localized": true,
+              "required": true,
+              "maxLength": 700
+            },
+            {
+              "key": "customers_title",
+              "type": "text",
+              "label": "customers title",
+              "localized": true,
+              "required": true,
+              "maxLength": 700
+            },
+            {
+              "key": "customers_description",
+              "type": "textarea",
+              "label": "customers description",
+              "localized": true,
+              "required": true,
+              "maxLength": 700
+            },
+            {
+              "key": "facility_eyebrow",
+              "type": "text",
+              "label": "facility eyebrow",
+              "localized": true,
+              "required": true,
+              "maxLength": 700
+            },
+            {
+              "key": "facility_title",
+              "type": "text",
+              "label": "facility title",
+              "localized": true,
+              "required": true,
+              "maxLength": 700
+            },
+            {
+              "key": "facility_description",
+              "type": "textarea",
+              "label": "facility description",
+              "localized": true,
+              "required": true,
+              "maxLength": 700
+            },
+            {
+              "key": "cta_title",
+              "type": "text",
+              "label": "cta title",
+              "localized": true,
+              "required": true,
+              "maxLength": 700
+            },
+            {
+              "key": "cta_text",
+              "type": "textarea",
+              "label": "cta text",
+              "localized": true,
+              "required": true,
+              "maxLength": 700
+            }
+          ]
+        },
+        {
+          "key": "seo",
+          "type": "seo",
+          "label": "Search result",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "title",
+              "type": "text",
+              "label": "Page title",
+              "localized": true,
+              "required": true,
+              "maxLength": 160
+            },
+            {
+              "key": "description",
+              "type": "textarea",
+              "label": "Page description",
+              "localized": true,
+              "required": true,
+              "maxLength": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "applications_page",
+      "path": "/applications",
+      "label": "Applications page",
+      "modules": [
+        {
+          "key": "intro",
+          "type": "intro",
+          "label": "Page introduction",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "eyebrow",
+              "type": "text",
+              "label": "Eyebrow",
+              "localized": true,
+              "required": true,
+              "maxLength": 160,
+              "typography": {
+                "fontFamilies": [
+                  "site-mono"
+                ],
+                "fontWeights": [
+                  400,
+                  500
+                ],
+                "fontSize": {
+                  "min": 10,
+                  "max": 80
+                },
+                "defaults": {
+                  "fontFamily": "site-mono",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 12,
+                  "fontSizeMobile": 12
+                }
+              }
+            },
+            {
+              "key": "title",
+              "type": "text",
+              "label": "Page heading",
+              "localized": true,
+              "required": true,
+              "maxLength": 160,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  600,
+                  400
+                ],
+                "fontSize": {
+                  "min": 10,
+                  "max": 80
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 600,
+                  "fontSizeDesktop": 60,
+                  "fontSizeMobile": 36
+                }
+              }
+            },
+            {
+              "key": "description",
+              "type": "textarea",
+              "label": "Page introduction",
+              "localized": true,
+              "required": true,
+              "maxLength": 500,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  400,
+                  500
+                ],
+                "fontSize": {
+                  "min": 10,
+                  "max": 80
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 18,
+                  "fontSizeMobile": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "key": "copy",
+          "type": "copy",
+          "label": "Application examples and CTA",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "examples",
+              "type": "repeat",
+              "label": "Application examples",
+              "required": true,
+              "maxItems": 2,
+              "fields": [
+                {
+                  "key": "title",
+                  "type": "text",
+                  "label": "Example title",
+                  "localized": true,
+                  "required": true,
+                  "maxLength": 130
+                },
+                {
+                  "key": "summary",
+                  "type": "textarea",
+                  "label": "Example summary",
+                  "localized": true,
+                  "required": true,
+                  "maxLength": 400
+                },
+                {
+                  "key": "cta",
+                  "type": "text",
+                  "label": "Button label",
+                  "localized": true,
+                  "required": true,
+                  "maxLength": 80
+                },
+                {
+                  "key": "href",
+                  "type": "link",
+                  "label": "Button destination",
+                  "required": true
+                }
+              ]
+            },
+            {
+              "key": "cta_title",
+              "type": "text",
+              "label": "CTA title",
+              "localized": true,
+              "required": true,
+              "maxLength": 140
+            },
+            {
+              "key": "cta_text",
+              "type": "textarea",
+              "label": "CTA text",
+              "localized": true,
+              "required": true,
+              "maxLength": 350
+            }
+          ]
+        },
+        {
+          "key": "seo",
+          "type": "seo",
+          "label": "Search result",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "title",
+              "type": "text",
+              "label": "Page title",
+              "localized": true,
+              "required": true,
+              "maxLength": 160
+            },
+            {
+              "key": "description",
+              "type": "textarea",
+              "label": "Page description",
+              "localized": true,
+              "required": true,
+              "maxLength": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "manufacturing_page",
+      "path": "/manufacturing",
+      "label": "Manufacturing page",
+      "modules": [
+        {
+          "key": "intro",
+          "type": "intro",
+          "label": "Page introduction",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "eyebrow",
+              "type": "text",
+              "label": "Eyebrow",
+              "localized": true,
+              "required": true,
+              "maxLength": 160,
+              "typography": {
+                "fontFamilies": [
+                  "site-mono"
+                ],
+                "fontWeights": [
+                  400,
+                  500
+                ],
+                "fontSize": {
+                  "min": 10,
+                  "max": 80
+                },
+                "defaults": {
+                  "fontFamily": "site-mono",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 12,
+                  "fontSizeMobile": 12
+                }
+              }
+            },
+            {
+              "key": "title",
+              "type": "text",
+              "label": "Page heading",
+              "localized": true,
+              "required": true,
+              "maxLength": 160,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  600,
+                  400
+                ],
+                "fontSize": {
+                  "min": 10,
+                  "max": 80
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 600,
+                  "fontSizeDesktop": 60,
+                  "fontSizeMobile": 36
+                }
+              }
+            },
+            {
+              "key": "description",
+              "type": "textarea",
+              "label": "Page introduction",
+              "localized": true,
+              "required": true,
+              "maxLength": 500,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  400,
+                  500
+                ],
+                "fontSize": {
+                  "min": 10,
+                  "max": 80
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 18,
+                  "fontSizeMobile": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "key": "copy",
+          "type": "copy",
+          "label": "Manufacturing content",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "scope_eyebrow",
+              "type": "text",
+              "label": "scope eyebrow",
+              "localized": true,
+              "required": true,
+              "maxLength": 500
+            },
+            {
+              "key": "scope_title",
+              "type": "text",
+              "label": "scope title",
+              "localized": true,
+              "required": true,
+              "maxLength": 500
+            },
+            {
+              "key": "floor_eyebrow",
+              "type": "text",
+              "label": "floor eyebrow",
+              "localized": true,
+              "required": true,
+              "maxLength": 500
+            },
+            {
+              "key": "floor_title",
+              "type": "text",
+              "label": "floor title",
+              "localized": true,
+              "required": true,
+              "maxLength": 500
+            },
+            {
+              "key": "floor_description",
+              "type": "textarea",
+              "label": "floor description",
+              "localized": true,
+              "required": true,
+              "maxLength": 500
+            },
+            {
+              "key": "quality_eyebrow",
+              "type": "text",
+              "label": "quality eyebrow",
+              "localized": true,
+              "required": true,
+              "maxLength": 500
+            },
+            {
+              "key": "quality_title",
+              "type": "text",
+              "label": "quality title",
+              "localized": true,
+              "required": true,
+              "maxLength": 500
+            },
+            {
+              "key": "quality_description",
+              "type": "textarea",
+              "label": "quality description",
+              "localized": true,
+              "required": true,
+              "maxLength": 500
+            },
+            {
+              "key": "cta_title",
+              "type": "text",
+              "label": "cta title",
+              "localized": true,
+              "required": true,
+              "maxLength": 500
+            },
+            {
+              "key": "cta_text",
+              "type": "textarea",
+              "label": "cta text",
+              "localized": true,
+              "required": true,
+              "maxLength": 500
+            },
+            {
+              "key": "areas",
+              "type": "repeat",
+              "label": "Product scope",
+              "required": true,
+              "maxItems": 3,
+              "fields": [
+                {
+                  "key": "title",
+                  "type": "text",
+                  "label": "Area title",
+                  "localized": true,
+                  "required": true,
+                  "maxLength": 130
+                },
+                {
+                  "key": "description",
+                  "type": "textarea",
+                  "label": "Area description",
+                  "localized": true,
+                  "required": true,
+                  "maxLength": 400
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "seo",
+          "type": "seo",
+          "label": "Search result",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "title",
+              "type": "text",
+              "label": "Page title",
+              "localized": true,
+              "required": true,
+              "maxLength": 160
+            },
+            {
+              "key": "description",
+              "type": "textarea",
+              "label": "Page description",
+              "localized": true,
+              "required": true,
+              "maxLength": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "contact_page",
+      "path": "/contact",
+      "label": "Contact page",
+      "modules": [
+        {
+          "key": "intro",
+          "type": "intro",
+          "label": "Page introduction",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "eyebrow",
+              "type": "text",
+              "label": "Eyebrow",
+              "localized": true,
+              "required": true,
+              "maxLength": 160,
+              "typography": {
+                "fontFamilies": [
+                  "site-mono"
+                ],
+                "fontWeights": [
+                  400,
+                  500
+                ],
+                "fontSize": {
+                  "min": 10,
+                  "max": 80
+                },
+                "defaults": {
+                  "fontFamily": "site-mono",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 12,
+                  "fontSizeMobile": 12
+                }
+              }
+            },
+            {
+              "key": "title",
+              "type": "text",
+              "label": "Page heading",
+              "localized": true,
+              "required": true,
+              "maxLength": 160,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  600,
+                  400
+                ],
+                "fontSize": {
+                  "min": 10,
+                  "max": 80
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 600,
+                  "fontSizeDesktop": 60,
+                  "fontSizeMobile": 36
+                }
+              }
+            },
+            {
+              "key": "description",
+              "type": "textarea",
+              "label": "Page introduction",
+              "localized": true,
+              "required": true,
+              "maxLength": 500,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  400,
+                  500
+                ],
+                "fontSize": {
+                  "min": 10,
+                  "max": 80
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 18,
+                  "fontSizeMobile": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "key": "copy",
+          "type": "copy",
+          "label": "contact_page fixed copy",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "hints_title",
+              "type": "text",
+              "label": "hints title",
+              "localized": true,
+              "required": true,
+              "maxLength": 500
+            },
+            {
+              "key": "hints_product",
+              "type": "text",
+              "label": "hints product",
+              "localized": true,
+              "required": true,
+              "maxLength": 500
+            },
+            {
+              "key": "hints_drawing",
+              "type": "text",
+              "label": "hints drawing",
+              "localized": true,
+              "required": true,
+              "maxLength": 500
+            },
+            {
+              "key": "hints_quantity",
+              "type": "text",
+              "label": "hints quantity",
+              "localized": true,
+              "required": true,
+              "maxLength": 500
+            }
+          ]
+        },
+        {
+          "key": "seo",
+          "type": "seo",
+          "label": "Search result",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "title",
+              "type": "text",
+              "label": "Page title",
+              "localized": true,
+              "required": true,
+              "maxLength": 160
+            },
+            {
+              "key": "description",
+              "type": "textarea",
+              "label": "Page description",
+              "localized": true,
+              "required": true,
+              "maxLength": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "products_page",
+      "path": "/products",
+      "label": "Products page",
+      "modules": [
+        {
+          "key": "intro",
+          "type": "intro",
+          "label": "Page introduction",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "eyebrow",
+              "type": "text",
+              "label": "Eyebrow",
+              "localized": true,
+              "required": true,
+              "maxLength": 160,
+              "typography": {
+                "fontFamilies": [
+                  "site-mono"
+                ],
+                "fontWeights": [
+                  400,
+                  500
+                ],
+                "fontSize": {
+                  "min": 10,
+                  "max": 80
+                },
+                "defaults": {
+                  "fontFamily": "site-mono",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 12,
+                  "fontSizeMobile": 12
+                }
+              }
+            },
+            {
+              "key": "title",
+              "type": "text",
+              "label": "Page heading",
+              "localized": true,
+              "required": true,
+              "maxLength": 160,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  600,
+                  400
+                ],
+                "fontSize": {
+                  "min": 10,
+                  "max": 80
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 600,
+                  "fontSizeDesktop": 60,
+                  "fontSizeMobile": 36
+                }
+              }
+            },
+            {
+              "key": "description",
+              "type": "textarea",
+              "label": "Page introduction",
+              "localized": true,
+              "required": true,
+              "maxLength": 500,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  400,
+                  500
+                ],
+                "fontSize": {
+                  "min": 10,
+                  "max": 80
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 18,
+                  "fontSizeMobile": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "key": "copy",
+          "type": "copy",
+          "label": "products_page fixed copy",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "all_products",
+              "type": "text",
+              "label": "all products",
+              "localized": true,
+              "required": true,
+              "maxLength": 500
+            },
+            {
+              "key": "empty_title",
+              "type": "text",
+              "label": "empty title",
+              "localized": true,
+              "required": true,
+              "maxLength": 500
+            },
+            {
+              "key": "empty_description",
+              "type": "textarea",
+              "label": "empty description",
+              "localized": true,
+              "required": true,
+              "maxLength": 500
+            },
+            {
+              "key": "empty_cta",
+              "type": "text",
+              "label": "empty cta",
+              "localized": true,
+              "required": true,
+              "maxLength": 500
+            }
+          ]
+        },
+        {
+          "key": "seo",
+          "type": "seo",
+          "label": "Search result",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "title",
+              "type": "text",
+              "label": "Page title",
+              "localized": true,
+              "required": true,
+              "maxLength": 160
+            },
+            {
+              "key": "description",
+              "type": "textarea",
+              "label": "Page description",
+              "localized": true,
+              "required": true,
+              "maxLength": 300
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "news_page",
+      "path": "/news",
+      "label": "News page",
+      "modules": [
+        {
+          "key": "intro",
+          "type": "intro",
+          "label": "Page introduction",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "eyebrow",
+              "type": "text",
+              "label": "Eyebrow",
+              "localized": true,
+              "required": true,
+              "maxLength": 160,
+              "typography": {
+                "fontFamilies": [
+                  "site-mono"
+                ],
+                "fontWeights": [
+                  400,
+                  500
+                ],
+                "fontSize": {
+                  "min": 10,
+                  "max": 80
+                },
+                "defaults": {
+                  "fontFamily": "site-mono",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 12,
+                  "fontSizeMobile": 12
+                }
+              }
+            },
+            {
+              "key": "title",
+              "type": "text",
+              "label": "Page heading",
+              "localized": true,
+              "required": true,
+              "maxLength": 160,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  600,
+                  400
+                ],
+                "fontSize": {
+                  "min": 10,
+                  "max": 80
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 600,
+                  "fontSizeDesktop": 60,
+                  "fontSizeMobile": 36
+                }
+              }
+            },
+            {
+              "key": "description",
+              "type": "textarea",
+              "label": "Page introduction",
+              "localized": true,
+              "required": true,
+              "maxLength": 500,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  400,
+                  500
+                ],
+                "fontSize": {
+                  "min": 10,
+                  "max": 80
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 18,
+                  "fontSizeMobile": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "key": "copy",
+          "type": "copy",
+          "label": "news_page fixed copy",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "empty_title",
+              "type": "text",
+              "label": "empty title",
+              "localized": true,
+              "required": true,
+              "maxLength": 500
+            },
+            {
+              "key": "empty_description",
+              "type": "textarea",
+              "label": "empty description",
+              "localized": true,
+              "required": true,
+              "maxLength": 500
+            },
+            {
+              "key": "products_cta",
+              "type": "text",
+              "label": "products cta",
+              "localized": true,
+              "required": true,
+              "maxLength": 500
+            },
+            {
+              "key": "contact_cta",
+              "type": "text",
+              "label": "contact cta",
+              "localized": true,
+              "required": true,
+              "maxLength": 500
+            }
+          ]
+        },
+        {
+          "key": "seo",
+          "type": "seo",
+          "label": "Search result",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "title",
+              "type": "text",
+              "label": "Page title",
+              "localized": true,
+              "required": true,
+              "maxLength": 160
+            },
+            {
+              "key": "description",
+              "type": "textarea",
+              "label": "Page description",
+              "localized": true,
+              "required": true,
+              "maxLength": 300
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

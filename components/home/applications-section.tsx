@@ -5,17 +5,19 @@ import { Reveal } from '@/components/site/reveal'
 import { SectionHeading } from '@/components/site/section-heading'
 import { applicationExamples } from '@/lib/applications'
 import { buttonSecondary } from '@/lib/site'
+import { siteCopy, type EditableSectionProps } from '@/lib/site-content/copy'
 
-export function ApplicationsSection() {
+export function ApplicationsSection({ content, styles }: EditableSectionProps = {}) {
   return (
     <section id="applications" aria-labelledby="applications-heading" className="bg-paper">
       <div className="mx-auto max-w-[88rem] px-5 py-16 md:px-10 md:py-24">
         <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
           <SectionHeading
             id="applications-heading"
-            eyebrow="Applications"
-            title="Seats for different positions"
-            description="From front seating to folding seats with belts, see the configurations we build and the parts behind them."
+            eyebrow={siteCopy(content, 'eyebrow', 'Applications')}
+            title={siteCopy(content, 'title', 'Seats for different positions')}
+            description={siteCopy(content, 'description', 'From front seating to folding seats with belts, see the configurations we build and the parts behind them.')}
+            styles={styles}
           />
           <Reveal index={2}>
             <Link href="/applications" className={buttonSecondary}>

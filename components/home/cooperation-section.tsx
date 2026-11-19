@@ -1,6 +1,7 @@
 import { Mail, MessagesSquare, ScanSearch } from 'lucide-react'
 import { Reveal } from '@/components/site/reveal'
 import { SectionHeading } from '@/components/site/section-heading'
+import { siteCopy, type EditableSectionProps } from '@/lib/site-content/copy'
 
 const steps = [
   {
@@ -20,15 +21,16 @@ const steps = [
   },
 ]
 
-export function CooperationSection() {
+export function CooperationSection({ content, styles }: EditableSectionProps = {}) {
   return (
     <section id="cooperation" aria-labelledby="cooperation-heading" className="bg-paper">
       <div className="mx-auto max-w-[88rem] px-5 py-16 md:px-10 md:py-24">
         <SectionHeading
           id="cooperation-heading"
-          eyebrow="Cooperation"
-          title="How working together starts"
-          description="A short, direct process: tell us what you need and we will discuss whether and how we can fit it."
+          eyebrow={siteCopy(content, 'eyebrow', 'Cooperation')}
+          title={siteCopy(content, 'title', 'How working together starts')}
+          description={siteCopy(content, 'description', 'A short, direct process: tell us what you need and we will discuss whether and how we can fit it.')}
+          styles={styles}
         />
         <ol className="mt-12 grid gap-5 md:grid-cols-3">
           {steps.map((step, i) => (

@@ -2,17 +2,19 @@ import { FileCheck2, ScanSearch } from 'lucide-react'
 import { CertificateViewer } from '@/components/quality/certificate-viewer'
 import { Reveal } from '@/components/site/reveal'
 import { SectionHeading } from '@/components/site/section-heading'
+import { siteCopy, type EditableSectionProps } from '@/lib/site-content/copy'
 
-export function QualitySection() {
+export function QualitySection({ content, styles }: EditableSectionProps = {}) {
   return (
     <section id="quality" aria-labelledby="quality-heading" className="bg-paper">
       <div className="mx-auto grid max-w-[88rem] gap-12 px-5 py-16 md:px-10 md:py-24 lg:grid-cols-[1.1fr_1fr] lg:items-center lg:gap-20">
         <div>
           <SectionHeading
             id="quality-heading"
-            eyebrow="Quality"
-            title="IATF 16949:2016 quality management"
-            description="Our quality management system is certified by DQS to IATF 16949:2016, covering the design and production of seat components."
+            eyebrow={siteCopy(content, 'eyebrow', 'Quality')}
+            title={siteCopy(content, 'title', 'IATF 16949:2016 quality management')}
+            description={siteCopy(content, 'description', 'Our quality management system is certified by DQS to IATF 16949:2016, covering the design and production of seat components.')}
+            styles={styles}
           />
           <ul className="mt-8 space-y-5">
             <Reveal as="li" index={0} className="flex gap-4 list-none">

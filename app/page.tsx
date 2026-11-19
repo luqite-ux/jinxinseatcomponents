@@ -10,15 +10,26 @@ import { ManufacturingSection } from '@/components/home/manufacturing-section'
 import { ProductFamiliesSection } from '@/components/home/product-families-section'
 import { QualitySection } from '@/components/home/quality-section'
 import { site } from '@/lib/site'
+import { getSiteContent, siteContentMetadata } from '@/lib/site-content/site-content'
 
-export const metadata: Metadata = {
+const fallbackMetadata: Metadata = {
   title: { absolute: 'Zhoushan Jinxin Auto Parts | Automotive Seat Assemblies, Frames and Molded Foam' },
   description:
     'Zhoushan Jinxin Auto Parts Co., Ltd. makes automotive seat assemblies, seat frames and molded foam components. Browse products and send an inquiry.',
   alternates: { canonical: '/' },
 }
 
-export default function HomePage() {
+export async function generateMetadata(): Promise<Metadata> {
+  const content = await siteContentMetadata('/', 'en')
+  return { ...fallbackMetadata, ...content, ...(content.title ? { title: { absolute: content.title } } : {}) }
+}
+
+export default async function HomePage() {
+  const snapshot = await getSiteContent('en')
+  const modules = snapshot?.pages.find((page) => page.path === '/')?.modules
+  const moduleFor = (type: string) => modules?.find((module) => module.type === type)
+  const section = (type: string) => ({ content: moduleFor(type)?.values, styles: moduleFor(type)?.styles })
+  const hero = moduleFor('hero')
   const organizationId = `${site.url}/#organization`
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -53,16 +64,18 @@ export default function HomePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <HeroCarousel />
-      <ProductFamiliesSection />
-      <FeaturedProductsSection />
-      <ApplicationsSection />
-      <ManufacturingSection />
-      <QualitySection />
-      <FacilitySection />
-      <CooperationSection />
-      <FaqSection />
-      <ContactSection />
+      <div {...(hero ? { 'data-hq-content-version': snapshot?.version } : {})}>
+        <HeroCarousel content={hero?.values} styles={hero?.styles} />
+      </div>
+      <ProductFamiliesSection {...section('product_families')} />
+      <FeaturedProductsSection {...section('featured_products')} />
+      <ApplicationsSection {...section('applications')} />
+      <ManufacturingSection {...section('manufacturing')} />
+      <QualitySection {...section('quality')} />
+      <FacilitySection {...section('facility')} />
+      <CooperationSection {...section('cooperation')} />
+      <FaqSection {...section('faq')} />
+      <ContactSection {...section('contact')} />
     </>
   )
 }

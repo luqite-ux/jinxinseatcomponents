@@ -5,8 +5,9 @@ import { Reveal } from '@/components/site/reveal'
 import { SectionHeading } from '@/components/site/section-heading'
 import { fetchFeaturedProducts } from '@/lib/products-db'
 import { buttonSecondary } from '@/lib/site'
+import { siteCopy, type EditableSectionProps } from '@/lib/site-content/copy'
 
-export async function FeaturedProductsSection() {
+export async function FeaturedProductsSection({ content, styles }: EditableSectionProps = {}) {
   const products = await fetchFeaturedProducts(4)
   return (
     <section id="featured-products" aria-labelledby="featured-products-heading" className="border-y border-line bg-mist/60">
@@ -14,9 +15,10 @@ export async function FeaturedProductsSection() {
         <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
           <SectionHeading
             id="featured-products-heading"
-            eyebrow="Featured products"
-            title="Look closely at the parts"
-            description="Every product page lists its own specification table and a direct route to a quote request."
+            eyebrow={siteCopy(content, 'eyebrow', 'Featured products')}
+            title={siteCopy(content, 'title', 'Look closely at the parts')}
+            description={siteCopy(content, 'description', 'Every product page lists its own specification table and a direct route to a quote request.')}
+            styles={styles}
           />
           <Reveal index={2}>
             <Link href="/products" className={buttonSecondary}>

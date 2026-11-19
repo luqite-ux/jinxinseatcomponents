@@ -1,0 +1,714 @@
+{
+  "pages": {
+    "home": {
+      "order": [
+        "hero",
+        "product_families",
+        "featured_products",
+        "applications",
+        "manufacturing",
+        "quality",
+        "facility",
+        "cooperation",
+        "faq",
+        "contact",
+        "navigation",
+        "seo"
+      ],
+      "modules": {
+        "hero": {
+          "hidden": false,
+          "values": {
+            "slides": [
+              {
+                "id": "seating",
+                "label": {
+                  "en": "Seat assemblies"
+                },
+                "eyebrow": {
+                  "en": "Assemblies / Frames / Foam"
+                },
+                "title": {
+                  "en": "Automotive Seating, From Structure to Assembly"
+                },
+                "body": {
+                  "en": "Complete seat assemblies, seat frames and molded foam components from one supplier. Browse the range and send us your requirements."
+                },
+                "desktop_image": {
+                  "assetId": "956964ef-4ccf-451b-9cc2-ab3c1edefbdc",
+                  "alt": {
+                    "en": "Customer supplied photograph of an ambulance auxiliary seat assembly"
+                  }
+                },
+                "mobile_image": {
+                  "assetId": "956964ef-4ccf-451b-9cc2-ab3c1edefbdc",
+                  "alt": {
+                    "en": "Customer supplied photograph of an ambulance auxiliary seat assembly"
+                  }
+                },
+                "cta_label": {
+                  "en": "Explore Products"
+                },
+                "cta_href": "/products"
+              },
+              {
+                "id": "foam",
+                "label": {
+                  "en": "Molded foam"
+                },
+                "eyebrow": {
+                  "en": "Molded foam components"
+                },
+                "title": {
+                  "en": "Molded Foam for Seat Applications"
+                },
+                "body": {
+                  "en": "Explore the molded foam range for seat bases and backs. Send your drawing or sample and we will talk through the fit."
+                },
+                "desktop_image": {
+                  "assetId": "2ce79809-66b1-4db1-82d8-0fb9386eb648",
+                  "alt": {
+                    "en": "Customer supplied photograph of a molded seat foam component"
+                  }
+                },
+                "mobile_image": {
+                  "assetId": "2ce79809-66b1-4db1-82d8-0fb9386eb648",
+                  "alt": {
+                    "en": "Customer supplied photograph of a molded seat foam component"
+                  }
+                },
+                "cta_label": {
+                  "en": "Explore Foam Components"
+                },
+                "cta_href": "/products?category=molded-foam"
+              },
+              {
+                "id": "frames",
+                "label": {
+                  "en": "Seat frames"
+                },
+                "eyebrow": {
+                  "en": "Seat structural components"
+                },
+                "title": {
+                  "en": "Explore the Structure Beneath the Seat"
+                },
+                "body": {
+                  "en": "Look through the seat frame line, from complete frames to the brackets and members that carry the seat."
+                },
+                "desktop_image": {
+                  "assetId": "b4022f26-a129-487e-be36-77ed295bb5cb",
+                  "alt": {
+                    "en": "Customer supplied photograph of a seat frame component"
+                  }
+                },
+                "mobile_image": {
+                  "assetId": "b4022f26-a129-487e-be36-77ed295bb5cb",
+                  "alt": {
+                    "en": "Customer supplied photograph of a seat frame component"
+                  }
+                },
+                "cta_label": {
+                  "en": "Explore Seat Frames"
+                },
+                "cta_href": "/products?category=seat-frames"
+              }
+            ]
+          }
+        },
+        "navigation": {
+          "hidden": false,
+          "values": {
+            "links": [
+              {
+                "id": "home",
+                "label": {
+                  "en": "Home"
+                },
+                "href": "/"
+              },
+              {
+                "id": "products",
+                "label": {
+                  "en": "Products"
+                },
+                "href": "/products"
+              },
+              {
+                "id": "applications",
+                "label": {
+                  "en": "Applications"
+                },
+                "href": "/applications"
+              },
+              {
+                "id": "manufacturing",
+                "label": {
+                  "en": "Manufacturing"
+                },
+                "href": "/manufacturing"
+              },
+              {
+                "id": "about",
+                "label": {
+                  "en": "About"
+                },
+                "href": "/about"
+              },
+              {
+                "id": "news",
+                "label": {
+                  "en": "News"
+                },
+                "href": "/news"
+              },
+              {
+                "id": "contact",
+                "label": {
+                  "en": "Contact"
+                },
+                "href": "/contact"
+              }
+            ]
+          }
+        },
+        "seo": {
+          "hidden": false,
+          "values": {
+            "title": {
+              "en": "Zhoushan Jinxin Auto Parts | Automotive Seat Assemblies, Frames and Molded Foam"
+            },
+            "description": {
+              "en": "Zhoushan Jinxin Auto Parts Co., Ltd. makes automotive seat assemblies, seat frames and molded foam components. Browse products and send an inquiry."
+            }
+          }
+        },
+        "product_families": {
+          "hidden": false,
+          "values": {
+            "eyebrow": {
+              "en": "Product families"
+            },
+            "title": {
+              "en": "Three families, one seat"
+            },
+            "description": {
+              "en": "Start with the family that matches your program, then open individual products to inspect specifications."
+            }
+          }
+        },
+        "featured_products": {
+          "hidden": false,
+          "values": {
+            "eyebrow": {
+              "en": "Featured products"
+            },
+            "title": {
+              "en": "Look closely at the parts"
+            },
+            "description": {
+              "en": "Every product page lists its own specification table and a direct route to a quote request."
+            }
+          }
+        },
+        "applications": {
+          "hidden": false,
+          "values": {
+            "eyebrow": {
+              "en": "Applications"
+            },
+            "title": {
+              "en": "Seats for different positions"
+            },
+            "description": {
+              "en": "From front seating to folding seats with belts, see the configurations we build and the parts behind them."
+            }
+          }
+        },
+        "manufacturing": {
+          "hidden": false,
+          "values": {
+            "eyebrow": {
+              "en": "Manufacturing"
+            },
+            "title": {
+              "en": "Design and production of seat components"
+            },
+            "description": {
+              "en": "Structure, foam and complete assemblies are handled across one product scope."
+            }
+          }
+        },
+        "quality": {
+          "hidden": false,
+          "values": {
+            "eyebrow": {
+              "en": "Quality"
+            },
+            "title": {
+              "en": "IATF 16949:2016 quality management"
+            },
+            "description": {
+              "en": "Our quality management system is certified by DQS to IATF 16949:2016, covering the design and production of seat components."
+            }
+          }
+        },
+        "facility": {
+          "hidden": false,
+          "values": {
+            "eyebrow": {
+              "en": "Facility"
+            },
+            "title": {
+              "en": "Where the parts are made"
+            },
+            "description": {
+              "en": "A press line with robotic loading, photographed on our factory floor in Daishan County, Zhoushan."
+            }
+          }
+        },
+        "cooperation": {
+          "hidden": false,
+          "values": {
+            "eyebrow": {
+              "en": "Cooperation"
+            },
+            "title": {
+              "en": "How working together starts"
+            },
+            "description": {
+              "en": "A short, direct process: tell us what you need and we will discuss whether and how we can fit it."
+            }
+          }
+        },
+        "faq": {
+          "hidden": false,
+          "values": {
+            "eyebrow": {
+              "en": "Ordering"
+            },
+            "title": {
+              "en": "Questions before you order"
+            },
+            "description": {
+              "en": "Practical details from the company's supplied FAQ."
+            }
+          }
+        },
+        "contact": {
+          "hidden": false,
+          "values": {
+            "eyebrow": {
+              "en": "Contact"
+            },
+            "title": {
+              "en": "Tell us what your seat needs"
+            },
+            "description": {
+              "en": "Send an inquiry for a specific product or describe your requirements."
+            }
+          }
+        }
+      }
+    },
+    "about": {
+      "order": [
+        "intro",
+        "copy",
+        "seo"
+      ],
+      "modules": {
+        "intro": {
+          "hidden": false,
+          "values": {
+            "eyebrow": {
+              "en": "About"
+            },
+            "title": {
+              "en": "Seat components, designed and produced in Zhoushan"
+            },
+            "description": {
+              "en": "Zhoushan Jinxin Auto Parts Co., Ltd. makes automotive seat assemblies, seat frames and molded foam components."
+            }
+          }
+        },
+        "seo": {
+          "hidden": false,
+          "values": {
+            "title": {
+              "en": "About"
+            },
+            "description": {
+              "en": "Zhoushan Jinxin Auto Parts Co., Ltd. designs and produces automotive seat components: seat assemblies, seat frames and molded foam."
+            }
+          }
+        },
+        "copy": {
+          "hidden": false,
+          "values": {
+            "who_eyebrow": {
+              "en": "The company"
+            },
+            "who_title": {
+              "en": "One supplier across structure, foam and assembly"
+            },
+            "who_paragraph_1": {
+              "en": "We focus on the parts that make up an automotive seat: the structural frame, the molded foam that shapes comfort, and the complete assemblies that bring them together."
+            },
+            "who_paragraph_2": {
+              "en": "Our quality management system is certified to IATF 16949:2016 for the design and production of seat components."
+            },
+            "customers_eyebrow": {
+              "en": "Customer experience"
+            },
+            "customers_title": {
+              "en": "Past supply experience across the automotive sector"
+            },
+            "customers_description": {
+              "en": "Our company presentation names Dongfeng Commercial Vehicle, Lear, GAC Gonow, Geely and Shanghai Daimay among historical customers served. This is a record of past supply experience, not a statement of current partnership or endorsement."
+            },
+            "facility_eyebrow": {
+              "en": "Our facility"
+            },
+            "facility_title": {
+              "en": "Made in Daishan County"
+            },
+            "facility_description": {
+              "en": "Production takes place at our site in Dongsha Town, Daishan County, Zhoushan, Zhejiang."
+            },
+            "cta_title": {
+              "en": "Talk to our team"
+            },
+            "cta_text": {
+              "en": "Tell us about your seating requirements and we will respond by email."
+            }
+          }
+        }
+      }
+    },
+    "applications_page": {
+      "order": [
+        "intro",
+        "copy",
+        "seo"
+      ],
+      "modules": {
+        "intro": {
+          "hidden": false,
+          "values": {
+            "eyebrow": {
+              "en": "Applications"
+            },
+            "title": {
+              "en": "Seat configurations we build"
+            },
+            "description": {
+              "en": "See complete seats in use positions, then follow through to the frames and foam components that make them up."
+            }
+          }
+        },
+        "seo": {
+          "hidden": false,
+          "values": {
+            "title": {
+              "en": "Applications"
+            },
+            "description": {
+              "en": "Seat configurations from Zhoushan Jinxin Auto Parts, including front seating and folding seating with belt, and the frames and foam behind them."
+            }
+          }
+        },
+        "copy": {
+          "hidden": false,
+          "values": {
+            "examples": [
+              {
+                "id": "front-seating",
+                "title": {
+                  "en": "Front seating"
+                },
+                "summary": {
+                  "en": "Front seat assemblies with headrest, backrest and cushion, supported by seat frames and molded foam."
+                },
+                "cta": {
+                  "en": "Browse seat assemblies"
+                },
+                "href": "/products?category=seat-assemblies"
+              },
+              {
+                "id": "folding-seating",
+                "title": {
+                  "en": "Folding seating with belt"
+                },
+                "summary": {
+                  "en": "Folding seat configurations with an integrated seat belt and an armrest, shown as a complete assembly."
+                },
+                "cta": {
+                  "en": "Browse seat assemblies"
+                },
+                "href": "/products?category=seat-assemblies"
+              }
+            ],
+            "cta_title": {
+              "en": "Have a seat position in mind?"
+            },
+            "cta_text": {
+              "en": "Describe the application and we will review which products fit."
+            }
+          }
+        }
+      }
+    },
+    "manufacturing_page": {
+      "order": [
+        "intro",
+        "copy",
+        "seo"
+      ],
+      "modules": {
+        "intro": {
+          "hidden": false,
+          "values": {
+            "eyebrow": {
+              "en": "Manufacturing"
+            },
+            "title": {
+              "en": "From structure to assembly"
+            },
+            "description": {
+              "en": "Seat frames, molded foam and complete seat assemblies, designed and produced for seating programs."
+            }
+          }
+        },
+        "seo": {
+          "hidden": false,
+          "values": {
+            "title": {
+              "en": "Manufacturing"
+            },
+            "description": {
+              "en": "Design and production of seat components: seat frames, molded foam and seat assemblies from Zhoushan Jinxin Auto Parts, certified to IATF 16949:2016."
+            }
+          }
+        },
+        "copy": {
+          "hidden": false,
+          "values": {
+            "scope_eyebrow": {
+              "en": "Product scope"
+            },
+            "scope_title": {
+              "en": "What we make"
+            },
+            "floor_eyebrow": {
+              "en": "Factory floor"
+            },
+            "floor_title": {
+              "en": "Press line with robotic loading"
+            },
+            "floor_description": {
+              "en": "A row of stamping presses served by robotic arms, photographed at our facility in Daishan County."
+            },
+            "quality_eyebrow": {
+              "en": "Quality"
+            },
+            "quality_title": {
+              "en": "IATF 16949:2016 certified"
+            },
+            "quality_description": {
+              "en": "Our quality management system is certified by DQS to IATF 16949:2016 for the design and production of seat components."
+            },
+            "cta_title": {
+              "en": "Discuss a component or assembly"
+            },
+            "cta_text": {
+              "en": "Send your drawing or sample reference and we will review the fit."
+            },
+            "areas": [
+              {
+                "id": "frames",
+                "title": {
+                  "en": "Seat frames and structural parts"
+                },
+                "description": {
+                  "en": "Complete seat frames with slide rails, and the stamped brackets and members that carry the seat."
+                }
+              },
+              {
+                "id": "foam",
+                "title": {
+                  "en": "Molded foam components"
+                },
+                "description": {
+                  "en": "Molded foam for seat cushions and backs, produced to the shape of the seat it supports."
+                }
+              },
+              {
+                "id": "assembly",
+                "title": {
+                  "en": "Seat assembly"
+                },
+                "description": {
+                  "en": "Frame, foam and trim brought together into complete seat configurations."
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "contact_page": {
+      "order": [
+        "intro",
+        "copy",
+        "seo"
+      ],
+      "modules": {
+        "intro": {
+          "hidden": false,
+          "values": {
+            "eyebrow": {
+              "en": "Contact"
+            },
+            "title": {
+              "en": "Send us your requirements"
+            },
+            "description": {
+              "en": "Tell us what you need and we will review it with you. Include a drawing or sample reference if you have one."
+            }
+          }
+        },
+        "seo": {
+          "hidden": false,
+          "values": {
+            "title": {
+              "en": "Contact"
+            },
+            "description": {
+              "en": "Send your seat assembly, seat frame or molded foam requirements to Zhoushan Jinxin Auto Parts and discuss fit with our team."
+            }
+          }
+        },
+        "copy": {
+          "hidden": false,
+          "values": {
+            "hints_title": {
+              "en": "What helps us respond faster"
+            },
+            "hints_product": {
+              "en": "The product or family you are interested in"
+            },
+            "hints_drawing": {
+              "en": "Drawing number, sample or reference photos"
+            },
+            "hints_quantity": {
+              "en": "Expected quantity, if known"
+            }
+          }
+        }
+      }
+    },
+    "products_page": {
+      "order": [
+        "intro",
+        "copy",
+        "seo"
+      ],
+      "modules": {
+        "intro": {
+          "hidden": false,
+          "values": {
+            "eyebrow": {
+              "en": "Products"
+            },
+            "title": {
+              "en": "Seat assemblies, frames and molded foam"
+            },
+            "description": {
+              "en": "Choose a product family, then open a product to inspect its specifications and send an inquiry."
+            }
+          }
+        },
+        "seo": {
+          "hidden": false,
+          "values": {
+            "title": {
+              "en": "Products"
+            },
+            "description": {
+              "en": "Seat assemblies, seat frames and molded foam components from Zhoushan Jinxin Auto Parts."
+            }
+          }
+        },
+        "copy": {
+          "hidden": false,
+          "values": {
+            "all_products": {
+              "en": "All products"
+            },
+            "empty_title": {
+              "en": "No products in this family yet"
+            },
+            "empty_description": {
+              "en": "Tell us what you are looking for and we will respond with what fits."
+            },
+            "empty_cta": {
+              "en": "Send your requirements"
+            }
+          }
+        }
+      }
+    },
+    "news_page": {
+      "order": [
+        "intro",
+        "copy",
+        "seo"
+      ],
+      "modules": {
+        "intro": {
+          "hidden": false,
+          "values": {
+            "eyebrow": {
+              "en": "News"
+            },
+            "title": {
+              "en": "News"
+            },
+            "description": {
+              "en": "Company updates and product announcements."
+            }
+          }
+        },
+        "seo": {
+          "hidden": false,
+          "values": {
+            "title": {
+              "en": "News"
+            },
+            "description": {
+              "en": "News from Zhoushan Jinxin Auto Parts Co., Ltd."
+            }
+          }
+        },
+        "copy": {
+          "hidden": false,
+          "values": {
+            "empty_title": {
+              "en": "No articles published yet"
+            },
+            "empty_description": {
+              "en": "News will appear here when we publish it. In the meantime, browse our products or get in touch."
+            },
+            "products_cta": {
+              "en": "Browse products"
+            },
+            "contact_cta": {
+              "en": "Contact us"
+            }
+          }
+        }
+      }
+    }
+  }
+}

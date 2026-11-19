@@ -7,26 +7,44 @@ import { PageHeader } from '@/components/site/page-header'
 import { Reveal } from '@/components/site/reveal'
 import { applicationExamples } from '@/lib/applications'
 import { buttonSecondary } from '@/lib/site'
+import { siteCopy } from '@/lib/site-content/copy'
+import { getEditablePage } from '@/lib/site-content/page-data'
+import { siteContentMetadata } from '@/lib/site-content/site-content'
 
-export const metadata: Metadata = {
+const fallbackMetadata: Metadata = {
   title: 'Applications',
   description:
     'Seat configurations from Zhoushan Jinxin Auto Parts, including front seating and folding seating with belt, and the frames and foam behind them.',
   alternates: { canonical: '/applications' },
 }
 
-export default function ApplicationsPage() {
+export async function generateMetadata(): Promise<Metadata> {
+  return { ...fallbackMetadata, ...(await siteContentMetadata('/applications', 'en')) }
+}
+
+export default async function ApplicationsPage() {
+  const page = await getEditablePage('/applications')
+  const intro = page.module('intro')
+  const copy = page.module('copy')?.values
+  const sourceExamples = Array.isArray(copy?.examples) ? copy.examples : undefined
+  const examples = applicationExamples.map((example) => {
+    const row = sourceExamples?.find((item: unknown) => item && typeof item === 'object' && (item as Record<string, unknown>).id === example.slug) as Record<string, unknown> | undefined
+    if (sourceExamples && !row) throw new Error(`Published application missing: ${example.slug}`)
+    return { ...example, title: siteCopy(row, 'title', example.title), summary: siteCopy(row, 'summary', example.summary), cta: siteCopy(row, 'cta', example.cta), href: siteCopy(row, 'href', example.href) }
+  })
   return (
     <>
       <PageHeader
-        eyebrow="Applications"
-        title="Seat configurations we build"
-        description="See complete seats in use positions, then follow through to the frames and foam components that make them up."
+        eyebrow={siteCopy(intro?.values, 'eyebrow', 'Applications')}
+        title={siteCopy(intro?.values, 'title', 'Seat configurations we build')}
+        description={siteCopy(intro?.values, 'description', 'See complete seats in use positions, then follow through to the frames and foam components that make them up.')}
+        styles={intro?.styles}
+        contentVersion={intro ? page.version : undefined}
         crumbs={[{ label: 'Applications' }]}
       />
       <section aria-label="Application examples" className="mx-auto max-w-[88rem] px-5 py-12 md:px-10 md:py-20">
         <ul className="space-y-6">
-          {applicationExamples.map((item, i) => (
+          {examples.map((item, i) => (
             <Reveal as="li" key={item.slug} index={0} className="list-none">
               <article
                 className={`grid border border-line bg-white md:grid-cols-2 ${i % 2 ? 'md:[&>div:first-child]:order-2' : ''}`}
@@ -62,7 +80,7 @@ export default function ApplicationsPage() {
           ))}
         </ul>
       </section>
-      <CtaBand title="Have a seat position in mind?" text="Describe the application and we will review which products fit." />
+      <CtaBand title={siteCopy(copy, 'cta_title', 'Have a seat position in mind?')} text={siteCopy(copy, 'cta_text', 'Describe the application and we will review which products fit.')} />
     </>
   )
 }

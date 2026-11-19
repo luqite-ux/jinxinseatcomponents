@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { useEffect, useRef, useState, type CSSProperties, type KeyboardEvent, type PointerEvent } from 'react'
 import { ArrowRight, ChevronLeft, ChevronRight, Pause, Play } from 'lucide-react'
 import { cn } from '@/lib/utils'
+import { siteTypographyStyle } from '@/lib/site-content/typography'
 
 type Slide = {
   id: string
@@ -14,13 +15,15 @@ type Slide = {
   copy: string
   cta: { label: string; href: string }
   image: string
+  mobileImage?: string
+  mobileImageAlt?: string
   imageAlt: string
   align: 'left' | 'right'
   mobilePosition: string
   desktopPosition: string
 }
 
-const slides: Slide[] = [
+const fallbackSlides: Slide[] = [
   {
     id: 'seating',
     label: 'Seat assemblies',
@@ -64,7 +67,24 @@ const slides: Slide[] = [
 
 const AUTOPLAY_MS = 7000
 
-export function HeroCarousel() {
+type HeroContent = { slides?: Array<Record<string, unknown>> }
+type HeroStyles = Record<string, Record<string, unknown>>
+
+function publishedSlides(content: HeroContent): Slide[] {
+  if (!Array.isArray(content.slides) || content.slides.length !== fallbackSlides.length) throw new Error('Published hero slides are incomplete')
+  return content.slides.map((row) => {
+    const baseline = fallbackSlides.find((slide) => slide.id === row.id)
+    const desktop = row.desktop_image as { url?: unknown; alt?: unknown } | undefined
+    const mobile = row.mobile_image as { url?: unknown; alt?: unknown } | undefined
+    const ctaHref = row.cta_href
+    if (!baseline || typeof row.label !== 'string' || typeof row.eyebrow !== 'string' || typeof row.title !== 'string' || typeof row.body !== 'string' || typeof row.cta_label !== 'string' || typeof ctaHref !== 'string' || typeof desktop?.url !== 'string' || typeof mobile?.url !== 'string' || typeof desktop.alt !== 'string' || typeof mobile.alt !== 'string') throw new Error('Published hero slide has invalid fields')
+    return { ...baseline, label: row.label, eyebrow: row.eyebrow, title: row.title, copy: row.body,
+      cta: { label: row.cta_label, href: ctaHref }, image: desktop.url, mobileImage: mobile.url, imageAlt: desktop.alt, mobileImageAlt: mobile.alt }
+  })
+}
+
+export function HeroCarousel({ content, styles }: { content?: HeroContent; styles?: HeroStyles } = {}) {
+  const slides = content ? publishedSlides(content) : fallbackSlides
   const [index, setIndex] = useState(0)
   const [userPaused, setUserPaused] = useState(false)
   const [interacting, setInteracting] = useState(false)
@@ -163,7 +183,15 @@ export function HeroCarousel() {
                   fill
                   priority={i === 0}
                   sizes="100vw"
-                  className="hero-art object-contain [object-position:var(--pos-m)] md:[object-position:var(--pos-d)]"
+                  className="hero-art hidden object-contain [object-position:var(--pos-d)] md:block"
+                />
+                <Image
+                  src={slide.mobileImage ?? slide.image}
+                  alt={slide.mobileImageAlt ?? slide.imageAlt}
+                  fill
+                  priority={i === 0}
+                  sizes="100vw"
+                  className="hero-art object-contain [object-position:var(--pos-m)] md:hidden"
                 />
               </div>
 
@@ -180,21 +208,21 @@ export function HeroCarousel() {
                   )}
                 >
                   <p
-                    style={{ '--hero-i': 0 } as CSSProperties}
-                    className="hero-in flex items-center gap-3 font-mono text-xs uppercase tracking-[0.16em] text-jx-deep"
+                    style={{ '--hero-i': 0, ...siteTypographyStyle(styles, `slides.${slide.id}.eyebrow`, { 'site-mono': 'var(--font-geist-mono)' }) } as CSSProperties}
+                    className="hero-in hq-typography flex items-center gap-3 font-mono text-xs uppercase tracking-[0.16em] text-jx-deep"
                   >
                     {slide.align === 'left' && <span aria-hidden className="h-px w-8 bg-jx" />}
                     {slide.eyebrow}
                   </p>
                   <h2
-                    style={{ '--hero-i': 1 } as CSSProperties}
-                    className="hero-in mt-4 text-balance text-[2rem] font-semibold leading-[1.08] tracking-tight md:text-5xl lg:text-[3.4rem]"
+                    style={{ '--hero-i': 1, ...siteTypographyStyle(styles, `slides.${slide.id}.title`, { 'site-sans': 'var(--font-geist-sans)' }) } as CSSProperties}
+                    className="hero-in hq-typography mt-4 text-balance text-[2rem] font-semibold leading-[1.08] tracking-tight md:text-5xl lg:text-[54px]"
                   >
                     {slide.title}
                   </h2>
                   <p
-                    style={{ '--hero-i': 2 } as CSSProperties}
-                    className="hero-in mt-4 max-w-prose text-pretty text-base leading-relaxed text-ink-soft md:text-lg"
+                    style={{ '--hero-i': 2, ...siteTypographyStyle(styles, `slides.${slide.id}.body`, { 'site-sans': 'var(--font-geist-sans)' }) } as CSSProperties}
+                    className="hero-in hq-typography mt-4 max-w-prose text-pretty text-base leading-relaxed text-ink-soft md:text-lg"
                   >
                     {slide.copy}
                   </p>

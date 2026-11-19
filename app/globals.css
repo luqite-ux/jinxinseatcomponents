@@ -1,6 +1,13 @@
 @import 'tailwindcss';
 @import 'tw-animate-css';
 
+@media (max-width: 1023.98px) {
+  .hq-typography[style*='--hq-font-size-mobile:'] { font-size: var(--hq-font-size-mobile); }
+}
+@media (min-width: 1024px) {
+  .hq-typography[style*='--hq-font-size-desktop:'] { font-size: var(--hq-font-size-desktop); }
+}
+
 @custom-variant dark (&:is(.dark *));
 
 :root {

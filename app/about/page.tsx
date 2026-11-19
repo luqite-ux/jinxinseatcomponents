@@ -7,21 +7,33 @@ import { PageHeader } from '@/components/site/page-header'
 import { Reveal } from '@/components/site/reveal'
 import { SectionHeading } from '@/components/site/section-heading'
 import { buttonSecondary, site } from '@/lib/site'
+import { siteCopy } from '@/lib/site-content/copy'
+import { getEditablePage } from '@/lib/site-content/page-data'
+import { siteContentMetadata } from '@/lib/site-content/site-content'
 
-export const metadata: Metadata = {
+const fallbackMetadata: Metadata = {
   title: 'About',
   description:
     'Zhoushan Jinxin Auto Parts Co., Ltd. designs and produces automotive seat components: seat assemblies, seat frames and molded foam.',
   alternates: { canonical: '/about' },
 }
 
-export default function AboutPage() {
+export async function generateMetadata(): Promise<Metadata> {
+  return { ...fallbackMetadata, ...(await siteContentMetadata('/about', 'en')) }
+}
+
+export default async function AboutPage() {
+  const page = await getEditablePage('/about')
+  const intro = page.module('intro')
+  const copy = page.module('copy')?.values
   return (
     <>
       <PageHeader
-        eyebrow="About"
-        title="Seat components, designed and produced in Zhoushan"
-        description={`${site.name} makes automotive seat assemblies, seat frames and molded foam components.`}
+        eyebrow={siteCopy(intro?.values, 'eyebrow', 'About')}
+        title={siteCopy(intro?.values, 'title', 'Seat components, designed and produced in Zhoushan')}
+        description={siteCopy(intro?.values, 'description', `${site.name} makes automotive seat assemblies, seat frames and molded foam components.`)}
+        styles={intro?.styles}
+        contentVersion={intro ? page.version : undefined}
         crumbs={[{ label: 'About' }]}
       />
 
@@ -30,17 +42,15 @@ export default function AboutPage() {
           <div>
             <SectionHeading
               id="who-heading"
-              eyebrow="The company"
-              title="One supplier across structure, foam and assembly"
+              eyebrow={siteCopy(copy, 'who_eyebrow', 'The company')}
+              title={siteCopy(copy, 'who_title', 'One supplier across structure, foam and assembly')}
             />
             <Reveal index={3} as="div" className="mt-6 space-y-4 leading-relaxed text-ink-soft">
               <p>
-                We focus on the parts that make up an automotive seat: the structural frame, the molded foam that
-                shapes comfort, and the complete assemblies that bring them together.
+                {siteCopy(copy, 'who_paragraph_1', 'We focus on the parts that make up an automotive seat: the structural frame, the molded foam that shapes comfort, and the complete assemblies that bring them together.')}
               </p>
               <p>
-                Our quality management system is certified to IATF 16949:2016 for the design and production of seat
-                components.
+                {siteCopy(copy, 'who_paragraph_2', 'Our quality management system is certified to IATF 16949:2016 for the design and production of seat components.')}
               </p>
             </Reveal>
             <Reveal index={4} className="mt-8 flex flex-wrap gap-3">
@@ -99,9 +109,9 @@ export default function AboutPage() {
         <div className="mx-auto max-w-[88rem] px-5 py-14 md:px-10 md:py-20">
           <SectionHeading
             id="experience-heading"
-            eyebrow="Customer experience"
-            title="Past supply experience across the automotive sector"
-            description="Our company presentation names Dongfeng Commercial Vehicle, Lear, GAC Gonow, Geely and Shanghai Daimay among historical customers served. This is a record of past supply experience, not a statement of current partnership or endorsement."
+            eyebrow={siteCopy(copy, 'customers_eyebrow', 'Customer experience')}
+            title={siteCopy(copy, 'customers_title', 'Past supply experience across the automotive sector')}
+            description={siteCopy(copy, 'customers_description', 'Our company presentation names Dongfeng Commercial Vehicle, Lear, GAC Gonow, Geely and Shanghai Daimay among historical customers served. This is a record of past supply experience, not a statement of current partnership or endorsement.')}
           />
         </div>
       </section>
@@ -115,19 +125,19 @@ export default function AboutPage() {
               width={823}
               height={452}
               sizes="(min-width: 1024px) 55vw, 94vw"
-              className="h-auto w-full border border-line bg-white p-2"
+              className="h-auto w-full"
             />
           </Reveal>
           <SectionHeading
             id="site-heading"
-            eyebrow="Our facility"
-            title="Made in Daishan County"
-            description="Production takes place at our site in Dongsha Town, Daishan County, Zhoushan, Zhejiang."
+            eyebrow={siteCopy(copy, 'facility_eyebrow', 'Our facility')}
+            title={siteCopy(copy, 'facility_title', 'Made in Daishan County')}
+            description={siteCopy(copy, 'facility_description', 'Production takes place at our site in Dongsha Town, Daishan County, Zhoushan, Zhejiang.')}
           />
         </div>
       </section>
 
-      <CtaBand title="Talk to our team" text="Tell us about your seating requirements and we will respond by email." />
+      <CtaBand title={siteCopy(copy, 'cta_title', 'Talk to our team')} text={siteCopy(copy, 'cta_text', 'Tell us about your seating requirements and we will respond by email.')} />
     </>
   )
 }
