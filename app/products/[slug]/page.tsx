@@ -82,8 +82,8 @@ export default async function ProductDetailPage({ params }: { params: Params }) 
         backdrop={false}
       />
 
-      <section aria-label="Product overview" className="mx-auto max-w-[88rem] px-5 py-10 md:px-10 md:py-16">
-        <div className="grid gap-10 lg:grid-cols-[1.1fr_1fr] lg:gap-16">
+      <section aria-label="Product overview" className="bg-white">
+        <div className="mx-auto grid max-w-[88rem] gap-10 px-5 py-10 md:px-10 md:py-16 lg:grid-cols-[1.1fr_1fr] lg:gap-16">
           <Reveal>
             <ProductGallery images={product.images} />
           </Reveal>

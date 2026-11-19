@@ -13,7 +13,7 @@ export function ProductGallery({ images }: { images: GalleryImage[] }) {
 
   return (
     <div>
-      <div className="relative aspect-[4/3] overflow-hidden border border-line bg-white md:aspect-[5/4]">
+      <div className="relative aspect-[4/3] overflow-hidden bg-white md:aspect-[5/4]">
         <Image
           key={current.src}
           src={current.src}
