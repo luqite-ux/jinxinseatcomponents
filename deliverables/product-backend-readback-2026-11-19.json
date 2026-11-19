@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-11-19T03:18:41.135Z",
+  "tenantId": "d189a65a-480c-4800-ab12-ac21a9d724d7",
+  "catalogProducts": 77,
+  "activeDbProducts": 77,
+  "activeDbCategories": 17,
+  "productsWithSpecs": 77,
+  "sourceParameterRows": 39,
+  "parameterMismatchRows": [],
+  "prohibitedRawRows": [],
+  "missing": [],
+  "extra": [],
+  "invalidImages": [],
+  "unmatchedRows": [],
+  "pass": true
+}
