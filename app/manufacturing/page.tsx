@@ -5,6 +5,7 @@ import { CtaBand } from '@/components/site/cta-band'
 import { PageHeader } from '@/components/site/page-header'
 import { Reveal } from '@/components/site/reveal'
 import { SectionHeading } from '@/components/site/section-heading'
+import { SourcePhotoArchive } from '@/components/site/source-photo-archive'
 import { manufacturingAreas } from '@/lib/manufacturing'
 import { siteCopy, siteImage } from '@/lib/site-content/copy'
 import { getEditablePage } from '@/lib/site-content/page-data'
@@ -41,6 +42,16 @@ export default async function ManufacturingPage() {
           id: typeof row.id === 'string' ? row.id : String(index),
           title: siteCopy(row, 'title', 'Company photograph'),
           image: siteImage(row, 'image', { src: '/facility/press-line.png', alt: 'Company supplied production photograph' }),
+        }
+      })
+    : []
+  const presentationGallery = Array.isArray(copy?.presentation_gallery)
+    ? copy.presentation_gallery.map((item: unknown, index: number) => {
+        const row = item && typeof item === 'object' ? item as Record<string, unknown> : {}
+        return {
+          id: typeof row.id === 'string' ? row.id : String(index),
+          title: siteCopy(row, 'title', 'Production photograph'),
+          image: siteImage(row, 'image', { src: '/facility/press-line.png', alt: 'Customer supplied production photograph' }),
         }
       })
     : []
@@ -126,6 +137,15 @@ export default async function ManufacturingPage() {
           </ul>
         </section>
       )}
+
+      <SourcePhotoArchive
+        id="presentation-facility-heading"
+        eyebrow="Presentation archive"
+        title={siteCopy(copy, 'presentation_gallery_title', 'Workshop and testing photographs')}
+        description={siteCopy(copy, 'presentation_gallery_description', 'Additional workshop and testing photographs supplied in the company presentation.')}
+        photos={presentationGallery}
+        fit="cover"
+      />
 
       <section aria-labelledby="quality-heading" className="mx-auto max-w-[88rem] px-5 py-14 md:px-10 md:py-20">
         <div className="grid gap-10 lg:grid-cols-[1.1fr_1fr] lg:items-center lg:gap-16">

@@ -6,6 +6,7 @@ import { CtaBand } from '@/components/site/cta-band'
 import { PageHeader } from '@/components/site/page-header'
 import { Reveal } from '@/components/site/reveal'
 import { SectionHeading } from '@/components/site/section-heading'
+import { SourcePhotoArchive } from '@/components/site/source-photo-archive'
 import { applicationExamples } from '@/lib/applications'
 import { buttonSecondary } from '@/lib/site'
 import { siteCopy, siteImage } from '@/lib/site-content/copy'
@@ -40,6 +41,16 @@ export default async function ApplicationsPage() {
           id: typeof row.id === 'string' ? row.id : String(index),
           title: siteCopy(row, 'title', 'Customer supplied photograph'),
           image: siteImage(row, 'image', { src: '/products/front-seat-assembly.jpg', alt: 'Customer supplied seat photograph' }),
+        }
+      })
+    : []
+  const presentationGallery = Array.isArray(copy?.presentation_gallery)
+    ? copy.presentation_gallery.map((item: unknown, index: number) => {
+        const row = item && typeof item === 'object' ? item as Record<string, unknown> : {}
+        return {
+          id: typeof row.id === 'string' ? row.id : String(index),
+          title: siteCopy(row, 'title', 'Product photograph'),
+          image: siteImage(row, 'image', { src: '/products/front-seat-assembly.jpg', alt: 'Customer supplied product photograph' }),
         }
       })
     : []
@@ -115,6 +126,14 @@ export default async function ApplicationsPage() {
           </div>
         </section>
       )}
+      <SourcePhotoArchive
+        id="presentation-products-heading"
+        eyebrow="Presentation archive"
+        title={siteCopy(copy, 'presentation_gallery_title', 'Product photographs from the supplied presentation')}
+        description={siteCopy(copy, 'presentation_gallery_description', 'Additional component photographs from the customer presentation. These images are not assigned to a specific catalog model.')}
+        photos={presentationGallery}
+        fit="contain"
+      />
       <CtaBand title={siteCopy(copy, 'cta_title', 'Have a seat position in mind?')} text={siteCopy(copy, 'cta_text', 'Describe the application and we will review which products fit.')} />
     </>
   )

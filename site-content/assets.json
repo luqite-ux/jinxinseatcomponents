@@ -120,6 +120,361 @@
       "assetId": "651f3929-1cde-4eaa-9678-d27e6a7c39ca",
       "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/optimized-gallery/12cda15bec3a072ad01457db.jpg",
       "sha256": "12cda15bec3a072ad01457db7bf5bcd83f020576dcc2bb2e6279b71e49ce4571"
+    },
+    "presentation-gallery/facility/6.jpg": {
+      "assetId": "1469d359-d15f-46d3-a1f6-4fdb386cf80d",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/bab8214f5cd80537cec64560.jpg",
+      "sha256": "bab8214f5cd80537cec6456068fa76f3ca96105e7b10e2bf6478e31a5a292ce1"
+    },
+    "presentation-gallery/facility/7.png": {
+      "assetId": "780a8ec0-cf47-43a3-81c9-4925b2698f48",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/fef36bf08b9503546998098e.png",
+      "sha256": "fef36bf08b9503546998098e04d6aae000166ab74233050877f914601461a1da"
+    },
+    "presentation-gallery/facility/78.jpg": {
+      "assetId": "e0a50290-b04f-45e9-a0c8-32e64e892e5e",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/b68710a6ec5b440bc6a67792.jpg",
+      "sha256": "b68710a6ec5b440bc6a67792af194950aa728f15c986c6436f90d2435d5d87f4"
+    },
+    "presentation-gallery/facility/90.jpg": {
+      "assetId": "c8d9aca4-d52d-4dd4-a81b-17260ff8dbf1",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/27a83bce050d88afb2d3193d.jpg",
+      "sha256": "27a83bce050d88afb2d3193d2754e0290931da0eac4224731933630764d9fdd4"
+    },
+    "presentation-gallery/facility/91.jpg": {
+      "assetId": "fbc2400e-b61e-49d3-8360-a237dbac1364",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/7cc630eedc3db2ef58fb0522.jpg",
+      "sha256": "7cc630eedc3db2ef58fb052229e12545771f4a6b6cd4377b0e72452bf95c806f"
+    },
+    "presentation-gallery/facility/92.jpg": {
+      "assetId": "c8812276-4b11-4abf-96d6-5ce6247d3c5a",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/61229338a03d3a671b54ad64.jpg",
+      "sha256": "61229338a03d3a671b54ad645f92d175613347e454f683f34c6aac779137bb3e"
+    },
+    "presentation-gallery/facility/93.jpg": {
+      "assetId": "a1f24967-6b8e-42b1-8085-c0efedf24502",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/bf720ea6428438847a5c1a56.jpg",
+      "sha256": "bf720ea6428438847a5c1a56ed2b0083a6d1cba682d03b2f0b050a95945f4e24"
+    },
+    "presentation-gallery/facility/95.png": {
+      "assetId": "886f793e-ac71-480e-9e77-a62c3530ac83",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/9b6b0605ca22f0c402d4d26a.png",
+      "sha256": "9b6b0605ca22f0c402d4d26a43d13b82d5fece40c6ae90127bb982770d13767b"
+    },
+    "presentation-gallery/facility/96.jpg": {
+      "assetId": "2aa3e4a2-1e55-44e6-a794-c8d72cd9ad73",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/2eac5d92fb560bd5d258446c.jpg",
+      "sha256": "2eac5d92fb560bd5d258446c30929507b2efea568d62978ca1e6a7709d784242"
+    },
+    "presentation-gallery/facility/97.jpg": {
+      "assetId": "24f3fb3a-5d99-4992-8f8b-6fdd1c42857d",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/b0b84495a8bf627484675016.jpg",
+      "sha256": "b0b84495a8bf627484675016f44993805ebfa9cba3b5af0f5f62e24afc1c7c17"
+    },
+    "presentation-gallery/facility/98.jpg": {
+      "assetId": "08bf9231-9e43-49aa-ad1d-ced914ac8729",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/e497a470d6cd0832a4e88a34.jpg",
+      "sha256": "e497a470d6cd0832a4e88a346e707665a5dd078fee07a6fa6609578f44619b3e"
+    },
+    "presentation-gallery/facility/99.jpg": {
+      "assetId": "55dc28e7-2da7-40c6-9d2d-cbb2fd804422",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/f02681626583b0203ffc52b1.jpg",
+      "sha256": "f02681626583b0203ffc52b1a0d36e6ed5415d197835c5798938cb7c03a7d4b2"
+    },
+    "presentation-gallery/facility/100.jpg": {
+      "assetId": "b23028a9-6f81-401a-b5e2-4a940033e8da",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/2ae0014aa9bd38a558c01b71.jpg",
+      "sha256": "2ae0014aa9bd38a558c01b71bc9dafae8db9c7932109955e595da669b6c9d336"
+    },
+    "presentation-gallery/facility/101.jpg": {
+      "assetId": "b897e7e1-eeb5-4b22-bfc8-6ee367b630f5",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/91afb13325400cda2c454523.jpg",
+      "sha256": "91afb13325400cda2c4545234bcc7676963bd15c62137bc295e6fa3091458394"
+    },
+    "presentation-gallery/facility/102.jpg": {
+      "assetId": "75c6bd39-62f0-467f-8cf1-50476e8101c9",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/bd2ebfb44cdbf97609cab885.jpg",
+      "sha256": "bd2ebfb44cdbf97609cab885ce1173bf46327cd4b7b430c4cfc89ce502b68298"
+    },
+    "presentation-gallery/facility/103.jpg": {
+      "assetId": "7813520e-8f4b-46ab-96d6-0b6f84e09a0e",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/73053ed2627e91bd469f4b14.jpg",
+      "sha256": "73053ed2627e91bd469f4b144852c403fdf217233b88ff764f90dbc4dcb0d35b"
+    },
+    "presentation-gallery/facility/104.jpg": {
+      "assetId": "c1038c4d-deec-4738-a52b-d75aeeb90b7a",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/2ecde219f2910388f0f6d357.jpg",
+      "sha256": "2ecde219f2910388f0f6d357ce587cf3fa0dbd9939bb21a899c0e02514f9b680"
+    },
+    "presentation-gallery/facility/105.jpg": {
+      "assetId": "55e05b54-7d43-40bb-bcc6-ef5a3bf1ea73",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/7900f3ff581eb0fcf7510d10.jpg",
+      "sha256": "7900f3ff581eb0fcf7510d10d5b0a679ad09ac8a986fc06799e07d4a06da9c0f"
+    },
+    "presentation-gallery/facility/106.jpg": {
+      "assetId": "457a25eb-c74d-4b04-b894-f87a4cee69db",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/a83918f830b95d8839f56c8d.jpg",
+      "sha256": "a83918f830b95d8839f56c8d8f0dc6fbc1dae512899f4f22ab4068879b6c3da4"
+    },
+    "presentation-gallery/facility/107.jpg": {
+      "assetId": "a23a967c-5a17-4b3e-9e5f-f91033e1da33",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/5c1e7c554fb07b824d6478fe.jpg",
+      "sha256": "5c1e7c554fb07b824d6478fe96b373ddf73f75f9db64a2f9fc484546f16b3dde"
+    },
+    "presentation-gallery/facility/108.jpg": {
+      "assetId": "5e80c0bb-9e48-4d4e-b24d-a3288d278b71",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/dd496a112f8d328979ef8436.jpg",
+      "sha256": "dd496a112f8d328979ef8436cfa7139e5f6faca8d68c0ba3c691290213834fab"
+    },
+    "presentation-gallery/facility/109.jpg": {
+      "assetId": "8446f491-38cf-40f1-8d3a-60f5b16f6559",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/8567c9c92fde3f6eb525868b.jpg",
+      "sha256": "8567c9c92fde3f6eb525868b69ffa528caf9cee68089950156c1c70cde5d8bef"
+    },
+    "presentation-gallery/facility/110.jpg": {
+      "assetId": "72e30c3a-66e8-46d4-9bfe-1b9c986d2b13",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/08862f05ece1e003d4d15b6d.jpg",
+      "sha256": "08862f05ece1e003d4d15b6d3fd8068e385008037e3ff47da6090558945c23bb"
+    },
+    "presentation-gallery/facility/111.jpg": {
+      "assetId": "1b2ec1af-cdca-4a96-acf4-837b2b9b534a",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/e022940975076532fc17e3c1.jpg",
+      "sha256": "e022940975076532fc17e3c141aa36821476fb33cee4e6e8bda282a2518172bb"
+    },
+    "presentation-gallery/facility/112.jpg": {
+      "assetId": "419ddd0c-a149-4c32-8469-9dbc38d1460d",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/bd951d37d26cede675bd5230.jpg",
+      "sha256": "bd951d37d26cede675bd52303438b33e0c51483f0d7704bfd01c060903769b08"
+    },
+    "presentation-gallery/facility/114.jpg": {
+      "assetId": "4311961b-133c-4e8b-89ab-a5f26a70b145",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/24db37c4708ed7988334b044.jpg",
+      "sha256": "24db37c4708ed7988334b044f9cee4119aded5906793d7568710369383ce2da4"
+    },
+    "presentation-gallery/facility/115.jpg": {
+      "assetId": "2139adc3-568a-46af-8ed4-7e2747b77dee",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/f8c39450b55ddfd666e68fcd.jpg",
+      "sha256": "f8c39450b55ddfd666e68fcd83d847afc6ae943f99bdc8255ba1c3affd9aa56d"
+    },
+    "presentation-gallery/product/25.png": {
+      "assetId": "f3a2ab62-42d6-49f4-ac48-1fd7a8bf4e01",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/3cc57b55522eb30977e71475.png",
+      "sha256": "3cc57b55522eb30977e71475c9467880e7f56cfe633b5f09ef9d8165ba21e5af"
+    },
+    "presentation-gallery/product/26.png": {
+      "assetId": "12ee2f58-2690-4333-bffa-e01469efb56a",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/30ab42822eb0e6d6ec2d87f5.png",
+      "sha256": "30ab42822eb0e6d6ec2d87f51f76a28b5f41c5b7b9cd71034e56577bac02e875"
+    },
+    "presentation-gallery/product/27.png": {
+      "assetId": "8518f3eb-f4aa-4fdd-9f84-8cdb02469862",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/4c18026a2d778149c82428a8.png",
+      "sha256": "4c18026a2d778149c82428a8024615204e68b6b60a8780036e68275fb1a40fcc"
+    },
+    "presentation-gallery/product/28.png": {
+      "assetId": "5bc2c269-c8cd-4bf7-b189-4f920f60ed1a",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/16b46d6ef9b9ef5da0c4e25f.png",
+      "sha256": "16b46d6ef9b9ef5da0c4e25f991fa2a29f921ccdf02166acb2ba379d492cd670"
+    },
+    "presentation-gallery/product/29.png": {
+      "assetId": "9cf1e720-f6d8-450e-b60a-acd2ec31a58e",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/18b97aae898c03dee3948288.png",
+      "sha256": "18b97aae898c03dee39482884417bb0e85ce2a6c81db616ecd40d754ab60a38d"
+    },
+    "presentation-gallery/product/30.png": {
+      "assetId": "706ca95c-28e9-43df-9167-381ae56fc63f",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/de10d9220f3458b0e9c2b081.png",
+      "sha256": "de10d9220f3458b0e9c2b08155751b5bca6adf726555b4c5c11d8273895cdc5a"
+    },
+    "presentation-gallery/product/31.png": {
+      "assetId": "ca1c5bf9-f8d4-4b46-921e-6bb5906d2337",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/713224709b42275c5dadcc34.png",
+      "sha256": "713224709b42275c5dadcc34237a37a5e6a94afbe3f538ef1360a218f77b5b26"
+    },
+    "presentation-gallery/product/32.png": {
+      "assetId": "ac2e4340-7fc2-445d-b52b-22e42f36b616",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/acb9739d55daf98e3408f352.png",
+      "sha256": "acb9739d55daf98e3408f352ef5403a38ce63088c2bdcbf557a5af19722ea6da"
+    },
+    "presentation-gallery/product/33.png": {
+      "assetId": "c7ac099c-a52a-48ee-b072-933574d2e1ec",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/b4a1e5e3d1774e831804f86e.png",
+      "sha256": "b4a1e5e3d1774e831804f86efa2a651dccec44df34d237429802f3ad1999cd87"
+    },
+    "presentation-gallery/product/34.png": {
+      "assetId": "1ebc9504-4532-49c3-ad40-3dce274117a0",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/5c7c94d396d3ff1cfdbbee73.png",
+      "sha256": "5c7c94d396d3ff1cfdbbee736566945035ac4cbaf919192f7b0aab19cadd5651"
+    },
+    "presentation-gallery/product/35.jpg": {
+      "assetId": "176f585e-b416-47c7-9247-e4c1d5f137a2",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/ec203b168dcb362c82a3e9c3.jpg",
+      "sha256": "ec203b168dcb362c82a3e9c37ef41fb7ca609b2dc693f037c70d64b550c85e36"
+    },
+    "presentation-gallery/product/36.jpg": {
+      "assetId": "7e165fb7-7673-46b7-be33-a744eb77138a",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/95200d6e8955f51bb2ff6266.jpg",
+      "sha256": "95200d6e8955f51bb2ff62668841121de10cb97047d24f32277998d7197b8329"
+    },
+    "presentation-gallery/product/37.jpg": {
+      "assetId": "fe9a4bc9-5dff-425f-b7b7-dc7a5dd742b5",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/cb71cd9b1c8358c56a9117c9.jpg",
+      "sha256": "cb71cd9b1c8358c56a9117c99c4cd9278e3304d2c8b5d0f39cfeb860fc3cd19c"
+    },
+    "presentation-gallery/product/38.jpg": {
+      "assetId": "7244adae-eea4-4469-a699-85bfca5b9285",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/409ff002be5bf5fb359bbbb7.jpg",
+      "sha256": "409ff002be5bf5fb359bbbb79c1fbcd5742bd95d13fd8b6f18008d921f36db7b"
+    },
+    "presentation-gallery/product/39.jpg": {
+      "assetId": "9ae53a4e-2325-4e21-ae2f-9f620327b201",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/4f90bfff224ba7bd20bdd27f.jpg",
+      "sha256": "4f90bfff224ba7bd20bdd27fd4bb04d2a7a2291b78ff98f3178e7fc58fe87fc2"
+    },
+    "presentation-gallery/product/40.jpg": {
+      "assetId": "b93b5f11-f4c4-4381-8667-7f0d04765d93",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/3f48cf1482b61f532b6dbe56.jpg",
+      "sha256": "3f48cf1482b61f532b6dbe56ef4546146d0fd8344a5360c89857b98225c87ba0"
+    },
+    "presentation-gallery/product/41.jpg": {
+      "assetId": "65032ded-7bf5-4183-8bbf-c3cd1976212c",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/03f618211b4b6545096f1055.jpg",
+      "sha256": "03f618211b4b6545096f1055c19b5f39270f6d3a217fc1383e00aa7e94b62486"
+    },
+    "presentation-gallery/product/42.jpg": {
+      "assetId": "0be63751-d45e-4939-aefc-043b25357a9e",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/dbf483d88451d70c97989dd5.jpg",
+      "sha256": "dbf483d88451d70c97989dd5ba3e0130ec41ee62f8708b8b0606a25dbd69fe8c"
+    },
+    "presentation-gallery/product/43.jpg": {
+      "assetId": "badae053-b633-4046-88e7-c84db794fc40",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/68798687210cdee8cf28e929.jpg",
+      "sha256": "68798687210cdee8cf28e929dea62ec22c4c421bf79e40f468e154bc3c4d10c2"
+    },
+    "presentation-gallery/product/44.jpg": {
+      "assetId": "b671c3a1-b806-4f7b-bf78-01fd4cc35a21",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/ba5025d6d061a24ab775f64b.jpg",
+      "sha256": "ba5025d6d061a24ab775f64b53925d58ba35d7f92c80910d0186cd73ca92493d"
+    },
+    "presentation-gallery/product/45.jpg": {
+      "assetId": "43cacadb-f6d8-4bb4-b05d-4462505d34c3",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/3227e7ead149eb7aae85782a.jpg",
+      "sha256": "3227e7ead149eb7aae85782ab5235cba62c5384cb647b38c8372788530cb4c24"
+    },
+    "presentation-gallery/product/46.jpg": {
+      "assetId": "f514b86b-f4e4-462e-bf20-d0e2c95c1f56",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/b2f9eca05b434e29852f0753.jpg",
+      "sha256": "b2f9eca05b434e29852f0753f3c0404281695ae552c81e87242aa4b131f83d48"
+    },
+    "presentation-gallery/product/47.jpg": {
+      "assetId": "55b1b40d-bee7-4120-97f0-36dc326bf11b",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/ef8f469adf17c970104f78f2.jpg",
+      "sha256": "ef8f469adf17c970104f78f2fb82a0d6fb9e3b567f401e1603149a8b7721426b"
+    },
+    "presentation-gallery/product/48.jpg": {
+      "assetId": "dee122ac-8b72-450c-8649-0f409260657b",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/a6364382acc7a6f19a80550a.jpg",
+      "sha256": "a6364382acc7a6f19a80550a6ce5a73c8b69a1a0304d078f01cb52b324b4b3f4"
+    },
+    "presentation-gallery/product/49.jpg": {
+      "assetId": "450bdc14-52e3-4dc5-ae2a-6bfc2ef97b41",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/334e07f407f27221d7eddea1.jpg",
+      "sha256": "334e07f407f27221d7eddea1fd2f46933992ea20a624c21ad60c7584da0693a1"
+    },
+    "presentation-gallery/product/50.jpg": {
+      "assetId": "011d72c8-c6fa-4dc2-9f38-e70472a0c329",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/0d7ecdf43fd8086dea647dc2.jpg",
+      "sha256": "0d7ecdf43fd8086dea647dc255ad9bcb6daabccfaa82132877810f69ded0ef11"
+    },
+    "presentation-gallery/product/51.jpg": {
+      "assetId": "aa90b58f-a339-4932-b5fe-c187aa8efad0",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/853e934459a394480e052ca1.jpg",
+      "sha256": "853e934459a394480e052ca1dd115bc4cbcc473cd61f59a7915631ed6078e12c"
+    },
+    "presentation-gallery/product/52.jpg": {
+      "assetId": "75fb962d-17ef-4edc-9684-7084c9f91d16",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/78d45235b5b0b5f0f37db24a.jpg",
+      "sha256": "78d45235b5b0b5f0f37db24a686dcf99013553468c69d5f9e0058712ba7db47a"
+    },
+    "presentation-gallery/product/53.jpg": {
+      "assetId": "99dd6af3-93eb-4e6f-a68b-5b0b3d66134a",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/5d5dc51802c14682e114877b.jpg",
+      "sha256": "5d5dc51802c14682e114877bd03b4d9f2d137f59881834091039551b74604ea9"
+    },
+    "presentation-gallery/product/54.jpg": {
+      "assetId": "f1651705-13b3-4bc2-a9c9-28bee8e3be2f",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/7e7854e352e55740d2304a21.jpg",
+      "sha256": "7e7854e352e55740d2304a21e8f5520b7f25c282437b904044f64a5d383e81be"
+    },
+    "presentation-gallery/product/55.jpg": {
+      "assetId": "8f20a64b-280b-4e79-a004-f16858e75bb7",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/1f8105b3e46eeffab0a8c565.jpg",
+      "sha256": "1f8105b3e46eeffab0a8c565db97c2e9dd2ac91063c207c89d78e427bbadbb93"
+    },
+    "presentation-gallery/product/56.jpg": {
+      "assetId": "a447970c-68e6-4750-8041-5ddf155b3bba",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/366ebde074a30215eec63517.jpg",
+      "sha256": "366ebde074a30215eec635179966f4805b152e9939dc479cd8b47526124af78c"
+    },
+    "presentation-gallery/product/57.jpg": {
+      "assetId": "6511f4c2-017a-4149-9bca-69cf458649ee",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/0d505e6b70bdade7aa3f8a24.jpg",
+      "sha256": "0d505e6b70bdade7aa3f8a24deec46974f6863993709a45c7e98486749fb07d4"
+    },
+    "presentation-gallery/product/58.jpg": {
+      "assetId": "2899b5ef-2ec9-43e2-9ad9-baba02ccfc06",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/8b6b723f8a799ee76c88f85a.jpg",
+      "sha256": "8b6b723f8a799ee76c88f85a06812518c7fc0ca1ad4971d281d8a040f116b5a9"
+    },
+    "presentation-gallery/product/59.jpg": {
+      "assetId": "d5d9fd16-5795-4d87-8d39-4530c129632a",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/7677bbad9184e5d9175e795b.jpg",
+      "sha256": "7677bbad9184e5d9175e795b296640bbed26cb308716997388c790a841a9a91f"
+    },
+    "presentation-gallery/product/60.jpg": {
+      "assetId": "fb051496-49b2-4be5-bb13-425c74c2c90a",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/4366042e5417d09d64b40600.jpg",
+      "sha256": "4366042e5417d09d64b406003949eb1a299348568eddfead488d02315251c77e"
+    },
+    "presentation-gallery/product/61.jpg": {
+      "assetId": "a0ce227e-17a8-443f-94bd-4c59d79a28a4",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/79f40ef1af0eccb675dcfcf5.jpg",
+      "sha256": "79f40ef1af0eccb675dcfcf595997131bca6614a04d462112717ba2af7f0f932"
+    },
+    "presentation-gallery/product/62.jpg": {
+      "assetId": "73f91e26-7bc8-4a2f-8ffd-749943109d78",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/47012a33e22c8664205ac778.jpg",
+      "sha256": "47012a33e22c8664205ac778480f6effc087db7a7f7b46f908c763126f14d1e4"
+    },
+    "presentation-gallery/product/63.jpg": {
+      "assetId": "832978ed-fcd1-440d-b069-1b8a9cb44e6f",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/94092354f342c41874c01e1a.jpg",
+      "sha256": "94092354f342c41874c01e1a99e41c5bf9d9a799989227b22f30191bf149256a"
+    },
+    "presentation-gallery/product/64.png": {
+      "assetId": "cb46b5f0-2ee1-48df-bb83-c335e472ef5e",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/748223530124bc4935563b61.png",
+      "sha256": "748223530124bc4935563b61351ae08269b9fa32dbe67920144b47d7972eb398"
+    },
+    "presentation-gallery/product/65.png": {
+      "assetId": "c3a34a08-531f-45a1-84f3-334cf66ef6c4",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/8ac4b31fe9b9dba4fbd83e46.png",
+      "sha256": "8ac4b31fe9b9dba4fbd83e46c08467589770161c757e391809135206a9a68457"
+    },
+    "presentation-gallery/product/66.png": {
+      "assetId": "b86d2b86-a675-4133-b01d-bb9770418155",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/ff7dd9cb2108410a0afab091.png",
+      "sha256": "ff7dd9cb2108410a0afab0915655c08295157064a87a323e40627fce6371f3bf"
+    },
+    "presentation-gallery/product/67.png": {
+      "assetId": "3d8f72a6-de78-4042-8e07-312e5dd16893",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/dce88e05c2c22701cba0632b.png",
+      "sha256": "dce88e05c2c22701cba0632b13ea1993465951f3bbce31a856a792a5201a1de2"
+    },
+    "presentation-gallery/product/68.png": {
+      "assetId": "055b4858-5c3b-4bc2-82a4-f5312e6b557e",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/ece43e73c96271a67f2a9b7f.png",
+      "sha256": "ece43e73c96271a67f2a9b7fca12457414afc3304f2e018cb30e78bf3b44727f"
     }
   }
 }

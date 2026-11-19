@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "fontFamilies": [
     {
       "key": "site-sans",
@@ -1672,6 +1672,45 @@
                   "required": true
                 }
               ]
+            },
+            {
+              "key": "presentation_gallery_title",
+              "type": "text",
+              "label": "Presentation product archive heading",
+              "localized": true,
+              "required": true,
+              "maxLength": 160
+            },
+            {
+              "key": "presentation_gallery_description",
+              "type": "textarea",
+              "label": "Presentation product archive description",
+              "localized": true,
+              "required": true,
+              "maxLength": 400
+            },
+            {
+              "key": "presentation_gallery",
+              "type": "repeat",
+              "label": "Presentation product photographs",
+              "required": true,
+              "maxItems": 44,
+              "fields": [
+                {
+                  "key": "title",
+                  "type": "text",
+                  "label": "Photograph title",
+                  "localized": true,
+                  "required": true,
+                  "maxLength": 130
+                },
+                {
+                  "key": "image",
+                  "type": "image",
+                  "label": "Customer presentation product photograph",
+                  "required": true
+                }
+              ]
             }
           ]
         },
@@ -1978,6 +2017,45 @@
                   "key": "image",
                   "type": "image",
                   "label": "Customer supplied photograph",
+                  "required": true
+                }
+              ]
+            },
+            {
+              "key": "presentation_gallery_title",
+              "type": "text",
+              "label": "Presentation archive heading",
+              "localized": true,
+              "required": true,
+              "maxLength": 160
+            },
+            {
+              "key": "presentation_gallery_description",
+              "type": "textarea",
+              "label": "Presentation archive description",
+              "localized": true,
+              "required": true,
+              "maxLength": 400
+            },
+            {
+              "key": "presentation_gallery",
+              "type": "repeat",
+              "label": "Presentation workshop and testing photographs",
+              "required": true,
+              "maxItems": 27,
+              "fields": [
+                {
+                  "key": "title",
+                  "type": "text",
+                  "label": "Photograph title",
+                  "localized": true,
+                  "required": true,
+                  "maxLength": 130
+                },
+                {
+                  "key": "image",
+                  "type": "image",
+                  "label": "Customer presentation photograph",
                   "required": true
                 }
               ]

@@ -32,7 +32,7 @@ const nav = [
   ['manufacturing', 'Manufacturing', '/manufacturing'], ['about', 'About', '/about'], ['news', 'News', '/news'], ['contact', 'Contact', '/contact'],
 ]
 const definition = {
-  version: 3,
+  version: 4,
   fontFamilies: [family('site-sans', 'Geist Sans'), family('site-mono', 'Geist Mono')],
   pages: [{ key: 'home', path: '/', label: 'Homepage', modules: [
     module('hero', 'Hero carousel', [type('slides', 'repeat', 'Three customer supplied slides', { maxItems: 3, required: true, fields: [
@@ -147,6 +147,21 @@ const companyGallery = [
   ['8', 'Team at work', 'Team members working at office desks'],
   ['9', 'Company building', 'Exterior of the building shown in the company profile'],
 ]
+const presentationKeys = (kind, expectedCount) => {
+  const keys = Object.keys(registeredAssets).filter((key) => key.startsWith(`presentation-gallery/${kind}/`))
+  keys.sort((a, b) => Number(a.split('/').at(-1).split('.')[0]) - Number(b.split('/').at(-1).split('.')[0]))
+  if (keys.length !== expectedCount) throw new Error(`Expected ${expectedCount} presentation ${kind} assets, got ${keys.length}`)
+  return keys
+}
+const presentationTitle = (kind, number) => {
+  if (kind === 'product') return number <= 34 ? 'Seat installation photograph' : number <= 41 ? 'Headrest or interior component photograph' : number <= 56 ? 'Seat frame photograph' : 'Molded foam component photograph'
+  return number === 6 ? 'Building photograph from presentation' : number === 7 ? 'Seat showroom photograph from presentation' : number <= 78 ? 'Workshop equipment photograph' : number <= 100 ? 'Testing equipment photograph' : 'Production workshop photograph'
+}
+const presentationPhotos = (kind, expectedCount) => presentationKeys(kind, expectedCount).map((key) => {
+  const number = Number(key.split('/').at(-1).split('.')[0])
+  const title = presentationTitle(kind, number)
+  return { id: `ppt-${number}`, title: local(title), image: pageImage(key, `Customer presentation: ${title.toLowerCase()}`) }
+})
 const manufacturingPage = definition.pages.find((page) => page.key === 'manufacturing_page')
 manufacturingPage.modules.splice(1, 0, module('copy', 'Manufacturing content', [
   ...Object.keys(manufacturingCopy).map((key) => type(key, key.endsWith('description') || key === 'cta_text' ? 'textarea' : 'text', key.replaceAll('_', ' '), { localized: true, required: true, maxLength: 500 })),
@@ -156,6 +171,9 @@ manufacturingPage.modules.splice(1, 0, module('copy', 'Manufacturing content', [
   type('gallery_title', 'text', 'Company photograph gallery heading', { localized: true, required: true, maxLength: 160 }),
   type('gallery_description', 'textarea', 'Company photograph gallery description', { localized: true, required: true, maxLength: 400 }),
   type('gallery', 'repeat', 'Company profile photographs', { required: true, maxItems: 8, fields: [type('title', 'text', 'Photograph title', { localized: true, required: true, maxLength: 130 }), type('image', 'image', 'Customer supplied photograph', { required: true })] }),
+  type('presentation_gallery_title', 'text', 'Presentation archive heading', { localized: true, required: true, maxLength: 160 }),
+  type('presentation_gallery_description', 'textarea', 'Presentation archive description', { localized: true, required: true, maxLength: 400 }),
+  type('presentation_gallery', 'repeat', 'Presentation workshop and testing photographs', { required: true, maxItems: 27, fields: [type('title', 'text', 'Photograph title', { localized: true, required: true, maxLength: 130 }), type('image', 'image', 'Customer presentation photograph', { required: true })] }),
 ]))
 content.pages.manufacturing_page.order.splice(1, 0, 'copy')
 content.pages.manufacturing_page.modules.copy = { hidden: false, values: { ...Object.fromEntries(Object.entries(manufacturingCopy).map(([key, value]) => [key, local(value)])), areas: areas.map((area) => ({ id: area.id, title: local(area.title), description: local(area.description), image: pageImage(area.id === 'frames' ? 'products/seat-frame-with-slide-rails.jpg' : area.id === 'foam' ? 'products/molded-seat-cushion-foam.jpg' : 'products/front-seat-assembly.jpg', `Customer supplied ${area.title.toLowerCase()} photograph`) })), floor_image: pageImage('facility/press-line.png', 'Row of stamping presses with yellow robotic arms on the Jinxin factory floor'), certificate_image: pageImage('quality/iatf-16949-certificate.jpg', 'DQS IATF 16949:2016 certificate for Zhoushan Jinxin Auto Parts') } }
@@ -163,6 +181,9 @@ Object.assign(content.pages.manufacturing_page.modules.copy.values, {
   gallery_title: local('Inside the company profile'),
   gallery_description: local('Workshop, equipment, office and building photographs supplied in the company information workbook.'),
   gallery: companyGallery.map(([number, title, alt]) => ({ id: `profile-${number}`, title: local(title), image: pageImage(`facility/company-gallery/${number}.png`, alt) })),
+  presentation_gallery_title: local('Workshop and testing photographs'),
+  presentation_gallery_description: local('Additional workshop and testing photographs supplied in the company presentation.'),
+  presentation_gallery: presentationPhotos('facility', 27),
 })
 integration.modules.push('manufacturing_page.copy')
 const applicationExamples = [
@@ -188,6 +209,9 @@ applicationsPage.modules.splice(1, 0, module('copy', 'Application examples and C
   type('gallery_title', 'text', 'Supplied photograph gallery heading', { localized: true, required: true, maxLength: 160 }),
   type('gallery_description', 'textarea', 'Supplied photograph gallery description', { localized: true, required: true, maxLength: 400 }),
   type('gallery', 'repeat', 'Additional customer supplied photographs', { required: true, maxItems: 9, fields: [type('title', 'text', 'Photograph title', { localized: true, required: true, maxLength: 130 }), type('image', 'image', 'Customer supplied photograph', { required: true })] }),
+  type('presentation_gallery_title', 'text', 'Presentation product archive heading', { localized: true, required: true, maxLength: 160 }),
+  type('presentation_gallery_description', 'textarea', 'Presentation product archive description', { localized: true, required: true, maxLength: 400 }),
+  type('presentation_gallery', 'repeat', 'Presentation product photographs', { required: true, maxItems: 44, fields: [type('title', 'text', 'Photograph title', { localized: true, required: true, maxLength: 130 }), type('image', 'image', 'Customer presentation product photograph', { required: true })] }),
 ]))
 content.pages.applications_page.order.splice(1, 0, 'copy')
 content.pages.applications_page.modules.copy = { hidden: false, values: {
@@ -196,6 +220,9 @@ content.pages.applications_page.modules.copy = { hidden: false, values: {
   gallery_title: local('More from the supplied photo collection'),
   gallery_description: local('Additional seat, frame and foam photographs supplied by the company. These images are not assigned to a specific catalog model.'),
   gallery: optimizedGallery.map((title, index) => ({ id: `optimized-${index + 1}`, title: local(title), image: pageImage(`supplied-gallery/${index + 1}.jpg`, `Customer supplied photograph: ${title.toLowerCase()}`) })),
+  presentation_gallery_title: local('Product photographs from the supplied presentation'),
+  presentation_gallery_description: local('Additional component photographs from the customer presentation. These images are not assigned to a specific catalog model.'),
+  presentation_gallery: presentationPhotos('product', 44),
 } }
 integration.modules.push('applications_page.copy')
 const simpleCopies = [
