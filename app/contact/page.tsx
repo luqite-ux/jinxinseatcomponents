@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Mail, MapPin, FileText, Phone } from 'lucide-react'
 import { ContactForm } from '@/components/contact/contact-form'
+import { getProcurementFaq } from '@/lib/faq-db'
 import { PageHeader } from '@/components/site/page-header'
 import { Reveal } from '@/components/site/reveal'
 import { fetchProductBySlug } from '@/lib/products-db'
@@ -31,6 +32,7 @@ export default async function ContactPage({ searchParams }: { searchParams: Sear
   const page = await getEditablePage('/contact')
   const intro = page.module('intro')
   const copy = page.module('copy')?.values
+  const faq = await getProcurementFaq()
 
   return (
     <>
@@ -97,6 +99,24 @@ export default async function ContactPage({ searchParams }: { searchParams: Sear
           </aside>
         </div>
       </section>
+      {faq.length > 0 && (
+        <section aria-labelledby="contact-faq-heading" className="border-t border-line bg-paper">
+          <div className="mx-auto max-w-[88rem] px-5 py-12 md:px-10 md:py-16">
+            <Reveal>
+              <p className="text-xs font-semibold uppercase tracking-[0.18em] text-jx">Ordering</p>
+              <h2 id="contact-faq-heading" className="mt-3 text-3xl font-semibold tracking-tight">Questions before you order</h2>
+            </Reveal>
+            <div className="mt-8 grid gap-4 md:grid-cols-2">
+              {faq.map((item, index) => (
+                <Reveal key={item.id} index={index % 4} className="border border-line bg-white p-5">
+                  <h3 className="font-semibold">{item.question}</h3>
+                  <p className="mt-3 text-sm leading-relaxed text-ink-soft">{item.answer}</p>
+                </Reveal>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
     </>
   )
 }
