@@ -1,0 +1,12 @@
+{
+  "domain": "jinxinseatcomponents.com",
+  "deploymentSha": "ab97c110740067e4d7cb4c3559e6ac3959297d15",
+  "browser": "headless Microsoft Edge via Playwright CLI",
+  "source": "live sitemap.xml and visible document.body.innerText",
+  "sitemapUrlCount": 84,
+  "checkedUrlCount": 84,
+  "httpErrors": 0,
+  "nonEnglishHtmlLang": 0,
+  "visibleHanMatches": 0,
+  "sourceScript": ".codex-delivery/qa-all-visible-language.js"
+}
