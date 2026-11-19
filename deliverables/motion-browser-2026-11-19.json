@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "productionDomain": "https://jinxinseatcomponents.com",
+  "deploymentSha": "9be06186a76504ca43d1acbab9467270736da8d1",
+  "browser": "headless Microsoft Edge through Playwright CLI, task-owned session jinxin-motion",
+  "checkedAt": "2026-11-19",
+  "normalMotionIdleThenScroll": [
+    { "mode": "desktop", "viewport": "1440x900", "idleMs": 16500, "pendingOffscreenBlocks": 53, "sampleBlockTopBeforeScroll": 1795, "sampleBlockInitiallyRevealed": false, "sampleBlockInitialOpacity": 0, "revealedAfterScroll": true, "opacityAfterScroll": 1, "pass": true },
+    { "mode": "mobile_390", "viewport": "390x844", "idleMs": 16500, "pendingOffscreenBlocks": 55, "sampleBlockTopBeforeScroll": 1654, "sampleBlockInitiallyRevealed": false, "sampleBlockInitialOpacity": 0, "revealedAfterScroll": true, "opacityAfterScroll": 1, "pass": true }
+  ],
+  "reducedMotion": { "viewport": "390x844", "revealBlockCount": 59, "rootReadyAttribute": null, "allContentVisible": true, "sampleOpacity": 1, "sampleTransform": "none", "pass": true },
+  "routeCoverage": {
+    "viewports": ["1440x900", "390x844"],
+    "routes": ["/", "/products", "/products/ambulance-auxiliary-seat-assembly-jca001-045", "/products?category=seat-assemblies", "/applications", "/manufacturing", "/about", "/news", "/contact"],
+    "http200Count": 18,
+    "hydratedRevealReadyCount": 18,
+    "revealBlockCountsPerRoute": [59, 27, 9, 22, 66, 59, 17, 4, 7],
+    "pass": true
+  },
+  "scopeNote": "Browser-verified route sampling and viewport lifecycle; this is not the complete per-section terminal motion matrix for all 84 sitemap URLs."
+}

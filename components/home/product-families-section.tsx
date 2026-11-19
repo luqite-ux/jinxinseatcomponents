@@ -1,10 +1,10 @@
 import { CategoryCard } from '@/components/products/category-card'
 import { SectionHeading } from '@/components/site/section-heading'
-import { getCategories } from '@/lib/products'
+import { fetchCategoriesData } from '@/lib/products-db'
 import { siteCopy, type EditableSectionProps } from '@/lib/site-content/copy'
 
-export function ProductFamiliesSection({ content, styles }: EditableSectionProps = {}) {
-  const categories = getCategories().filter((category) => !category.parentSlug)
+export async function ProductFamiliesSection({ content, styles }: EditableSectionProps = {}) {
+  const categories = (await fetchCategoriesData()).filter((category) => !category.parentSlug)
   return (
     <section id="product-families" aria-labelledby="product-families-heading" className="bg-paper">
       <div className="mx-auto max-w-[88rem] px-5 py-16 md:px-10 md:py-24">

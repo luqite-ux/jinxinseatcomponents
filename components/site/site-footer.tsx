@@ -2,12 +2,12 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Mail, MapPin, Phone } from 'lucide-react'
 import { CurrentYear } from '@/components/site/current-year'
-import { getCategories } from '@/lib/products'
+import { fetchCategoriesData } from '@/lib/products-db'
 import { navItems as defaultNavItems, site, type NavItem } from '@/lib/site'
 
-export function SiteFooter({ items }: { items?: NavItem[] }) {
+export async function SiteFooter({ items }: { items?: NavItem[] }) {
   const navItems = items ?? defaultNavItems
-  const categories = getCategories().filter((category) => !category.parentSlug)
+  const categories = (await fetchCategoriesData()).filter((category) => !category.parentSlug)
 
   return (
     <footer className="border-t border-line bg-mist">

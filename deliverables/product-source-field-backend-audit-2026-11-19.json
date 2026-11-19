@@ -1,0 +1,2420 @@
+{
+  "schemaVersion": 1,
+  "tenantId": "d189a65a-480c-4800-ab12-ac21a9d724d7",
+  "checkedAt": "2026-11-19T05:07:02.044Z",
+  "count": 241,
+  "pass": true,
+  "failed": [],
+  "checks": [
+    {
+      "productKey": "product-row-5",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F5",
+      "expectedHash": "sha256:c05e48f8f017de49b7bbc49e7b2fdcf7f19dae4cf38a21607f627424ab17b509",
+      "actualHash": "sha256:c05e48f8f017de49b7bbc49e7b2fdcf7f19dae4cf38a21607f627424ab17b509",
+      "expectedPublishedHash": "sha256:1d01d3d7b214b82cc055ccf31914312fdd673222d9308f6b527b98f7e1befd8f",
+      "publicHash": "sha256:1d01d3d7b214b82cc055ccf31914312fdd673222d9308f6b527b98f7e1befd8f",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-5",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D5",
+      "expectedHash": "sha256:5ac66a0c15c249a4cbf0dc8150a1bcdedca498266470a1bdd3b01a0ed7f7a021",
+      "actualHash": "sha256:5ac66a0c15c249a4cbf0dc8150a1bcdedca498266470a1bdd3b01a0ed7f7a021",
+      "expectedPublishedHash": "sha256:5ac66a0c15c249a4cbf0dc8150a1bcdedca498266470a1bdd3b01a0ed7f7a021",
+      "publicHash": "sha256:5ac66a0c15c249a4cbf0dc8150a1bcdedca498266470a1bdd3b01a0ed7f7a021",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-5",
+      "field": "specifications",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!H5",
+      "expectedHash": "sha256:01556a18897d498adc8325087b4abfb5901a512a6d57bacd2f2584ac9eda812b",
+      "actualHash": "sha256:01556a18897d498adc8325087b4abfb5901a512a6d57bacd2f2584ac9eda812b",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-5",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I5",
+      "expectedHash": "sha256:8f7967785d309b2410a6fbef2ead502e0f963a10dade6dfb1695881ea71a6c07",
+      "actualHash": "sha256:8f7967785d309b2410a6fbef2ead502e0f963a10dade6dfb1695881ea71a6c07",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-6",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F6",
+      "expectedHash": "sha256:c05e48f8f017de49b7bbc49e7b2fdcf7f19dae4cf38a21607f627424ab17b509",
+      "actualHash": "sha256:c05e48f8f017de49b7bbc49e7b2fdcf7f19dae4cf38a21607f627424ab17b509",
+      "expectedPublishedHash": "sha256:1d01d3d7b214b82cc055ccf31914312fdd673222d9308f6b527b98f7e1befd8f",
+      "publicHash": "sha256:1d01d3d7b214b82cc055ccf31914312fdd673222d9308f6b527b98f7e1befd8f",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-6",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D6",
+      "expectedHash": "sha256:e2b3349a965a91278b13e0666b319f61ae0449ca7c4f6b2cd4c049f305381767",
+      "actualHash": "sha256:e2b3349a965a91278b13e0666b319f61ae0449ca7c4f6b2cd4c049f305381767",
+      "expectedPublishedHash": "sha256:e2b3349a965a91278b13e0666b319f61ae0449ca7c4f6b2cd4c049f305381767",
+      "publicHash": "sha256:e2b3349a965a91278b13e0666b319f61ae0449ca7c4f6b2cd4c049f305381767",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-6",
+      "field": "specifications",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!H6",
+      "expectedHash": "sha256:01556a18897d498adc8325087b4abfb5901a512a6d57bacd2f2584ac9eda812b",
+      "actualHash": "sha256:01556a18897d498adc8325087b4abfb5901a512a6d57bacd2f2584ac9eda812b",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-6",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I6",
+      "expectedHash": "sha256:900f56ca057408f5f96387f4c1100c110da2bfcab63861034767c02b4f9dba99",
+      "actualHash": "sha256:900f56ca057408f5f96387f4c1100c110da2bfcab63861034767c02b4f9dba99",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-7",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F7",
+      "expectedHash": "sha256:1b7ff7cfba772f7ccbe32616a91bef30cb1f3cfa33b791f3ec4a2d5f3654df55",
+      "actualHash": "sha256:1b7ff7cfba772f7ccbe32616a91bef30cb1f3cfa33b791f3ec4a2d5f3654df55",
+      "expectedPublishedHash": "sha256:1eb0677da2e3d10b2ff8cac49197d8539adce10b91e14e14adafe9954844c472",
+      "publicHash": "sha256:1eb0677da2e3d10b2ff8cac49197d8539adce10b91e14e14adafe9954844c472",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-7",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D7",
+      "expectedHash": "sha256:97b530c1ad4837f9149162eaf090715ee7bc8be2cb948f78f3a7b7a8e0013072",
+      "actualHash": "sha256:97b530c1ad4837f9149162eaf090715ee7bc8be2cb948f78f3a7b7a8e0013072",
+      "expectedPublishedHash": "sha256:97b530c1ad4837f9149162eaf090715ee7bc8be2cb948f78f3a7b7a8e0013072",
+      "publicHash": "sha256:97b530c1ad4837f9149162eaf090715ee7bc8be2cb948f78f3a7b7a8e0013072",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-7",
+      "field": "specifications",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!H7",
+      "expectedHash": "sha256:34eedd984dcd955fedcb8300e2835e4f321b908d14a6a0ec71ffa4f4be33f119",
+      "actualHash": "sha256:34eedd984dcd955fedcb8300e2835e4f321b908d14a6a0ec71ffa4f4be33f119",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-7",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I7",
+      "expectedHash": "sha256:fec4c0c20dccb0dcdd3762cb69ccdf4cc29f745f46f4a2360c8282a822890d8f",
+      "actualHash": "sha256:fec4c0c20dccb0dcdd3762cb69ccdf4cc29f745f46f4a2360c8282a822890d8f",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-8",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F8",
+      "expectedHash": "sha256:5266e8799fdf77c3567da3b8cc1f85c1eb1ea1640fc07c4ae9cc3db2498ab567",
+      "actualHash": "sha256:5266e8799fdf77c3567da3b8cc1f85c1eb1ea1640fc07c4ae9cc3db2498ab567",
+      "expectedPublishedHash": "sha256:626519d85792cb4027b8877e887f7716c6b3e20b4cd53fbdcb551d588d404cbe",
+      "publicHash": "sha256:626519d85792cb4027b8877e887f7716c6b3e20b4cd53fbdcb551d588d404cbe",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-8",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D8",
+      "expectedHash": "sha256:4cd12604c2782727383b17c812aa77bc8b0087ecabe8498e7dd30815465da52d",
+      "actualHash": "sha256:4cd12604c2782727383b17c812aa77bc8b0087ecabe8498e7dd30815465da52d",
+      "expectedPublishedHash": "sha256:4cd12604c2782727383b17c812aa77bc8b0087ecabe8498e7dd30815465da52d",
+      "publicHash": "sha256:4cd12604c2782727383b17c812aa77bc8b0087ecabe8498e7dd30815465da52d",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-8",
+      "field": "specifications",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!H8",
+      "expectedHash": "sha256:c36cb41aa01fdb1f548373ea9d9c0f76f1af075fb08ee3ab4ecc0914c5dbb6c7",
+      "actualHash": "sha256:c36cb41aa01fdb1f548373ea9d9c0f76f1af075fb08ee3ab4ecc0914c5dbb6c7",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-8",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I8",
+      "expectedHash": "sha256:25f5cd720203bf987c5ff0ba0e4f9ecea69052b372e817996073feba054877de",
+      "actualHash": "sha256:25f5cd720203bf987c5ff0ba0e4f9ecea69052b372e817996073feba054877de",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-9",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F9",
+      "expectedHash": "sha256:ba0538ec270568f9666d415ed6c4de30028f6a1e8e7625bd33d04c0a1ef174e5",
+      "actualHash": "sha256:ba0538ec270568f9666d415ed6c4de30028f6a1e8e7625bd33d04c0a1ef174e5",
+      "expectedPublishedHash": "sha256:5671aa6e0d24e0cae45e06d4945c83a46955153b6c0519042bdfddc9404f53ac",
+      "publicHash": "sha256:5671aa6e0d24e0cae45e06d4945c83a46955153b6c0519042bdfddc9404f53ac",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-9",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D9",
+      "expectedHash": "sha256:2b453b1543e7d7219b207bde1d86f2f9e60fe949177148e48c68fee103a6e8f9",
+      "actualHash": "sha256:2b453b1543e7d7219b207bde1d86f2f9e60fe949177148e48c68fee103a6e8f9",
+      "expectedPublishedHash": "sha256:2b453b1543e7d7219b207bde1d86f2f9e60fe949177148e48c68fee103a6e8f9",
+      "publicHash": "sha256:2b453b1543e7d7219b207bde1d86f2f9e60fe949177148e48c68fee103a6e8f9",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-9",
+      "field": "specifications",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!H9",
+      "expectedHash": "sha256:81cbc56a896360c546c91e3672ccfdc845eae7a87517e0e4b57db17de46fa48d",
+      "actualHash": "sha256:81cbc56a896360c546c91e3672ccfdc845eae7a87517e0e4b57db17de46fa48d",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-9",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I9",
+      "expectedHash": "sha256:8eeced5b74455be356ae4f0f2b520c12460a6214c0a9bdd810e5722c52104b2f",
+      "actualHash": "sha256:8eeced5b74455be356ae4f0f2b520c12460a6214c0a9bdd810e5722c52104b2f",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-10",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F10",
+      "expectedHash": "sha256:ead07bc9010bb77daf717b7320d20e2a400367d781eb97af44902d2ed95aa85e",
+      "actualHash": "sha256:ead07bc9010bb77daf717b7320d20e2a400367d781eb97af44902d2ed95aa85e",
+      "expectedPublishedHash": "sha256:626519d85792cb4027b8877e887f7716c6b3e20b4cd53fbdcb551d588d404cbe",
+      "publicHash": "sha256:626519d85792cb4027b8877e887f7716c6b3e20b4cd53fbdcb551d588d404cbe",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-10",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D10",
+      "expectedHash": "sha256:c3c896fe0c03a5348bc2210499b28a9a881adacb5e381466a3c80a70735a9fec",
+      "actualHash": "sha256:c3c896fe0c03a5348bc2210499b28a9a881adacb5e381466a3c80a70735a9fec",
+      "expectedPublishedHash": "sha256:c3c896fe0c03a5348bc2210499b28a9a881adacb5e381466a3c80a70735a9fec",
+      "publicHash": "sha256:c3c896fe0c03a5348bc2210499b28a9a881adacb5e381466a3c80a70735a9fec",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-10",
+      "field": "specifications",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!H10",
+      "expectedHash": "sha256:d7962d97d5a8621441d2453d041c8fc54715371feb285143df008e3551587fad",
+      "actualHash": "sha256:d7962d97d5a8621441d2453d041c8fc54715371feb285143df008e3551587fad",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-10",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I10",
+      "expectedHash": "sha256:c37da6bd9cc363929de1ed50ef501cefc29650fd330e1783bc293fcf05547f03",
+      "actualHash": "sha256:c37da6bd9cc363929de1ed50ef501cefc29650fd330e1783bc293fcf05547f03",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-11",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F11",
+      "expectedHash": "sha256:bbb6e5ed674daae679c606bf53684ca5cb7184bb8a2d7cf00a5fa14951552f0d",
+      "actualHash": "sha256:bbb6e5ed674daae679c606bf53684ca5cb7184bb8a2d7cf00a5fa14951552f0d",
+      "expectedPublishedHash": "sha256:cc3280e4af53ab321625ca4605d074029d05ae65ff9c853c3f657ba11136d0f7",
+      "publicHash": "sha256:cc3280e4af53ab321625ca4605d074029d05ae65ff9c853c3f657ba11136d0f7",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-11",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D11",
+      "expectedHash": "sha256:8d45cf79dffd66c9f858a6cd8c47275cf997f0a8857c3f27361b9154e575a2ef",
+      "actualHash": "sha256:8d45cf79dffd66c9f858a6cd8c47275cf997f0a8857c3f27361b9154e575a2ef",
+      "expectedPublishedHash": "sha256:8d45cf79dffd66c9f858a6cd8c47275cf997f0a8857c3f27361b9154e575a2ef",
+      "publicHash": "sha256:8d45cf79dffd66c9f858a6cd8c47275cf997f0a8857c3f27361b9154e575a2ef",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-11",
+      "field": "specifications",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!H11",
+      "expectedHash": "sha256:57ce1ade0bc01a1ad1e45273469d0bd266c8e13a3fa072e2e72918cc104b28a7",
+      "actualHash": "sha256:57ce1ade0bc01a1ad1e45273469d0bd266c8e13a3fa072e2e72918cc104b28a7",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-11",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I11",
+      "expectedHash": "sha256:a1cea90d4dff15040ea7d8d8281e38fc88e57647372e6212a2cbe19da94ceabf",
+      "actualHash": "sha256:a1cea90d4dff15040ea7d8d8281e38fc88e57647372e6212a2cbe19da94ceabf",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-12",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F12",
+      "expectedHash": "sha256:cabc30f30735adbd4a175f353d384a30b0cf807e70adaa3908e9434ef6ef47b7",
+      "actualHash": "sha256:cabc30f30735adbd4a175f353d384a30b0cf807e70adaa3908e9434ef6ef47b7",
+      "expectedPublishedHash": "sha256:5a779306b2b29f8661c75676c28aa5893fbf321251db58010ddd5aee8f13a54b",
+      "publicHash": "sha256:5a779306b2b29f8661c75676c28aa5893fbf321251db58010ddd5aee8f13a54b",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-12",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D12",
+      "expectedHash": "sha256:b8ca6bbd7e1dbeb35e192aebb545c67c27ee4fbd57d39b29f58388c912242c82",
+      "actualHash": "sha256:b8ca6bbd7e1dbeb35e192aebb545c67c27ee4fbd57d39b29f58388c912242c82",
+      "expectedPublishedHash": "sha256:b8ca6bbd7e1dbeb35e192aebb545c67c27ee4fbd57d39b29f58388c912242c82",
+      "publicHash": "sha256:b8ca6bbd7e1dbeb35e192aebb545c67c27ee4fbd57d39b29f58388c912242c82",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-13",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F13",
+      "expectedHash": "sha256:66bef8b62daf5c3a34c8cb8d649c8e8670a82ad3561a92e66f2711a848e6fe83",
+      "actualHash": "sha256:66bef8b62daf5c3a34c8cb8d649c8e8670a82ad3561a92e66f2711a848e6fe83",
+      "expectedPublishedHash": "sha256:4868e140ad904cf93af3b623ae1216ff473f16a1b2d218561379000a61fbd266",
+      "publicHash": "sha256:4868e140ad904cf93af3b623ae1216ff473f16a1b2d218561379000a61fbd266",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-13",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D13",
+      "expectedHash": "sha256:66d06975c5332477ced0ddfd064ca329ae48a086ef1e866ddf7cb6fc6491b426",
+      "actualHash": "sha256:66d06975c5332477ced0ddfd064ca329ae48a086ef1e866ddf7cb6fc6491b426",
+      "expectedPublishedHash": "sha256:66d06975c5332477ced0ddfd064ca329ae48a086ef1e866ddf7cb6fc6491b426",
+      "publicHash": "sha256:66d06975c5332477ced0ddfd064ca329ae48a086ef1e866ddf7cb6fc6491b426",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-13",
+      "field": "specifications",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!H13",
+      "expectedHash": "sha256:42d080f2e7de787db78f872dec48d1b14744c746159d21a8ac258a749a8c8e7d",
+      "actualHash": "sha256:42d080f2e7de787db78f872dec48d1b14744c746159d21a8ac258a749a8c8e7d",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-13",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I13",
+      "expectedHash": "sha256:e4b8627637a39741a88980aa98e4baa4315a7dc5767ded6deade66bc5a7e7926",
+      "actualHash": "sha256:e4b8627637a39741a88980aa98e4baa4315a7dc5767ded6deade66bc5a7e7926",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-14",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F14",
+      "expectedHash": "sha256:4aec98add8eb8c70ade8223eb5265f65657cdc27e8a61fd3663fa6ca176bed7b",
+      "actualHash": "sha256:4aec98add8eb8c70ade8223eb5265f65657cdc27e8a61fd3663fa6ca176bed7b",
+      "expectedPublishedHash": "sha256:cd9d593b47b1ad6b27d65628f9a993bacba2e3a662b504718f2c14499bcb471d",
+      "publicHash": "sha256:cd9d593b47b1ad6b27d65628f9a993bacba2e3a662b504718f2c14499bcb471d",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-14",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D14",
+      "expectedHash": "sha256:65633081c27a3e58917af5789d3f3deb631aade74ceb2600444f5c20b6ca3d01",
+      "actualHash": "sha256:65633081c27a3e58917af5789d3f3deb631aade74ceb2600444f5c20b6ca3d01",
+      "expectedPublishedHash": "sha256:65633081c27a3e58917af5789d3f3deb631aade74ceb2600444f5c20b6ca3d01",
+      "publicHash": "sha256:65633081c27a3e58917af5789d3f3deb631aade74ceb2600444f5c20b6ca3d01",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-14",
+      "field": "specifications",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!H14",
+      "expectedHash": "sha256:9f3c0c71a25ee6956782beeff5e38cce1a842bca2c6544147230558dc3645a8b",
+      "actualHash": "sha256:9f3c0c71a25ee6956782beeff5e38cce1a842bca2c6544147230558dc3645a8b",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-14",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I14",
+      "expectedHash": "sha256:491945a3723145791bc2bb5102a27de44e674433cc56607ba714c4d9733de696",
+      "actualHash": "sha256:491945a3723145791bc2bb5102a27de44e674433cc56607ba714c4d9733de696",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-15",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F15",
+      "expectedHash": "sha256:16cafa5538db2192042d670e16378de77c1e514c5610d4d362eda0fb0c84f361",
+      "actualHash": "sha256:16cafa5538db2192042d670e16378de77c1e514c5610d4d362eda0fb0c84f361",
+      "expectedPublishedHash": "sha256:83071582c5b7d5f0b35d19d5a70957701652df3601f050c491fa55eabb9d644d",
+      "publicHash": "sha256:83071582c5b7d5f0b35d19d5a70957701652df3601f050c491fa55eabb9d644d",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-15",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D15",
+      "expectedHash": "sha256:b7f277d850a85125ed222ac149bea8ccc15e9497d5286f46ef964c71f910a29e",
+      "actualHash": "sha256:b7f277d850a85125ed222ac149bea8ccc15e9497d5286f46ef964c71f910a29e",
+      "expectedPublishedHash": "sha256:b7f277d850a85125ed222ac149bea8ccc15e9497d5286f46ef964c71f910a29e",
+      "publicHash": "sha256:b7f277d850a85125ed222ac149bea8ccc15e9497d5286f46ef964c71f910a29e",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-15",
+      "field": "specifications",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!H15",
+      "expectedHash": "sha256:9f3c0c71a25ee6956782beeff5e38cce1a842bca2c6544147230558dc3645a8b",
+      "actualHash": "sha256:9f3c0c71a25ee6956782beeff5e38cce1a842bca2c6544147230558dc3645a8b",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-15",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I15",
+      "expectedHash": "sha256:cd86ee75c4e1788d25428a7a977c229cc5d50e5a00b7f7da79304346929954fb",
+      "actualHash": "sha256:cd86ee75c4e1788d25428a7a977c229cc5d50e5a00b7f7da79304346929954fb",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-16",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F16",
+      "expectedHash": "sha256:68b127da218176c80c45c77432b416d50cc000dda88717902a1ed1870ae5eb77",
+      "actualHash": "sha256:68b127da218176c80c45c77432b416d50cc000dda88717902a1ed1870ae5eb77",
+      "expectedPublishedHash": "sha256:ec37fb7aaa80d81d22db6afc88c9a7420bd24dccc909a181c5cf32cf79733e50",
+      "publicHash": "sha256:ec37fb7aaa80d81d22db6afc88c9a7420bd24dccc909a181c5cf32cf79733e50",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-16",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D16",
+      "expectedHash": "sha256:8ac367bd76f760aa6b0984ddb53610a748213b2b14978a340054113edad9fa7b",
+      "actualHash": "sha256:8ac367bd76f760aa6b0984ddb53610a748213b2b14978a340054113edad9fa7b",
+      "expectedPublishedHash": "sha256:8ac367bd76f760aa6b0984ddb53610a748213b2b14978a340054113edad9fa7b",
+      "publicHash": "sha256:8ac367bd76f760aa6b0984ddb53610a748213b2b14978a340054113edad9fa7b",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-16",
+      "field": "specifications",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!H16",
+      "expectedHash": "sha256:5efae375fb735563f76072a3b149d22b9b2df577be44e55f2a2e5fb98a68d539",
+      "actualHash": "sha256:5efae375fb735563f76072a3b149d22b9b2df577be44e55f2a2e5fb98a68d539",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-16",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I16",
+      "expectedHash": "sha256:6127d756f6cb9d4a82499cd2648337f9f54a0749d2e159b4fe01523d6fb9085d",
+      "actualHash": "sha256:6127d756f6cb9d4a82499cd2648337f9f54a0749d2e159b4fe01523d6fb9085d",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-17",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F17",
+      "expectedHash": "sha256:23201cfc130e0df32b9794c3c6676ed23300f87b1d08d57b5021c39b90ab494c",
+      "actualHash": "sha256:23201cfc130e0df32b9794c3c6676ed23300f87b1d08d57b5021c39b90ab494c",
+      "expectedPublishedHash": "sha256:5882419c1d0a924f4ba4cfd861b35b39d689740accbdc8f4e52cc5a870596324",
+      "publicHash": "sha256:5882419c1d0a924f4ba4cfd861b35b39d689740accbdc8f4e52cc5a870596324",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-17",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D17",
+      "expectedHash": "sha256:b9a9f9c4be742133b8aa73002b564a209c296ba43907965387fbb8a4f42929bc",
+      "actualHash": "sha256:b9a9f9c4be742133b8aa73002b564a209c296ba43907965387fbb8a4f42929bc",
+      "expectedPublishedHash": "sha256:035ff38b8f6f6b14447c6a0e0e003ae7c739065a1ca076329f17653e898616b8",
+      "publicHash": "sha256:035ff38b8f6f6b14447c6a0e0e003ae7c739065a1ca076329f17653e898616b8",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-17",
+      "field": "specifications",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!H17",
+      "expectedHash": "sha256:1f3f8464d1b2841c11c70cd0d36d66461ef5738d0dbdc718ea46de782c7ab809",
+      "actualHash": "sha256:1f3f8464d1b2841c11c70cd0d36d66461ef5738d0dbdc718ea46de782c7ab809",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-17",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I17",
+      "expectedHash": "sha256:6496c57bc11b895a5473e4c9f43e6b061f973ffcc3fe0a81ffd0ede3e0864a1c",
+      "actualHash": "sha256:6496c57bc11b895a5473e4c9f43e6b061f973ffcc3fe0a81ffd0ede3e0864a1c",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-18",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F18",
+      "expectedHash": "sha256:1e03491934c1af05789787a9500b94562ccc916cb231856ff690f06fb7952854",
+      "actualHash": "sha256:1e03491934c1af05789787a9500b94562ccc916cb231856ff690f06fb7952854",
+      "expectedPublishedHash": "sha256:708ca4b4d846223d6d5ed284ba7c0626fbc0cfc39c5a0594aeecdb65b44e1979",
+      "publicHash": "sha256:708ca4b4d846223d6d5ed284ba7c0626fbc0cfc39c5a0594aeecdb65b44e1979",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-18",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D18",
+      "expectedHash": "sha256:3cf4adb598e8e2a62e2000a35241ce648ee8e2683eb7681059238a32d5c635a3",
+      "actualHash": "sha256:3cf4adb598e8e2a62e2000a35241ce648ee8e2683eb7681059238a32d5c635a3",
+      "expectedPublishedHash": "sha256:541d3a09790fd43114c28debae89112f313d3819561d28a1295e95b4e40d3af2",
+      "publicHash": "sha256:541d3a09790fd43114c28debae89112f313d3819561d28a1295e95b4e40d3af2",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-18",
+      "field": "specifications",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!H18",
+      "expectedHash": "sha256:103eaf5878e7d0ff602e3adbbc315e803fbdc3878b286667ff9c22cee6b1f311",
+      "actualHash": "sha256:103eaf5878e7d0ff602e3adbbc315e803fbdc3878b286667ff9c22cee6b1f311",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-18",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I18",
+      "expectedHash": "sha256:842e453ccc6dab05385cfab5341567c0b7369f07515772e238e331502555881f",
+      "actualHash": "sha256:842e453ccc6dab05385cfab5341567c0b7369f07515772e238e331502555881f",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-19",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F19",
+      "expectedHash": "sha256:23201cfc130e0df32b9794c3c6676ed23300f87b1d08d57b5021c39b90ab494c",
+      "actualHash": "sha256:23201cfc130e0df32b9794c3c6676ed23300f87b1d08d57b5021c39b90ab494c",
+      "expectedPublishedHash": "sha256:ae9d80569db87f575399866e585cb5cab5f41589e43242f8febdcdfa1b3425c1",
+      "publicHash": "sha256:ae9d80569db87f575399866e585cb5cab5f41589e43242f8febdcdfa1b3425c1",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-19",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D19",
+      "expectedHash": "sha256:76714ad4eb8d78be6f123016c03f65734de3754d358dc9acbb28784f9b34209e",
+      "actualHash": "sha256:76714ad4eb8d78be6f123016c03f65734de3754d358dc9acbb28784f9b34209e",
+      "expectedPublishedHash": "sha256:4773ed21c056fa344db912a61b608b1da3a4c5e1ccbae946d3c50a36e7669e8d",
+      "publicHash": "sha256:4773ed21c056fa344db912a61b608b1da3a4c5e1ccbae946d3c50a36e7669e8d",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-19",
+      "field": "specifications",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!H19",
+      "expectedHash": "sha256:1f3f8464d1b2841c11c70cd0d36d66461ef5738d0dbdc718ea46de782c7ab809",
+      "actualHash": "sha256:1f3f8464d1b2841c11c70cd0d36d66461ef5738d0dbdc718ea46de782c7ab809",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-19",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I19",
+      "expectedHash": "sha256:0985d1fe0c584045786907b16a35f539a3f9d1a23739766ebd75a8bff954469f",
+      "actualHash": "sha256:0985d1fe0c584045786907b16a35f539a3f9d1a23739766ebd75a8bff954469f",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-20",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F20",
+      "expectedHash": "sha256:68b127da218176c80c45c77432b416d50cc000dda88717902a1ed1870ae5eb77",
+      "actualHash": "sha256:68b127da218176c80c45c77432b416d50cc000dda88717902a1ed1870ae5eb77",
+      "expectedPublishedHash": "sha256:ec37fb7aaa80d81d22db6afc88c9a7420bd24dccc909a181c5cf32cf79733e50",
+      "publicHash": "sha256:ec37fb7aaa80d81d22db6afc88c9a7420bd24dccc909a181c5cf32cf79733e50",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-20",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D20",
+      "expectedHash": "sha256:edcb943b8d4f7d341767b9078e4f5627c5361537164416f3fcd9a661f893bb0e",
+      "actualHash": "sha256:edcb943b8d4f7d341767b9078e4f5627c5361537164416f3fcd9a661f893bb0e",
+      "expectedPublishedHash": "sha256:edcb943b8d4f7d341767b9078e4f5627c5361537164416f3fcd9a661f893bb0e",
+      "publicHash": "sha256:edcb943b8d4f7d341767b9078e4f5627c5361537164416f3fcd9a661f893bb0e",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-20",
+      "field": "specifications",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!H20",
+      "expectedHash": "sha256:525791deacbc5d6624744acc0c733d14a6ea107f2f60e23fee61eab70bbdb31b",
+      "actualHash": "sha256:525791deacbc5d6624744acc0c733d14a6ea107f2f60e23fee61eab70bbdb31b",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-20",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I20",
+      "expectedHash": "sha256:b909bfa0d9e002a95390bd875cf1b5edb73ff944095c4f2ef07f7c1be9d76c94",
+      "actualHash": "sha256:b909bfa0d9e002a95390bd875cf1b5edb73ff944095c4f2ef07f7c1be9d76c94",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-21",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F21",
+      "expectedHash": "sha256:382585f6f722637e1aeabc809106ff0e826cfad2baa71c0dcfe7d4e2df6a6154",
+      "actualHash": "sha256:382585f6f722637e1aeabc809106ff0e826cfad2baa71c0dcfe7d4e2df6a6154",
+      "expectedPublishedHash": "sha256:61d86af59c3fe6034d9dc84314cec5f2fa1f290b69d6165246e19d10a8d8cfa6",
+      "publicHash": "sha256:61d86af59c3fe6034d9dc84314cec5f2fa1f290b69d6165246e19d10a8d8cfa6",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-21",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D21",
+      "expectedHash": "sha256:d080c0d87503f44318052532703649194547badac18d16f5a3048bd0a209a094",
+      "actualHash": "sha256:d080c0d87503f44318052532703649194547badac18d16f5a3048bd0a209a094",
+      "expectedPublishedHash": "sha256:d080c0d87503f44318052532703649194547badac18d16f5a3048bd0a209a094",
+      "publicHash": "sha256:d080c0d87503f44318052532703649194547badac18d16f5a3048bd0a209a094",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-21",
+      "field": "specifications",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!H21",
+      "expectedHash": "sha256:b9d89874df20304a18fb42ac265088d1103ee8340029c097ac1f4a1839f592c8",
+      "actualHash": "sha256:b9d89874df20304a18fb42ac265088d1103ee8340029c097ac1f4a1839f592c8",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-21",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I21",
+      "expectedHash": "sha256:946b18bef6d28389a9b4f2f8c2c2f43c9a87711df44db482abc2753b7f33a038",
+      "actualHash": "sha256:946b18bef6d28389a9b4f2f8c2c2f43c9a87711df44db482abc2753b7f33a038",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-22",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F22",
+      "expectedHash": "sha256:382585f6f722637e1aeabc809106ff0e826cfad2baa71c0dcfe7d4e2df6a6154",
+      "actualHash": "sha256:382585f6f722637e1aeabc809106ff0e826cfad2baa71c0dcfe7d4e2df6a6154",
+      "expectedPublishedHash": "sha256:ebbc9364d178ec307a96b49df32f57073174a8db261530a2914f03786c6b094b",
+      "publicHash": "sha256:ebbc9364d178ec307a96b49df32f57073174a8db261530a2914f03786c6b094b",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-22",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D22",
+      "expectedHash": "sha256:0bcc7be8e784a1e59a2d0079c83e3412d5fb45c9bb499ba7c942178e2d1f63f3",
+      "actualHash": "sha256:0bcc7be8e784a1e59a2d0079c83e3412d5fb45c9bb499ba7c942178e2d1f63f3",
+      "expectedPublishedHash": "sha256:bc4e82e5223ad5c61daf60753dfdcb19974e32487dbfd925dbb340a8874d6c8f",
+      "publicHash": "sha256:bc4e82e5223ad5c61daf60753dfdcb19974e32487dbfd925dbb340a8874d6c8f",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-22",
+      "field": "specifications",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!H22",
+      "expectedHash": "sha256:df8093c24568034883b1dc3ffe68727047cd6fd9df1d3183e61c256ccd7a523e",
+      "actualHash": "sha256:df8093c24568034883b1dc3ffe68727047cd6fd9df1d3183e61c256ccd7a523e",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-22",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I22",
+      "expectedHash": "sha256:4523fefbd61df43c0e01c2bcfa846107eaf99f485893ba38a916a6f6851c6357",
+      "actualHash": "sha256:4523fefbd61df43c0e01c2bcfa846107eaf99f485893ba38a916a6f6851c6357",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-23",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F23",
+      "expectedHash": "sha256:7a172c0d48b4cdaa81771c4d1df477ccfdd0f1742a355dac84f2f099296691bf",
+      "actualHash": "sha256:7a172c0d48b4cdaa81771c4d1df477ccfdd0f1742a355dac84f2f099296691bf",
+      "expectedPublishedHash": "sha256:d8340c435e4e526fe6bba2bf580e7a6b170583f6c092e2f5245004fcd2b5e1e2",
+      "publicHash": "sha256:d8340c435e4e526fe6bba2bf580e7a6b170583f6c092e2f5245004fcd2b5e1e2",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-23",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D23",
+      "expectedHash": "sha256:7520dee975d68de67f9cb7a18e027c50c46972c0c591300c9cb17e45f861a4a7",
+      "actualHash": "sha256:7520dee975d68de67f9cb7a18e027c50c46972c0c591300c9cb17e45f861a4a7",
+      "expectedPublishedHash": "sha256:7520dee975d68de67f9cb7a18e027c50c46972c0c591300c9cb17e45f861a4a7",
+      "publicHash": "sha256:7520dee975d68de67f9cb7a18e027c50c46972c0c591300c9cb17e45f861a4a7",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-23",
+      "field": "specifications",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!H23",
+      "expectedHash": "sha256:7ee67149200975a0f201e9f8dd1d63b3be57e2e8a018c8f9edbec520e06345e5",
+      "actualHash": "sha256:7ee67149200975a0f201e9f8dd1d63b3be57e2e8a018c8f9edbec520e06345e5",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-23",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I23",
+      "expectedHash": "sha256:0d7442f79c2b60d5893151bb9f2dd112b19394f1f53bf62ddf58c583291a3a4b",
+      "actualHash": "sha256:0d7442f79c2b60d5893151bb9f2dd112b19394f1f53bf62ddf58c583291a3a4b",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-24",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F24",
+      "expectedHash": "sha256:3b4040719484353001250d298902605426ccee0160e0dc7f516f6875631bd7eb",
+      "actualHash": "sha256:3b4040719484353001250d298902605426ccee0160e0dc7f516f6875631bd7eb",
+      "expectedPublishedHash": "sha256:663c06f709c04f42f4b3fc6d6f99bd055042c87967165f28839528e0fa61a85d",
+      "publicHash": "sha256:663c06f709c04f42f4b3fc6d6f99bd055042c87967165f28839528e0fa61a85d",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-24",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D24",
+      "expectedHash": "sha256:3bc9da2e93b18738a24072681eb3fb5b289793ab007650b1e115e0fe755ac0c6",
+      "actualHash": "sha256:3bc9da2e93b18738a24072681eb3fb5b289793ab007650b1e115e0fe755ac0c6",
+      "expectedPublishedHash": "sha256:3bc9da2e93b18738a24072681eb3fb5b289793ab007650b1e115e0fe755ac0c6",
+      "publicHash": "sha256:3bc9da2e93b18738a24072681eb3fb5b289793ab007650b1e115e0fe755ac0c6",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-24",
+      "field": "specifications",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!H24",
+      "expectedHash": "sha256:083850c1f36df698200f97e811880ba6e69578cd13d15e1260c31081e5b5dae2",
+      "actualHash": "sha256:083850c1f36df698200f97e811880ba6e69578cd13d15e1260c31081e5b5dae2",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-24",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I24",
+      "expectedHash": "sha256:8da1a65462fbaed866470854899bf38c3ff67be53c05571a4915a10fea600d8c",
+      "actualHash": "sha256:8da1a65462fbaed866470854899bf38c3ff67be53c05571a4915a10fea600d8c",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-25",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F25",
+      "expectedHash": "sha256:79c448cde83bd0f58a075de0e31dc888dafcc698392c3f7cf01fb33b4b8f27f1",
+      "actualHash": "sha256:79c448cde83bd0f58a075de0e31dc888dafcc698392c3f7cf01fb33b4b8f27f1",
+      "expectedPublishedHash": "sha256:6a1c3bedb0b95006eddbf1ef901cdfb21f69b612be6f50ea77a9adb1600e6cd3",
+      "publicHash": "sha256:6a1c3bedb0b95006eddbf1ef901cdfb21f69b612be6f50ea77a9adb1600e6cd3",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-25",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D25",
+      "expectedHash": "sha256:c795358f24c4d5392a9e36c047288afb92170b1bd2aff351162b31019c20dd20",
+      "actualHash": "sha256:c795358f24c4d5392a9e36c047288afb92170b1bd2aff351162b31019c20dd20",
+      "expectedPublishedHash": "sha256:c795358f24c4d5392a9e36c047288afb92170b1bd2aff351162b31019c20dd20",
+      "publicHash": "sha256:c795358f24c4d5392a9e36c047288afb92170b1bd2aff351162b31019c20dd20",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-26",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F26",
+      "expectedHash": "sha256:3b4040719484353001250d298902605426ccee0160e0dc7f516f6875631bd7eb",
+      "actualHash": "sha256:3b4040719484353001250d298902605426ccee0160e0dc7f516f6875631bd7eb",
+      "expectedPublishedHash": "sha256:cc9d10cf9924aaa9f4b1cf81575f0f42576fe971d5f972a35a5dde7b7e0b0c1d",
+      "publicHash": "sha256:cc9d10cf9924aaa9f4b1cf81575f0f42576fe971d5f972a35a5dde7b7e0b0c1d",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-26",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D26",
+      "expectedHash": "sha256:aa6b01eabb3c5b2950d6ea44806cc9e65cb3c0c797077dfffc098498518294e5",
+      "actualHash": "sha256:aa6b01eabb3c5b2950d6ea44806cc9e65cb3c0c797077dfffc098498518294e5",
+      "expectedPublishedHash": "sha256:aa6b01eabb3c5b2950d6ea44806cc9e65cb3c0c797077dfffc098498518294e5",
+      "publicHash": "sha256:aa6b01eabb3c5b2950d6ea44806cc9e65cb3c0c797077dfffc098498518294e5",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-27",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F27",
+      "expectedHash": "sha256:3b4040719484353001250d298902605426ccee0160e0dc7f516f6875631bd7eb",
+      "actualHash": "sha256:3b4040719484353001250d298902605426ccee0160e0dc7f516f6875631bd7eb",
+      "expectedPublishedHash": "sha256:04a7d60d5acad20efc1400744588a6a6cb6fb3fbc6554d195b32dfa28b9894af",
+      "publicHash": "sha256:04a7d60d5acad20efc1400744588a6a6cb6fb3fbc6554d195b32dfa28b9894af",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-27",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D27",
+      "expectedHash": "sha256:1e39dc241d66f4d7ff4a78451a6d5b1797ab430c75c75bc28d9eae66decf6178",
+      "actualHash": "sha256:1e39dc241d66f4d7ff4a78451a6d5b1797ab430c75c75bc28d9eae66decf6178",
+      "expectedPublishedHash": "sha256:1e39dc241d66f4d7ff4a78451a6d5b1797ab430c75c75bc28d9eae66decf6178",
+      "publicHash": "sha256:1e39dc241d66f4d7ff4a78451a6d5b1797ab430c75c75bc28d9eae66decf6178",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-28",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F28",
+      "expectedHash": "sha256:79c448cde83bd0f58a075de0e31dc888dafcc698392c3f7cf01fb33b4b8f27f1",
+      "actualHash": "sha256:79c448cde83bd0f58a075de0e31dc888dafcc698392c3f7cf01fb33b4b8f27f1",
+      "expectedPublishedHash": "sha256:caac24659a51e5c42cc584c95b1191509444bb6e0ca10fa5b5a0132a82c067bd",
+      "publicHash": "sha256:caac24659a51e5c42cc584c95b1191509444bb6e0ca10fa5b5a0132a82c067bd",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-28",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D28",
+      "expectedHash": "sha256:1e39dc241d66f4d7ff4a78451a6d5b1797ab430c75c75bc28d9eae66decf6178",
+      "actualHash": "sha256:1e39dc241d66f4d7ff4a78451a6d5b1797ab430c75c75bc28d9eae66decf6178",
+      "expectedPublishedHash": "sha256:1e39dc241d66f4d7ff4a78451a6d5b1797ab430c75c75bc28d9eae66decf6178",
+      "publicHash": "sha256:1e39dc241d66f4d7ff4a78451a6d5b1797ab430c75c75bc28d9eae66decf6178",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-29",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F29",
+      "expectedHash": "sha256:79c448cde83bd0f58a075de0e31dc888dafcc698392c3f7cf01fb33b4b8f27f1",
+      "actualHash": "sha256:79c448cde83bd0f58a075de0e31dc888dafcc698392c3f7cf01fb33b4b8f27f1",
+      "expectedPublishedHash": "sha256:9b631102d2d98c0d8f925490d1599da346b6952e680e168da140416b905664b2",
+      "publicHash": "sha256:9b631102d2d98c0d8f925490d1599da346b6952e680e168da140416b905664b2",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-29",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D29",
+      "expectedHash": "sha256:48e18761f0f1aecd069af1b087f72b56d2d52ebacd8da297f659481fa74a3844",
+      "actualHash": "sha256:48e18761f0f1aecd069af1b087f72b56d2d52ebacd8da297f659481fa74a3844",
+      "expectedPublishedHash": "sha256:48e18761f0f1aecd069af1b087f72b56d2d52ebacd8da297f659481fa74a3844",
+      "publicHash": "sha256:48e18761f0f1aecd069af1b087f72b56d2d52ebacd8da297f659481fa74a3844",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-30",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F30",
+      "expectedHash": "sha256:3b4040719484353001250d298902605426ccee0160e0dc7f516f6875631bd7eb",
+      "actualHash": "sha256:3b4040719484353001250d298902605426ccee0160e0dc7f516f6875631bd7eb",
+      "expectedPublishedHash": "sha256:09ae1d1fb8f52633730fba3485e143b758e40438d4d7d1546a0bb8b46982318d",
+      "publicHash": "sha256:09ae1d1fb8f52633730fba3485e143b758e40438d4d7d1546a0bb8b46982318d",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-30",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D30",
+      "expectedHash": "sha256:48e18761f0f1aecd069af1b087f72b56d2d52ebacd8da297f659481fa74a3844",
+      "actualHash": "sha256:48e18761f0f1aecd069af1b087f72b56d2d52ebacd8da297f659481fa74a3844",
+      "expectedPublishedHash": "sha256:48e18761f0f1aecd069af1b087f72b56d2d52ebacd8da297f659481fa74a3844",
+      "publicHash": "sha256:48e18761f0f1aecd069af1b087f72b56d2d52ebacd8da297f659481fa74a3844",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-31",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F31",
+      "expectedHash": "sha256:3b4040719484353001250d298902605426ccee0160e0dc7f516f6875631bd7eb",
+      "actualHash": "sha256:3b4040719484353001250d298902605426ccee0160e0dc7f516f6875631bd7eb",
+      "expectedPublishedHash": "sha256:7f43ac2cd0ec5ef06c406eddfdb587cb739e39a180899b2426bbadb466570286",
+      "publicHash": "sha256:7f43ac2cd0ec5ef06c406eddfdb587cb739e39a180899b2426bbadb466570286",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-31",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D31",
+      "expectedHash": "sha256:1f09ba8780ea6e48c7b299f9015e82763f82e28543dc6fe54d82450a571f590a",
+      "actualHash": "sha256:1f09ba8780ea6e48c7b299f9015e82763f82e28543dc6fe54d82450a571f590a",
+      "expectedPublishedHash": "sha256:1f09ba8780ea6e48c7b299f9015e82763f82e28543dc6fe54d82450a571f590a",
+      "publicHash": "sha256:1f09ba8780ea6e48c7b299f9015e82763f82e28543dc6fe54d82450a571f590a",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-32",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F32",
+      "expectedHash": "sha256:79c448cde83bd0f58a075de0e31dc888dafcc698392c3f7cf01fb33b4b8f27f1",
+      "actualHash": "sha256:79c448cde83bd0f58a075de0e31dc888dafcc698392c3f7cf01fb33b4b8f27f1",
+      "expectedPublishedHash": "sha256:68c78783e3f72ca5329ea2bfd8b8fb344d4b89c05a3b8055ee41241013d455d7",
+      "publicHash": "sha256:68c78783e3f72ca5329ea2bfd8b8fb344d4b89c05a3b8055ee41241013d455d7",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-32",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D32",
+      "expectedHash": "sha256:0356d3e509639b609035bd820ebc68e15861446e720c5099a79f7b74542b9007",
+      "actualHash": "sha256:0356d3e509639b609035bd820ebc68e15861446e720c5099a79f7b74542b9007",
+      "expectedPublishedHash": "sha256:0356d3e509639b609035bd820ebc68e15861446e720c5099a79f7b74542b9007",
+      "publicHash": "sha256:0356d3e509639b609035bd820ebc68e15861446e720c5099a79f7b74542b9007",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-33",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F33",
+      "expectedHash": "sha256:7e6075116307601a524fae3f40ad177e8cf24c9226d9b046dbe18e8e6ba00ed2",
+      "actualHash": "sha256:7e6075116307601a524fae3f40ad177e8cf24c9226d9b046dbe18e8e6ba00ed2",
+      "expectedPublishedHash": "sha256:4a28bacf2955a048c97307a08d1ce2a840e2eb42b611fe1c00ed2d934a9a1213",
+      "publicHash": "sha256:4a28bacf2955a048c97307a08d1ce2a840e2eb42b611fe1c00ed2d934a9a1213",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-33",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D33",
+      "expectedHash": "sha256:09b6a51147156074cd488fefcc33438082f06a2cf5f4479a10f38553696e5a6c",
+      "actualHash": "sha256:09b6a51147156074cd488fefcc33438082f06a2cf5f4479a10f38553696e5a6c",
+      "expectedPublishedHash": "sha256:09b6a51147156074cd488fefcc33438082f06a2cf5f4479a10f38553696e5a6c",
+      "publicHash": "sha256:09b6a51147156074cd488fefcc33438082f06a2cf5f4479a10f38553696e5a6c",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-33",
+      "field": "specifications",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!H33",
+      "expectedHash": "sha256:b6c0da86af8aafe47c7516aa6155c67b400453f8548ea24a7a9a0b6877b807a4",
+      "actualHash": "sha256:b6c0da86af8aafe47c7516aa6155c67b400453f8548ea24a7a9a0b6877b807a4",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-33",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I33",
+      "expectedHash": "sha256:5cac09af10c8808825888fa50c50b71397dcd10644354ffcfd666de56e1f0ccb",
+      "actualHash": "sha256:5cac09af10c8808825888fa50c50b71397dcd10644354ffcfd666de56e1f0ccb",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-34",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F34",
+      "expectedHash": "sha256:7e6075116307601a524fae3f40ad177e8cf24c9226d9b046dbe18e8e6ba00ed2",
+      "actualHash": "sha256:7e6075116307601a524fae3f40ad177e8cf24c9226d9b046dbe18e8e6ba00ed2",
+      "expectedPublishedHash": "sha256:eb16ba9f0a91ff3dcc5617d5d7e6c959177c46af12834cdbf014aa511cea4b38",
+      "publicHash": "sha256:eb16ba9f0a91ff3dcc5617d5d7e6c959177c46af12834cdbf014aa511cea4b38",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-34",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D34",
+      "expectedHash": "sha256:7a1603dc5b5996ebd73f1a5caf07c87b9120b45c59ef6dcff153c941f61aa0cf",
+      "actualHash": "sha256:7a1603dc5b5996ebd73f1a5caf07c87b9120b45c59ef6dcff153c941f61aa0cf",
+      "expectedPublishedHash": "sha256:7a1603dc5b5996ebd73f1a5caf07c87b9120b45c59ef6dcff153c941f61aa0cf",
+      "publicHash": "sha256:7a1603dc5b5996ebd73f1a5caf07c87b9120b45c59ef6dcff153c941f61aa0cf",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-35",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F35",
+      "expectedHash": "sha256:7e6075116307601a524fae3f40ad177e8cf24c9226d9b046dbe18e8e6ba00ed2",
+      "actualHash": "sha256:7e6075116307601a524fae3f40ad177e8cf24c9226d9b046dbe18e8e6ba00ed2",
+      "expectedPublishedHash": "sha256:ec7bafe7da45f1b4eab2eed839116beaaba6d5c0282a8862ea915a04e30165b6",
+      "publicHash": "sha256:ec7bafe7da45f1b4eab2eed839116beaaba6d5c0282a8862ea915a04e30165b6",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-35",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D35",
+      "expectedHash": "sha256:1ccf86535004e1964f692c1721576e63d107d562c3440bb111b957bb17becb08",
+      "actualHash": "sha256:1ccf86535004e1964f692c1721576e63d107d562c3440bb111b957bb17becb08",
+      "expectedPublishedHash": "sha256:1ccf86535004e1964f692c1721576e63d107d562c3440bb111b957bb17becb08",
+      "publicHash": "sha256:1ccf86535004e1964f692c1721576e63d107d562c3440bb111b957bb17becb08",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-36",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F36",
+      "expectedHash": "sha256:8492ef6f477f0ff0ca66b40a422e88aa1b21a5c99ca7042500c640208142780b",
+      "actualHash": "sha256:8492ef6f477f0ff0ca66b40a422e88aa1b21a5c99ca7042500c640208142780b",
+      "expectedPublishedHash": "sha256:a05822236bdd6da309db94992e558f260e84e2974152a127a302df8c16fe5757",
+      "publicHash": "sha256:a05822236bdd6da309db94992e558f260e84e2974152a127a302df8c16fe5757",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-36",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D36",
+      "expectedHash": "sha256:98464e97ac4392591a56ee685ace12fbf0651f58644cb5cf7fd41c435f150797",
+      "actualHash": "sha256:98464e97ac4392591a56ee685ace12fbf0651f58644cb5cf7fd41c435f150797",
+      "expectedPublishedHash": "sha256:98464e97ac4392591a56ee685ace12fbf0651f58644cb5cf7fd41c435f150797",
+      "publicHash": "sha256:98464e97ac4392591a56ee685ace12fbf0651f58644cb5cf7fd41c435f150797",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-36",
+      "field": "specifications",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!H36",
+      "expectedHash": "sha256:08e7bf4bd2192c77726d936a258310b1b1b61924766d5754dca098be5cb9a524",
+      "actualHash": "sha256:08e7bf4bd2192c77726d936a258310b1b1b61924766d5754dca098be5cb9a524",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-36",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I36",
+      "expectedHash": "sha256:48bdaf6d5cddfe6805e469e9508def75a2df79174835c5191182fd6c1d01a37f",
+      "actualHash": "sha256:48bdaf6d5cddfe6805e469e9508def75a2df79174835c5191182fd6c1d01a37f",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-37",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F37",
+      "expectedHash": "sha256:835a8ebe46d93b45221f79c4b8584d13ad73b95cd7bc29fae2ffa1054baa8103",
+      "actualHash": "sha256:835a8ebe46d93b45221f79c4b8584d13ad73b95cd7bc29fae2ffa1054baa8103",
+      "expectedPublishedHash": "sha256:bd47759ec0c4220ce858603d96baf474325d7e7d5f4249f1ac7373d68511aac5",
+      "publicHash": "sha256:bd47759ec0c4220ce858603d96baf474325d7e7d5f4249f1ac7373d68511aac5",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-37",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D37",
+      "expectedHash": "sha256:6b1246629a154d98de5db61e9b9d66e5d668b2f4371442d26b833a947c9c6d97",
+      "actualHash": "sha256:6b1246629a154d98de5db61e9b9d66e5d668b2f4371442d26b833a947c9c6d97",
+      "expectedPublishedHash": "sha256:6b1246629a154d98de5db61e9b9d66e5d668b2f4371442d26b833a947c9c6d97",
+      "publicHash": "sha256:6b1246629a154d98de5db61e9b9d66e5d668b2f4371442d26b833a947c9c6d97",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-37",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I37",
+      "expectedHash": "sha256:b60c62ccf9b4ec48aed58be97ba8b0b5f25556fff1acb1c4de7f912343b4bbfb",
+      "actualHash": "sha256:b60c62ccf9b4ec48aed58be97ba8b0b5f25556fff1acb1c4de7f912343b4bbfb",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-38",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F38",
+      "expectedHash": "sha256:8492ef6f477f0ff0ca66b40a422e88aa1b21a5c99ca7042500c640208142780b",
+      "actualHash": "sha256:8492ef6f477f0ff0ca66b40a422e88aa1b21a5c99ca7042500c640208142780b",
+      "expectedPublishedHash": "sha256:361c41bed3477f9375f45a9d980f932e0fa3adb668b0f74b678f55a4b07e1878",
+      "publicHash": "sha256:361c41bed3477f9375f45a9d980f932e0fa3adb668b0f74b678f55a4b07e1878",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-38",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D38",
+      "expectedHash": "sha256:f5ef2aa1bff71272db4d37326401125c4e77cfea4aea2f5bc16540e974b45bc6",
+      "actualHash": "sha256:f5ef2aa1bff71272db4d37326401125c4e77cfea4aea2f5bc16540e974b45bc6",
+      "expectedPublishedHash": "sha256:f5ef2aa1bff71272db4d37326401125c4e77cfea4aea2f5bc16540e974b45bc6",
+      "publicHash": "sha256:f5ef2aa1bff71272db4d37326401125c4e77cfea4aea2f5bc16540e974b45bc6",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-38",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I38",
+      "expectedHash": "sha256:5b7078f9cd89cd323b76f0cd0ecb19030849b1f9eb6aae6de9a926b43366cf38",
+      "actualHash": "sha256:5b7078f9cd89cd323b76f0cd0ecb19030849b1f9eb6aae6de9a926b43366cf38",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-39",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F39",
+      "expectedHash": "sha256:8492ef6f477f0ff0ca66b40a422e88aa1b21a5c99ca7042500c640208142780b",
+      "actualHash": "sha256:8492ef6f477f0ff0ca66b40a422e88aa1b21a5c99ca7042500c640208142780b",
+      "expectedPublishedHash": "sha256:d307812a61d8409c05e761b6b1fa191a4199c5a02baf2b32960109ff85d34869",
+      "publicHash": "sha256:d307812a61d8409c05e761b6b1fa191a4199c5a02baf2b32960109ff85d34869",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-39",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D39",
+      "expectedHash": "sha256:492f85fb94cd749b86ea64b7b434603db5e657a8cb00b6cd0f2df8a78bd73f57",
+      "actualHash": "sha256:492f85fb94cd749b86ea64b7b434603db5e657a8cb00b6cd0f2df8a78bd73f57",
+      "expectedPublishedHash": "sha256:492f85fb94cd749b86ea64b7b434603db5e657a8cb00b6cd0f2df8a78bd73f57",
+      "publicHash": "sha256:492f85fb94cd749b86ea64b7b434603db5e657a8cb00b6cd0f2df8a78bd73f57",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-39",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I39",
+      "expectedHash": "sha256:014a6fc99940fa8ea6d0100a7d75887215ef6dde9c8f6e530f14e220681ede2d",
+      "actualHash": "sha256:014a6fc99940fa8ea6d0100a7d75887215ef6dde9c8f6e530f14e220681ede2d",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-40",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F40",
+      "expectedHash": "sha256:8492ef6f477f0ff0ca66b40a422e88aa1b21a5c99ca7042500c640208142780b",
+      "actualHash": "sha256:8492ef6f477f0ff0ca66b40a422e88aa1b21a5c99ca7042500c640208142780b",
+      "expectedPublishedHash": "sha256:1109a5075f9a8a0854fd25c1c0263802ccfee75e536ae85d9c23cdd92ff66898",
+      "publicHash": "sha256:1109a5075f9a8a0854fd25c1c0263802ccfee75e536ae85d9c23cdd92ff66898",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-40",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D40",
+      "expectedHash": "sha256:821387cac6ec89a2c40b377a4c1d19a9dc16b2571b7606cfa88bd21d69becaaf",
+      "actualHash": "sha256:821387cac6ec89a2c40b377a4c1d19a9dc16b2571b7606cfa88bd21d69becaaf",
+      "expectedPublishedHash": "sha256:821387cac6ec89a2c40b377a4c1d19a9dc16b2571b7606cfa88bd21d69becaaf",
+      "publicHash": "sha256:821387cac6ec89a2c40b377a4c1d19a9dc16b2571b7606cfa88bd21d69becaaf",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-40",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I40",
+      "expectedHash": "sha256:67d94284002c9c6e06e7181bc5758d1c4c58a8600c75ebec4170f677342f3794",
+      "actualHash": "sha256:67d94284002c9c6e06e7181bc5758d1c4c58a8600c75ebec4170f677342f3794",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-41",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F41",
+      "expectedHash": "sha256:835a8ebe46d93b45221f79c4b8584d13ad73b95cd7bc29fae2ffa1054baa8103",
+      "actualHash": "sha256:835a8ebe46d93b45221f79c4b8584d13ad73b95cd7bc29fae2ffa1054baa8103",
+      "expectedPublishedHash": "sha256:39230f055558467e70060a96af2062c8954fbad7b00719de4419b809f0c545aa",
+      "publicHash": "sha256:39230f055558467e70060a96af2062c8954fbad7b00719de4419b809f0c545aa",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-41",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D41",
+      "expectedHash": "sha256:fd99ba749bcd34b47e8f06984de26a56d53a835e6a542ccd9066be0c6d83fc82",
+      "actualHash": "sha256:fd99ba749bcd34b47e8f06984de26a56d53a835e6a542ccd9066be0c6d83fc82",
+      "expectedPublishedHash": "sha256:fd99ba749bcd34b47e8f06984de26a56d53a835e6a542ccd9066be0c6d83fc82",
+      "publicHash": "sha256:fd99ba749bcd34b47e8f06984de26a56d53a835e6a542ccd9066be0c6d83fc82",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-41",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I41",
+      "expectedHash": "sha256:d4c3df34fcf161e23e20bd9de597153d831480d692ea5504571700d795d57ba2",
+      "actualHash": "sha256:d4c3df34fcf161e23e20bd9de597153d831480d692ea5504571700d795d57ba2",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-42",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F42",
+      "expectedHash": "sha256:bb41b7f4a2bb48f2c72e94943d99a0520c7365a742ac5fc075376b6e0a09dd34",
+      "actualHash": "sha256:bb41b7f4a2bb48f2c72e94943d99a0520c7365a742ac5fc075376b6e0a09dd34",
+      "expectedPublishedHash": "sha256:50ef2b4dcf4a4c5d0caafb6ec3bcfac54046f7269c7a3f57c5835ca84d92a91a",
+      "publicHash": "sha256:50ef2b4dcf4a4c5d0caafb6ec3bcfac54046f7269c7a3f57c5835ca84d92a91a",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-42",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D42",
+      "expectedHash": "sha256:18fd3b15d3a5e7097f7811200d50da81f81906b507891066be9f12080e9e9244",
+      "actualHash": "sha256:18fd3b15d3a5e7097f7811200d50da81f81906b507891066be9f12080e9e9244",
+      "expectedPublishedHash": "sha256:18fd3b15d3a5e7097f7811200d50da81f81906b507891066be9f12080e9e9244",
+      "publicHash": "sha256:18fd3b15d3a5e7097f7811200d50da81f81906b507891066be9f12080e9e9244",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-42",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I42",
+      "expectedHash": "sha256:fd6350254eba5acac0126775763158c93f56d2827e811a2f8bbe69dab47a473c",
+      "actualHash": "sha256:fd6350254eba5acac0126775763158c93f56d2827e811a2f8bbe69dab47a473c",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-43",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F43",
+      "expectedHash": "sha256:8492ef6f477f0ff0ca66b40a422e88aa1b21a5c99ca7042500c640208142780b",
+      "actualHash": "sha256:8492ef6f477f0ff0ca66b40a422e88aa1b21a5c99ca7042500c640208142780b",
+      "expectedPublishedHash": "sha256:be275b55f3faa990bbfda50b0e43398a602630fec6e6a1fcf4f281ef82e4b09d",
+      "publicHash": "sha256:be275b55f3faa990bbfda50b0e43398a602630fec6e6a1fcf4f281ef82e4b09d",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-43",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D43",
+      "expectedHash": "sha256:202295c764c18bdb2b16073511f35175e1fc4017b2b19c2a78f6dd0179daa0ac",
+      "actualHash": "sha256:202295c764c18bdb2b16073511f35175e1fc4017b2b19c2a78f6dd0179daa0ac",
+      "expectedPublishedHash": "sha256:202295c764c18bdb2b16073511f35175e1fc4017b2b19c2a78f6dd0179daa0ac",
+      "publicHash": "sha256:202295c764c18bdb2b16073511f35175e1fc4017b2b19c2a78f6dd0179daa0ac",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-43",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I43",
+      "expectedHash": "sha256:bf33c5606c2f640d7554430ee85127c7a122d0025957c604029a4f2a5c43212e",
+      "actualHash": "sha256:bf33c5606c2f640d7554430ee85127c7a122d0025957c604029a4f2a5c43212e",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-44",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F44",
+      "expectedHash": "sha256:835a8ebe46d93b45221f79c4b8584d13ad73b95cd7bc29fae2ffa1054baa8103",
+      "actualHash": "sha256:835a8ebe46d93b45221f79c4b8584d13ad73b95cd7bc29fae2ffa1054baa8103",
+      "expectedPublishedHash": "sha256:5653d7183b21008aaffffc8dc65c0e60ad977e46296b7e05b2fcd87664fa2c61",
+      "publicHash": "sha256:5653d7183b21008aaffffc8dc65c0e60ad977e46296b7e05b2fcd87664fa2c61",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-44",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D44",
+      "expectedHash": "sha256:eb5e0689d2193e78af1e98744af1a18b2ca3356344d4ac4135ed070a7af16301",
+      "actualHash": "sha256:eb5e0689d2193e78af1e98744af1a18b2ca3356344d4ac4135ed070a7af16301",
+      "expectedPublishedHash": "sha256:eb5e0689d2193e78af1e98744af1a18b2ca3356344d4ac4135ed070a7af16301",
+      "publicHash": "sha256:eb5e0689d2193e78af1e98744af1a18b2ca3356344d4ac4135ed070a7af16301",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-44",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I44",
+      "expectedHash": "sha256:a77de4e69c0bffd72f90fc24c1f4664380d9b4c9023be88ce0f455fec8151666",
+      "actualHash": "sha256:a77de4e69c0bffd72f90fc24c1f4664380d9b4c9023be88ce0f455fec8151666",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-45",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F45",
+      "expectedHash": "sha256:d4a82978fa7d4042ab0f022e446a2ac7f3f28684e8ed485e9a2cb859dabc433d",
+      "actualHash": "sha256:d4a82978fa7d4042ab0f022e446a2ac7f3f28684e8ed485e9a2cb859dabc433d",
+      "expectedPublishedHash": "sha256:804fbb0915f89bca701ff4b59091edd9254a8fd87d974cb9a03589e3162cdb3d",
+      "publicHash": "sha256:804fbb0915f89bca701ff4b59091edd9254a8fd87d974cb9a03589e3162cdb3d",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-45",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D45",
+      "expectedHash": "sha256:dc4bb7ab6c5e449f8f6019eefaffd89f97bd6322fdba6a864e7b36b9ac1cd95a",
+      "actualHash": "sha256:dc4bb7ab6c5e449f8f6019eefaffd89f97bd6322fdba6a864e7b36b9ac1cd95a",
+      "expectedPublishedHash": "sha256:dc4bb7ab6c5e449f8f6019eefaffd89f97bd6322fdba6a864e7b36b9ac1cd95a",
+      "publicHash": "sha256:dc4bb7ab6c5e449f8f6019eefaffd89f97bd6322fdba6a864e7b36b9ac1cd95a",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-45",
+      "field": "specifications",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!H45",
+      "expectedHash": "sha256:9a8efcf90633c0ea4f885c1c512cccd8a55900965189383e47411a4536913f1a",
+      "actualHash": "sha256:9a8efcf90633c0ea4f885c1c512cccd8a55900965189383e47411a4536913f1a",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-45",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I45",
+      "expectedHash": "sha256:cf29454f0b1c634b838fc4a2d50d7a65ce442b43791bf85b8536499d0c34f836",
+      "actualHash": "sha256:cf29454f0b1c634b838fc4a2d50d7a65ce442b43791bf85b8536499d0c34f836",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-46",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F46",
+      "expectedHash": "sha256:46a2cc143dd812a658764e675f8b69b1b940b2c60e671c26a72eece9927f2cc4",
+      "actualHash": "sha256:46a2cc143dd812a658764e675f8b69b1b940b2c60e671c26a72eece9927f2cc4",
+      "expectedPublishedHash": "sha256:8357c43a596dcdb67ccc6602da64ce5f2beba3201ef0960437d7e54d80c1985e",
+      "publicHash": "sha256:8357c43a596dcdb67ccc6602da64ce5f2beba3201ef0960437d7e54d80c1985e",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-46",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D46",
+      "expectedHash": "sha256:59bcd086382adfcb145a6c1a5ad47c3bf613bc372ebdd51509837cd8268d38c2",
+      "actualHash": "sha256:59bcd086382adfcb145a6c1a5ad47c3bf613bc372ebdd51509837cd8268d38c2",
+      "expectedPublishedHash": "sha256:59bcd086382adfcb145a6c1a5ad47c3bf613bc372ebdd51509837cd8268d38c2",
+      "publicHash": "sha256:59bcd086382adfcb145a6c1a5ad47c3bf613bc372ebdd51509837cd8268d38c2",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-46",
+      "field": "specifications",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!H46",
+      "expectedHash": "sha256:231a12dd3b91895f2024de37e80e2b42bac382c1c471c83eeb50ff089f4371b6",
+      "actualHash": "sha256:231a12dd3b91895f2024de37e80e2b42bac382c1c471c83eeb50ff089f4371b6",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-46",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I46",
+      "expectedHash": "sha256:65ebe79806528da94066f56191254654ac8b1d2b53c53c888752d47c0252e9a8",
+      "actualHash": "sha256:65ebe79806528da94066f56191254654ac8b1d2b53c53c888752d47c0252e9a8",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-47",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F47",
+      "expectedHash": "sha256:d4a82978fa7d4042ab0f022e446a2ac7f3f28684e8ed485e9a2cb859dabc433d",
+      "actualHash": "sha256:d4a82978fa7d4042ab0f022e446a2ac7f3f28684e8ed485e9a2cb859dabc433d",
+      "expectedPublishedHash": "sha256:60a9c35208f446fb36e84aafbcc1f0d7cde0d92b7b0ae487d06cd30d54ed0a41",
+      "publicHash": "sha256:60a9c35208f446fb36e84aafbcc1f0d7cde0d92b7b0ae487d06cd30d54ed0a41",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-47",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D47",
+      "expectedHash": "sha256:8f72503ea0c92890d42052ea784ff4dfaaa35851d8c8eef634a85ce661e05e88",
+      "actualHash": "sha256:8f72503ea0c92890d42052ea784ff4dfaaa35851d8c8eef634a85ce661e05e88",
+      "expectedPublishedHash": "sha256:8f72503ea0c92890d42052ea784ff4dfaaa35851d8c8eef634a85ce661e05e88",
+      "publicHash": "sha256:8f72503ea0c92890d42052ea784ff4dfaaa35851d8c8eef634a85ce661e05e88",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-47",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I47",
+      "expectedHash": "sha256:9fdeab921c9129156d3ba8e4958343799232de37f60573d2ecf959fcae834da9",
+      "actualHash": "sha256:9fdeab921c9129156d3ba8e4958343799232de37f60573d2ecf959fcae834da9",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-48",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F48",
+      "expectedHash": "sha256:09e3e221610543d007298c95d84e4e027784e61c2c417121d77ca3684a6c311d",
+      "actualHash": "sha256:09e3e221610543d007298c95d84e4e027784e61c2c417121d77ca3684a6c311d",
+      "expectedPublishedHash": "sha256:b500a58bfb1325e89c3262ceac6796d37b2a6d233f41e09ba154a2871c41ea6d",
+      "publicHash": "sha256:b500a58bfb1325e89c3262ceac6796d37b2a6d233f41e09ba154a2871c41ea6d",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-48",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D48",
+      "expectedHash": "sha256:e2942eca0251915253957e22176b752b08d91be87575479a9cf6f81f942e5a59",
+      "actualHash": "sha256:e2942eca0251915253957e22176b752b08d91be87575479a9cf6f81f942e5a59",
+      "expectedPublishedHash": "sha256:e2942eca0251915253957e22176b752b08d91be87575479a9cf6f81f942e5a59",
+      "publicHash": "sha256:e2942eca0251915253957e22176b752b08d91be87575479a9cf6f81f942e5a59",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-48",
+      "field": "specifications",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!H48",
+      "expectedHash": "sha256:fd11b2266a3b7e29c0e58c0a9546be5bcaed870ec1ffd48da04de72a4172be1e",
+      "actualHash": "sha256:fd11b2266a3b7e29c0e58c0a9546be5bcaed870ec1ffd48da04de72a4172be1e",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-48",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I48",
+      "expectedHash": "sha256:ee3cd6a41806468574bb374dac4eaa4c31eb880c9b696632c65055e85a0f1bef",
+      "actualHash": "sha256:ee3cd6a41806468574bb374dac4eaa4c31eb880c9b696632c65055e85a0f1bef",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-49",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F49",
+      "expectedHash": "sha256:9c5bb2d1572f35e0a2fb8b009cf3693a2cdcb663982b0446c119f85ce8837393",
+      "actualHash": "sha256:9c5bb2d1572f35e0a2fb8b009cf3693a2cdcb663982b0446c119f85ce8837393",
+      "expectedPublishedHash": "sha256:7a760e836676afea066d4d04d402b1963826e9d3bd8e037bea53ad88819072d2",
+      "publicHash": "sha256:7a760e836676afea066d4d04d402b1963826e9d3bd8e037bea53ad88819072d2",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-49",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D49",
+      "expectedHash": "sha256:1a6195d5b33a22af6a9d7948d9f352a9ec92ed515546cdcd89d75dabeadf06a7",
+      "actualHash": "sha256:1a6195d5b33a22af6a9d7948d9f352a9ec92ed515546cdcd89d75dabeadf06a7",
+      "expectedPublishedHash": "sha256:1a6195d5b33a22af6a9d7948d9f352a9ec92ed515546cdcd89d75dabeadf06a7",
+      "publicHash": "sha256:1a6195d5b33a22af6a9d7948d9f352a9ec92ed515546cdcd89d75dabeadf06a7",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-50",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F50",
+      "expectedHash": "sha256:4108c4d7a259209cba6219e6a8cfcde7dd2a3719e6645a11a60aefe0234c6c09",
+      "actualHash": "sha256:4108c4d7a259209cba6219e6a8cfcde7dd2a3719e6645a11a60aefe0234c6c09",
+      "expectedPublishedHash": "sha256:64a5d7700ea5dfc124a86338b98bed791531afc6344b779fdbbdaa00759f40f4",
+      "publicHash": "sha256:64a5d7700ea5dfc124a86338b98bed791531afc6344b779fdbbdaa00759f40f4",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-50",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D50",
+      "expectedHash": "sha256:7cceaf88f06aa9586251f1c1978ceecbdc94783ecbb1cb0a922f59d5c2f7d7ae",
+      "actualHash": "sha256:7cceaf88f06aa9586251f1c1978ceecbdc94783ecbb1cb0a922f59d5c2f7d7ae",
+      "expectedPublishedHash": "sha256:7cceaf88f06aa9586251f1c1978ceecbdc94783ecbb1cb0a922f59d5c2f7d7ae",
+      "publicHash": "sha256:7cceaf88f06aa9586251f1c1978ceecbdc94783ecbb1cb0a922f59d5c2f7d7ae",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-51",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F51",
+      "expectedHash": "sha256:d4a82978fa7d4042ab0f022e446a2ac7f3f28684e8ed485e9a2cb859dabc433d",
+      "actualHash": "sha256:d4a82978fa7d4042ab0f022e446a2ac7f3f28684e8ed485e9a2cb859dabc433d",
+      "expectedPublishedHash": "sha256:d7b82f05aeaefc92f151be47aabd9298ebd4dc77b359997906f2ef0ff048c07b",
+      "publicHash": "sha256:d7b82f05aeaefc92f151be47aabd9298ebd4dc77b359997906f2ef0ff048c07b",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-51",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D51",
+      "expectedHash": "sha256:140ef42883786d3d2db0f256e5b471339445052f2a91a9215400d08e324ee4a9",
+      "actualHash": "sha256:140ef42883786d3d2db0f256e5b471339445052f2a91a9215400d08e324ee4a9",
+      "expectedPublishedHash": "sha256:140ef42883786d3d2db0f256e5b471339445052f2a91a9215400d08e324ee4a9",
+      "publicHash": "sha256:140ef42883786d3d2db0f256e5b471339445052f2a91a9215400d08e324ee4a9",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-52",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F52",
+      "expectedHash": "sha256:d774e61bfe62397bd2f7d499593b14fd072aa1abc0974a3ce40c78d937e1b010",
+      "actualHash": "sha256:d774e61bfe62397bd2f7d499593b14fd072aa1abc0974a3ce40c78d937e1b010",
+      "expectedPublishedHash": "sha256:9e5f01492d549d035b5886ac95b1b3598822f90da4968085d69519e0d50332b7",
+      "publicHash": "sha256:9e5f01492d549d035b5886ac95b1b3598822f90da4968085d69519e0d50332b7",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-52",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D52",
+      "expectedHash": "sha256:b72ca14d587d9fa07f6c620e120bed8f85f41a1749ba004906c415ccf79cf05d",
+      "actualHash": "sha256:b72ca14d587d9fa07f6c620e120bed8f85f41a1749ba004906c415ccf79cf05d",
+      "expectedPublishedHash": "sha256:b72ca14d587d9fa07f6c620e120bed8f85f41a1749ba004906c415ccf79cf05d",
+      "publicHash": "sha256:b72ca14d587d9fa07f6c620e120bed8f85f41a1749ba004906c415ccf79cf05d",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-53",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F53",
+      "expectedHash": "sha256:267b1a16a583be6aae36e90e6f7037e4393656aa96b9985b7289c97f53718b07",
+      "actualHash": "sha256:267b1a16a583be6aae36e90e6f7037e4393656aa96b9985b7289c97f53718b07",
+      "expectedPublishedHash": "sha256:b320620aa6a8ec894e42411a3bc6218761a527c253bab923ef2a816f75765756",
+      "publicHash": "sha256:b320620aa6a8ec894e42411a3bc6218761a527c253bab923ef2a816f75765756",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-53",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D53",
+      "expectedHash": "sha256:d74ab4807a453e59f4ea2429d20bcce39e56c605a5b368984c7688780dc1a50b",
+      "actualHash": "sha256:d74ab4807a453e59f4ea2429d20bcce39e56c605a5b368984c7688780dc1a50b",
+      "expectedPublishedHash": "sha256:d74ab4807a453e59f4ea2429d20bcce39e56c605a5b368984c7688780dc1a50b",
+      "publicHash": "sha256:d74ab4807a453e59f4ea2429d20bcce39e56c605a5b368984c7688780dc1a50b",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-53",
+      "field": "specifications",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!H53",
+      "expectedHash": "sha256:8cea754e5372860aa2fc6bda035dc6a0f20b81d029ed481ef4da41963b106625",
+      "actualHash": "sha256:8cea754e5372860aa2fc6bda035dc6a0f20b81d029ed481ef4da41963b106625",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-53",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I53",
+      "expectedHash": "sha256:893081d6ebe8a59d1cf9257d6271cf5b01de3417a5a9f50db794c16597510a15",
+      "actualHash": "sha256:893081d6ebe8a59d1cf9257d6271cf5b01de3417a5a9f50db794c16597510a15",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-54",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F54",
+      "expectedHash": "sha256:6bf17c820395b8bb3899576f8146b950d8f19bf7cd33df1944778392adf4c058",
+      "actualHash": "sha256:6bf17c820395b8bb3899576f8146b950d8f19bf7cd33df1944778392adf4c058",
+      "expectedPublishedHash": "sha256:23d4fdbe5d40550f3bcdf1597c84d94fa7dd082e7b11f991dc44ee214e292158",
+      "publicHash": "sha256:23d4fdbe5d40550f3bcdf1597c84d94fa7dd082e7b11f991dc44ee214e292158",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-54",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D54",
+      "expectedHash": "sha256:d74ab4807a453e59f4ea2429d20bcce39e56c605a5b368984c7688780dc1a50b",
+      "actualHash": "sha256:d74ab4807a453e59f4ea2429d20bcce39e56c605a5b368984c7688780dc1a50b",
+      "expectedPublishedHash": "sha256:d74ab4807a453e59f4ea2429d20bcce39e56c605a5b368984c7688780dc1a50b",
+      "publicHash": "sha256:d74ab4807a453e59f4ea2429d20bcce39e56c605a5b368984c7688780dc1a50b",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-54",
+      "field": "specifications",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!H54",
+      "expectedHash": "sha256:8cea754e5372860aa2fc6bda035dc6a0f20b81d029ed481ef4da41963b106625",
+      "actualHash": "sha256:8cea754e5372860aa2fc6bda035dc6a0f20b81d029ed481ef4da41963b106625",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-54",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I54",
+      "expectedHash": "sha256:babb26590626f1cb09c798e2a5fe455562847909a2bdb743453396e17a3f9fc9",
+      "actualHash": "sha256:babb26590626f1cb09c798e2a5fe455562847909a2bdb743453396e17a3f9fc9",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-55",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F55",
+      "expectedHash": "sha256:86a001aa7bc717edd12f5b9b90284734d3befcc0fea362a9cafe7aac6889c8e1",
+      "actualHash": "sha256:86a001aa7bc717edd12f5b9b90284734d3befcc0fea362a9cafe7aac6889c8e1",
+      "expectedPublishedHash": "sha256:f73b733265248a32533d6d0142b0e41cd24fe336bc7d8a6e886e286f8fa18ebb",
+      "publicHash": "sha256:f73b733265248a32533d6d0142b0e41cd24fe336bc7d8a6e886e286f8fa18ebb",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-55",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D55",
+      "expectedHash": "sha256:7b22ecef4d57debb6f75310f6bd55e2c6570481bb6240193c7ed70125e8d61fe",
+      "actualHash": "sha256:7b22ecef4d57debb6f75310f6bd55e2c6570481bb6240193c7ed70125e8d61fe",
+      "expectedPublishedHash": "sha256:7b22ecef4d57debb6f75310f6bd55e2c6570481bb6240193c7ed70125e8d61fe",
+      "publicHash": "sha256:7b22ecef4d57debb6f75310f6bd55e2c6570481bb6240193c7ed70125e8d61fe",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-55",
+      "field": "specifications",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!H55",
+      "expectedHash": "sha256:6ccfa96d4d1127c22b4f510cbe896a3ebe02b6dddcfe2e96c41a1933a4886673",
+      "actualHash": "sha256:6ccfa96d4d1127c22b4f510cbe896a3ebe02b6dddcfe2e96c41a1933a4886673",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-55",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I55",
+      "expectedHash": "sha256:69e57a9f39676ddfb4d950643c043bf6ddf8cb0b1d4598ead54f8b199533f748",
+      "actualHash": "sha256:69e57a9f39676ddfb4d950643c043bf6ddf8cb0b1d4598ead54f8b199533f748",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-56",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F56",
+      "expectedHash": "sha256:86a001aa7bc717edd12f5b9b90284734d3befcc0fea362a9cafe7aac6889c8e1",
+      "actualHash": "sha256:86a001aa7bc717edd12f5b9b90284734d3befcc0fea362a9cafe7aac6889c8e1",
+      "expectedPublishedHash": "sha256:1f981e465d8d5163f621de8ec8513e463ad43da96cb5b041a82105add37c7092",
+      "publicHash": "sha256:1f981e465d8d5163f621de8ec8513e463ad43da96cb5b041a82105add37c7092",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-56",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D56",
+      "expectedHash": "sha256:25e1b38d68a1550f70513772c73d5ee709b47942b0e2961b7280afc52f0247fa",
+      "actualHash": "sha256:25e1b38d68a1550f70513772c73d5ee709b47942b0e2961b7280afc52f0247fa",
+      "expectedPublishedHash": "sha256:25e1b38d68a1550f70513772c73d5ee709b47942b0e2961b7280afc52f0247fa",
+      "publicHash": "sha256:25e1b38d68a1550f70513772c73d5ee709b47942b0e2961b7280afc52f0247fa",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-57",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F57",
+      "expectedHash": "sha256:86a001aa7bc717edd12f5b9b90284734d3befcc0fea362a9cafe7aac6889c8e1",
+      "actualHash": "sha256:86a001aa7bc717edd12f5b9b90284734d3befcc0fea362a9cafe7aac6889c8e1",
+      "expectedPublishedHash": "sha256:70a5318535bf2736df5f121a20a667d997fc5e1e3a6135dbacccf5fd33e89d0c",
+      "publicHash": "sha256:70a5318535bf2736df5f121a20a667d997fc5e1e3a6135dbacccf5fd33e89d0c",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-57",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D57",
+      "expectedHash": "sha256:15ac5299b00b2c4de2045e1758f4379d7eb6769c8a3ec56dc08afa1b08107905",
+      "actualHash": "sha256:15ac5299b00b2c4de2045e1758f4379d7eb6769c8a3ec56dc08afa1b08107905",
+      "expectedPublishedHash": "sha256:15ac5299b00b2c4de2045e1758f4379d7eb6769c8a3ec56dc08afa1b08107905",
+      "publicHash": "sha256:15ac5299b00b2c4de2045e1758f4379d7eb6769c8a3ec56dc08afa1b08107905",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-58",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F58",
+      "expectedHash": "sha256:86a001aa7bc717edd12f5b9b90284734d3befcc0fea362a9cafe7aac6889c8e1",
+      "actualHash": "sha256:86a001aa7bc717edd12f5b9b90284734d3befcc0fea362a9cafe7aac6889c8e1",
+      "expectedPublishedHash": "sha256:b6081b14028e6371de6f55a03c1edd3dc82de422151595aa9e5ed68641ad4473",
+      "publicHash": "sha256:b6081b14028e6371de6f55a03c1edd3dc82de422151595aa9e5ed68641ad4473",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-58",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D58",
+      "expectedHash": "sha256:6fd07b690b44eebde94a191ff17a0a799853b3b326d7ef3869a39b597dd6bb08",
+      "actualHash": "sha256:6fd07b690b44eebde94a191ff17a0a799853b3b326d7ef3869a39b597dd6bb08",
+      "expectedPublishedHash": "sha256:6fd07b690b44eebde94a191ff17a0a799853b3b326d7ef3869a39b597dd6bb08",
+      "publicHash": "sha256:6fd07b690b44eebde94a191ff17a0a799853b3b326d7ef3869a39b597dd6bb08",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-59",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F59",
+      "expectedHash": "sha256:86a001aa7bc717edd12f5b9b90284734d3befcc0fea362a9cafe7aac6889c8e1",
+      "actualHash": "sha256:86a001aa7bc717edd12f5b9b90284734d3befcc0fea362a9cafe7aac6889c8e1",
+      "expectedPublishedHash": "sha256:86cfa1974fcb3cd8fe5531365de413cdc9d25e67b2a7b58e4313c54d39688e6d",
+      "publicHash": "sha256:86cfa1974fcb3cd8fe5531365de413cdc9d25e67b2a7b58e4313c54d39688e6d",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-59",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D59",
+      "expectedHash": "sha256:d69a3ff7e2bf2beb7cec3beb5ea1f3d861b9827ca61ea124e6ea718fcffbb356",
+      "actualHash": "sha256:d69a3ff7e2bf2beb7cec3beb5ea1f3d861b9827ca61ea124e6ea718fcffbb356",
+      "expectedPublishedHash": "sha256:d69a3ff7e2bf2beb7cec3beb5ea1f3d861b9827ca61ea124e6ea718fcffbb356",
+      "publicHash": "sha256:d69a3ff7e2bf2beb7cec3beb5ea1f3d861b9827ca61ea124e6ea718fcffbb356",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-60",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F60",
+      "expectedHash": "sha256:86a001aa7bc717edd12f5b9b90284734d3befcc0fea362a9cafe7aac6889c8e1",
+      "actualHash": "sha256:86a001aa7bc717edd12f5b9b90284734d3befcc0fea362a9cafe7aac6889c8e1",
+      "expectedPublishedHash": "sha256:d5b9ab1189f9fd9db644498d0ba61513cd58ac9b539b575c6fc5b3991d0d908f",
+      "publicHash": "sha256:d5b9ab1189f9fd9db644498d0ba61513cd58ac9b539b575c6fc5b3991d0d908f",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-60",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D60",
+      "expectedHash": "sha256:e351be4aa705d8a7610958736575790445b99b7361f2bcc93d4f99bd8023611d",
+      "actualHash": "sha256:e351be4aa705d8a7610958736575790445b99b7361f2bcc93d4f99bd8023611d",
+      "expectedPublishedHash": "sha256:e351be4aa705d8a7610958736575790445b99b7361f2bcc93d4f99bd8023611d",
+      "publicHash": "sha256:e351be4aa705d8a7610958736575790445b99b7361f2bcc93d4f99bd8023611d",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-61",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F61",
+      "expectedHash": "sha256:86a001aa7bc717edd12f5b9b90284734d3befcc0fea362a9cafe7aac6889c8e1",
+      "actualHash": "sha256:86a001aa7bc717edd12f5b9b90284734d3befcc0fea362a9cafe7aac6889c8e1",
+      "expectedPublishedHash": "sha256:d382dfadbdd627e5f985fe77072ddda466423140a40b24dc112b566ee40388c6",
+      "publicHash": "sha256:d382dfadbdd627e5f985fe77072ddda466423140a40b24dc112b566ee40388c6",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-61",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D61",
+      "expectedHash": "sha256:26f64c650f72e9e71439dd8e91597e20e6a85f1388a4ed699413ae17dd68b410",
+      "actualHash": "sha256:26f64c650f72e9e71439dd8e91597e20e6a85f1388a4ed699413ae17dd68b410",
+      "expectedPublishedHash": "sha256:26f64c650f72e9e71439dd8e91597e20e6a85f1388a4ed699413ae17dd68b410",
+      "publicHash": "sha256:26f64c650f72e9e71439dd8e91597e20e6a85f1388a4ed699413ae17dd68b410",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-62",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F62",
+      "expectedHash": "sha256:923559ffff1706454c0cf0754eec9ebbb7b88d6a9fd4b3cfc89de69d94341512",
+      "actualHash": "sha256:923559ffff1706454c0cf0754eec9ebbb7b88d6a9fd4b3cfc89de69d94341512",
+      "expectedPublishedHash": "sha256:318f4d341fe56affeb84c5af1a69fd9cde47a882b5f047e1435e82344a0fb972",
+      "publicHash": "sha256:318f4d341fe56affeb84c5af1a69fd9cde47a882b5f047e1435e82344a0fb972",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-62",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D62",
+      "expectedHash": "sha256:bdebbe1b017106f8572e93dec425bd1503309467e90987ac0a56332ba4111ed9",
+      "actualHash": "sha256:bdebbe1b017106f8572e93dec425bd1503309467e90987ac0a56332ba4111ed9",
+      "expectedPublishedHash": "sha256:bdebbe1b017106f8572e93dec425bd1503309467e90987ac0a56332ba4111ed9",
+      "publicHash": "sha256:bdebbe1b017106f8572e93dec425bd1503309467e90987ac0a56332ba4111ed9",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-63",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F63",
+      "expectedHash": "sha256:903775d4c00227af5d721e923a48d0ee8e8ca85d0e0cd5565fd2895cf2808845",
+      "actualHash": "sha256:903775d4c00227af5d721e923a48d0ee8e8ca85d0e0cd5565fd2895cf2808845",
+      "expectedPublishedHash": "sha256:72ff60ed553f2c5cc87086f2c71690d7f64ac43600e859ecad560f3c62a49827",
+      "publicHash": "sha256:72ff60ed553f2c5cc87086f2c71690d7f64ac43600e859ecad560f3c62a49827",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-63",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D63",
+      "expectedHash": "sha256:3cf4adb598e8e2a62e2000a35241ce648ee8e2683eb7681059238a32d5c635a3",
+      "actualHash": "sha256:3cf4adb598e8e2a62e2000a35241ce648ee8e2683eb7681059238a32d5c635a3",
+      "expectedPublishedHash": "sha256:541d3a09790fd43114c28debae89112f313d3819561d28a1295e95b4e40d3af2",
+      "publicHash": "sha256:541d3a09790fd43114c28debae89112f313d3819561d28a1295e95b4e40d3af2",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-63",
+      "field": "specifications",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!H63",
+      "expectedHash": "sha256:6b6a4795cbb8cd743d0756a16c4b8455fc35864f0b4c0809c393b7959f26dc12",
+      "actualHash": "sha256:6b6a4795cbb8cd743d0756a16c4b8455fc35864f0b4c0809c393b7959f26dc12",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-63",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I63",
+      "expectedHash": "sha256:0af854a80a32242b5a0f8875febfb238dafda3ac6cad48dd2ef1c66f8df460f0",
+      "actualHash": "sha256:0af854a80a32242b5a0f8875febfb238dafda3ac6cad48dd2ef1c66f8df460f0",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-64",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F64",
+      "expectedHash": "sha256:24ac6916698594109ae79dec99391bb8a524e1e3f172c8a9fa7b7474becebd50",
+      "actualHash": "sha256:24ac6916698594109ae79dec99391bb8a524e1e3f172c8a9fa7b7474becebd50",
+      "expectedPublishedHash": "sha256:ebf787495d725e9d3254af86ecdaebc90451cde0a89306946ebb30586cde4c76",
+      "publicHash": "sha256:ebf787495d725e9d3254af86ecdaebc90451cde0a89306946ebb30586cde4c76",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-64",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D64",
+      "expectedHash": "sha256:3cf4adb598e8e2a62e2000a35241ce648ee8e2683eb7681059238a32d5c635a3",
+      "actualHash": "sha256:3cf4adb598e8e2a62e2000a35241ce648ee8e2683eb7681059238a32d5c635a3",
+      "expectedPublishedHash": "sha256:541d3a09790fd43114c28debae89112f313d3819561d28a1295e95b4e40d3af2",
+      "publicHash": "sha256:541d3a09790fd43114c28debae89112f313d3819561d28a1295e95b4e40d3af2",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-64",
+      "field": "specifications",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!H64",
+      "expectedHash": "sha256:6b6a4795cbb8cd743d0756a16c4b8455fc35864f0b4c0809c393b7959f26dc12",
+      "actualHash": "sha256:6b6a4795cbb8cd743d0756a16c4b8455fc35864f0b4c0809c393b7959f26dc12",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-64",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I64",
+      "expectedHash": "sha256:5cbb1d7e23da833d361ce834eba81feb9177cad674552aa68ada9b396acf5b42",
+      "actualHash": "sha256:5cbb1d7e23da833d361ce834eba81feb9177cad674552aa68ada9b396acf5b42",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-65",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F65",
+      "expectedHash": "sha256:134ece2c674dc96e327b1bf8c5bd2efa71521a21ab7d87df32c0181e318087f1",
+      "actualHash": "sha256:134ece2c674dc96e327b1bf8c5bd2efa71521a21ab7d87df32c0181e318087f1",
+      "expectedPublishedHash": "sha256:a8f56fe2c627f412a780245b60e3ce28b3700a5866659776e5dfe53347ad101e",
+      "publicHash": "sha256:a8f56fe2c627f412a780245b60e3ce28b3700a5866659776e5dfe53347ad101e",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-65",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D65",
+      "expectedHash": "sha256:3cf4adb598e8e2a62e2000a35241ce648ee8e2683eb7681059238a32d5c635a3",
+      "actualHash": "sha256:3cf4adb598e8e2a62e2000a35241ce648ee8e2683eb7681059238a32d5c635a3",
+      "expectedPublishedHash": "sha256:541d3a09790fd43114c28debae89112f313d3819561d28a1295e95b4e40d3af2",
+      "publicHash": "sha256:541d3a09790fd43114c28debae89112f313d3819561d28a1295e95b4e40d3af2",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-65",
+      "field": "specifications",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!H65",
+      "expectedHash": "sha256:f9c49a8942ed9bea854b1e2c2d9e3f71b3e9458d7b409d1f1b3ceef6322658e2",
+      "actualHash": "sha256:f9c49a8942ed9bea854b1e2c2d9e3f71b3e9458d7b409d1f1b3ceef6322658e2",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-65",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I65",
+      "expectedHash": "sha256:80aa3e23cf172453040fcd2914f309f313d62ef5d9a595cf56026faf003bda51",
+      "actualHash": "sha256:80aa3e23cf172453040fcd2914f309f313d62ef5d9a595cf56026faf003bda51",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-66",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F66",
+      "expectedHash": "sha256:6d606547385ca7d00d9156fa76b27db075a484e42bdd48bb20b5cebe5b8133dd",
+      "actualHash": "sha256:6d606547385ca7d00d9156fa76b27db075a484e42bdd48bb20b5cebe5b8133dd",
+      "expectedPublishedHash": "sha256:0d2c88472033c353e11b32a8e92ae065a3e0a5c1317dc0189fc168bfaf17c024",
+      "publicHash": "sha256:0d2c88472033c353e11b32a8e92ae065a3e0a5c1317dc0189fc168bfaf17c024",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-66",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D66",
+      "expectedHash": "sha256:3cf4adb598e8e2a62e2000a35241ce648ee8e2683eb7681059238a32d5c635a3",
+      "actualHash": "sha256:3cf4adb598e8e2a62e2000a35241ce648ee8e2683eb7681059238a32d5c635a3",
+      "expectedPublishedHash": "sha256:541d3a09790fd43114c28debae89112f313d3819561d28a1295e95b4e40d3af2",
+      "publicHash": "sha256:541d3a09790fd43114c28debae89112f313d3819561d28a1295e95b4e40d3af2",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-66",
+      "field": "specifications",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!H66",
+      "expectedHash": "sha256:1656bbc80d1f20156d96c36e5eccd8d43e02e4db2ae67ca977b0fb7f1153b9dd",
+      "actualHash": "sha256:1656bbc80d1f20156d96c36e5eccd8d43e02e4db2ae67ca977b0fb7f1153b9dd",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-66",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I66",
+      "expectedHash": "sha256:43aa3b5ffc58e629775920db74d67d025761b1e54361194835adca39d2a962b9",
+      "actualHash": "sha256:43aa3b5ffc58e629775920db74d67d025761b1e54361194835adca39d2a962b9",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-67",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F67",
+      "expectedHash": "sha256:4e95e211b0bd9361ee854fc75cf682aa3f362ebeb17780dcf456e77ab693c692",
+      "actualHash": "sha256:4e95e211b0bd9361ee854fc75cf682aa3f362ebeb17780dcf456e77ab693c692",
+      "expectedPublishedHash": "sha256:4a4d7a78b7cc4e93a18656a99c9b38171476598c5fd55592a3e3d846a8bcd15d",
+      "publicHash": "sha256:4a4d7a78b7cc4e93a18656a99c9b38171476598c5fd55592a3e3d846a8bcd15d",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-67",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D67",
+      "expectedHash": "sha256:3cf4adb598e8e2a62e2000a35241ce648ee8e2683eb7681059238a32d5c635a3",
+      "actualHash": "sha256:3cf4adb598e8e2a62e2000a35241ce648ee8e2683eb7681059238a32d5c635a3",
+      "expectedPublishedHash": "sha256:541d3a09790fd43114c28debae89112f313d3819561d28a1295e95b4e40d3af2",
+      "publicHash": "sha256:541d3a09790fd43114c28debae89112f313d3819561d28a1295e95b4e40d3af2",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-67",
+      "field": "specifications",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!H67",
+      "expectedHash": "sha256:69b7fff4083a006b0e0c28d4f20cf96d01a80b33fa22f4acaf7a38ffddaf6d38",
+      "actualHash": "sha256:69b7fff4083a006b0e0c28d4f20cf96d01a80b33fa22f4acaf7a38ffddaf6d38",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-67",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I67",
+      "expectedHash": "sha256:962f728d733fa07f8b5345b43fd9c48357461e32f2187c30443d64ea05b11d72",
+      "actualHash": "sha256:962f728d733fa07f8b5345b43fd9c48357461e32f2187c30443d64ea05b11d72",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-68",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F68",
+      "expectedHash": "sha256:17b0901b7e0fa5be69ac503db814aff731240e445ac8ba84bedb685d1ee051a0",
+      "actualHash": "sha256:17b0901b7e0fa5be69ac503db814aff731240e445ac8ba84bedb685d1ee051a0",
+      "expectedPublishedHash": "sha256:9311810b2f7cf03644a23aed1e53e5000812c545999be1f596e68c09e6813968",
+      "publicHash": "sha256:9311810b2f7cf03644a23aed1e53e5000812c545999be1f596e68c09e6813968",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-68",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D68",
+      "expectedHash": "sha256:3cf4adb598e8e2a62e2000a35241ce648ee8e2683eb7681059238a32d5c635a3",
+      "actualHash": "sha256:3cf4adb598e8e2a62e2000a35241ce648ee8e2683eb7681059238a32d5c635a3",
+      "expectedPublishedHash": "sha256:541d3a09790fd43114c28debae89112f313d3819561d28a1295e95b4e40d3af2",
+      "publicHash": "sha256:541d3a09790fd43114c28debae89112f313d3819561d28a1295e95b4e40d3af2",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-68",
+      "field": "specifications",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!H68",
+      "expectedHash": "sha256:cbd0db8be75bb458cf863e75805e467dc81da3873c76c18cbecdbd3034e2cbef",
+      "actualHash": "sha256:cbd0db8be75bb458cf863e75805e467dc81da3873c76c18cbecdbd3034e2cbef",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-68",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I68",
+      "expectedHash": "sha256:4266e537048edc1db2f2adefda3c39e75d037c37f44dc947ab414478f0c69b6f",
+      "actualHash": "sha256:4266e537048edc1db2f2adefda3c39e75d037c37f44dc947ab414478f0c69b6f",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-69",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F69",
+      "expectedHash": "sha256:22800e072db3724702293d9646cdcddc3543d771761dcedfa6386e023f89ab20",
+      "actualHash": "sha256:22800e072db3724702293d9646cdcddc3543d771761dcedfa6386e023f89ab20",
+      "expectedPublishedHash": "sha256:e5114b882c49a08b37e12d17761822d99c3070f4eed4c209e8a4bd55ab1b30cb",
+      "publicHash": "sha256:e5114b882c49a08b37e12d17761822d99c3070f4eed4c209e8a4bd55ab1b30cb",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-69",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D69",
+      "expectedHash": "sha256:9816194e311c0468031d7b16a19be5b793424b8c7623d5c6650905e7fdeb68ac",
+      "actualHash": "sha256:9816194e311c0468031d7b16a19be5b793424b8c7623d5c6650905e7fdeb68ac",
+      "expectedPublishedHash": "sha256:9816194e311c0468031d7b16a19be5b793424b8c7623d5c6650905e7fdeb68ac",
+      "publicHash": "sha256:9816194e311c0468031d7b16a19be5b793424b8c7623d5c6650905e7fdeb68ac",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-69",
+      "field": "specifications",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!H69",
+      "expectedHash": "sha256:1b5e7db3dee8baf199934db7f006b736ac94c829ad9766875c9378b6f645a5cc",
+      "actualHash": "sha256:1b5e7db3dee8baf199934db7f006b736ac94c829ad9766875c9378b6f645a5cc",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-69",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I69",
+      "expectedHash": "sha256:3e145280bb8036a3b72c0a49f0dff44561c8a8e6699e09e6e5258607659924ed",
+      "actualHash": "sha256:3e145280bb8036a3b72c0a49f0dff44561c8a8e6699e09e6e5258607659924ed",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-70",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F70",
+      "expectedHash": "sha256:22800e072db3724702293d9646cdcddc3543d771761dcedfa6386e023f89ab20",
+      "actualHash": "sha256:22800e072db3724702293d9646cdcddc3543d771761dcedfa6386e023f89ab20",
+      "expectedPublishedHash": "sha256:dad814bbc13c4881acb52eaf0a319612058ff9e86b698c7da5a245c68469fa3a",
+      "publicHash": "sha256:dad814bbc13c4881acb52eaf0a319612058ff9e86b698c7da5a245c68469fa3a",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-70",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D70",
+      "expectedHash": "sha256:a3b1e7f2b263715fd9ab3bdc4dada0b52eaffeddd01ca6771831f356cb405a28",
+      "actualHash": "sha256:a3b1e7f2b263715fd9ab3bdc4dada0b52eaffeddd01ca6771831f356cb405a28",
+      "expectedPublishedHash": "sha256:a3b1e7f2b263715fd9ab3bdc4dada0b52eaffeddd01ca6771831f356cb405a28",
+      "publicHash": "sha256:a3b1e7f2b263715fd9ab3bdc4dada0b52eaffeddd01ca6771831f356cb405a28",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-71",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F71",
+      "expectedHash": "sha256:22800e072db3724702293d9646cdcddc3543d771761dcedfa6386e023f89ab20",
+      "actualHash": "sha256:22800e072db3724702293d9646cdcddc3543d771761dcedfa6386e023f89ab20",
+      "expectedPublishedHash": "sha256:0bf21a476d1100b78cea80e350a5ecf88d06f31c42f5100dad062f2c09c11a79",
+      "publicHash": "sha256:0bf21a476d1100b78cea80e350a5ecf88d06f31c42f5100dad062f2c09c11a79",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-71",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D71",
+      "expectedHash": "sha256:5aadf00895a41efb667f88d9d3f4f1cfc3956a4ea0d9e09ffb6aead51a3df26d",
+      "actualHash": "sha256:5aadf00895a41efb667f88d9d3f4f1cfc3956a4ea0d9e09ffb6aead51a3df26d",
+      "expectedPublishedHash": "sha256:5aadf00895a41efb667f88d9d3f4f1cfc3956a4ea0d9e09ffb6aead51a3df26d",
+      "publicHash": "sha256:5aadf00895a41efb667f88d9d3f4f1cfc3956a4ea0d9e09ffb6aead51a3df26d",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-72",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F72",
+      "expectedHash": "sha256:22800e072db3724702293d9646cdcddc3543d771761dcedfa6386e023f89ab20",
+      "actualHash": "sha256:22800e072db3724702293d9646cdcddc3543d771761dcedfa6386e023f89ab20",
+      "expectedPublishedHash": "sha256:672ae721fe3618d62139d3079ddec15b2351526802b14f68ff3ff9995c7a5a21",
+      "publicHash": "sha256:672ae721fe3618d62139d3079ddec15b2351526802b14f68ff3ff9995c7a5a21",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-72",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D72",
+      "expectedHash": "sha256:b89dbb5fb6887521b4e9ef4fa5ff6853c55c6159ac8045b6edd23391eb6443ab",
+      "actualHash": "sha256:b89dbb5fb6887521b4e9ef4fa5ff6853c55c6159ac8045b6edd23391eb6443ab",
+      "expectedPublishedHash": "sha256:b89dbb5fb6887521b4e9ef4fa5ff6853c55c6159ac8045b6edd23391eb6443ab",
+      "publicHash": "sha256:b89dbb5fb6887521b4e9ef4fa5ff6853c55c6159ac8045b6edd23391eb6443ab",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-73",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F73",
+      "expectedHash": "sha256:22800e072db3724702293d9646cdcddc3543d771761dcedfa6386e023f89ab20",
+      "actualHash": "sha256:22800e072db3724702293d9646cdcddc3543d771761dcedfa6386e023f89ab20",
+      "expectedPublishedHash": "sha256:7d4226a8ef447cc632f69c01d2fce55e607f8313493304b204e4552c46fb5e6f",
+      "publicHash": "sha256:7d4226a8ef447cc632f69c01d2fce55e607f8313493304b204e4552c46fb5e6f",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-73",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D73",
+      "expectedHash": "sha256:621fabb63f5318ad1a988de9e8428ec4882c95735e81d8634125e6523e87e495",
+      "actualHash": "sha256:621fabb63f5318ad1a988de9e8428ec4882c95735e81d8634125e6523e87e495",
+      "expectedPublishedHash": "sha256:621fabb63f5318ad1a988de9e8428ec4882c95735e81d8634125e6523e87e495",
+      "publicHash": "sha256:621fabb63f5318ad1a988de9e8428ec4882c95735e81d8634125e6523e87e495",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-74",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F74",
+      "expectedHash": "sha256:54f7f7031b30bdbfc54f88d9779796394fc94d4f3b0ceb48878b614705319b2b",
+      "actualHash": "sha256:54f7f7031b30bdbfc54f88d9779796394fc94d4f3b0ceb48878b614705319b2b",
+      "expectedPublishedHash": "sha256:a3470b79964018d722187a30d19c6fe138f2d9a7520c5c4d96a665820bcf64df",
+      "publicHash": "sha256:a3470b79964018d722187a30d19c6fe138f2d9a7520c5c4d96a665820bcf64df",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-74",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D74",
+      "expectedHash": "sha256:22d520b0136a8ccc2ca4474b376b94ba1e487e1e0165ae1b19384d5cc069b8f3",
+      "actualHash": "sha256:22d520b0136a8ccc2ca4474b376b94ba1e487e1e0165ae1b19384d5cc069b8f3",
+      "expectedPublishedHash": "sha256:22d520b0136a8ccc2ca4474b376b94ba1e487e1e0165ae1b19384d5cc069b8f3",
+      "publicHash": "sha256:22d520b0136a8ccc2ca4474b376b94ba1e487e1e0165ae1b19384d5cc069b8f3",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-74",
+      "field": "specifications",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!H74",
+      "expectedHash": "sha256:d269d1bda2dabab187c9789ae079e10ca75922457b417205734dece59aa9ee52",
+      "actualHash": "sha256:d269d1bda2dabab187c9789ae079e10ca75922457b417205734dece59aa9ee52",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-74",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I74",
+      "expectedHash": "sha256:5c0f20e6adff555c5e6f6459f66beaa14de17369af64e09954e985ff4572e4a9",
+      "actualHash": "sha256:5c0f20e6adff555c5e6f6459f66beaa14de17369af64e09954e985ff4572e4a9",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-75",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F75",
+      "expectedHash": "sha256:54f7f7031b30bdbfc54f88d9779796394fc94d4f3b0ceb48878b614705319b2b",
+      "actualHash": "sha256:54f7f7031b30bdbfc54f88d9779796394fc94d4f3b0ceb48878b614705319b2b",
+      "expectedPublishedHash": "sha256:5ccec4015e36ce35e89ecbc257011fee709f1a08c30946825363c0e692bf2d71",
+      "publicHash": "sha256:5ccec4015e36ce35e89ecbc257011fee709f1a08c30946825363c0e692bf2d71",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-75",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D75",
+      "expectedHash": "sha256:d64945ed034dd6be5a25cc4ea45263bd718e65a769ce3fe927fbe588341a1be1",
+      "actualHash": "sha256:d64945ed034dd6be5a25cc4ea45263bd718e65a769ce3fe927fbe588341a1be1",
+      "expectedPublishedHash": "sha256:d64945ed034dd6be5a25cc4ea45263bd718e65a769ce3fe927fbe588341a1be1",
+      "publicHash": "sha256:d64945ed034dd6be5a25cc4ea45263bd718e65a769ce3fe927fbe588341a1be1",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-75",
+      "field": "specifications",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!H75",
+      "expectedHash": "sha256:2e69682d6cb1492924abe13828f539e2f0bac72777b155c1bf5d29a6804f60e8",
+      "actualHash": "sha256:2e69682d6cb1492924abe13828f539e2f0bac72777b155c1bf5d29a6804f60e8",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-75",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I75",
+      "expectedHash": "sha256:d8ab93487fe1cb0c6ed1152292b5aa43f3ed25f085726a40ebc71875e3a08592",
+      "actualHash": "sha256:d8ab93487fe1cb0c6ed1152292b5aa43f3ed25f085726a40ebc71875e3a08592",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-76",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F76",
+      "expectedHash": "sha256:54f7f7031b30bdbfc54f88d9779796394fc94d4f3b0ceb48878b614705319b2b",
+      "actualHash": "sha256:54f7f7031b30bdbfc54f88d9779796394fc94d4f3b0ceb48878b614705319b2b",
+      "expectedPublishedHash": "sha256:3e89221dc8a4e6ada84575329751a049d1f5d531f7d2182bbe3db4ba4fd4c28e",
+      "publicHash": "sha256:3e89221dc8a4e6ada84575329751a049d1f5d531f7d2182bbe3db4ba4fd4c28e",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-76",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D76",
+      "expectedHash": "sha256:6930d06c11692d92785d2021f525d2aed22f0ccf10b58cb28e0cbb9e6ec38ff0",
+      "actualHash": "sha256:6930d06c11692d92785d2021f525d2aed22f0ccf10b58cb28e0cbb9e6ec38ff0",
+      "expectedPublishedHash": "sha256:6930d06c11692d92785d2021f525d2aed22f0ccf10b58cb28e0cbb9e6ec38ff0",
+      "publicHash": "sha256:6930d06c11692d92785d2021f525d2aed22f0ccf10b58cb28e0cbb9e6ec38ff0",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-76",
+      "field": "specifications",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!H76",
+      "expectedHash": "sha256:6b100b8d44157a728fa99ed70699da2683660a029f5072cf9442a1fa2ac6ec79",
+      "actualHash": "sha256:6b100b8d44157a728fa99ed70699da2683660a029f5072cf9442a1fa2ac6ec79",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-76",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I76",
+      "expectedHash": "sha256:5e46b6f260a55a6b30430827cae441e27550d8b4f54a08a8d4580300ce8a474d",
+      "actualHash": "sha256:5e46b6f260a55a6b30430827cae441e27550d8b4f54a08a8d4580300ce8a474d",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-77",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F77",
+      "expectedHash": "sha256:40121a2e2537af2a712e71b096551390e1b9192ece7ee393e60c2c043499d2e1",
+      "actualHash": "sha256:40121a2e2537af2a712e71b096551390e1b9192ece7ee393e60c2c043499d2e1",
+      "expectedPublishedHash": "sha256:159d4bd28ae39a1e306657b2e4d4bfb45636ba5ff63d1103c8583481932e6434",
+      "publicHash": "sha256:159d4bd28ae39a1e306657b2e4d4bfb45636ba5ff63d1103c8583481932e6434",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-77",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D77",
+      "expectedHash": "sha256:1715592ef497b6791b79700da82b55bd9808276fa2e0fc6423c3baa205dd65f6",
+      "actualHash": "sha256:1715592ef497b6791b79700da82b55bd9808276fa2e0fc6423c3baa205dd65f6",
+      "expectedPublishedHash": "sha256:1715592ef497b6791b79700da82b55bd9808276fa2e0fc6423c3baa205dd65f6",
+      "publicHash": "sha256:1715592ef497b6791b79700da82b55bd9808276fa2e0fc6423c3baa205dd65f6",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-77",
+      "field": "specifications",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!H77",
+      "expectedHash": "sha256:697eef82e9b4719301ab2b8a3fcb8aad41b2f512485e503de652b57a93bac095",
+      "actualHash": "sha256:697eef82e9b4719301ab2b8a3fcb8aad41b2f512485e503de652b57a93bac095",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-77",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I77",
+      "expectedHash": "sha256:4902f24ecf41f202b2fbf16d1a007f8d801d794d9620bed81e7164b6eec8b315",
+      "actualHash": "sha256:4902f24ecf41f202b2fbf16d1a007f8d801d794d9620bed81e7164b6eec8b315",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-78",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F78",
+      "expectedHash": "sha256:40121a2e2537af2a712e71b096551390e1b9192ece7ee393e60c2c043499d2e1",
+      "actualHash": "sha256:40121a2e2537af2a712e71b096551390e1b9192ece7ee393e60c2c043499d2e1",
+      "expectedPublishedHash": "sha256:8853334a2f1ce58a7268fee3f06972e6045479f3c47bf47d506d3f56b61af4ef",
+      "publicHash": "sha256:8853334a2f1ce58a7268fee3f06972e6045479f3c47bf47d506d3f56b61af4ef",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-78",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D78",
+      "expectedHash": "sha256:761b99e61d0315a3c86162c9b850362153c5e094757150630b41664dfbadc8c3",
+      "actualHash": "sha256:761b99e61d0315a3c86162c9b850362153c5e094757150630b41664dfbadc8c3",
+      "expectedPublishedHash": "sha256:761b99e61d0315a3c86162c9b850362153c5e094757150630b41664dfbadc8c3",
+      "publicHash": "sha256:761b99e61d0315a3c86162c9b850362153c5e094757150630b41664dfbadc8c3",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-79",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F79",
+      "expectedHash": "sha256:dfa4d699f36ede3a9fdb89c0fc6f9edbb2ae418160a0203cd1162208a7a35c78",
+      "actualHash": "sha256:dfa4d699f36ede3a9fdb89c0fc6f9edbb2ae418160a0203cd1162208a7a35c78",
+      "expectedPublishedHash": "sha256:db46638949e411bebc355a37bf4e926d4f20401f41b4ebda2930a15d15c6f0b9",
+      "publicHash": "sha256:db46638949e411bebc355a37bf4e926d4f20401f41b4ebda2930a15d15c6f0b9",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-79",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D79",
+      "expectedHash": "sha256:406ec14a53dcfa2649e56154a8f7b2098f4af8d1bb10ee9be5f738d0c771e1f1",
+      "actualHash": "sha256:406ec14a53dcfa2649e56154a8f7b2098f4af8d1bb10ee9be5f738d0c771e1f1",
+      "expectedPublishedHash": "sha256:406ec14a53dcfa2649e56154a8f7b2098f4af8d1bb10ee9be5f738d0c771e1f1",
+      "publicHash": "sha256:406ec14a53dcfa2649e56154a8f7b2098f4af8d1bb10ee9be5f738d0c771e1f1",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-79",
+      "field": "specifications",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!H79",
+      "expectedHash": "sha256:b18807808d42675e0040822198e731f7de92c42e167986c2159d308ee2cd2621",
+      "actualHash": "sha256:b18807808d42675e0040822198e731f7de92c42e167986c2159d308ee2cd2621",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-79",
+      "field": "description",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!I79",
+      "expectedHash": "sha256:daeb922c1bd6c4e4d95fe3744b0f849e8361b8692a45ab591e5c4a42f7763ccf",
+      "actualHash": "sha256:daeb922c1bd6c4e4d95fe3744b0f849e8361b8692a45ab591e5c4a42f7763ccf",
+      "expectedPublishedHash": null,
+      "publicHash": null,
+      "pass": true
+    },
+    {
+      "productKey": "product-row-80",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F80",
+      "expectedHash": "sha256:dfa4d699f36ede3a9fdb89c0fc6f9edbb2ae418160a0203cd1162208a7a35c78",
+      "actualHash": "sha256:dfa4d699f36ede3a9fdb89c0fc6f9edbb2ae418160a0203cd1162208a7a35c78",
+      "expectedPublishedHash": "sha256:727867ff22cd1dab7ea0c48077d263d35887a57c8db65445540e68579e48815e",
+      "publicHash": "sha256:727867ff22cd1dab7ea0c48077d263d35887a57c8db65445540e68579e48815e",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-80",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D80",
+      "expectedHash": "sha256:aa6c8882a021307041db3d4c768e26c44ae30eafd7e805c1660e87456c2155af",
+      "actualHash": "sha256:aa6c8882a021307041db3d4c768e26c44ae30eafd7e805c1660e87456c2155af",
+      "expectedPublishedHash": "sha256:aa6c8882a021307041db3d4c768e26c44ae30eafd7e805c1660e87456c2155af",
+      "publicHash": "sha256:aa6c8882a021307041db3d4c768e26c44ae30eafd7e805c1660e87456c2155af",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-81",
+      "field": "name",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!F81",
+      "expectedHash": "sha256:dfa4d699f36ede3a9fdb89c0fc6f9edbb2ae418160a0203cd1162208a7a35c78",
+      "actualHash": "sha256:dfa4d699f36ede3a9fdb89c0fc6f9edbb2ae418160a0203cd1162208a7a35c78",
+      "expectedPublishedHash": "sha256:f78200b8f7ff2431c38734d65b133e6b295ee9e48b98241ecabb2226ab4685b8",
+      "publicHash": "sha256:f78200b8f7ff2431c38734d65b133e6b295ee9e48b98241ecabb2226ab4685b8",
+      "pass": true
+    },
+    {
+      "productKey": "product-row-81",
+      "field": "model",
+      "sourceLocator": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\产品资料整理表格 26.6.23 修改2.xlsx.4V.xlsx#具体产品!D81",
+      "expectedHash": "sha256:46f65ecc03e56d562cd75eaf7c1a1f2891513826db5b1996e671cbb554d85152",
+      "actualHash": "sha256:46f65ecc03e56d562cd75eaf7c1a1f2891513826db5b1996e671cbb554d85152",
+      "expectedPublishedHash": "sha256:46f65ecc03e56d562cd75eaf7c1a1f2891513826db5b1996e671cbb554d85152",
+      "publicHash": "sha256:46f65ecc03e56d562cd75eaf7c1a1f2891513826db5b1996e671cbb554d85152",
+      "pass": true
+    }
+  ]
+}

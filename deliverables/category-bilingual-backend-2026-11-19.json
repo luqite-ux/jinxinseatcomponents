@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "tenantId": "d189a65a-480c-4800-ab12-ac21a9d724d7",
+  "checkedAt": "2026-11-19T05:14:24.714Z",
+  "categoryCount": 17,
+  "pass": true,
+  "checks": [
+    {
+      "categoryKey": "special-seats",
+      "english": "Special Vehicle Seats",
+      "chinese": "特种座椅",
+      "sourceHash": "sha256:f9b6ee1c94e97d53ada40b091f06ce3e6b7fa0837b53227e94b7d1c2c83c7b60",
+      "pass": true
+    },
+    {
+      "categoryKey": "pet-foam",
+      "english": "Pet Foam",
+      "chinese": "宠物垫发泡",
+      "sourceHash": "sha256:3f853237bde830374940f50b0270db4ba35e40f9a9164d77a04425d0ffff6da0",
+      "pass": true
+    },
+    {
+      "categoryKey": "headrest-foam",
+      "english": "Headrest Foam",
+      "chinese": "头枕发泡",
+      "sourceHash": "sha256:e99058d9d98e910175d887b3935c4cfd8263c5d6ede356b0fc236f3a7b26c004",
+      "pass": true
+    },
+    {
+      "categoryKey": "headrest-rods",
+      "english": "Headrest Rods",
+      "chinese": "头枕杆",
+      "sourceHash": "sha256:22800e072db3724702293d9646cdcddc3543d771761dcedfa6386e023f89ab20",
+      "pass": true
+    },
+    {
+      "categoryKey": "seat-frames",
+      "english": "Seat Frames",
+      "chinese": "汽车座椅骨架",
+      "sourceHash": "sha256:344b3747b4ca08e93426496b45adf1ff0dbfb50cdeb087bba45cf3b801fda703",
+      "pass": true
+    },
+    {
+      "categoryKey": "seat-foam",
+      "english": "Seat Foam",
+      "chinese": "汽车座椅发泡",
+      "sourceHash": "sha256:daf6d035e710b56b56ab7ef318ae16ffb2c0ab55369857d7aafb6e94213a8b51",
+      "pass": true
+    },
+    {
+      "categoryKey": "armrest-frames",
+      "english": "Armrest Frames",
+      "chinese": "扶手骨架",
+      "sourceHash": "sha256:64caeae96ad1120d90413ccdfb47702da14610499e60661abed08dca0a5bb64f",
+      "pass": true
+    },
+    {
+      "categoryKey": "atv-seats",
+      "english": "ATV Seats",
+      "chinese": "ATV座椅",
+      "sourceHash": "sha256:34cf5d74561c0850712032225ec47400c3d795f7cc220a3182fbaccb5106fdc4",
+      "pass": true
+    },
+    {
+      "categoryKey": "seat-frames-sub",
+      "english": "Seat Frames",
+      "chinese": "座椅骨架",
+      "sourceHash": "sha256:9573adc3f6a0dbca58f14795cf4b922f7b72046c5f1466e4397eb0dec4516ef0",
+      "pass": true
+    },
+    {
+      "categoryKey": "seat-assemblies",
+      "english": "Seat Assemblies",
+      "chinese": "汽车座椅总成",
+      "sourceHash": "sha256:250a779fc8aedcf3e216fb8875fd4d616db6fc837895ecb9213b19c127a0475a",
+      "pass": true
+    },
+    {
+      "categoryKey": "lumbar-cushions",
+      "english": "Lumbar Cushions",
+      "chinese": "枕靠与腰靠发泡",
+      "sourceHash": "sha256:8d0d69f6e0841abf081136fa477845c739f24a3ff61170de23b85590f82f1b26",
+      "pass": true
+    },
+    {
+      "categoryKey": "headrest-frames",
+      "english": "Headrest Frames",
+      "chinese": "头枕骨架",
+      "sourceHash": "sha256:794f46ed7a9324dfa5f0c914f7dcea60e67abe9f62627ebf5a6aa1dfc66880da",
+      "pass": true
+    },
+    {
+      "categoryKey": "golf-cart-seats",
+      "english": "Golf Cart Seats",
+      "chinese": "观光车座椅部件",
+      "sourceHash": "sha256:d415c566a35dea71f2570e1fda5c5b2e280d0a114ce828ee39d6aecd27579c93",
+      "pass": true
+    },
+    {
+      "categoryKey": "molded-foam",
+      "english": "Molded Foam",
+      "chinese": "模塑发泡",
+      "sourceHash": "sha256:e53431ec1ff22f26b30fc05cbcfaa4aafcee74ce265d26b01f6e87e4113bde95",
+      "pass": true
+    },
+    {
+      "categoryKey": "integral-skin-foam",
+      "english": "Integral-Skin Foam",
+      "chinese": "自结皮发泡",
+      "sourceHash": "sha256:175d8df914f2c538a78c718962541784ff9e57690d064d91b2ccde02f3b128b0",
+      "pass": true
+    },
+    {
+      "categoryKey": "ambulance-seats",
+      "english": "Ambulance Seats",
+      "chinese": "救护车座椅部件",
+      "sourceHash": "sha256:d6335c7ab2974074d3137241fbbdfb60c8bfd6bfdca635cd8087dea90f452916",
+      "pass": true
+    },
+    {
+      "categoryKey": "commercial-seats",
+      "english": "Commercial Vehicle Seats",
+      "chinese": "商用车座椅与卧铺",
+      "sourceHash": "sha256:9e2fed13fd80a4f91f6e9c9d951fe268b2f28572eef3acf6f77c689e173ced36",
+      "pass": true
+    }
+  ]
+}

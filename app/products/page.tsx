@@ -4,8 +4,7 @@ import { PackageSearch } from 'lucide-react'
 import { ProductCard } from '@/components/products/product-card'
 import { ProductFilters } from '@/components/products/product-filters'
 import { PageHeader } from '@/components/site/page-header'
-import { getCategories, getCategory } from '@/lib/products'
-import { fetchProductsData } from '@/lib/products-db'
+import { fetchCategoriesData, fetchProductsData } from '@/lib/products-db'
 import { siteCopy } from '@/lib/site-content/copy'
 import { getEditablePage } from '@/lib/site-content/page-data'
 import { siteContentMetadata } from '@/lib/site-content/site-content'
@@ -19,7 +18,8 @@ const first = (value?: string | string[]) => (Array.isArray(value) ? value[0] : 
 
 export async function generateMetadata({ searchParams }: { searchParams: SearchParams }): Promise<Metadata> {
   const { category } = await searchParams
-  const current = getCategory(first(category))
+  const categories = await fetchCategoriesData()
+  const current = categories.find((item) => item.slug === first(category))
   const contentMetadata = current ? {} : await siteContentMetadata('/products', 'en')
   return {
     title: current ? current.name : 'Products',
@@ -33,8 +33,8 @@ export async function generateMetadata({ searchParams }: { searchParams: SearchP
 
 export default async function ProductsPage({ searchParams }: { searchParams: SearchParams }) {
   const params = await searchParams
-  const categories = getCategories()
-  const current = getCategory(first(params.category))
+  const categories = await fetchCategoriesData()
+  const current = categories.find((item) => item.slug === first(params.category))
   const page = Number.parseInt(first(params.page) ?? '1', 10) || 1
   const { items, total, totalPages, page: safePage } = await fetchProductsData({ category: current?.slug, page })
   const base = current ? `/products?category=${current.slug}&` : '/products?'

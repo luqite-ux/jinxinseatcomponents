@@ -1,0 +1,625 @@
+{
+  "date": "2026-11-19",
+  "production_domain": "https://jinxinseatcomponents.com",
+  "product_count": 77,
+  "pass": true,
+  "failures": [],
+  "products": [
+    {
+      "row": 5,
+      "slug": "ambulance-side-seat-cushion-jca002-032",
+      "http": 200,
+      "name": "Ambulance Side Seat Cushion",
+      "model": "JCA002-032",
+      "visible": true
+    },
+    {
+      "row": 6,
+      "slug": "ambulance-side-seat-cushion-jca002-058",
+      "http": 200,
+      "name": "Ambulance Side Seat Cushion",
+      "model": "JCA002-058",
+      "visible": true
+    },
+    {
+      "row": 7,
+      "slug": "ambulance-auxiliary-seat-assembly-jca001-045",
+      "http": 200,
+      "name": "Ambulance Auxiliary Seat Assembly",
+      "model": "JCA001-045",
+      "visible": true
+    },
+    {
+      "row": 8,
+      "slug": "golf-sightseeing-cart-seat-cushion-mod2932",
+      "http": 200,
+      "name": "Golf Sightseeing Cart Seat Cushion",
+      "model": "MOD2932",
+      "visible": true
+    },
+    {
+      "row": 9,
+      "slug": "golf-sightseeing-cart-backrest-mod2947",
+      "http": 200,
+      "name": "Golf Sightseeing Cart Backrest",
+      "model": "MOD2947",
+      "visible": true
+    },
+    {
+      "row": 10,
+      "slug": "golf-sightseeing-cart-seat-cushion-trv022",
+      "http": 200,
+      "name": "Golf Sightseeing Cart Seat Cushion",
+      "model": "TRV022",
+      "visible": true
+    },
+    {
+      "row": 11,
+      "slug": "atv-one-piece-front-seat-cushion-assembly-atv-01",
+      "http": 200,
+      "name": "ATV One-Piece Front Seat Cushion Assembly",
+      "model": "ATV-01",
+      "visible": true
+    },
+    {
+      "row": 12,
+      "slug": "atv-beach-motorcycle-one-piece-rear-seat-cushion-assembly-atv-02",
+      "http": 200,
+      "name": "ATV Beach Motorcycle One-Piece Rear Seat Cushion Assembly",
+      "model": "ATV-02",
+      "visible": true
+    },
+    {
+      "row": 13,
+      "slug": "upper-sleeper-assembly-7600910-c8302",
+      "http": 200,
+      "name": "Upper Sleeper Assembly",
+      "model": "7600910-C8302",
+      "visible": true
+    },
+    {
+      "row": 14,
+      "slug": "lower-sleeper-assembly-left-7600020-c7304",
+      "http": 200,
+      "name": "Lower Sleeper Assembly (Left)",
+      "model": "7600020-C7304",
+      "visible": true
+    },
+    {
+      "row": 15,
+      "slug": "lower-sleeper-assembly-right-7600040-c7304",
+      "http": 200,
+      "name": "Lower Sleeper Assembly (Right)",
+      "model": "7600040-C7304",
+      "visible": true
+    },
+    {
+      "row": 16,
+      "slug": "passenger-seat-assembly-6900010-c7302",
+      "http": 200,
+      "name": "Passenger Seat Assembly",
+      "model": "6900010-C7302",
+      "visible": true
+    },
+    {
+      "row": 17,
+      "slug": "ppa006-series-manual-four-way-driver-seat-assembly-ppa006",
+      "http": 200,
+      "name": "PPA006 Series Manual Four-Way Driver Seat Assembly",
+      "model": "PPA006 Series",
+      "visible": true
+    },
+    {
+      "row": 18,
+      "slug": "pt008-series-electric-six-way-driver-seat-assembly-pt008",
+      "http": 200,
+      "name": "PT008 Series Electric Six-Way Driver Seat Assembly",
+      "model": "PT008 Series",
+      "visible": true
+    },
+    {
+      "row": 19,
+      "slug": "e36-series-manual-four-way-driver-seat-assembly-e36",
+      "http": 200,
+      "name": "E36 Series Manual Four-Way Driver Seat Assembly",
+      "model": "E36 Series",
+      "visible": true
+    },
+    {
+      "row": 20,
+      "slug": "passenger-seat-assembly-6900010-c5902",
+      "http": 200,
+      "name": "Passenger Seat Assembly",
+      "model": "6900010-C5902",
+      "visible": true
+    },
+    {
+      "row": 21,
+      "slug": "driver-seat-assembly-6800010-c5104",
+      "http": 200,
+      "name": "Driver Seat Assembly",
+      "model": "6800010-C5104",
+      "visible": true
+    },
+    {
+      "row": 22,
+      "slug": "crv-17-series-driver-seat-assembly-crv-17",
+      "http": 200,
+      "name": "CRV-17 Series Driver Seat Assembly",
+      "model": "CRV-17 Series",
+      "visible": true
+    },
+    {
+      "row": 23,
+      "slug": "gaming-chair-jac-008",
+      "http": 200,
+      "name": "Gaming Chair",
+      "model": "JAC-008",
+      "visible": true
+    },
+    {
+      "row": 24,
+      "slug": "memory-foam-lumbar-support-jx-a001",
+      "http": 200,
+      "name": "Memory Foam Lumbar Support",
+      "model": "JX-A001",
+      "visible": true
+    },
+    {
+      "row": 25,
+      "slug": "jx-a002-memory-foam-pillow-jx-a002",
+      "http": 200,
+      "name": "JX-A002 Memory Foam Pillow",
+      "model": "JX-A002",
+      "visible": true
+    },
+    {
+      "row": 26,
+      "slug": "jx-b012-memory-foam-lumbar-support-jx-b012",
+      "http": 200,
+      "name": "JX-B012 Memory Foam Lumbar Support",
+      "model": "JX-B012",
+      "visible": true
+    },
+    {
+      "row": 27,
+      "slug": "jx-b063-memory-foam-lumbar-support-jx-b063",
+      "http": 200,
+      "name": "JX-B063 Memory Foam Lumbar Support",
+      "model": "JX-B063",
+      "visible": true
+    },
+    {
+      "row": 28,
+      "slug": "jx-b063-memory-foam-pillow-jx-b063",
+      "http": 200,
+      "name": "JX-B063 Memory Foam Pillow",
+      "model": "JX-B063",
+      "visible": true
+    },
+    {
+      "row": 29,
+      "slug": "jx-b008-memory-foam-pillow-jx-b008",
+      "http": 200,
+      "name": "JX-B008 Memory Foam Pillow",
+      "model": "JX-B008",
+      "visible": true
+    },
+    {
+      "row": 30,
+      "slug": "jx-b008-memory-foam-lumbar-support-jx-b008",
+      "http": 200,
+      "name": "JX-B008 Memory Foam Lumbar Support",
+      "model": "JX-B008",
+      "visible": true
+    },
+    {
+      "row": 31,
+      "slug": "jx-c005-memory-foam-lumbar-support-jx-c005",
+      "http": 200,
+      "name": "JX-C005 Memory Foam Lumbar Support",
+      "model": "JX-C005",
+      "visible": true
+    },
+    {
+      "row": 32,
+      "slug": "jx-c006-memory-foam-pillow-jx-c006",
+      "http": 200,
+      "name": "JX-C006 Memory Foam Pillow",
+      "model": "JX-C006",
+      "visible": true
+    },
+    {
+      "row": 33,
+      "slug": "b-1282-pet-mat-b-1282",
+      "http": 200,
+      "name": "B-1282 Pet Mat",
+      "model": "B-1282",
+      "visible": true
+    },
+    {
+      "row": 34,
+      "slug": "b-1174-pet-mat-b-1174",
+      "http": 200,
+      "name": "B-1174 Pet Mat",
+      "model": "B-1174",
+      "visible": true
+    },
+    {
+      "row": 35,
+      "slug": "b-1921-pet-mat-b-1921",
+      "http": 200,
+      "name": "B-1921 Pet Mat",
+      "model": "B-1921",
+      "visible": true
+    },
+    {
+      "row": 36,
+      "slug": "g01-241-front-row-headrest-assembly-g01-241",
+      "http": 200,
+      "name": "G01-241 Front Row Headrest Assembly",
+      "model": "G01-241",
+      "visible": true
+    },
+    {
+      "row": 37,
+      "slug": "g01-246-rear-row-headrest-assembly-g01-246",
+      "http": 200,
+      "name": "G01-246 Rear Row Headrest Assembly",
+      "model": "G01-246",
+      "visible": true
+    },
+    {
+      "row": 38,
+      "slug": "fg-1256-front-row-headrest-assembly-fg-1256",
+      "http": 200,
+      "name": "FG-1256 Front Row Headrest Assembly",
+      "model": "FG-1256",
+      "visible": true
+    },
+    {
+      "row": 39,
+      "slug": "fg-1224-front-row-headrest-assembly-fg-1224",
+      "http": 200,
+      "name": "FG-1224 Front Row Headrest Assembly",
+      "model": "FG-1224",
+      "visible": true
+    },
+    {
+      "row": 40,
+      "slug": "jk908-01-front-row-headrest-assembly-jk908-01",
+      "http": 200,
+      "name": "JK908-01 Front Row Headrest Assembly",
+      "model": "JK908-01",
+      "visible": true
+    },
+    {
+      "row": 41,
+      "slug": "fd45-002-rear-row-headrest-assembly-fd45-002",
+      "http": 200,
+      "name": "FD45-002 Rear Row Headrest Assembly",
+      "model": "FD45-002",
+      "visible": true
+    },
+    {
+      "row": 42,
+      "slug": "fd46-001-rear-row-center-headrest-fd46-001",
+      "http": 200,
+      "name": "FD46-001 Rear Row Center Headrest",
+      "model": "FD46-001",
+      "visible": true
+    },
+    {
+      "row": 43,
+      "slug": "a10-008-front-row-headrest-assembly-a10-008",
+      "http": 200,
+      "name": "A10-008 Front Row Headrest Assembly",
+      "model": "A10-008",
+      "visible": true
+    },
+    {
+      "row": 44,
+      "slug": "a10-009-rear-row-headrest-assembly-a10-009",
+      "http": 200,
+      "name": "A10-009 Rear Row Headrest Assembly",
+      "model": "A10-009",
+      "visible": true
+    },
+    {
+      "row": 45,
+      "slug": "sc-a10-01-driver-seat-cushion-foam-assembly-sc-a10-01",
+      "http": 200,
+      "name": "SC-A10-01 Driver Seat Cushion Foam Assembly",
+      "model": "SC-A10-01",
+      "visible": true
+    },
+    {
+      "row": 46,
+      "slug": "jf-011-driver-backrest-foam-assembly-jf-011",
+      "http": 200,
+      "name": "JF-011 Driver Backrest Foam Assembly",
+      "model": "JF-011",
+      "visible": true
+    },
+    {
+      "row": 47,
+      "slug": "jf-012-driver-seat-cushion-foam-assembly-jf-012",
+      "http": 200,
+      "name": "JF-012 Driver Seat Cushion Foam Assembly",
+      "model": "JF-012",
+      "visible": true
+    },
+    {
+      "row": 48,
+      "slug": "lp-03-006-rear-row-4-split-backrest-foam-assembly-lp-03-006",
+      "http": 200,
+      "name": "LP-03-006 Rear Row 4-Split Backrest Foam Assembly",
+      "model": "LP-03-006",
+      "visible": true
+    },
+    {
+      "row": 49,
+      "slug": "lp-01-001-front-row-foam-assembly-lp-01-001",
+      "http": 200,
+      "name": "LP-01-001 Front Row Foam Assembly",
+      "model": "LP-01-001",
+      "visible": true
+    },
+    {
+      "row": 50,
+      "slug": "lp-03-005-rear-row-4-split-seat-cushion-foam-assembly-lp-03-005",
+      "http": 200,
+      "name": "LP-03-005 Rear Row 4-Split Seat Cushion Foam Assembly",
+      "model": "LP-03-005",
+      "visible": true
+    },
+    {
+      "row": 51,
+      "slug": "lp-01-002-driver-seat-cushion-foam-assembly-lp-01-002",
+      "http": 200,
+      "name": "LP-01-002 Driver Seat Cushion Foam Assembly",
+      "model": "LP-01-002",
+      "visible": true
+    },
+    {
+      "row": 52,
+      "slug": "lp-02-001-second-row-seat-cushion-foam-assembly-lp-02-001",
+      "http": 200,
+      "name": "LP-02-001 Second Row Seat Cushion Foam Assembly",
+      "model": "LP-02-001",
+      "visible": true
+    },
+    {
+      "row": 53,
+      "slug": "hy-b07-front-row-seat-cushion-foam-assembly-hy-b07",
+      "http": 200,
+      "name": "HY-B07 Front Row Seat Cushion Foam Assembly",
+      "model": "HY-B07",
+      "visible": true
+    },
+    {
+      "row": 54,
+      "slug": "hy-b07-front-row-backrest-foam-assembly-hy-b07",
+      "http": 200,
+      "name": "HY-B07 Front Row Backrest Foam Assembly",
+      "model": "HY-B07",
+      "visible": true
+    },
+    {
+      "row": 55,
+      "slug": "gfdg-45-pu-self-skinning-armrest-assembly-gfdg-45",
+      "http": 200,
+      "name": "GFDG-45 PU Self-Skinning Armrest Assembly",
+      "model": "GFDG-45",
+      "visible": true
+    },
+    {
+      "row": 56,
+      "slug": "wq56-01-pu-self-skinning-armrest-assembly-wq56-01",
+      "http": 200,
+      "name": "WQ56-01 PU Self-Skinning Armrest Assembly",
+      "model": "WQ56-01",
+      "visible": true
+    },
+    {
+      "row": 57,
+      "slug": "dsfu-a-01-pu-self-skinning-armrest-assembly-dsfu-a-01",
+      "http": 200,
+      "name": "DSFU-A-01 PU Self-Skinning Armrest Assembly",
+      "model": "DSFU-A-01",
+      "visible": true
+    },
+    {
+      "row": 58,
+      "slug": "fdsg-025-pu-self-skinning-armrest-assembly-fdsg-025",
+      "http": 200,
+      "name": "FDSG-025 PU Self-Skinning Armrest Assembly",
+      "model": "FDSG-025",
+      "visible": true
+    },
+    {
+      "row": 59,
+      "slug": "fd-02-01-pu-self-skinning-armrest-assembly-fd-02-01",
+      "http": 200,
+      "name": "FD-02-01 PU Self-Skinning Armrest Assembly",
+      "model": "FD-02-01",
+      "visible": true
+    },
+    {
+      "row": 60,
+      "slug": "gfds-008-pu-self-skinning-armrest-assembly-gfds-008",
+      "http": 200,
+      "name": "GFDS-008 PU Self-Skinning Armrest Assembly",
+      "model": "GFDS-008",
+      "visible": true
+    },
+    {
+      "row": 61,
+      "slug": "fdsa-002-pu-self-skinning-armrest-assembly-fdsa-002",
+      "http": 200,
+      "name": "FDSA-002 PU Self-Skinning Armrest Assembly",
+      "model": "FDSA-002",
+      "visible": true
+    },
+    {
+      "row": 62,
+      "slug": "ly01-b01-pu-self-skinning-wheelchair-tire-assembly-ly01-b01",
+      "http": 200,
+      "name": "LY01-B01 PU Self-Skinning Wheelchair Tire Assembly",
+      "model": "LY01-B01",
+      "visible": true
+    },
+    {
+      "row": 63,
+      "slug": "pt008-series-manual-front-row-backrest-frame-assembly-pt008",
+      "http": 200,
+      "name": "PT008 Series Manual Front Row Backrest Frame Assembly",
+      "model": "PT008 Series",
+      "visible": true
+    },
+    {
+      "row": 64,
+      "slug": "pt008-series-electric-front-row-backrest-frame-assembly-pt008",
+      "http": 200,
+      "name": "PT008 Series Electric Front Row Backrest Frame Assembly",
+      "model": "PT008 Series",
+      "visible": true
+    },
+    {
+      "row": 65,
+      "slug": "pt008-series-manual-front-seat-cushion-frame-assembly-pt008",
+      "http": 200,
+      "name": "PT008 Series Manual Front Seat Cushion Frame Assembly",
+      "model": "PT008 Series",
+      "visible": true
+    },
+    {
+      "row": 66,
+      "slug": "pt008-series-electric-front-seat-cushion-frame-assembly-pt008",
+      "http": 200,
+      "name": "PT008 Series Electric Front Seat Cushion Frame Assembly",
+      "model": "PT008 Series",
+      "visible": true
+    },
+    {
+      "row": 67,
+      "slug": "pt008-series-rear-seat-cushion-frame-assembly-pt008",
+      "http": 200,
+      "name": "PT008 Series Rear Seat Cushion Frame Assembly",
+      "model": "PT008 Series",
+      "visible": true
+    },
+    {
+      "row": 68,
+      "slug": "pt008-series-rear-backrest-frame-assembly-pt008",
+      "http": 200,
+      "name": "PT008 Series Rear Backrest Frame Assembly",
+      "model": "PT008 Series",
+      "visible": true
+    },
+    {
+      "row": 69,
+      "slug": "kp01-002-headrest-rod-kp01-002",
+      "http": 200,
+      "name": "KP01-002 Headrest Rod",
+      "model": "KP01-002",
+      "visible": true
+    },
+    {
+      "row": 70,
+      "slug": "fgd-01-ds-headrest-rod-fgd-01-ds",
+      "http": 200,
+      "name": "FGD-01-DS Headrest Rod",
+      "model": "FGD-01-DS",
+      "visible": true
+    },
+    {
+      "row": 71,
+      "slug": "hfg-01-a-headrest-rod-hfg-01-a",
+      "http": 200,
+      "name": "HFG-01-A Headrest Rod",
+      "model": "HFG-01-A",
+      "visible": true
+    },
+    {
+      "row": 72,
+      "slug": "jhg-02-01-headrest-rod-jhg-02-01",
+      "http": 200,
+      "name": "JHG-02-01 Headrest Rod",
+      "model": "JHG-02-01",
+      "visible": true
+    },
+    {
+      "row": 73,
+      "slug": "fes-01-02-headrest-rod-fes-01-02",
+      "http": 200,
+      "name": "FES-01-02 Headrest Rod",
+      "model": "FES-01-02",
+      "visible": true
+    },
+    {
+      "row": 74,
+      "slug": "gs-01-04-headrest-frame-assembly-gs-01-04",
+      "http": 200,
+      "name": "GS-01-04 Headrest Frame Assembly",
+      "model": "GS-01-04",
+      "visible": true
+    },
+    {
+      "row": 75,
+      "slug": "31xx-024-headrest-frame-assembly-31xx-024",
+      "http": 200,
+      "name": "31XX-024 Headrest Frame Assembly",
+      "model": "31XX-024",
+      "visible": true
+    },
+    {
+      "row": 76,
+      "slug": "k04-20-001-headrest-frame-assembly-k04-20-001",
+      "http": 200,
+      "name": "K04-20-001 Headrest Frame Assembly",
+      "model": "K04-20-001",
+      "visible": true
+    },
+    {
+      "row": 77,
+      "slug": "p758-rear-center-armrest-frame-assembly-p758",
+      "http": 200,
+      "name": "P758 Rear Center Armrest Frame Assembly",
+      "model": "P758",
+      "visible": true
+    },
+    {
+      "row": 78,
+      "slug": "p702-rear-center-armrest-frame-assembly-p702",
+      "http": 200,
+      "name": "P702 Rear Center Armrest Frame Assembly",
+      "model": "P702",
+      "visible": true
+    },
+    {
+      "row": 79,
+      "slug": "a10-01-front-armrest-frame-assembly-a10-01",
+      "http": 200,
+      "name": "A10-01 Front Armrest Frame Assembly",
+      "model": "A10-01",
+      "visible": true
+    },
+    {
+      "row": 80,
+      "slug": "p235-front-armrest-frame-assembly-p235",
+      "http": 200,
+      "name": "P235 Front Armrest Frame Assembly",
+      "model": "P235",
+      "visible": true
+    },
+    {
+      "row": 81,
+      "slug": "g029-front-armrest-frame-assembly-g029",
+      "http": 200,
+      "name": "G029 Front Armrest Frame Assembly",
+      "model": "G029",
+      "visible": true
+    }
+  ]
+}
