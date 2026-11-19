@@ -34,7 +34,7 @@
           "en": "Overall length"
         },
         "value": {
-          "en": "400mm / 500mm / 600mm (mainstream)"
+          "en": "400mm / 500mm / 600mm (mainstream); 300–800mm cut to order"
         }
       },
       {
@@ -42,7 +42,7 @@
           "en": "Width"
         },
         "value": {
-          "en": "70–90mm"
+          "en": "70–90mm; 50–120mm optional range"
         }
       },
       {
@@ -50,7 +50,7 @@
           "en": "Thickness"
         },
         "value": {
-          "en": "25–35mm"
+          "en": "25–35mm; 20–50mm optional range"
         }
       }
     ],
@@ -93,7 +93,7 @@
           "en": "Overall length"
         },
         "value": {
-          "en": "400mm / 500mm / 600mm (mainstream)"
+          "en": "400mm / 500mm / 600mm (mainstream); 300–800mm cut to order"
         }
       },
       {
@@ -101,7 +101,7 @@
           "en": "Width"
         },
         "value": {
-          "en": "70–90mm"
+          "en": "70–90mm; 50–120mm optional range"
         }
       },
       {
@@ -109,7 +109,7 @@
           "en": "Thickness"
         },
         "value": {
-          "en": "25–35mm"
+          "en": "25–35mm; 20–50mm optional range"
         }
       }
     ],
@@ -152,7 +152,7 @@
           "en": "Overall seat height"
         },
         "value": {
-          "en": "720mm"
+          "en": "720mm; 650–780mm optional range"
         }
       },
       {
@@ -168,7 +168,7 @@
           "en": "Effective backrest height"
         },
         "value": {
-          "en": "480mm"
+          "en": "480mm; 430–520mm optional range"
         }
       },
       {
@@ -176,7 +176,7 @@
           "en": "Seat cushion foam thickness"
         },
         "value": {
-          "en": "40mm"
+          "en": "40mm; 30–50mm optional range"
         }
       },
       {
@@ -184,7 +184,7 @@
           "en": "Backrest foam thickness"
         },
         "value": {
-          "en": "35mm"
+          "en": "35mm; 25–45mm optional range"
         }
       },
       {
@@ -259,7 +259,7 @@
           "en": "Overall thickness"
         },
         "value": {
-          "en": "40mm / 50mm two mainstream thicknesses"
+          "en": "40mm / 50mm two mainstream thicknesses; 30–60mm optional range"
         }
       },
       {
@@ -310,7 +310,7 @@
           "en": "Overall backrest thickness"
         },
         "value": {
-          "en": "45mm (effective foam cushioning thickness)"
+          "en": "45mm (effective foam cushioning thickness); 35–60mm optional range"
         }
       },
       {

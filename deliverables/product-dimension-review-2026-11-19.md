@@ -1,0 +1,5 @@
+# Excel 产品参数定向审校
+
+对原表 `具体产品!H5:H9` 逐行核对后，补回旧解析器在分号处截掉的 12 个可直接定位的长度、宽度、厚度和高度范围，分别归入原 Excel 行 5、6、7、8、9 对应产品。`scripts/expand-reviewed-product-dimensions.mjs` 对每条新增范围先核对原始中文参数 token，再核对原公开值，避免错行覆盖；`scripts/sync-reviewed-product-specs.mjs --apply` 仅更新本租户 5 个产品的 `specs`，读后回写确认 `updated=5`。本地 Next Production 构建通过。
+
+`H7` 的“坐垫有效坐面宽 × 深 … 380~450mm”和 `H8` 的“外形长 × 宽 … 350~500mm”没有写明可选范围对应宽度还是深度，因此继续保留后台原文，不擅自标成某一个轴。承重、耐温和其它性能数字也继续留在各产品的 `source_parameters_raw`，以免把未核实的承诺公开。产品终态字段清单仍需逐字段审计。

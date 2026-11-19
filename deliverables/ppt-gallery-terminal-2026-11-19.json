@@ -1,0 +1,578 @@
+{
+  "schemaVersion": 1,
+  "tenantId": "d189a65a-480c-4800-ab12-ac21a9d724d7",
+  "deploymentSha": "6119630938efe4fdd9b0f61e139fa02c9086ed38",
+  "publishedVersion": "99a3df95-a391-4182-8212-b9d3af51b19b",
+  "checkedAt": "2026-11-19T04:25:02.126Z",
+  "pass": true,
+  "checks": [
+    {
+      "mediaId": "pptx-image25.png",
+      "sourceLocator": "PPT slide 11 / image25.png",
+      "sourceHash": "sha256:3cc57b55522eb30977e71475c9467880e7f56cfe633b5f09ef9d8165ba21e5af",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/3cc57b55522eb30977e71475.png",
+      "route": "/applications",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image26.png",
+      "sourceLocator": "PPT slide 11 / image26.png",
+      "sourceHash": "sha256:30ab42822eb0e6d6ec2d87f51f76a28b5f41c5b7b9cd71034e56577bac02e875",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/30ab42822eb0e6d6ec2d87f5.png",
+      "route": "/applications",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image27.png",
+      "sourceLocator": "PPT slide 11 / image27.png",
+      "sourceHash": "sha256:4c18026a2d778149c82428a8024615204e68b6b60a8780036e68275fb1a40fcc",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/4c18026a2d778149c82428a8.png",
+      "route": "/applications",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image28.png",
+      "sourceLocator": "PPT slide 11 / image28.png",
+      "sourceHash": "sha256:16b46d6ef9b9ef5da0c4e25f991fa2a29f921ccdf02166acb2ba379d492cd670",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/16b46d6ef9b9ef5da0c4e25f.png",
+      "route": "/applications",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image29.png",
+      "sourceLocator": "PPT slide 11 / image29.png",
+      "sourceHash": "sha256:18b97aae898c03dee39482884417bb0e85ce2a6c81db616ecd40d754ab60a38d",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/18b97aae898c03dee3948288.png",
+      "route": "/applications",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image30.png",
+      "sourceLocator": "PPT slide 11 / image30.png",
+      "sourceHash": "sha256:de10d9220f3458b0e9c2b08155751b5bca6adf726555b4c5c11d8273895cdc5a",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/de10d9220f3458b0e9c2b081.png",
+      "route": "/applications",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image31.png",
+      "sourceLocator": "PPT slide 11 / image31.png",
+      "sourceHash": "sha256:713224709b42275c5dadcc34237a37a5e6a94afbe3f538ef1360a218f77b5b26",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/713224709b42275c5dadcc34.png",
+      "route": "/applications",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image32.png",
+      "sourceLocator": "PPT slide 11 / image32.png",
+      "sourceHash": "sha256:acb9739d55daf98e3408f352ef5403a38ce63088c2bdcbf557a5af19722ea6da",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/acb9739d55daf98e3408f352.png",
+      "route": "/applications",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image33.png",
+      "sourceLocator": "PPT slide 11 / image33.png",
+      "sourceHash": "sha256:b4a1e5e3d1774e831804f86efa2a651dccec44df34d237429802f3ad1999cd87",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/b4a1e5e3d1774e831804f86e.png",
+      "route": "/applications",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image34.png",
+      "sourceLocator": "PPT slide 11 / image34.png",
+      "sourceHash": "sha256:5c7c94d396d3ff1cfdbbee736566945035ac4cbaf919192f7b0aab19cadd5651",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/5c7c94d396d3ff1cfdbbee73.png",
+      "route": "/applications",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image35.jpeg",
+      "sourceLocator": "PPT slide 12 / image35.jpeg",
+      "sourceHash": "sha256:ec203b168dcb362c82a3e9c37ef41fb7ca609b2dc693f037c70d64b550c85e36",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/ec203b168dcb362c82a3e9c3.jpg",
+      "route": "/applications",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image36.jpeg",
+      "sourceLocator": "PPT slide 12 / image36.jpeg",
+      "sourceHash": "sha256:95200d6e8955f51bb2ff62668841121de10cb97047d24f32277998d7197b8329",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/95200d6e8955f51bb2ff6266.jpg",
+      "route": "/applications",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image37.jpeg",
+      "sourceLocator": "PPT slide 12 / image37.jpeg",
+      "sourceHash": "sha256:cb71cd9b1c8358c56a9117c99c4cd9278e3304d2c8b5d0f39cfeb860fc3cd19c",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/cb71cd9b1c8358c56a9117c9.jpg",
+      "route": "/applications",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image38.jpeg",
+      "sourceLocator": "PPT slide 12 / image38.jpeg",
+      "sourceHash": "sha256:409ff002be5bf5fb359bbbb79c1fbcd5742bd95d13fd8b6f18008d921f36db7b",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/409ff002be5bf5fb359bbbb7.jpg",
+      "route": "/applications",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image39.jpeg",
+      "sourceLocator": "PPT slide 12 / image39.jpeg",
+      "sourceHash": "sha256:4f90bfff224ba7bd20bdd27fd4bb04d2a7a2291b78ff98f3178e7fc58fe87fc2",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/4f90bfff224ba7bd20bdd27f.jpg",
+      "route": "/applications",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image40.jpeg",
+      "sourceLocator": "PPT slide 12 / image40.jpeg",
+      "sourceHash": "sha256:3f48cf1482b61f532b6dbe56ef4546146d0fd8344a5360c89857b98225c87ba0",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/3f48cf1482b61f532b6dbe56.jpg",
+      "route": "/applications",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image41.jpeg",
+      "sourceLocator": "PPT slide 12 / image41.jpeg",
+      "sourceHash": "sha256:03f618211b4b6545096f1055c19b5f39270f6d3a217fc1383e00aa7e94b62486",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/03f618211b4b6545096f1055.jpg",
+      "route": "/applications",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image42.jpeg",
+      "sourceLocator": "PPT slide 13 / image42.jpeg",
+      "sourceHash": "sha256:dbf483d88451d70c97989dd5ba3e0130ec41ee62f8708b8b0606a25dbd69fe8c",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/dbf483d88451d70c97989dd5.jpg",
+      "route": "/applications",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image43.jpeg",
+      "sourceLocator": "PPT slide 13 / image43.jpeg",
+      "sourceHash": "sha256:68798687210cdee8cf28e929dea62ec22c4c421bf79e40f468e154bc3c4d10c2",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/68798687210cdee8cf28e929.jpg",
+      "route": "/applications",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image44.jpeg",
+      "sourceLocator": "PPT slide 13 / image44.jpeg",
+      "sourceHash": "sha256:ba5025d6d061a24ab775f64b53925d58ba35d7f92c80910d0186cd73ca92493d",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/ba5025d6d061a24ab775f64b.jpg",
+      "route": "/applications",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image45.jpeg",
+      "sourceLocator": "PPT slide 13 / image45.jpeg",
+      "sourceHash": "sha256:3227e7ead149eb7aae85782ab5235cba62c5384cb647b38c8372788530cb4c24",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/3227e7ead149eb7aae85782a.jpg",
+      "route": "/applications",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image46.jpeg",
+      "sourceLocator": "PPT slide 13 / image46.jpeg",
+      "sourceHash": "sha256:b2f9eca05b434e29852f0753f3c0404281695ae552c81e87242aa4b131f83d48",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/b2f9eca05b434e29852f0753.jpg",
+      "route": "/applications",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image47.jpeg",
+      "sourceLocator": "PPT slide 13 / image47.jpeg",
+      "sourceHash": "sha256:ef8f469adf17c970104f78f2fb82a0d6fb9e3b567f401e1603149a8b7721426b",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/ef8f469adf17c970104f78f2.jpg",
+      "route": "/applications",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image48.jpeg",
+      "sourceLocator": "PPT slide 13 / image48.jpeg",
+      "sourceHash": "sha256:a6364382acc7a6f19a80550a6ce5a73c8b69a1a0304d078f01cb52b324b4b3f4",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/a6364382acc7a6f19a80550a.jpg",
+      "route": "/applications",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image49.jpeg",
+      "sourceLocator": "PPT slide 13 / image49.jpeg",
+      "sourceHash": "sha256:334e07f407f27221d7eddea1fd2f46933992ea20a624c21ad60c7584da0693a1",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/334e07f407f27221d7eddea1.jpg",
+      "route": "/applications",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image50.jpeg",
+      "sourceLocator": "PPT slide 14 / image50.jpeg",
+      "sourceHash": "sha256:0d7ecdf43fd8086dea647dc255ad9bcb6daabccfaa82132877810f69ded0ef11",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/0d7ecdf43fd8086dea647dc2.jpg",
+      "route": "/applications",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image51.jpeg",
+      "sourceLocator": "PPT slide 14 / image51.jpeg",
+      "sourceHash": "sha256:853e934459a394480e052ca1dd115bc4cbcc473cd61f59a7915631ed6078e12c",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/853e934459a394480e052ca1.jpg",
+      "route": "/applications",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image52.jpeg",
+      "sourceLocator": "PPT slide 14 / image52.jpeg",
+      "sourceHash": "sha256:78d45235b5b0b5f0f37db24a686dcf99013553468c69d5f9e0058712ba7db47a",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/78d45235b5b0b5f0f37db24a.jpg",
+      "route": "/applications",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image53.jpeg",
+      "sourceLocator": "PPT slide 14 / image53.jpeg",
+      "sourceHash": "sha256:5d5dc51802c14682e114877bd03b4d9f2d137f59881834091039551b74604ea9",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/5d5dc51802c14682e114877b.jpg",
+      "route": "/applications",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image54.jpeg",
+      "sourceLocator": "PPT slide 14 / image54.jpeg",
+      "sourceHash": "sha256:7e7854e352e55740d2304a21e8f5520b7f25c282437b904044f64a5d383e81be",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/7e7854e352e55740d2304a21.jpg",
+      "route": "/applications",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image55.jpeg",
+      "sourceLocator": "PPT slide 14 / image55.jpeg",
+      "sourceHash": "sha256:1f8105b3e46eeffab0a8c565db97c2e9dd2ac91063c207c89d78e427bbadbb93",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/1f8105b3e46eeffab0a8c565.jpg",
+      "route": "/applications",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image56.jpeg",
+      "sourceLocator": "PPT slide 14 / image56.jpeg",
+      "sourceHash": "sha256:366ebde074a30215eec635179966f4805b152e9939dc479cd8b47526124af78c",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/366ebde074a30215eec63517.jpg",
+      "route": "/applications",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image57.jpeg",
+      "sourceLocator": "PPT slide 15 / image57.jpeg",
+      "sourceHash": "sha256:0d505e6b70bdade7aa3f8a24deec46974f6863993709a45c7e98486749fb07d4",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/0d505e6b70bdade7aa3f8a24.jpg",
+      "route": "/applications",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image58.jpeg",
+      "sourceLocator": "PPT slide 15 / image58.jpeg",
+      "sourceHash": "sha256:8b6b723f8a799ee76c88f85a06812518c7fc0ca1ad4971d281d8a040f116b5a9",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/8b6b723f8a799ee76c88f85a.jpg",
+      "route": "/applications",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image59.jpeg",
+      "sourceLocator": "PPT slide 15 / image59.jpeg",
+      "sourceHash": "sha256:7677bbad9184e5d9175e795b296640bbed26cb308716997388c790a841a9a91f",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/7677bbad9184e5d9175e795b.jpg",
+      "route": "/applications",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image60.jpeg",
+      "sourceLocator": "PPT slide 15 / image60.jpeg",
+      "sourceHash": "sha256:4366042e5417d09d64b406003949eb1a299348568eddfead488d02315251c77e",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/4366042e5417d09d64b40600.jpg",
+      "route": "/applications",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image61.jpeg",
+      "sourceLocator": "PPT slide 15 / image61.jpeg",
+      "sourceHash": "sha256:79f40ef1af0eccb675dcfcf595997131bca6614a04d462112717ba2af7f0f932",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/79f40ef1af0eccb675dcfcf5.jpg",
+      "route": "/applications",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image62.jpeg",
+      "sourceLocator": "PPT slide 15 / image62.jpeg",
+      "sourceHash": "sha256:47012a33e22c8664205ac778480f6effc087db7a7f7b46f908c763126f14d1e4",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/47012a33e22c8664205ac778.jpg",
+      "route": "/applications",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image63.jpeg",
+      "sourceLocator": "PPT slide 15 / image63.jpeg",
+      "sourceHash": "sha256:94092354f342c41874c01e1a99e41c5bf9d9a799989227b22f30191bf149256a",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/94092354f342c41874c01e1a.jpg",
+      "route": "/applications",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image64.png",
+      "sourceLocator": "PPT slide 15 / image64.png",
+      "sourceHash": "sha256:748223530124bc4935563b61351ae08269b9fa32dbe67920144b47d7972eb398",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/748223530124bc4935563b61.png",
+      "route": "/applications",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image65.png",
+      "sourceLocator": "PPT slide 15 / image65.png",
+      "sourceHash": "sha256:8ac4b31fe9b9dba4fbd83e46c08467589770161c757e391809135206a9a68457",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/8ac4b31fe9b9dba4fbd83e46.png",
+      "route": "/applications",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image66.png",
+      "sourceLocator": "PPT slide 15 / image66.png",
+      "sourceHash": "sha256:ff7dd9cb2108410a0afab0915655c08295157064a87a323e40627fce6371f3bf",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/ff7dd9cb2108410a0afab091.png",
+      "route": "/applications",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image67.png",
+      "sourceLocator": "PPT slide 15 / image67.png",
+      "sourceHash": "sha256:dce88e05c2c22701cba0632b13ea1993465951f3bbce31a856a792a5201a1de2",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/dce88e05c2c22701cba0632b.png",
+      "route": "/applications",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image68.png",
+      "sourceLocator": "PPT slide 15 / image68.png",
+      "sourceHash": "sha256:ece43e73c96271a67f2a9b7fca12457414afc3304f2e018cb30e78bf3b44727f",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/ece43e73c96271a67f2a9b7f.png",
+      "route": "/applications",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image6.jpeg",
+      "sourceLocator": "PPT slide 4 / image6.jpeg",
+      "sourceHash": "sha256:bab8214f5cd80537cec6456068fa76f3ca96105e7b10e2bf6478e31a5a292ce1",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/bab8214f5cd80537cec64560.jpg",
+      "route": "/manufacturing",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image7.png",
+      "sourceLocator": "PPT slide 4 / image7.png",
+      "sourceHash": "sha256:fef36bf08b9503546998098e04d6aae000166ab74233050877f914601461a1da",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/fef36bf08b9503546998098e.png",
+      "route": "/manufacturing",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image78.jpeg",
+      "sourceLocator": "PPT slide 20 / image78.jpeg",
+      "sourceHash": "sha256:b68710a6ec5b440bc6a67792af194950aa728f15c986c6436f90d2435d5d87f4",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/b68710a6ec5b440bc6a67792.jpg",
+      "route": "/manufacturing",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image90.jpeg",
+      "sourceLocator": "PPT slide 24 / image90.jpeg",
+      "sourceHash": "sha256:27a83bce050d88afb2d3193d2754e0290931da0eac4224731933630764d9fdd4",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/27a83bce050d88afb2d3193d.jpg",
+      "route": "/manufacturing",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image91.jpeg",
+      "sourceLocator": "PPT slide 24 / image91.jpeg",
+      "sourceHash": "sha256:7cc630eedc3db2ef58fb052229e12545771f4a6b6cd4377b0e72452bf95c806f",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/7cc630eedc3db2ef58fb0522.jpg",
+      "route": "/manufacturing",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image92.jpeg",
+      "sourceLocator": "PPT slide 24 / image92.jpeg",
+      "sourceHash": "sha256:61229338a03d3a671b54ad645f92d175613347e454f683f34c6aac779137bb3e",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/61229338a03d3a671b54ad64.jpg",
+      "route": "/manufacturing",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image93.jpeg",
+      "sourceLocator": "PPT slide 24 / image93.jpeg",
+      "sourceHash": "sha256:bf720ea6428438847a5c1a56ed2b0083a6d1cba682d03b2f0b050a95945f4e24",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/bf720ea6428438847a5c1a56.jpg",
+      "route": "/manufacturing",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image95.png",
+      "sourceLocator": "PPT slide 25,32 / image95.png",
+      "sourceHash": "sha256:9b6b0605ca22f0c402d4d26a43d13b82d5fece40c6ae90127bb982770d13767b",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/9b6b0605ca22f0c402d4d26a.png",
+      "route": "/manufacturing",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image96.jpeg",
+      "sourceLocator": "PPT slide 25 / image96.jpeg",
+      "sourceHash": "sha256:2eac5d92fb560bd5d258446c30929507b2efea568d62978ca1e6a7709d784242",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/2eac5d92fb560bd5d258446c.jpg",
+      "route": "/manufacturing",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image97.jpeg",
+      "sourceLocator": "PPT slide 25 / image97.jpeg",
+      "sourceHash": "sha256:b0b84495a8bf627484675016f44993805ebfa9cba3b5af0f5f62e24afc1c7c17",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/b0b84495a8bf627484675016.jpg",
+      "route": "/manufacturing",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image98.jpeg",
+      "sourceLocator": "PPT slide 26 / image98.jpeg",
+      "sourceHash": "sha256:e497a470d6cd0832a4e88a346e707665a5dd078fee07a6fa6609578f44619b3e",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/e497a470d6cd0832a4e88a34.jpg",
+      "route": "/manufacturing",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image99.jpeg",
+      "sourceLocator": "PPT slide 26 / image99.jpeg",
+      "sourceHash": "sha256:f02681626583b0203ffc52b1a0d36e6ed5415d197835c5798938cb7c03a7d4b2",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/f02681626583b0203ffc52b1.jpg",
+      "route": "/manufacturing",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image100.jpeg",
+      "sourceLocator": "PPT slide 26 / image100.jpeg",
+      "sourceHash": "sha256:2ae0014aa9bd38a558c01b71bc9dafae8db9c7932109955e595da669b6c9d336",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/2ae0014aa9bd38a558c01b71.jpg",
+      "route": "/manufacturing",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image101.jpeg",
+      "sourceLocator": "PPT slide 28 / image101.jpeg",
+      "sourceHash": "sha256:91afb13325400cda2c4545234bcc7676963bd15c62137bc295e6fa3091458394",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/91afb13325400cda2c454523.jpg",
+      "route": "/manufacturing",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image102.jpeg",
+      "sourceLocator": "PPT slide 28 / image102.jpeg",
+      "sourceHash": "sha256:bd2ebfb44cdbf97609cab885ce1173bf46327cd4b7b430c4cfc89ce502b68298",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/bd2ebfb44cdbf97609cab885.jpg",
+      "route": "/manufacturing",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image103.jpeg",
+      "sourceLocator": "PPT slide 28 / image103.jpeg",
+      "sourceHash": "sha256:73053ed2627e91bd469f4b144852c403fdf217233b88ff764f90dbc4dcb0d35b",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/73053ed2627e91bd469f4b14.jpg",
+      "route": "/manufacturing",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image104.jpeg",
+      "sourceLocator": "PPT slide 29 / image104.jpeg",
+      "sourceHash": "sha256:2ecde219f2910388f0f6d357ce587cf3fa0dbd9939bb21a899c0e02514f9b680",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/2ecde219f2910388f0f6d357.jpg",
+      "route": "/manufacturing",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image105.jpeg",
+      "sourceLocator": "PPT slide 29 / image105.jpeg",
+      "sourceHash": "sha256:7900f3ff581eb0fcf7510d10d5b0a679ad09ac8a986fc06799e07d4a06da9c0f",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/7900f3ff581eb0fcf7510d10.jpg",
+      "route": "/manufacturing",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image106.jpeg",
+      "sourceLocator": "PPT slide 30 / image106.jpeg",
+      "sourceHash": "sha256:a83918f830b95d8839f56c8d8f0dc6fbc1dae512899f4f22ab4068879b6c3da4",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/a83918f830b95d8839f56c8d.jpg",
+      "route": "/manufacturing",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image107.jpeg",
+      "sourceLocator": "PPT slide 31 / image107.jpeg",
+      "sourceHash": "sha256:5c1e7c554fb07b824d6478fe96b373ddf73f75f9db64a2f9fc484546f16b3dde",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/5c1e7c554fb07b824d6478fe.jpg",
+      "route": "/manufacturing",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image108.jpeg",
+      "sourceLocator": "PPT slide 31 / image108.jpeg",
+      "sourceHash": "sha256:dd496a112f8d328979ef8436cfa7139e5f6faca8d68c0ba3c691290213834fab",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/dd496a112f8d328979ef8436.jpg",
+      "route": "/manufacturing",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image109.jpeg",
+      "sourceLocator": "PPT slide 32 / image109.jpeg",
+      "sourceHash": "sha256:8567c9c92fde3f6eb525868b69ffa528caf9cee68089950156c1c70cde5d8bef",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/8567c9c92fde3f6eb525868b.jpg",
+      "route": "/manufacturing",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image110.jpeg",
+      "sourceLocator": "PPT slide 32 / image110.jpeg",
+      "sourceHash": "sha256:08862f05ece1e003d4d15b6d3fd8068e385008037e3ff47da6090558945c23bb",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/08862f05ece1e003d4d15b6d.jpg",
+      "route": "/manufacturing",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image111.jpeg",
+      "sourceLocator": "PPT slide 33 / image111.jpeg",
+      "sourceHash": "sha256:e022940975076532fc17e3c141aa36821476fb33cee4e6e8bda282a2518172bb",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/e022940975076532fc17e3c1.jpg",
+      "route": "/manufacturing",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image112.jpeg",
+      "sourceLocator": "PPT slide 33 / image112.jpeg",
+      "sourceHash": "sha256:bd951d37d26cede675bd52303438b33e0c51483f0d7704bfd01c060903769b08",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/bd951d37d26cede675bd5230.jpg",
+      "route": "/manufacturing",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image114.jpeg",
+      "sourceLocator": "PPT slide 35 / image114.jpeg",
+      "sourceHash": "sha256:24db37c4708ed7988334b044f9cee4119aded5906793d7568710369383ce2da4",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/24db37c4708ed7988334b044.jpg",
+      "route": "/manufacturing",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image115.jpeg",
+      "sourceLocator": "PPT slide 35 / image115.jpeg",
+      "sourceHash": "sha256:f8c39450b55ddfd666e68fcd83d847afc6ae943f99bdc8255ba1c3affd9aa56d",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-facility-gallery/f8c39450b55ddfd666e68fcd.jpg",
+      "route": "/manufacturing",
+      "result": "PASS"
+    }
+  ]
+}
