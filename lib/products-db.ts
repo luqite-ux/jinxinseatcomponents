@@ -1,4 +1,4 @@
-import { getCategories, getProducts, getProduct, getRelatedProducts, type Category, type Product } from '@/lib/products'
+import { getCategories, getProducts, getProduct, getRelatedProducts, type Category, type CategorySlug, type Product } from '@/lib/products'
 import { defaultLocale, pickLocalized } from '@/lib/i18n'
 
 type DbProduct = {
@@ -14,7 +14,16 @@ type DbProduct = {
   sort_order: number | null
 }
 
-type DbCategory = { id: string; slug: string; parent_id: string | null; name_i18n: Record<string, string> | null }
+type DbCategory = {
+  id: string
+  slug: string
+  parent_id: string | null
+  name_i18n: Record<string, string> | null
+  description_i18n: Record<string, string> | null
+  icon: string | null
+  sort_order: number | null
+  extra_data: { tagline_i18n?: Record<string, string>; image_alt_i18n?: Record<string, string> } | null
+}
 
 export async function fetchCategoriesData(locale: string = defaultLocale): Promise<Category[]> {
   const fallback = getCategories(locale)
@@ -25,18 +34,33 @@ export async function fetchCategoriesData(locale: string = defaultLocale): Promi
   const query = new URL(`${url}/rest/v1/product_categories`)
   query.searchParams.set('tenant_id', `eq.${tenant}`)
   query.searchParams.set('is_active', 'eq.true')
-  query.searchParams.set('select', 'id,slug,parent_id,name_i18n')
+  query.searchParams.set('select', 'id,slug,parent_id,name_i18n,description_i18n,icon,sort_order,extra_data')
+  query.searchParams.set('order', 'sort_order.asc,id.asc')
   query.searchParams.set('limit', '1000')
   try {
     const response = await fetch(query, { headers: { apikey: key, authorization: `Bearer ${key}` }, next: { revalidate: 60 } })
     if (!response.ok) throw new Error(`HTTP ${response.status}`)
     const rows = await response.json() as DbCategory[]
     if (!rows.length) return fallback
-    const bySlug = new Map(rows.map(row => [row.slug, row]))
-    return fallback.filter(category => bySlug.has(category.slug)).map(category => ({
-      ...category,
-      name: pickLocalized(bySlug.get(category.slug)?.name_i18n ?? undefined, locale) || category.name,
-    }))
+    const byId = new Map(rows.map(row => [row.id, row]))
+    const sourceDimensions = new Map(fallback.map(category => [category.slug, category.image]))
+    return rows.map(row => {
+      const name = pickLocalized(row.name_i18n ?? undefined, locale) || row.slug
+      const dimensions = sourceDimensions.get(row.slug as CategorySlug)
+      return {
+        slug: row.slug as CategorySlug,
+        parentSlug: (row.parent_id ? byId.get(row.parent_id)?.slug : undefined) as CategorySlug | undefined,
+        name,
+        tagline: pickLocalized(row.extra_data?.tagline_i18n, locale) || name,
+        description: pickLocalized(row.description_i18n ?? undefined, locale) || name,
+        image: {
+          src: row.icon || '/brand/jx-logo.png',
+          width: dimensions?.width ?? 1800,
+          height: dimensions?.height ?? 1200,
+          alt: pickLocalized(row.extra_data?.image_alt_i18n, locale) || name,
+        },
+      }
+    })
   } catch {
     return fallback
   }

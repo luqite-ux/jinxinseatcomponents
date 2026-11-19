@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "tenantId": "d189a65a-480c-4800-ab12-ac21a9d724d7",
+  "mode": "apply",
+  "source": "customer site verified category records and corresponding active product cutouts",
+  "categoryCount": 17,
+  "changedCount": 17,
+  "checkedAt": "2026-11-19T08:54:38.679Z",
+  "pass": true,
+  "rows": [
+    {
+      "id": "9f761dc8-2afa-46f6-b969-f9c80fe131d2",
+      "slug": "seat-assemblies",
+      "sourceRow": 17,
+      "changed": true
+    },
+    {
+      "id": "64ea4970-6070-4777-85b0-05771043977b",
+      "slug": "seat-frames",
+      "sourceRow": 65,
+      "changed": true
+    },
+    {
+      "id": "e6ae3eaf-e8bb-48a8-acb6-6b093e0a79eb",
+      "slug": "molded-foam",
+      "sourceRow": 46,
+      "changed": true
+    },
+    {
+      "id": "853e8a6d-ad22-43fe-9822-0cd174f63505",
+      "slug": "ambulance-seats",
+      "sourceRow": 5,
+      "changed": true
+    },
+    {
+      "id": "ac6a1044-d264-4eca-9bbf-ffe7c804f51c",
+      "slug": "golf-cart-seats",
+      "sourceRow": 8,
+      "changed": true
+    },
+    {
+      "id": "427c0f89-8a98-4626-92fb-cb6d07e1df35",
+      "slug": "atv-seats",
+      "sourceRow": 11,
+      "changed": true
+    },
+    {
+      "id": "1c61efc0-7bde-459a-a95e-59cdd8f221a1",
+      "slug": "commercial-seats",
+      "sourceRow": 13,
+      "changed": true
+    },
+    {
+      "id": "9c582975-3cd6-4ebf-84ec-ca2d1a97ce64",
+      "slug": "special-seats",
+      "sourceRow": 23,
+      "changed": true
+    },
+    {
+      "id": "7d01e38c-685d-4362-b6df-37fd09be3171",
+      "slug": "lumbar-cushions",
+      "sourceRow": 24,
+      "changed": true
+    },
+    {
+      "id": "37800579-db4a-42b1-953b-a8cf35dc1155",
+      "slug": "pet-foam",
+      "sourceRow": 33,
+      "changed": true
+    },
+    {
+      "id": "1a47e6fe-7145-4e11-96d5-7776711c3c50",
+      "slug": "headrest-foam",
+      "sourceRow": 36,
+      "changed": true
+    },
+    {
+      "id": "c3add25a-b1d3-4535-b0e4-16b4a239bc0d",
+      "slug": "seat-foam",
+      "sourceRow": 45,
+      "changed": true
+    },
+    {
+      "id": "761b1e46-8b76-457d-a7d7-b84aed3fa7e1",
+      "slug": "integral-skin-foam",
+      "sourceRow": 55,
+      "changed": true
+    },
+    {
+      "id": "8e1fd95d-9d8b-4e7e-afd2-3df5b46a7364",
+      "slug": "seat-frames-sub",
+      "sourceRow": 63,
+      "changed": true
+    },
+    {
+      "id": "295b11e8-5b5e-4f1f-b600-32f0251c4bdd",
+      "slug": "headrest-rods",
+      "sourceRow": 69,
+      "changed": true
+    },
+    {
+      "id": "edc008ea-f5d4-4c46-9c04-9a772768a661",
+      "slug": "headrest-frames",
+      "sourceRow": 74,
+      "changed": true
+    },
+    {
+      "id": "ce06f824-9eaa-4d55-90df-9c79416e33a2",
+      "slug": "armrest-frames",
+      "sourceRow": 77,
+      "changed": true
+    }
+  ]
+}
