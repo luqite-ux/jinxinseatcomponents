@@ -1,7 +1,8 @@
 'use client'
 
 import Image from 'next/image'
-import Link from 'next/link'
+import Link from '@/components/site/locale-link'
+import NextLink from 'next/link'
 import { usePathname } from 'next/navigation'
 import { useState } from 'react'
 import { ChevronDown, Menu } from 'lucide-react'
@@ -9,6 +10,8 @@ import { Sheet, SheetClose, SheetContent, SheetDescription, SheetHeader, SheetTi
 import { navItems as defaultNavItems, site, type NavItem } from '@/lib/site'
 import { cn } from '@/lib/utils'
 import { siteTypographyStyle } from '@/lib/site-content/typography'
+import { localePath } from '@/lib/i18n'
+import { useEnabledLocales, useSiteLocale } from './locale-provider'
 
 function isActive(pathname: string, href: string) {
   const path = href.split('?')[0]
@@ -19,6 +22,9 @@ export function SiteHeader({ items, styles }: { items?: NavItem[]; styles?: Reco
   const navItems = items ?? defaultNavItems
   const linkStyle = (item: NavItem) => item.id ? siteTypographyStyle(styles, `links.${item.id}.label`, { 'site-sans': 'var(--font-geist-sans)' }) : undefined
   const pathname = usePathname()
+  const locale = useSiteLocale()
+  const enabledLocales = useEnabledLocales()
+  const activePath = locale === 'en' ? pathname : pathname.replace(new RegExp(`^/${locale}(?=/|$)`), '') || '/'
   const [open, setOpen] = useState(false)
 
   return (
@@ -35,7 +41,7 @@ export function SiteHeader({ items, styles }: { items?: NavItem[]; styles?: Reco
         <nav aria-label="Primary" className="hidden lg:block">
           <ul className="flex items-center gap-1">
             {navItems.map((item) => {
-              const active = isActive(pathname, item.href)
+              const active = isActive(activePath, item.href)
               if (item.children) {
                 return (
                   <li key={item.href} className="group relative">
@@ -106,6 +112,17 @@ export function SiteHeader({ items, styles }: { items?: NavItem[]; styles?: Reco
         </nav>
 
         <div className="flex items-center gap-2">
+          {enabledLocales.length > 1 && (
+            <nav aria-label="Language" className="flex items-center gap-1 text-xs font-semibold uppercase">
+              {enabledLocales.map(code => (
+                <NextLink key={code} href={localePath(activePath, code)} hrefLang={code}
+                  aria-current={code === locale ? 'page' : undefined}
+                  className={cn('rounded-sm px-2 py-2 hover:text-jx-deep', code === locale ? 'text-jx-deep' : 'text-ink-soft')}>
+                  {code}
+                </NextLink>
+              ))}
+            </nav>
+          )}
           <Link
             href="/contact"
             className="hidden rounded-sm bg-jx px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-jx-deep sm:inline-flex"
@@ -135,10 +152,10 @@ export function SiteHeader({ items, styles }: { items?: NavItem[]; styles?: Reco
                         <Link
                           href={item.href}
                           style={linkStyle(item)}
-                          aria-current={isActive(pathname, item.href) ? 'page' : undefined}
+                          aria-current={isActive(activePath, item.href) ? 'page' : undefined}
                           className={cn(
                             'hq-typography flex min-h-12 items-center rounded-sm px-3 text-base font-medium transition-colors hover:bg-mist',
-                            isActive(pathname, item.href) && 'text-jx-deep',
+                            isActive(activePath, item.href) && 'text-jx-deep',
                           )}
                         >
                           {item.label}

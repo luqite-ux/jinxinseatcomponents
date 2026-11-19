@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import Link from 'next/link'
+import Link from '@/components/site/locale-link'
 import { PackageSearch } from 'lucide-react'
 import { ProductCard } from '@/components/products/product-card'
 import { ProductFilters } from '@/components/products/product-filters'
@@ -8,9 +8,12 @@ import { fetchCategoriesData, fetchProductsData } from '@/lib/products-db'
 import { siteCopy } from '@/lib/site-content/copy'
 import { getEditablePage } from '@/lib/site-content/page-data'
 import { siteContentMetadata } from '@/lib/site-content/site-content'
+import { getLocaleAlternates } from '@/lib/site-locales'
 
 export const revalidate = 60
-import { buttonPrimary } from '@/lib/site'
+import { buttonPrimary, site } from '@/lib/site'
+import { getRequestLocale } from '@/lib/site-locales'
+import { localePath } from '@/lib/i18n'
 
 type SearchParams = Promise<{ category?: string | string[]; page?: string | string[] }>
 
@@ -20,13 +23,16 @@ export async function generateMetadata({ searchParams }: { searchParams: SearchP
   const { category } = await searchParams
   const categories = await fetchCategoriesData()
   const current = categories.find((item) => item.slug === first(category))
-  const contentMetadata = current ? {} : await siteContentMetadata('/products', 'en')
+  const contentMetadata = current ? {} : await siteContentMetadata('/products')
+  const path = current ? `/products?category=${current.slug}` : '/products'
+  const locale = await getRequestLocale()
   return {
     title: current ? current.name : 'Products',
     description: current
       ? `${current.name}: ${current.description}`
       : 'Seat assemblies, seat frames and molded foam components from Zhoushan Jinxin Auto Parts.',
-    alternates: { canonical: current ? `/products?category=${current.slug}` : '/products' },
+    alternates: await getLocaleAlternates(path),
+    openGraph: { type: 'website', title: current?.name ?? 'Products', description: current?.description ?? 'Seat assemblies, seat frames and molded foam components.', url: `${site.url}${localePath(path, locale)}`, images: [{ url: '/catalog/cutouts/product-row-7.webp', alt: 'Automotive seat assembly' }] },
     ...contentMetadata,
   }
 }

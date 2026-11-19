@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import Link from 'next/link'
+import Link from '@/components/site/locale-link'
 import { notFound } from 'next/navigation'
 import { ArrowRight, Check } from 'lucide-react'
 import { ProductCard } from '@/components/products/product-card'
@@ -10,6 +10,8 @@ import { SectionHeading } from '@/components/site/section-heading'
 import { getAllProductSlugs } from '@/lib/products'
 import { fetchProductBySlug, fetchRelatedProducts } from '@/lib/products-db'
 import { buttonPrimary, buttonSecondary, site } from '@/lib/site'
+import { getLocaleAlternates, getRequestLocale } from '@/lib/site-locales'
+import { localePath } from '@/lib/i18n'
 
 type Params = Promise<{ slug: string }>
 export const revalidate = 60
@@ -23,15 +25,16 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   const { slug } = await params
   const product = await fetchProductBySlug(slug)
   if (!product) return { title: 'Product not found' }
+  const locale = await getRequestLocale()
   return {
     title: product.name,
     description: product.summary,
-    alternates: { canonical: `/products/${product.slug}` },
+    alternates: await getLocaleAlternates(`/products/${product.slug}`),
     openGraph: {
       type: 'website',
       title: product.name,
       description: product.summary,
-      url: `${site.url}/products/${product.slug}`,
+      url: `${site.url}${localePath(`/products/${product.slug}`, locale)}`,
       images: product.images[0] ? [{ url: product.images[0].src, alt: product.images[0].alt }] : undefined,
     },
   }
@@ -41,6 +44,8 @@ export default async function ProductDetailPage({ params }: { params: Params }) 
   const { slug } = await params
   const product = await fetchProductBySlug(slug)
   if (!product) notFound()
+  const locale = await getRequestLocale()
+  const productUrl = `${site.url}${localePath(`/products/${product.slug}`, locale)}`
 
   const related = await fetchRelatedProducts(product)
   const inquiryHref = `/contact?product=${encodeURIComponent(product.slug)}&subject=${encodeURIComponent(product.name)}`
@@ -48,7 +53,7 @@ export default async function ProductDetailPage({ params }: { params: Params }) 
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Product',
-    '@id': `${site.url}/products/${product.slug}#product`,
+    '@id': `${productUrl}#product`,
     name: product.name,
     description: product.summary,
     image: product.images.map((i) => i.src.startsWith('http') ? i.src : `${site.url}${i.src}`),
@@ -59,11 +64,11 @@ export default async function ProductDetailPage({ params }: { params: Params }) 
   const breadcrumbLd = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
-    '@id': `${site.url}/products/${product.slug}#breadcrumb`,
+    '@id': `${productUrl}#breadcrumb`,
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: site.url },
-      { '@type': 'ListItem', position: 2, name: 'Products', item: `${site.url}/products` },
-      { '@type': 'ListItem', position: 3, name: product.name, item: `${site.url}/products/${product.slug}` },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `${site.url}${localePath('/', locale)}` },
+      { '@type': 'ListItem', position: 2, name: 'Products', item: `${site.url}${localePath('/products', locale)}` },
+      { '@type': 'ListItem', position: 3, name: product.name, item: productUrl },
     ],
   }
 

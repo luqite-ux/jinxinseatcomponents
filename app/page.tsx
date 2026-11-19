@@ -11,6 +11,7 @@ import { ProductFamiliesSection } from '@/components/home/product-families-secti
 import { QualitySection } from '@/components/home/quality-section'
 import { site } from '@/lib/site'
 import { getSiteContent, siteContentMetadata } from '@/lib/site-content/site-content'
+import { getRequestLocale } from '@/lib/site-locales'
 
 const fallbackMetadata: Metadata = {
   title: { absolute: 'Zhoushan Jinxin Auto Parts | Automotive Seat Assemblies, Frames and Molded Foam' },
@@ -20,12 +21,13 @@ const fallbackMetadata: Metadata = {
 }
 
 export async function generateMetadata(): Promise<Metadata> {
-  const content = await siteContentMetadata('/', 'en')
+  const content = await siteContentMetadata('/')
   return { ...fallbackMetadata, ...content, ...(content.title ? { title: { absolute: content.title } } : {}) }
 }
 
 export default async function HomePage() {
-  const snapshot = await getSiteContent('en')
+  const locale = await getRequestLocale()
+  const snapshot = await getSiteContent(locale)
   const modules = snapshot?.pages.find((page) => page.path === '/')?.modules
   const moduleFor = (type: string) => modules?.find((module) => module.type === type)
   const section = (type: string) => ({ content: moduleFor(type)?.values, styles: moduleFor(type)?.styles })
@@ -57,7 +59,7 @@ export default async function HomePage() {
         name: site.name,
         url: site.url,
         publisher: { '@id': organizationId },
-        inLanguage: 'en',
+        inLanguage: locale,
       },
     ],
   }

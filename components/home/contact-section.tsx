@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Link from '@/components/site/locale-link'
 import { ArrowRight, Mail } from 'lucide-react'
 import { Reveal } from '@/components/site/reveal'
 import { StructureBackdrop } from '@/components/site/structure-backdrop'

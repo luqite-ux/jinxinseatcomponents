@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
-import Link from 'next/link'
+import Link from '@/components/site/locale-link'
 import { ArrowRight } from 'lucide-react'
 import { CtaBand } from '@/components/site/cta-band'
 import { PageHeader } from '@/components/site/page-header'
@@ -21,7 +21,7 @@ const fallbackMetadata: Metadata = {
 }
 
 export async function generateMetadata(): Promise<Metadata> {
-  return { ...fallbackMetadata, ...(await siteContentMetadata('/applications', 'en')) }
+  return { ...fallbackMetadata, ...(await siteContentMetadata('/applications')) }
 }
 
 export default async function ApplicationsPage() {

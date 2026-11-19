@@ -19,7 +19,7 @@ const fallbackMetadata: Metadata = {
 }
 
 export async function generateMetadata(): Promise<Metadata> {
-  return { ...fallbackMetadata, ...(await siteContentMetadata('/manufacturing', 'en')) }
+  return { ...fallbackMetadata, ...(await siteContentMetadata('/manufacturing')) }
 }
 
 export default async function ManufacturingPage() {

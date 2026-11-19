@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
-import Link from 'next/link'
+import Link from '@/components/site/locale-link'
 import { Newspaper } from 'lucide-react'
 import { PageHeader } from '@/components/site/page-header'
 import { Reveal } from '@/components/site/reveal'
@@ -17,7 +17,7 @@ const fallbackMetadata: Metadata = {
 }
 
 export async function generateMetadata(): Promise<Metadata> {
-  return { ...fallbackMetadata, ...(await siteContentMetadata('/news', 'en')) }
+  return { ...fallbackMetadata, ...(await siteContentMetadata('/news')) }
 }
 
 export const revalidate = 60

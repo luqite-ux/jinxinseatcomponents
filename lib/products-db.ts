@@ -1,5 +1,6 @@
 import { getCategories, getProducts, getProduct, getRelatedProducts, type Category, type CategorySlug, type Product } from '@/lib/products'
-import { defaultLocale, pickLocalized } from '@/lib/i18n'
+import { pickLocalized } from '@/lib/i18n'
+import { getRequestLocale } from '@/lib/site-locales'
 
 type DbProduct = {
   id: string
@@ -25,8 +26,9 @@ type DbCategory = {
   extra_data: { tagline_i18n?: Record<string, string>; image_alt_i18n?: Record<string, string> } | null
 }
 
-export async function fetchCategoriesData(locale: string = defaultLocale): Promise<Category[]> {
-  const fallback = getCategories(locale)
+export async function fetchCategoriesData(locale?: string): Promise<Category[]> {
+  const selectedLocale = locale ?? await getRequestLocale()
+  const fallback = getCategories(selectedLocale)
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL?.trim().replace(/\/$/, '')
   const key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY?.trim()
   const tenant = process.env.NEXT_PUBLIC_TENANT_ID?.trim()
@@ -45,19 +47,19 @@ export async function fetchCategoriesData(locale: string = defaultLocale): Promi
     const byId = new Map(rows.map(row => [row.id, row]))
     const sourceDimensions = new Map(fallback.map(category => [category.slug, category.image]))
     return rows.map(row => {
-      const name = pickLocalized(row.name_i18n ?? undefined, locale) || row.slug
+      const name = pickLocalized(row.name_i18n ?? undefined, selectedLocale) || row.slug
       const dimensions = sourceDimensions.get(row.slug as CategorySlug)
       return {
         slug: row.slug as CategorySlug,
         parentSlug: (row.parent_id ? byId.get(row.parent_id)?.slug : undefined) as CategorySlug | undefined,
         name,
-        tagline: pickLocalized(row.extra_data?.tagline_i18n, locale) || name,
-        description: pickLocalized(row.description_i18n ?? undefined, locale) || name,
+        tagline: pickLocalized(row.extra_data?.tagline_i18n, selectedLocale) || name,
+        description: pickLocalized(row.description_i18n ?? undefined, selectedLocale) || name,
         image: {
           src: row.icon || '/brand/jx-logo.png',
           width: dimensions?.width ?? 1800,
           height: dimensions?.height ?? 1200,
-          alt: pickLocalized(row.extra_data?.image_alt_i18n, locale) || name,
+          alt: pickLocalized(row.extra_data?.image_alt_i18n, selectedLocale) || name,
         },
       }
     })
@@ -109,29 +111,33 @@ function localize(row: DbProduct, locale: string, categories: Category[]): Produ
 }
 
 export async function fetchProductsData(options: { category?: string; page?: number; pageSize?: number; locale?: string } = {}) {
-  const { category, page = 1, pageSize = 24, locale = defaultLocale } = options
+  const { category, page = 1, pageSize = 24 } = options
+  const locale = options.locale ?? await getRequestLocale()
   const [rows, categories] = await Promise.all([fetchRows(), fetchCategoriesData(locale)])
-  if (!rows) return { ...getProducts(options), source: 'fallback' as const }
+  if (!rows) return { ...getProducts({ ...options, locale }), source: 'fallback' as const }
   const all = rows.filter((row) => !category || row.category_slug === category || row.extra_data?.subcategory === category)
   const totalPages = Math.max(1, Math.ceil(all.length / pageSize))
   const safePage = Math.min(Math.max(1, page), totalPages)
   return { items: all.slice((safePage - 1) * pageSize, safePage * pageSize).map((row) => localize(row, locale, categories)), total: all.length, totalPages, page: safePage, source: 'backend' as const }
 }
 
-export async function fetchProductBySlug(slug: string, locale = defaultLocale) {
+export async function fetchProductBySlug(slug: string, requestedLocale?: string) {
+  const locale = requestedLocale ?? await getRequestLocale()
   const [rows, categories] = await Promise.all([fetchRows(), fetchCategoriesData(locale)])
   if (!rows) return getProduct(slug, locale)
   const row = rows.find((item) => item.slug === slug)
   return row ? localize(row, locale, categories) : undefined
 }
 
-export async function fetchFeaturedProducts(limit = 4, locale = defaultLocale) {
+export async function fetchFeaturedProducts(limit = 4, requestedLocale?: string) {
+  const locale = requestedLocale ?? await getRequestLocale()
   const [rows, categories] = await Promise.all([fetchRows(), fetchCategoriesData(locale)])
   if (!rows) return getProducts({ pageSize: 77, locale }).items.filter((item) => item.featured).slice(0, limit)
   return rows.filter((row) => [7,17,45,65].includes(row.extra_data?.source_row ?? 0)).slice(0, limit).map((row) => localize(row, locale, categories))
 }
 
-export async function fetchRelatedProducts(product: Product, limit = 3, locale = defaultLocale) {
+export async function fetchRelatedProducts(product: Product, limit = 3, requestedLocale?: string) {
+  const locale = requestedLocale ?? await getRequestLocale()
   const [rows, categories] = await Promise.all([fetchRows(), fetchCategoriesData(locale)])
   if (!rows) return getRelatedProducts(product, limit, locale)
   return rows.filter((row) => (row.extra_data?.subcategory ?? row.category_slug) === product.categorySlug && row.slug !== product.slug).slice(0, limit).map((row) => localize(row, locale, categories))

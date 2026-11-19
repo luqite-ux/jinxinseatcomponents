@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Link from 'next/link'
+import Link from '@/components/site/locale-link'
 import { Mail, MapPin, Phone } from 'lucide-react'
 import { CurrentYear } from '@/components/site/current-year'
 import { fetchCategoriesData } from '@/lib/products-db'

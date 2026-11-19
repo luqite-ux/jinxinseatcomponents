@@ -9,6 +9,8 @@ import { site } from '@/lib/site'
 import { PREVIEW_COOKIE } from '@/lib/site-content/preview-protection'
 import { getSiteContent } from '@/lib/site-content/site-content'
 import { navItems as defaultNavItems, type NavItem } from '@/lib/site'
+import { getEnabledLocales, getRequestLocale } from '@/lib/site-locales'
+import { LocaleProvider } from '@/components/site/locale-provider'
 import './globals.css'
 
 const geistSans = Geist({ subsets: ['latin'], variable: '--font-geist-sans' })
@@ -41,11 +43,13 @@ export const viewport: Viewport = {
 }
 
 export default async function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+  const locale = await getRequestLocale()
+  const enabledLocales = await getEnabledLocales()
   const isPreview = (await cookies()).has(PREVIEW_COOKIE)
   let snapshot: Awaited<ReturnType<typeof getSiteContent>> = null
   let previewError = false
   try {
-    snapshot = await getSiteContent('en')
+    snapshot = await getSiteContent(locale)
   } catch (error) {
     if (!isPreview) throw error
     previewError = true
@@ -60,7 +64,7 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
     return { id: item.id, label: item.label, href: item.href, ...(baseline?.children ? { children: baseline.children } : {}) }
   }) : undefined
   return (
-    <html lang="en" suppressHydrationWarning className={`${geistSans.variable} ${geistMono.variable}`}>
+    <html lang={locale} suppressHydrationWarning className={`${geistSans.variable} ${geistMono.variable}`}>
       <body className="bg-paper font-sans text-ink antialiased">
         <a
           href="#main"
@@ -78,6 +82,7 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
             </form>
           </div>
         )}
+        <LocaleProvider locale={locale} enabled={enabledLocales}>
         <SiteHeader items={navItems} styles={navigation?.styles} />
         <main id="main">
           {previewError ? (
@@ -94,6 +99,7 @@ export default async function RootLayout({ children }: Readonly<{ children: Reac
         </main>
         <SiteFooter items={navItems} />
         <RevealObserver />
+        </LocaleProvider>
         <noscript>
           <style>{`[data-reveal]{opacity:1!important;transform:none!important}`}</style>
         </noscript>

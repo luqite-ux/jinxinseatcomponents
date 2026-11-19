@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import Link from 'next/link'
+import Link from '@/components/site/locale-link'
 import { useEffect, useRef, useState, type CSSProperties, type KeyboardEvent, type PointerEvent } from 'react'
 import { ArrowRight, ChevronLeft, ChevronRight, Pause, Play } from 'lucide-react'
 import { cn } from '@/lib/utils'

@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Link from '@/components/site/locale-link'
 import type { Category } from '@/lib/products'
 import { cn } from '@/lib/utils'
 

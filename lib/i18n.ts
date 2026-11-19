@@ -1,13 +1,20 @@
 export const locales = ['en'] as const
 export type Locale = (typeof locales)[number]
 export const defaultLocale: Locale = 'en'
+export const supportedLocaleCodes = ['en', 'zh', 'ja', 'ko', 'ru', 'es', 'fr', 'ar', 'th', 'vi', 'id', 'de', 'it', 'pt', 'pl', 'tr', 'bn', 'fa'] as const
 
 export type Localized<T = string> = Partial<Record<string, T>>
 
-export function resolveLocale(input?: string | null): string {
+export function resolveLocale(input?: string | null, enabled: readonly string[] = locales): string {
   if (!input) return defaultLocale
   const base = input.toLowerCase().split('-')[0]
-  return (locales as readonly string[]).includes(base) ? base : defaultLocale
+  return enabled.includes(base) && (supportedLocaleCodes as readonly string[]).includes(base) ? base : defaultLocale
+}
+
+export function localePath(path: string, locale: string): string {
+  if (!path.startsWith('/') || path.startsWith('//') || locale === defaultLocale) return path
+  if (path === `/${locale}` || path.startsWith(`/${locale}/`) || path.startsWith(`/${locale}?`)) return path
+  return `/${locale}${path === '/' ? '' : path}`
 }
 
 function isEmpty(value: unknown) {

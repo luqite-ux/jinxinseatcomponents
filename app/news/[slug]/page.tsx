@@ -1,11 +1,13 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
-import Link from 'next/link'
+import Link from '@/components/site/locale-link'
 import { notFound } from 'next/navigation'
 import { ArrowLeft } from 'lucide-react'
 import { PageHeader } from '@/components/site/page-header'
 import { getPublishedArticle } from '@/lib/articles-db'
 import { buttonSecondary, site } from '@/lib/site'
+import { getLocaleAlternates, getRequestLocale } from '@/lib/site-locales'
+import { localePath } from '@/lib/i18n'
 
 type Params = Promise<{ slug: string }>
 
@@ -16,13 +18,14 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   const { slug } = await params
   const article = await getPublishedArticle(slug)
   if (!article) return { title: 'Article not found' }
+  const locale = await getRequestLocale()
   return {
     title: article.title,
     description: article.excerpt,
-    alternates: { canonical: `/news/${article.slug}` },
+    alternates: await getLocaleAlternates(`/news/${article.slug}`),
     openGraph: {
       type: 'article', title: article.title, description: article.excerpt,
-      url: `${site.url}/news/${article.slug}`,
+      url: `${site.url}${localePath(`/news/${article.slug}`, locale)}`,
       publishedTime: article.publishedAt,
       images: article.coverImage ? [{ url: article.coverImage.src, alt: article.coverImage.alt }] : undefined,
     },
@@ -33,22 +36,24 @@ export default async function NewsArticlePage({ params }: { params: Params }) {
   const { slug } = await params
   const article = await getPublishedArticle(slug)
   if (!article) notFound()
+  const locale = await getRequestLocale()
+  const articleUrl = `${site.url}${localePath(`/news/${article.slug}`, locale)}`
   const articleLd = {
     '@context': 'https://schema.org', '@type': 'Article',
-    '@id': `${site.url}/news/${article.slug}#article`,
+    '@id': `${articleUrl}#article`,
     headline: article.title, description: article.excerpt,
     datePublished: article.publishedAt,
     image: article.coverImage?.src,
     publisher: { '@type': 'Organization', '@id': `${site.url}/#organization`, name: site.name },
-    mainEntityOfPage: `${site.url}/news/${article.slug}`,
+    mainEntityOfPage: articleUrl,
   }
   const breadcrumbLd = {
     '@context': 'https://schema.org', '@type': 'BreadcrumbList',
-    '@id': `${site.url}/news/${article.slug}#breadcrumb`,
+    '@id': `${articleUrl}#breadcrumb`,
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: site.url },
-      { '@type': 'ListItem', position: 2, name: 'News', item: `${site.url}/news` },
-      { '@type': 'ListItem', position: 3, name: article.title, item: `${site.url}/news/${article.slug}` },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `${site.url}${localePath('/', locale)}` },
+      { '@type': 'ListItem', position: 2, name: 'News', item: `${site.url}${localePath('/news', locale)}` },
+      { '@type': 'ListItem', position: 3, name: article.title, item: articleUrl },
     ],
   }
 

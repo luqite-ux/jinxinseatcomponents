@@ -1,11 +1,14 @@
-import Link from 'next/link'
+import Link from '@/components/site/locale-link'
 import { ChevronRight } from 'lucide-react'
 import { Reveal } from '@/components/site/reveal'
 import { StructureBackdrop } from '@/components/site/structure-backdrop'
 import { siteTypographyStyle } from '@/lib/site-content/typography'
 import { site } from '@/lib/site'
+import { getRequestLocale } from '@/lib/site-locales'
+import { getSiteContent } from '@/lib/site-content/site-content'
+import { localePath } from '@/lib/i18n'
 
-export function PageHeader({
+export async function PageHeader({
   eyebrow,
   title,
   description,
@@ -24,12 +27,21 @@ export function PageHeader({
   contentVersion?: string
   schemaPath?: string
 }) {
+  const locale = await getRequestLocale()
+  const snapshot = await getSiteContent(locale)
+  const navigation = snapshot?.pages.find(page => page.path === '/')?.modules.find(module => module.type === 'navigation')?.values.links
+  const labels = new Map<string, string>(Array.isArray(navigation)
+    ? navigation.flatMap(row => row && typeof row === 'object' && typeof row.href === 'string' && typeof row.label === 'string'
+      ? [[row.href.split('?')[0], row.label] as [string, string]] : [])
+    : [])
+  const homeLabel = labels.get('/') ?? 'Home'
+  const localizedCrumbs = crumbs.map(crumb => ({ ...crumb, label: labels.get((crumb.href ?? schemaPath ?? '').split('?')[0]) ?? crumb.label }))
   const breadcrumbLd = schemaPath && crumbs.length ? {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: site.url },
-      ...crumbs.map((crumb, index) => ({ '@type': 'ListItem', position: index + 2, name: crumb.label, item: `${site.url}${crumb.href ?? schemaPath}` })),
+      { '@type': 'ListItem', position: 1, name: homeLabel, item: `${site.url}${localePath('/', locale)}` },
+      ...localizedCrumbs.map((crumb, index) => ({ '@type': 'ListItem', position: index + 2, name: crumb.label, item: `${site.url}${localePath(crumb.href ?? schemaPath, locale)}` })),
     ],
   } : null
   return (
@@ -43,10 +55,10 @@ export function PageHeader({
           <ol className="flex flex-wrap items-center gap-1.5 text-sm text-ink-soft">
             <li>
               <Link href="/" className="transition-colors hover:text-jx-deep">
-                Home
+                {homeLabel}
               </Link>
             </li>
-            {crumbs.map((crumb) => (
+            {localizedCrumbs.map((crumb) => (
               <li key={crumb.label} className="flex items-center gap-1.5">
                 <ChevronRight aria-hidden className="size-3.5" />
                 {crumb.href ? (

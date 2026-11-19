@@ -17,7 +17,7 @@ const fallbackMetadata: Metadata = {
 }
 
 export async function generateMetadata(): Promise<Metadata> {
-  return { ...fallbackMetadata, ...(await siteContentMetadata('/contact', 'en')) }
+  return { ...fallbackMetadata, ...(await siteContentMetadata('/contact')) }
 }
 
 type SearchParams = Promise<{ product?: string | string[]; subject?: string | string[] }>

@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Link from '@/components/site/locale-link'
 import { ArrowRight } from 'lucide-react'
 import { Reveal } from '@/components/site/reveal'
 import { buttonPrimary } from '@/lib/site'

@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Link from '@/components/site/locale-link'
 import { buttonPrimary, buttonSecondary } from '@/lib/site'
 
 export default function NotFound() {

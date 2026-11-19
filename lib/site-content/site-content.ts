@@ -3,6 +3,9 @@ import { cache } from 'react'
 import { cookies } from 'next/headers'
 import { loadSiteSnapshot, type AdapterConfig } from './transport'
 import { PREVIEW_COOKIE } from './preview-protection'
+import { getLocaleAlternates, getRequestLocale } from '@/lib/site-locales'
+import { localePath } from '@/lib/i18n'
+import { site } from '@/lib/site'
 
 export { PREVIEW_COOKIE }
 export function adapterConfig(): AdapterConfig {
@@ -17,12 +20,22 @@ export const getSiteContent = cache(async (locale: string) => {
   const session = (await cookies()).get(PREVIEW_COOKIE)?.value ?? null
   return loadSiteSnapshot(adapterConfig(), locale, session)
 })
-export async function siteContentMetadata(path: string, locale: string) {
-  const snapshot = await getSiteContent(locale)
+export async function siteContentMetadata(path: string, locale?: string) {
+  const currentLocale = locale ?? await getRequestLocale()
+  const snapshot = await getSiteContent(currentLocale)
   const page = snapshot?.pages.find(page => page.path === path)
   const seo = page?.modules.find(module => module.type === 'seo')?.values
   const preview = Boolean((await cookies()).get(PREVIEW_COOKIE)?.value)
   return {
+    alternates: await getLocaleAlternates(path),
+    openGraph: {
+      type: 'website' as const,
+      siteName: site.name,
+      url: `${site.url}${localePath(path, currentLocale)}`,
+      ...(typeof seo?.title === 'string' && seo.title ? { title: seo.title } : {}),
+      ...(typeof seo?.description === 'string' && seo.description ? { description: seo.description } : {}),
+      images: [{ url: '/catalog/cutouts/product-row-7.webp', alt: 'Automotive seat assembly' }],
+    },
     ...(typeof seo?.title === 'string' && seo.title ? { title: seo.title } : {}),
     ...(typeof seo?.description === 'string' && seo.description ? { description: seo.description } : {}),
     ...(preview ? { robots: { index: false, follow: false } } : {}),

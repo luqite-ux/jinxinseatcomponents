@@ -1,4 +1,5 @@
-import { defaultLocale, pickLocalized } from '@/lib/i18n'
+import { pickLocalized } from '@/lib/i18n'
+import { getRequestLocale } from '@/lib/site-locales'
 import type { Article } from '@/lib/news'
 
 type DbArticle = {
@@ -35,7 +36,8 @@ function toArticle(row: DbArticle, locale: string): Article {
   }
 }
 
-export async function getPublishedArticles(locale = defaultLocale): Promise<Article[]> {
+export async function getPublishedArticles(requestedLocale?: string): Promise<Article[]> {
+  const locale = requestedLocale ?? await getRequestLocale()
   const base = process.env.NEXT_PUBLIC_SUPABASE_URL?.trim().replace(/\/$/, '')
   const key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY?.trim()
   const tenant = process.env.NEXT_PUBLIC_TENANT_ID?.trim()
@@ -55,6 +57,6 @@ export async function getPublishedArticles(locale = defaultLocale): Promise<Arti
   }
 }
 
-export async function getPublishedArticle(slug: string, locale = defaultLocale): Promise<Article | undefined> {
+export async function getPublishedArticle(slug: string, locale?: string): Promise<Article | undefined> {
   return (await getPublishedArticles(locale)).find((article) => article.slug === slug)
 }
