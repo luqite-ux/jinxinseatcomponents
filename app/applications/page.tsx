@@ -63,6 +63,7 @@ export default async function ApplicationsPage() {
         styles={intro?.styles}
         contentVersion={intro ? page.version : undefined}
         crumbs={[{ label: 'Applications' }]}
+        schemaPath="/applications"
       />
       <section aria-label="Application examples" className="mx-auto max-w-[88rem] px-5 py-12 md:px-10 md:py-20">
         <ul className="space-y-6">

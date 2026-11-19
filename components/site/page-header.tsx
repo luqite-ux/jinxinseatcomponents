@@ -3,6 +3,7 @@ import { ChevronRight } from 'lucide-react'
 import { Reveal } from '@/components/site/reveal'
 import { StructureBackdrop } from '@/components/site/structure-backdrop'
 import { siteTypographyStyle } from '@/lib/site-content/typography'
+import { site } from '@/lib/site'
 
 export function PageHeader({
   eyebrow,
@@ -12,6 +13,7 @@ export function PageHeader({
   backdrop = true,
   styles,
   contentVersion,
+  schemaPath,
 }: {
   eyebrow: string
   title: string
@@ -20,9 +22,19 @@ export function PageHeader({
   backdrop?: boolean
   styles?: Record<string, Record<string, unknown>>
   contentVersion?: string
+  schemaPath?: string
 }) {
+  const breadcrumbLd = schemaPath && crumbs.length ? {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: site.url },
+      ...crumbs.map((crumb, index) => ({ '@type': 'ListItem', position: index + 2, name: crumb.label, item: `${site.url}${crumb.href ?? schemaPath}` })),
+    ],
+  } : null
   return (
     <header {...(contentVersion ? { 'data-hq-content-version': contentVersion } : {})} className="relative overflow-hidden border-b border-line bg-paper">
+      {breadcrumbLd && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd).replace(/</g, '\\u003c') }} />}
       {backdrop && (
         <StructureBackdrop className="right-[-18%] top-0 h-full w-[85%] opacity-40 md:right-[-2%] md:w-[48%] md:opacity-100" />
       )}

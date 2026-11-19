@@ -36,6 +36,7 @@ export default async function AboutPage() {
         styles={intro?.styles}
         contentVersion={intro ? page.version : undefined}
         crumbs={[{ label: 'About' }]}
+        schemaPath="/about"
       />
 
       <section aria-labelledby="who-heading" className="mx-auto max-w-[88rem] px-5 py-14 md:px-10 md:py-20">

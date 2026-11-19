@@ -55,6 +55,7 @@ export default async function ProductsPage({ searchParams }: { searchParams: Sea
         styles={intro?.styles}
         contentVersion={intro ? editablePage.version : undefined}
         crumbs={current ? [{ label: 'Products', href: '/products' }, { label: current.name }] : [{ label: 'Products' }]}
+        schemaPath={current ? `/products?category=${current.slug}` : '/products'}
       />
 
       <section aria-labelledby="product-list-heading" className="mx-auto max-w-[88rem] px-5 py-12 md:px-10 md:py-16">

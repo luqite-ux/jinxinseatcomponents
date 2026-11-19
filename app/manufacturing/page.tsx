@@ -64,6 +64,7 @@ export default async function ManufacturingPage() {
         styles={intro?.styles}
         contentVersion={intro ? page.version : undefined}
         crumbs={[{ label: 'Manufacturing' }]}
+        schemaPath="/manufacturing"
       />
 
       <section aria-labelledby="areas-heading" className="mx-auto max-w-[88rem] px-5 py-14 md:px-10 md:py-20">

@@ -37,6 +37,7 @@ export default async function NewsPage() {
         styles={intro?.styles}
         contentVersion={intro ? page.version : undefined}
         crumbs={[{ label: 'News' }]}
+        schemaPath="/news"
       />
       <section aria-label="Articles" className="mx-auto max-w-[88rem] px-5 py-12 md:px-10 md:py-20">
         {articles.length === 0 ? (

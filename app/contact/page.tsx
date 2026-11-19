@@ -41,6 +41,7 @@ export default async function ContactPage({ searchParams }: { searchParams: Sear
         styles={intro?.styles}
         contentVersion={intro ? page.version : undefined}
         crumbs={[{ label: 'Contact' }]}
+        schemaPath="/contact"
       />
       <section aria-label="Inquiry" className="mx-auto max-w-[88rem] px-5 py-12 md:px-10 md:py-16">
         <div className="grid gap-10 lg:grid-cols-[1.4fr_1fr] lg:gap-16">
