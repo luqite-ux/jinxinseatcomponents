@@ -41,6 +41,7 @@ export default async function ApplicationsPage() {
           id: typeof row.id === 'string' ? row.id : String(index),
           title: siteCopy(row, 'title', 'Customer supplied photograph'),
           image: siteImage(row, 'image', { src: '/catalog/cutouts/product-row-17.webp', alt: 'Customer supplied seat photograph' }),
+          isCutout: ['optimized-1', 'optimized-3', 'optimized-6'].includes(typeof row.id === 'string' ? row.id : ''),
         }
       })
     : []
@@ -116,8 +117,8 @@ export default async function ApplicationsPage() {
               {gallery.map((item, index) => (
                 <Reveal as="li" key={item.id} index={index} className="list-none">
                   <figure className="h-full overflow-hidden rounded-xl border border-line bg-white">
-                    <div className="relative aspect-[3/4] bg-white">
-                      <Image src={item.image.src} alt={item.image.alt} fill sizes="(min-width: 1024px) 29vw, (min-width: 640px) 46vw, 92vw" className="object-cover" />
+                    <div className={`relative aspect-[3/4] ${item.isCutout ? 'bg-[#f4f1ec]' : 'bg-white'}`}>
+                      <Image src={item.image.src} alt={item.image.alt} fill sizes="(min-width: 1024px) 29vw, (min-width: 640px) 46vw, 92vw" className={item.isCutout ? 'object-contain' : 'object-cover'} />
                     </div>
                     <figcaption className="border-t border-line px-4 py-3 text-sm font-medium text-ink">{item.title}</figcaption>
                   </figure>

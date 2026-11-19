@@ -1,0 +1,31 @@
+{
+  "tenantId": "d189a65a-480c-4800-ab12-ac21a9d724d7",
+  "previousVersion": "0840679c-e1fa-4599-8061-e49ed2b59d16",
+  "versionId": "128010d0-246e-4de7-8263-bb14fbb0729f",
+  "changes": [
+    {
+      "index": 0,
+      "id": "optimized-1",
+      "oldAssetId": "d2c2fb80-2dfa-4309-864e-8d3fe9c898be",
+      "newAssetId": "6992608c-62ac-4cbf-a5ed-addb73080453",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/supplied-gallery/cutouts/optimized-1-4541a75b7dcde7449918.webp",
+      "sha256": "4541a75b7dcde74499182421833e803627555215ade478377ad6ae67a46e2152"
+    },
+    {
+      "index": 2,
+      "id": "optimized-3",
+      "oldAssetId": "b47993af-491d-4937-9121-8e6c8f2b20c1",
+      "newAssetId": "23116257-2007-4e69-8519-461df93d300d",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/supplied-gallery/cutouts/optimized-3-fbded39d5d1f40847b01.webp",
+      "sha256": "fbded39d5d1f40847b01adc4c9dce15790301af774ad3a2c6e678b70dfa5436f"
+    },
+    {
+      "index": 5,
+      "id": "optimized-6",
+      "oldAssetId": "9d5a3b50-461b-448b-a526-793ee690187b",
+      "newAssetId": "6cc7a545-49bc-4630-b37a-002813fdfeb6",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/supplied-gallery/cutouts/optimized-6-37d51bdcbc8ffb68786f.webp",
+      "sha256": "37d51bdcbc8ffb68786fe5cfe80a358821786e0965d5a67381415e243b0bb84a"
+    }
+  ]
+}
