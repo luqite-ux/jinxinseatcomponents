@@ -9,7 +9,7 @@ type DbProduct = {
   description_i18n: Record<string, string> | null
   specs: Record<string, string> | null
   image_url: string | null
-  extra_data: { images?: string[]; source_row?: number; subcategory?: string; source_parameters_raw?: string } | null
+  extra_data: { images?: string[]; source_row?: number; subcategory?: string } | null
   category_slug: string | null
   sort_order: number | null
 }
@@ -51,7 +51,6 @@ function localize(row: DbProduct, locale: string): Product {
     summary,
     images: urls.map((src) => ({ src, width: 1800, height: 1200, alt: `${name} product photo` })),
     specifications: Object.entries(row.specs ?? {}).map(([label, value]) => ({ label: label.replace(/^\d+\.\s*/, ''), value: String(value) })),
-    sourceParametersRaw: row.extra_data?.source_parameters_raw?.trim() || undefined,
     applications: [],
     featured: [7,17,45,65].includes(row.extra_data?.source_row ?? 0),
   }

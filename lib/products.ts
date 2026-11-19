@@ -1,6 +1,5 @@
 import { defaultLocale, pickLocalized, text, type Localized } from '@/lib/i18n'
 import sourceCatalog from '@/lib/product-catalog.json'
-import sourceParameters from '@/lib/product-source-parameters.json'
 
 export type CategorySlug = 'seat-assemblies' | 'seat-frames' | 'molded-foam'
   | 'ambulance-seats' | 'golf-cart-seats' | 'atv-seats' | 'commercial-seats' | 'special-seats'
@@ -59,7 +58,6 @@ export type Product = {
   summary: string
   images: { src: string; width: number; height: number; alt: string }[]
   specifications: { label: string; value: string }[]
-  sourceParametersRaw?: string
   applications: string[]
   featured: boolean
 }
@@ -300,7 +298,6 @@ function localizeProduct(record: ProductRecord, locale: string): Product {
     specifications: record.specifications
       .map((row) => ({ label: text(row.label, locale), value: text(row.value, locale) }))
       .filter((row) => row.label && row.value),
-    sourceParametersRaw: record.sourceRow ? (sourceParameters as Record<string, string>)[String(record.sourceRow)] : undefined,
     applications: pickLocalized(record.applications, locale) ?? [],
     featured: Boolean(record.featured),
   }

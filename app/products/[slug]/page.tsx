@@ -121,13 +121,6 @@ export default async function ProductDetailPage({ params }: { params: Params }) 
               ) : (
                 <p className="mt-3 text-sm text-ink-soft">Specifications for this product are available on request.</p>
               )}
-              {product.sourceParametersRaw && (
-                <details className="mt-5 rounded-xl border border-line bg-mist/60 px-4 py-3 text-sm">
-                  <summary className="cursor-pointer font-medium text-ink">Original technical notes · 中文原始参数</summary>
-                  <p className="mt-3 text-xs leading-relaxed text-ink-soft">Client supplied source text. Confirm final dimensions and options against the order drawing.</p>
-                  <p lang="zh-CN" className="mt-3 whitespace-pre-wrap break-words leading-relaxed text-ink-soft">{product.sourceParametersRaw}</p>
-                </details>
-              )}
             </Reveal>
 
             {product.applications.length > 0 && (
