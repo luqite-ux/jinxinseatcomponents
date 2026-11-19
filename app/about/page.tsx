@@ -73,9 +73,6 @@ export default async function AboutPage() {
                 <div>
                   <dt className="text-sm font-semibold">Company</dt>
                   <dd className="mt-1 text-sm text-ink-soft">{site.name}</dd>
-                  <dd className="text-sm text-ink-soft" lang="zh-Hans">
-                    {site.nameZh}
-                  </dd>
                 </div>
               </div>
               <div className="flex gap-4 p-5">

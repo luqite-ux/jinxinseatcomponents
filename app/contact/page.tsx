@@ -51,9 +51,6 @@ export default async function ContactPage({ searchParams }: { searchParams: Sear
           <aside aria-label="Company details" className="space-y-8">
             <Reveal index={1}>
               <h2 className="text-xl font-semibold tracking-tight">{site.name}</h2>
-              <p className="mt-1 text-sm text-ink-soft" lang="zh-Hans">
-                {site.nameZh}
-              </p>
             </Reveal>
             <Reveal index={2} as="ul" className="space-y-5 text-sm">
               <li className="flex gap-3">
