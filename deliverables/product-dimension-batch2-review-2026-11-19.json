@@ -1,0 +1,262 @@
+{
+  "checkedAt": "2026-11-19T04:48:35.267Z",
+  "rows": [
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "updatedSpecs": 41,
+  "sourceConflict": "H15 right-side product describes left-side installation; field removed from public specification and source retained in backend.",
+  "updates": [
+    {
+      "row": 13,
+      "label": "Upper berth effective net length",
+      "value": "1900mm; 1750–1850mm; 1700mm–2000mm",
+      "sourceLocator": "具体产品!H13"
+    },
+    {
+      "row": 13,
+      "label": "Effective width",
+      "value": "700–750mm; 600–680mm; 550–800mm",
+      "sourceLocator": "具体产品!H13"
+    },
+    {
+      "row": 13,
+      "label": "Overall cushion thickness",
+      "value": "50mm (standard); 40mm; 30–70mm, thickened as needed",
+      "sourceLocator": "具体产品!H13"
+    },
+    {
+      "row": 13,
+      "label": "Flip travel",
+      "value": "folds upward 90° to fit against the roof; folds upward 85°; customized according to cab interior height",
+      "sourceLocator": "具体产品!H13"
+    },
+    {
+      "row": 13,
+      "label": "Complete assembly net weight (fixed type)",
+      "value": "12–15kg; 9–12kg; adjusted with steel pipe wall thickness",
+      "sourceLocator": "具体产品!H13"
+    },
+    {
+      "row": 14,
+      "label": "Effective rest length",
+      "value": "1900mm; 1700–1820mm; 1650–2000mm",
+      "sourceLocator": "具体产品!H14"
+    },
+    {
+      "row": 14,
+      "label": "Effective berth width",
+      "value": "720mm; 620–680mm; 580–780mm",
+      "sourceLocator": "具体产品!H14"
+    },
+    {
+      "row": 14,
+      "label": "Cushion thickness",
+      "value": "50mm (standard); 40mm; 30mm–70mm, thickened as needed",
+      "sourceLocator": "具体产品!H14"
+    },
+    {
+      "row": 14,
+      "label": "Overall assembly net weight",
+      "value": "14–17kg; 10–13kg; adjusted according to pipe wall thickness",
+      "sourceLocator": "具体产品!H14"
+    },
+    {
+      "row": 15,
+      "label": "Effective rest length",
+      "value": "1900mm; 1700–1820mm; 1650–2000mm",
+      "sourceLocator": "具体产品!H15"
+    },
+    {
+      "row": 15,
+      "label": "Effective sleeper width",
+      "value": "720mm; 620–680mm; 580–780mm",
+      "sourceLocator": "具体产品!H15"
+    },
+    {
+      "row": 15,
+      "label": "Cushion thickness",
+      "value": "50mm (standard); 40mm; 30mm–70mm, thickened as required",
+      "sourceLocator": "具体产品!H15"
+    },
+    {
+      "row": 15,
+      "label": "Net weight of complete assembly",
+      "value": "14–17kg; 10–13kg; Adjusted according to pipe wall thickness",
+      "sourceLocator": "具体产品!H15"
+    },
+    {
+      "row": 16,
+      "label": "Overall seat height",
+      "value": "920mm; 850–980mm",
+      "sourceLocator": "具体产品!H16"
+    },
+    {
+      "row": 16,
+      "label": "Effective cushion seating width × depth",
+      "value": "440mm×400mm; 400–480mm×370–430mm",
+      "sourceLocator": "具体产品!H16"
+    },
+    {
+      "row": 16,
+      "label": "Cushion foam thickness",
+      "value": "45mm; 35–60mm",
+      "sourceLocator": "具体产品!H16"
+    },
+    {
+      "row": 16,
+      "label": "Backrest foam thickness",
+      "value": "40mm; 30–50mm",
+      "sourceLocator": "具体产品!H16"
+    },
+    {
+      "row": 16,
+      "label": "Slide rail fore-aft adjustment travel",
+      "value": "0–180mm; 100–250mm adjustable",
+      "sourceLocator": "具体产品!H16"
+    },
+    {
+      "row": 17,
+      "label": "Overall seat height (including headrest)",
+      "value": "1060mm; 990–1120mm",
+      "sourceLocator": "具体产品!H17"
+    },
+    {
+      "row": 17,
+      "label": "Effective cushion width × depth",
+      "value": "460mm×410mm; 420–490mm×380–440mm",
+      "sourceLocator": "具体产品!H17"
+    },
+    {
+      "row": 17,
+      "label": "Cushion foam thickness",
+      "value": "48mm; 38–60mm",
+      "sourceLocator": "具体产品!H17"
+    },
+    {
+      "row": 17,
+      "label": "Backrest foam thickness",
+      "value": "40mm; 32–52mm",
+      "sourceLocator": "具体产品!H17"
+    },
+    {
+      "row": 17,
+      "label": "Fore-aft slide rail travel",
+      "value": "180mm; 110–220mm",
+      "sourceLocator": "具体产品!H17"
+    },
+    {
+      "row": 17,
+      "label": "Cushion lift travel",
+      "value": "60mm; 35–80mm",
+      "sourceLocator": "具体产品!H17"
+    },
+    {
+      "row": 17,
+      "label": "Backrest adjustable angle",
+      "value": "90°–122°, position locking; 85°–130° customizable as required",
+      "sourceLocator": "具体产品!H17"
+    },
+    {
+      "row": 18,
+      "label": "Overall seat height (including headrest)",
+      "value": "1050mm; 980–1130mm",
+      "sourceLocator": "具体产品!H18"
+    },
+    {
+      "row": 18,
+      "label": "Effective cushion seating width × depth",
+      "value": "465mm×415mm; 420–500mm×380–450mm",
+      "sourceLocator": "具体产品!H18"
+    },
+    {
+      "row": 18,
+      "label": "Cushion foam thickness",
+      "value": "50mm; 40–65mm",
+      "sourceLocator": "具体产品!H18"
+    },
+    {
+      "row": 18,
+      "label": "Backrest foam thickness",
+      "value": "42mm; 33–55mm",
+      "sourceLocator": "具体产品!H18"
+    },
+    {
+      "row": 18,
+      "label": "Fore-aft electric adjustment travel",
+      "value": "0–200mm; 130–240mm",
+      "sourceLocator": "具体产品!H18"
+    },
+    {
+      "row": 18,
+      "label": "Cushion overall lift travel",
+      "value": "0–75mm; 40–90mm",
+      "sourceLocator": "具体产品!H18"
+    },
+    {
+      "row": 18,
+      "label": "Cushion front-end tilt adjustment travel",
+      "value": "±15°; ±10°–±20°",
+      "sourceLocator": "具体产品!H18"
+    },
+    {
+      "row": 18,
+      "label": "Backrest electric adjustment angle",
+      "value": "90°–128°; 85°–135°",
+      "sourceLocator": "具体产品!H18"
+    },
+    {
+      "row": 19,
+      "label": "Overall seat height (including headrest)",
+      "value": "1060mm; 990–1120mm",
+      "sourceLocator": "具体产品!H19"
+    },
+    {
+      "row": 19,
+      "label": "Effective cushion width × depth",
+      "value": "460mm×410mm; 420–490mm×380–440mm",
+      "sourceLocator": "具体产品!H19"
+    },
+    {
+      "row": 19,
+      "label": "Cushion foam thickness",
+      "value": "48mm; 38–60mm",
+      "sourceLocator": "具体产品!H19"
+    },
+    {
+      "row": 19,
+      "label": "Backrest foam thickness",
+      "value": "40mm; 32–52mm",
+      "sourceLocator": "具体产品!H19"
+    },
+    {
+      "row": 19,
+      "label": "Fore-aft slide rail travel",
+      "value": "180mm; 110–220mm",
+      "sourceLocator": "具体产品!H19"
+    },
+    {
+      "row": 19,
+      "label": "Cushion lift travel",
+      "value": "60mm; 35–80mm",
+      "sourceLocator": "具体产品!H19"
+    },
+    {
+      "row": 19,
+      "label": "Backrest adjustable angle",
+      "value": "90°–122°, position locking; 85°–130° customizable as required",
+      "sourceLocator": "具体产品!H19"
+    },
+    {
+      "row": 18,
+      "label": "Power supply voltage",
+      "value": "12V DC; 24V version configurable",
+      "sourceLocator": "具体产品!H18"
+    }
+  ]
+}

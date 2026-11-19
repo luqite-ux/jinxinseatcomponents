@@ -514,7 +514,7 @@
           "en": "Effective width"
         },
         "value": {
-          "en": "700~750mm | 600~680mm | 550~800mm"
+          "en": "700–750mm; 600–680mm; 550–800mm"
         }
       },
       {
@@ -523,6 +523,38 @@
         },
         "value": {
           "en": "bolted fastening to original factory reserved mounting brackets on the cab roof | dedicated vehicle adapter bracket fixing | mold-adapted according to vehicle model"
+        }
+      },
+      {
+        "label": {
+          "en": "Upper berth effective net length"
+        },
+        "value": {
+          "en": "1900mm; 1750–1850mm; 1700mm–2000mm"
+        }
+      },
+      {
+        "label": {
+          "en": "Overall cushion thickness"
+        },
+        "value": {
+          "en": "50mm (standard); 40mm; 30–70mm, thickened as needed"
+        }
+      },
+      {
+        "label": {
+          "en": "Flip travel"
+        },
+        "value": {
+          "en": "folds upward 90° to fit against the roof; folds upward 85°; customized according to cab interior height"
+        }
+      },
+      {
+        "label": {
+          "en": "Complete assembly net weight (fixed type)"
+        },
+        "value": {
+          "en": "12–15kg; 9–12kg; adjusted with steel pipe wall thickness"
         }
       }
     ],
@@ -565,7 +597,7 @@
           "en": "Effective rest length"
         },
         "value": {
-          "en": "1900mm | 1700~1820mm | 1650~2000mm"
+          "en": "1900mm; 1700–1820mm; 1650–2000mm"
         }
       },
       {
@@ -573,7 +605,7 @@
           "en": "Effective berth width"
         },
         "value": {
-          "en": "720mm | 620~680mm | 580~780mm"
+          "en": "720mm; 620–680mm; 580–780mm"
         }
       },
       {
@@ -581,7 +613,7 @@
           "en": "Overall assembly net weight"
         },
         "value": {
-          "en": "14~17kg | 10~13kg | adjusted according to pipe wall thickness"
+          "en": "14–17kg; 10–13kg; adjusted according to pipe wall thickness"
         }
       },
       {
@@ -590,6 +622,14 @@
         },
         "value": {
           "en": "original factory mounting position on the left side behind the main driver's seat in the cab | left-side fixed position with dedicated vehicle adapter bracket fixing | precisely mold-opened according to vehicle model data"
+        }
+      },
+      {
+        "label": {
+          "en": "Cushion thickness"
+        },
+        "value": {
+          "en": "50mm (standard); 40mm; 30mm–70mm, thickened as needed"
         }
       }
     ],
@@ -632,7 +672,7 @@
           "en": "Effective rest length"
         },
         "value": {
-          "en": "1900mm"
+          "en": "1900mm; 1700–1820mm; 1650–2000mm"
         }
       },
       {
@@ -640,7 +680,7 @@
           "en": "Effective sleeper width"
         },
         "value": {
-          "en": "720mm"
+          "en": "720mm; 620–680mm; 580–780mm"
         }
       },
       {
@@ -648,15 +688,15 @@
           "en": "Net weight of complete assembly"
         },
         "value": {
-          "en": "14~17kg"
+          "en": "14–17kg; 10–13kg; Adjusted according to pipe wall thickness"
         }
       },
       {
         "label": {
-          "en": "Installation position"
+          "en": "Cushion thickness"
         },
         "value": {
-          "en": "Original installation position behind the main driver on the left side of the cab"
+          "en": "50mm (standard); 40mm; 30mm–70mm, thickened as required"
         }
       }
     ],
@@ -699,7 +739,7 @@
           "en": "Overall seat height"
         },
         "value": {
-          "en": "920mm"
+          "en": "920mm; 850–980mm"
         }
       },
       {
@@ -707,7 +747,7 @@
           "en": "Effective cushion seating width × depth"
         },
         "value": {
-          "en": "440mm×400mm"
+          "en": "440mm×400mm; 400–480mm×370–430mm"
         }
       },
       {
@@ -715,7 +755,7 @@
           "en": "Backrest foam thickness"
         },
         "value": {
-          "en": "40mm"
+          "en": "40mm; 30–50mm"
         }
       },
       {
@@ -740,6 +780,22 @@
         },
         "value": {
           "en": "Base slide rail bolted to original pre-embedded mounting holes in the vehicle floor"
+        }
+      },
+      {
+        "label": {
+          "en": "Cushion foam thickness"
+        },
+        "value": {
+          "en": "45mm; 35–60mm"
+        }
+      },
+      {
+        "label": {
+          "en": "Slide rail fore-aft adjustment travel"
+        },
+        "value": {
+          "en": "0–180mm; 100–250mm adjustable"
         }
       }
     ],
@@ -782,7 +838,7 @@
           "en": "Overall seat height (including headrest)"
         },
         "value": {
-          "en": "1060mm"
+          "en": "1060mm; 990–1120mm"
         }
       },
       {
@@ -790,7 +846,7 @@
           "en": "Effective cushion width × depth"
         },
         "value": {
-          "en": "460mm×410mm"
+          "en": "460mm×410mm; 420–490mm×380–440mm"
         }
       },
       {
@@ -798,7 +854,7 @@
           "en": "Backrest foam thickness"
         },
         "value": {
-          "en": "40mm"
+          "en": "40mm; 32–52mm"
         }
       },
       {
@@ -806,7 +862,7 @@
           "en": "Backrest adjustable angle"
         },
         "value": {
-          "en": "90°~122°, position locking"
+          "en": "90°–122°, position locking; 85°–130° customizable as required"
         }
       },
       {
@@ -823,6 +879,30 @@
         },
         "value": {
           "en": "Four-point bolt direct installation to original vehicle floor fixing bracket"
+        }
+      },
+      {
+        "label": {
+          "en": "Cushion foam thickness"
+        },
+        "value": {
+          "en": "48mm; 38–60mm"
+        }
+      },
+      {
+        "label": {
+          "en": "Fore-aft slide rail travel"
+        },
+        "value": {
+          "en": "180mm; 110–220mm"
+        }
+      },
+      {
+        "label": {
+          "en": "Cushion lift travel"
+        },
+        "value": {
+          "en": "60mm; 35–80mm"
         }
       }
     ],
@@ -865,7 +945,7 @@
           "en": "Overall seat height (including headrest)"
         },
         "value": {
-          "en": "1050mm"
+          "en": "1050mm; 980–1130mm"
         }
       },
       {
@@ -873,7 +953,7 @@
           "en": "Effective cushion seating width × depth"
         },
         "value": {
-          "en": "465mm×415mm"
+          "en": "465mm×415mm; 420–500mm×380–450mm"
         }
       },
       {
@@ -881,7 +961,7 @@
           "en": "Backrest foam thickness"
         },
         "value": {
-          "en": "42mm"
+          "en": "42mm; 33–55mm"
         }
       },
       {
@@ -889,7 +969,7 @@
           "en": "Backrest electric adjustment angle"
         },
         "value": {
-          "en": "90°~128°"
+          "en": "90°–128°; 85°–135°"
         }
       },
       {
@@ -906,6 +986,46 @@
         },
         "value": {
           "en": "Four-point bolt fixing to original vehicle floor"
+        }
+      },
+      {
+        "label": {
+          "en": "Cushion foam thickness"
+        },
+        "value": {
+          "en": "50mm; 40–65mm"
+        }
+      },
+      {
+        "label": {
+          "en": "Fore-aft electric adjustment travel"
+        },
+        "value": {
+          "en": "0–200mm; 130–240mm"
+        }
+      },
+      {
+        "label": {
+          "en": "Cushion overall lift travel"
+        },
+        "value": {
+          "en": "0–75mm; 40–90mm"
+        }
+      },
+      {
+        "label": {
+          "en": "Cushion front-end tilt adjustment travel"
+        },
+        "value": {
+          "en": "±15°; ±10°–±20°"
+        }
+      },
+      {
+        "label": {
+          "en": "Power supply voltage"
+        },
+        "value": {
+          "en": "12V DC; 24V version configurable"
         }
       }
     ],
@@ -948,7 +1068,7 @@
           "en": "Overall seat height (including headrest)"
         },
         "value": {
-          "en": "1060mm"
+          "en": "1060mm; 990–1120mm"
         }
       },
       {
@@ -956,7 +1076,7 @@
           "en": "Effective cushion width × depth"
         },
         "value": {
-          "en": "460mm×410mm"
+          "en": "460mm×410mm; 420–490mm×380–440mm"
         }
       },
       {
@@ -964,7 +1084,7 @@
           "en": "Backrest foam thickness"
         },
         "value": {
-          "en": "40mm"
+          "en": "40mm; 32–52mm"
         }
       },
       {
@@ -972,7 +1092,7 @@
           "en": "Backrest adjustable angle"
         },
         "value": {
-          "en": "90°~122°, position locking"
+          "en": "90°–122°, position locking; 85°–130° customizable as required"
         }
       },
       {
@@ -989,6 +1109,30 @@
         },
         "value": {
           "en": "Four-point bolt direct installation to original vehicle floor fixing bracket"
+        }
+      },
+      {
+        "label": {
+          "en": "Cushion foam thickness"
+        },
+        "value": {
+          "en": "48mm; 38–60mm"
+        }
+      },
+      {
+        "label": {
+          "en": "Fore-aft slide rail travel"
+        },
+        "value": {
+          "en": "180mm; 110–220mm"
+        }
+      },
+      {
+        "label": {
+          "en": "Cushion lift travel"
+        },
+        "value": {
+          "en": "60mm; 35–80mm"
         }
       }
     ],

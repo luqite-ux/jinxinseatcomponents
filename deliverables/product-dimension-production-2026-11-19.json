@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "deploymentSha": "828c5c8b8a80cbab518af599e8413f3e7ed699d4",
+  "checkedAt": "2026-11-19T04:47:11.726Z",
+  "count": 12,
+  "pass": true,
+  "checks": [
+    {
+      "sourceRow": 5,
+      "route": "/products/ambulance-side-seat-cushion-jca002-032",
+      "label": "Overall length",
+      "value": "400mm / 500mm / 600mm (mainstream); 300–800mm cut to order",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "sourceRow": 5,
+      "route": "/products/ambulance-side-seat-cushion-jca002-032",
+      "label": "Width",
+      "value": "70–90mm; 50–120mm optional range",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "sourceRow": 5,
+      "route": "/products/ambulance-side-seat-cushion-jca002-032",
+      "label": "Thickness",
+      "value": "25–35mm; 20–50mm optional range",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "sourceRow": 6,
+      "route": "/products/ambulance-side-seat-cushion-jca002-058",
+      "label": "Overall length",
+      "value": "400mm / 500mm / 600mm (mainstream); 300–800mm cut to order",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "sourceRow": 6,
+      "route": "/products/ambulance-side-seat-cushion-jca002-058",
+      "label": "Width",
+      "value": "70–90mm; 50–120mm optional range",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "sourceRow": 6,
+      "route": "/products/ambulance-side-seat-cushion-jca002-058",
+      "label": "Thickness",
+      "value": "25–35mm; 20–50mm optional range",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "sourceRow": 7,
+      "route": "/products/ambulance-auxiliary-seat-assembly-jca001-045",
+      "label": "Overall seat height",
+      "value": "720mm; 650–780mm optional range",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "sourceRow": 7,
+      "route": "/products/ambulance-auxiliary-seat-assembly-jca001-045",
+      "label": "Effective backrest height",
+      "value": "480mm; 430–520mm optional range",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "sourceRow": 7,
+      "route": "/products/ambulance-auxiliary-seat-assembly-jca001-045",
+      "label": "Seat cushion foam thickness",
+      "value": "40mm; 30–50mm optional range",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "sourceRow": 7,
+      "route": "/products/ambulance-auxiliary-seat-assembly-jca001-045",
+      "label": "Backrest foam thickness",
+      "value": "35mm; 25–45mm optional range",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "sourceRow": 8,
+      "route": "/products/golf-sightseeing-cart-seat-cushion-mod2932",
+      "label": "Overall thickness",
+      "value": "40mm / 50mm two mainstream thicknesses; 30–60mm optional range",
+      "http": 200,
+      "rendered": true
+    },
+    {
+      "sourceRow": 9,
+      "route": "/products/golf-sightseeing-cart-backrest-mod2947",
+      "label": "Overall backrest thickness",
+      "value": "45mm (effective foam cushioning thickness); 35–60mm optional range",
+      "http": 200,
+      "rendered": true
+    }
+  ]
+}
