@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     title: 'Automotive Seating, From Structure to Assembly',
     description: 'Seat assemblies, seat frames and molded foam components from Zhoushan Jinxin Auto Parts.',
     url: site.url,
-    images: [{ url: '/catalog/product-row-7.jpg', alt: 'Customer supplied automotive seat assembly photograph' }],
+    images: [{ url: '/catalog/cutouts/product-row-7.webp', alt: 'Customer supplied automotive seat assembly photograph' }],
   },
   icons: { icon: '/icon.png', apple: '/apple-icon.png' },
 }

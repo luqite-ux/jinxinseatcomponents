@@ -152,7 +152,7 @@ const representativeRecords: ProductRecord[] = [
     },
     images: [
       {
-        src: '/products/front-seat-assembly.jpg',
+        src: '/catalog/cutouts/product-row-17.webp',
         width: 1067,
         height: 1600,
         alt: { en: 'Front seat assembly with perforated tan upholstery, adjustable headrest and belt buckle' },
@@ -177,7 +177,7 @@ const representativeRecords: ProductRecord[] = [
     },
     images: [
       {
-        src: '/products/folding-seat-assembly.jpg',
+        src: '/catalog/cutouts/product-row-7.webp',
         width: 1600,
         height: 1067,
         alt: { en: 'Teal folding seat assembly with armrest and three-point seat belt' },
@@ -202,7 +202,7 @@ const representativeRecords: ProductRecord[] = [
     },
     images: [
       {
-        src: '/products/seat-frame-with-slide-rails.jpg',
+        src: '/catalog/cutouts/product-row-65.webp',
         width: 1600,
         height: 1067,
         alt: { en: 'Seat frame with slide rails, tubular cross members and wire suspension elements' },
@@ -227,7 +227,7 @@ const representativeRecords: ProductRecord[] = [
     },
     images: [
       {
-        src: '/products/stamped-seat-bracket.jpg',
+        src: '/catalog/cutouts/product-row-77.webp',
         width: 1600,
         height: 1067,
         alt: { en: 'Stamped sheet-metal seat bracket with cut-outs and a welded pin' },
@@ -250,7 +250,7 @@ const representativeRecords: ProductRecord[] = [
     },
     images: [
       {
-        src: '/products/molded-seat-cushion-foam.jpg',
+        src: '/catalog/cutouts/product-row-46.webp',
         width: 1600,
         height: 1067,
         alt: { en: 'Molded seat cushion foam with contoured edge and recessed areas' },
