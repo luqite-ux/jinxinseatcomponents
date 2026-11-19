@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "tenantId": "d189a65a-480c-4800-ab12-ac21a9d724d7",
+  "checkedAt": "2026-11-19T03:32:27.217Z",
+  "pass": true,
+  "checks": {
+    "companyNameBackend": true,
+    "companyNameContact": true,
+    "companyNameFooter": true,
+    "addressBackend": true,
+    "addressContact": true,
+    "addressFooter": true,
+    "phoneBackend": true,
+    "phoneContact": true,
+    "phoneFooter": true,
+    "certificateBackend": true,
+    "certificateFrontend": true
+  },
+  "failed": [],
+  "source": "company-questionnaire Excel cells C3,C4,C6 and PPT slide 40 certificate image123"
+}

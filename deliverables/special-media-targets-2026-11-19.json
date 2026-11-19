@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "tenantId": "d189a65a-480c-4800-ab12-ac21a9d724d7",
+  "checkedAt": "2026-11-19T03:34:14.394Z",
+  "pass": true,
+  "checks": [
+    {
+      "mediaId": "company-xlsx-image1.png",
+      "route": "/",
+      "sourceHash": "sha256:25e8e1fe9ca327b1fefe0b3df4e6feda387b09e4fdeb29cc730de923659f6f26",
+      "publishedHash": "sha256:25e8e1fe9ca327b1fefe0b3df4e6feda387b09e4fdeb29cc730de923659f6f26",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image123.jpeg",
+      "route": "/manufacturing",
+      "sourceHash": "sha256:de2de9cbc44f460ed442c06f5a275edfc6d8bf13ed31fe2c3b907bb9792ec4e9",
+      "publishedHash": "sha256:de2de9cbc44f460ed442c06f5a275edfc6d8bf13ed31fe2c3b907bb9792ec4e9",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "pptx-image113.png",
+      "route": "/manufacturing",
+      "sourceHash": "sha256:dcb5462b735ce4cf365c3d922510eac03be407cba6fca4f0cbbd5d8cb7176986",
+      "publishedHash": "sha256:b0be9c7be4b6ddcfd839a7ce78809742c092a260cf6800b390927a009e489bba",
+      "result": "PASS"
+    }
+  ]
+}

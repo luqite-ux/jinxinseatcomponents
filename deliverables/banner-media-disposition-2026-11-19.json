@@ -1,0 +1,28 @@
+{
+  "checkedAt": "2026-11-19T03:37:05.624Z",
+  "affected": [
+    {
+      "sourceId": "standalone-1",
+      "sourcePath": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\banner\\1.jpg",
+      "fingerprint": "sha256:cd68bd94cee6812c55e90d093f7fc43b1484af1cc694dec201b01bab524e5447",
+      "decision": "excluded_by_rule",
+      "reasonCode": "not_public_buyer_value"
+    },
+    {
+      "sourceId": "standalone-2",
+      "sourcePath": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\banner\\2.jpg",
+      "fingerprint": "sha256:5eeaf38b1d58b4be82abd8c1ff18569e9ad912aece457e7ef452533273778410",
+      "decision": "excluded_by_rule",
+      "reasonCode": "not_public_buyer_value"
+    },
+    {
+      "sourceId": "standalone-3",
+      "sourcePath": "E:\\E暂存\\1577-环球出海舟山金欣汽车零部件有限公司\\banner\\3.jpg",
+      "fingerprint": "sha256:02275ea47fb8351c5260feed41407754596cbfc3c224c8f90486371500e6073a",
+      "decision": "excluded_by_rule",
+      "reasonCode": "not_public_buyer_value"
+    }
+  ],
+  "result": "SOURCE_EXCLUDED_WITH_REASON",
+  "publicHeroEvidence": "D:/Cursor/Grand/dulizhan/jinxinseatcomponents/deliverables/visual-evidence/formal-home-desktop-revealed-6abee80.png"
+}

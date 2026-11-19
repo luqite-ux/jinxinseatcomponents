@@ -58,6 +58,7 @@ export type Product = {
   summary: string
   images: { src: string; width: number; height: number; alt: string }[]
   specifications: { label: string; value: string }[]
+  sourceParametersRaw?: string
   applications: string[]
   featured: boolean
 }

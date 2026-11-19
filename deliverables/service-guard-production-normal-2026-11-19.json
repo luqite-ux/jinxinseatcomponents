@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "taskId": "092eb2af-f4cd-4d6d-9d34-f8be88035476",
+  "customerTenantId": "d189a65a-480c-4800-ab12-ac21a9d724d7",
+  "environmentId": "prj_BC7yx7l0F4KKFTaJj4df5oUgQoar",
+  "deploymentSha": "f280b785c28da64ede3256868e2149cc9aff61ff",
+  "guardVersion": "1",
+  "check": "normal",
+  "result": "PASS",
+  "productionVerified": true,
+  "verifiedAt": "2026-11-19T03:22:03.923Z",
+  "statusUrl": "https://admin.globle-trade.com/api/public/service-status/d189a65a-480c-4800-ab12-ac21a9d724d7",
+  "statusHttp": 200,
+  "publicStatus": {
+    "available": true,
+    "status": "active",
+    "version": 1
+  },
+  "homepageUrl": "https://jinxinseatcomponents.com",
+  "homepageHttp": 200
+}
