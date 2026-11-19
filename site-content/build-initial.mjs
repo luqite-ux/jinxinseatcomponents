@@ -32,7 +32,7 @@ const nav = [
   ['manufacturing', 'Manufacturing', '/manufacturing'], ['about', 'About', '/about'], ['news', 'News', '/news'], ['contact', 'Contact', '/contact'],
 ]
 const definition = {
-  version: 1,
+  version: 2,
   fontFamilies: [family('site-sans', 'Geist Sans'), family('site-mono', 'Geist Mono')],
   pages: [{ key: 'home', path: '/', label: 'Homepage', modules: [
     module('hero', 'Hero carousel', [type('slides', 'repeat', 'Three customer supplied slides', { maxItems: 3, required: true, fields: [
@@ -137,15 +137,33 @@ const areas = [
   { id: 'foam', title: 'Molded foam components', description: 'Molded foam for seat cushions and backs, produced to the shape of the seat it supports.' },
   { id: 'assembly', title: 'Seat assembly', description: 'Frame, foam and trim brought together into complete seat configurations.' },
 ]
+const companyGallery = [
+  ['2', 'Production equipment', 'Rows of production machines with yellow robotic arms'],
+  ['3', 'Workshop line', 'Equipment and workstations in a production workshop'],
+  ['4', 'Production workshop', 'Worker beside production tanks in a workshop'],
+  ['5', 'Seat frame storage', 'Metal seat frames stored on green racks'],
+  ['6', 'Trim workstations', 'Rows of workstations in a light industrial workshop'],
+  ['7', 'Sewing equipment', 'Rows of industrial sewing machines'],
+  ['8', 'Team at work', 'Team members working at office desks'],
+  ['9', 'Company building', 'Exterior of the building shown in the company profile'],
+]
 const manufacturingPage = definition.pages.find((page) => page.key === 'manufacturing_page')
 manufacturingPage.modules.splice(1, 0, module('copy', 'Manufacturing content', [
   ...Object.keys(manufacturingCopy).map((key) => type(key, key.endsWith('description') || key === 'cta_text' ? 'textarea' : 'text', key.replaceAll('_', ' '), { localized: true, required: true, maxLength: 500 })),
   type('areas', 'repeat', 'Product scope', { required: true, maxItems: 3, fields: [type('title', 'text', 'Area title', { localized: true, required: true, maxLength: 130 }), type('description', 'textarea', 'Area description', { localized: true, required: true, maxLength: 400 }), type('image', 'image', 'Customer product photograph', { required: true })] }),
   type('floor_image', 'image', 'Factory floor photograph', { required: true }),
   type('certificate_image', 'image', 'IATF certificate scan', { required: true }),
+  type('gallery_title', 'text', 'Company photograph gallery heading', { localized: true, required: true, maxLength: 160 }),
+  type('gallery_description', 'textarea', 'Company photograph gallery description', { localized: true, required: true, maxLength: 400 }),
+  type('gallery', 'repeat', 'Company profile photographs', { required: true, maxItems: 8, fields: [type('title', 'text', 'Photograph title', { localized: true, required: true, maxLength: 130 }), type('image', 'image', 'Customer supplied photograph', { required: true })] }),
 ]))
 content.pages.manufacturing_page.order.splice(1, 0, 'copy')
 content.pages.manufacturing_page.modules.copy = { hidden: false, values: { ...Object.fromEntries(Object.entries(manufacturingCopy).map(([key, value]) => [key, local(value)])), areas: areas.map((area) => ({ id: area.id, title: local(area.title), description: local(area.description), image: pageImage(area.id === 'frames' ? 'products/seat-frame-with-slide-rails.jpg' : area.id === 'foam' ? 'products/molded-seat-cushion-foam.jpg' : 'products/front-seat-assembly.jpg', `Customer supplied ${area.title.toLowerCase()} photograph`) })), floor_image: pageImage('facility/press-line.png', 'Row of stamping presses with yellow robotic arms on the Jinxin factory floor'), certificate_image: pageImage('quality/iatf-16949-certificate.jpg', 'DQS IATF 16949:2016 certificate for Zhoushan Jinxin Auto Parts') } }
+Object.assign(content.pages.manufacturing_page.modules.copy.values, {
+  gallery_title: local('Inside the company profile'),
+  gallery_description: local('Workshop, equipment, office and building photographs supplied in the company information workbook.'),
+  gallery: companyGallery.map(([number, title, alt]) => ({ id: `profile-${number}`, title: local(title), image: pageImage(`facility/company-gallery/${number}.png`, alt) })),
+})
 integration.modules.push('manufacturing_page.copy')
 const applicationExamples = [
   { id: 'front-seating', title: 'Front seating', summary: 'Front seat assemblies with headrest, backrest and cushion, supported by seat frames and molded foam.', cta: 'Browse seat assemblies', href: '/products?category=seat-assemblies' },

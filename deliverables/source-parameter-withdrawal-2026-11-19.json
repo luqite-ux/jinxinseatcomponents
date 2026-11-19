@@ -1,0 +1,360 @@
+{
+  "checkedAt": "2026-11-19T03:53:16.969Z",
+  "deploymentSha": "ffb0ecf9d55a45cfd96063671a3c9982e3a61a56",
+  "checked": 39,
+  "passCount": 39,
+  "pass": true,
+  "checks": [
+    {
+      "row": 5,
+      "slug": "ambulance-side-seat-cushion-jca002-032",
+      "status": 200,
+      "sourceLead": "总长 400mm /",
+      "noteVisible": false,
+      "chineseSourceVisible": false,
+      "pass": true
+    },
+    {
+      "row": 6,
+      "slug": "ambulance-side-seat-cushion-jca002-058",
+      "status": 200,
+      "sourceLead": "总长 400mm /",
+      "noteVisible": false,
+      "chineseSourceVisible": false,
+      "pass": true
+    },
+    {
+      "row": 7,
+      "slug": "ambulance-auxiliary-seat-assembly-jca001-045",
+      "status": 200,
+      "sourceLead": "座椅整体总高 720mm 650~780mm",
+      "noteVisible": false,
+      "chineseSourceVisible": false,
+      "pass": true
+    },
+    {
+      "row": 8,
+      "slug": "golf-sightseeing-cart-seat-cushion-mod2932",
+      "status": 200,
+      "sourceLead": "外形长 × 宽",
+      "noteVisible": false,
+      "chineseSourceVisible": false,
+      "pass": true
+    },
+    {
+      "row": 9,
+      "slug": "golf-sightseeing-cart-backrest-mod2947",
+      "status": 200,
+      "sourceLead": "整体外形高 × 宽",
+      "noteVisible": false,
+      "chineseSourceVisible": false,
+      "pass": true
+    },
+    {
+      "row": 10,
+      "slug": "golf-sightseeing-cart-seat-cushion-trv022",
+      "status": 200,
+      "sourceLead": "表层材质 加厚耐磨环保 PU",
+      "noteVisible": false,
+      "chineseSourceVisible": false,
+      "pass": true
+    },
+    {
+      "row": 11,
+      "slug": "atv-one-piece-front-seat-cushion-assembly-atv-01",
+      "status": 200,
+      "sourceLead": "表面面料 加厚耐磨 PU",
+      "noteVisible": false,
+      "chineseSourceVisible": false,
+      "pass": true
+    },
+    {
+      "row": 13,
+      "slug": "upper-sleeper-assembly-7600910-c8302",
+      "status": 200,
+      "sourceLead": "卧铺有效净长度 1900mm 1750~1850mm",
+      "noteVisible": false,
+      "chineseSourceVisible": false,
+      "pass": true
+    },
+    {
+      "row": 14,
+      "slug": "lower-sleeper-assembly-left-7600020-c7304",
+      "status": 200,
+      "sourceLead": "参数类别 重卡标准版 中卡适配版",
+      "noteVisible": false,
+      "chineseSourceVisible": false,
+      "pass": true
+    },
+    {
+      "row": 15,
+      "slug": "lower-sleeper-assembly-right-7600040-c7304",
+      "status": 200,
+      "sourceLead": "参数类别 重卡标准版 中卡适配版",
+      "noteVisible": false,
+      "chineseSourceVisible": false,
+      "pass": true
+    },
+    {
+      "row": 16,
+      "slug": "passenger-seat-assembly-6900010-c7302",
+      "status": 200,
+      "sourceLead": "座椅整体总高度 920mm 850~980mm",
+      "noteVisible": false,
+      "chineseSourceVisible": false,
+      "pass": true
+    },
+    {
+      "row": 17,
+      "slug": "ppa006-series-manual-four-way-driver-seat-assembly-ppa006",
+      "status": 200,
+      "sourceLead": "座椅总高（含头枕） 1060mm 990～1120mm",
+      "noteVisible": false,
+      "chineseSourceVisible": false,
+      "pass": true
+    },
+    {
+      "row": 18,
+      "slug": "pt008-series-electric-six-way-driver-seat-assembly-pt008",
+      "status": 200,
+      "sourceLead": "座椅总高度（含头枕） 1050mm 980~1130mm",
+      "noteVisible": false,
+      "chineseSourceVisible": false,
+      "pass": true
+    },
+    {
+      "row": 19,
+      "slug": "e36-series-manual-four-way-driver-seat-assembly-e36",
+      "status": 200,
+      "sourceLead": "座椅总高（含头枕） 1060mm 990～1120mm",
+      "noteVisible": false,
+      "chineseSourceVisible": false,
+      "pass": true
+    },
+    {
+      "row": 20,
+      "slug": "passenger-seat-assembly-6900010-c5902",
+      "status": 200,
+      "sourceLead": "安装形式 固定底座四点螺栓直装，无前后滑轨 靠背调节角度",
+      "noteVisible": false,
+      "chineseSourceVisible": false,
+      "pass": true
+    },
+    {
+      "row": 21,
+      "slug": "driver-seat-assembly-6800010-c5104",
+      "status": 200,
+      "sourceLead": "核心结构 空气气囊 +",
+      "noteVisible": false,
+      "chineseSourceVisible": false,
+      "pass": true
+    },
+    {
+      "row": 22,
+      "slug": "crv-17-series-driver-seat-assembly-crv-17",
+      "status": 200,
+      "sourceLead": "安全带形式 座椅一体式三点式安全带（卷收器集成靠背） 基础调节功能",
+      "noteVisible": false,
+      "chineseSourceVisible": false,
+      "pass": true
+    },
+    {
+      "row": 23,
+      "slug": "gaming-chair-jac-008",
+      "status": 200,
+      "sourceLead": "调节方式：座椅升降、靠背角度锁定、四向无极扶手； 电器配置：坐垫通风系统 +",
+      "noteVisible": false,
+      "chineseSourceVisible": false,
+      "pass": true
+    },
+    {
+      "row": 24,
+      "slug": "memory-foam-lumbar-support-jx-a001",
+      "status": 200,
+      "sourceLead": "材质原料 国产慢回弹记忆棉 巴斯夫",
+      "noteVisible": false,
+      "chineseSourceVisible": false,
+      "pass": true
+    },
+    {
+      "row": 33,
+      "slug": "b-1282-pet-mat-b-1282",
+      "status": 200,
+      "sourceLead": "基础舒适款 普通慢回弹记忆棉 +",
+      "noteVisible": false,
+      "chineseSourceVisible": false,
+      "pass": true
+    },
+    {
+      "row": 36,
+      "slug": "g01-241-front-row-headrest-assembly-g01-241",
+      "status": 200,
+      "sourceLead": "材质：汽车专用高密度 PUR 聚氨酯发泡",
+      "noteVisible": false,
+      "chineseSourceVisible": false,
+      "pass": true
+    },
+    {
+      "row": 45,
+      "slug": "sc-a10-01-driver-seat-cushion-foam-assembly-sc-a10-01",
+      "status": 200,
+      "sourceLead": "）主体基材：高活性聚醚多元醇（分子量 4000~6000，HR 专用高回弹聚醚），搭建高弹性分子骨架",
+      "noteVisible": false,
+      "chineseSourceVisible": false,
+      "pass": true
+    },
+    {
+      "row": 46,
+      "slug": "jf-011-driver-backrest-foam-assembly-jf-011",
+      "status": 200,
+      "sourceLead": "回弹率：≥60% 压缩永久变形：≤4%（50℃、22h 恒定压缩测试）",
+      "noteVisible": false,
+      "chineseSourceVisible": false,
+      "pass": true
+    },
+    {
+      "row": 48,
+      "slug": "lp-03-006-rear-row-4-split-backrest-foam-assembly-lp-03-006",
+      "status": 200,
+      "sourceLead": "开孔率：≥92% 全贯通开孔结构，气流穿透性极强 空气透气度：12～18mm/s，风机气流可以无阻碍穿透整层海绵，不会堵风",
+      "noteVisible": false,
+      "chineseSourceVisible": false,
+      "pass": true
+    },
+    {
+      "row": 53,
+      "slug": "hy-b07-front-row-seat-cushion-foam-assembly-hy-b07",
+      "status": 200,
+      "sourceLead": "表层乘坐软区 32～38 kg/m³",
+      "noteVisible": false,
+      "chineseSourceVisible": false,
+      "pass": true
+    },
+    {
+      "row": 54,
+      "slug": "hy-b07-front-row-backrest-foam-assembly-hy-b07",
+      "status": 200,
+      "sourceLead": "表层乘坐软区 32～38 kg/m³",
+      "noteVisible": false,
+      "chineseSourceVisible": false,
+      "pass": true
+    },
+    {
+      "row": 55,
+      "slug": "gfdg-45-pu-self-skinning-armrest-assembly-gfdg-45",
+      "status": 200,
+      "sourceLead": "表自结皮层 450～600 kg/m³",
+      "noteVisible": false,
+      "chineseSourceVisible": false,
+      "pass": true
+    },
+    {
+      "row": 63,
+      "slug": "pt008-series-manual-front-row-backrest-frame-assembly-pt008",
+      "status": 200,
+      "sourceLead": "围主框架 Q235 冷轧无缝钢管，壁厚",
+      "noteVisible": false,
+      "chineseSourceVisible": false,
+      "pass": true
+    },
+    {
+      "row": 64,
+      "slug": "pt008-series-electric-front-row-backrest-frame-assembly-pt008",
+      "status": 200,
+      "sourceLead": "围主框架 Q235 冷轧无缝钢管，壁厚",
+      "noteVisible": false,
+      "chineseSourceVisible": false,
+      "pass": true
+    },
+    {
+      "row": 65,
+      "slug": "pt008-series-manual-front-seat-cushion-frame-assembly-pt008",
+      "status": 200,
+      "sourceLead": "坐垫主框架 Q235 冷轧钢管，壁厚",
+      "noteVisible": false,
+      "chineseSourceVisible": false,
+      "pass": true
+    },
+    {
+      "row": 66,
+      "slug": "pt008-series-electric-front-seat-cushion-frame-assembly-pt008",
+      "status": 200,
+      "sourceLead": "坐垫主框架 Q235 冷轧钢管，壁厚",
+      "noteVisible": false,
+      "chineseSourceVisible": false,
+      "pass": true
+    },
+    {
+      "row": 67,
+      "slug": "pt008-series-rear-seat-cushion-frame-assembly-pt008",
+      "status": 200,
+      "sourceLead": "六分体主框架 Q235 冷轧钢管，壁厚",
+      "noteVisible": false,
+      "chineseSourceVisible": false,
+      "pass": true
+    },
+    {
+      "row": 68,
+      "slug": "pt008-series-rear-backrest-frame-assembly-pt008",
+      "status": 200,
+      "sourceLead": "主框架及加强筋钢管 Q235 冷轧钢管，壁厚",
+      "noteVisible": false,
+      "chineseSourceVisible": false,
+      "pass": true
+    },
+    {
+      "row": 69,
+      "slug": "kp01-002-headrest-rod-kp01-002",
+      "status": 200,
+      "sourceLead": "管材类型：高精度冷轧空心光亮钢管 常用管径：φ8mm /",
+      "noteVisible": false,
+      "chineseSourceVisible": false,
+      "pass": true
+    },
+    {
+      "row": 74,
+      "slug": "gs-01-04-headrest-frame-assembly-gs-01-04",
+      "status": 200,
+      "sourceLead": "调节行程 上下升降行程：70～110mm，常规 5～8",
+      "noteVisible": false,
+      "chineseSourceVisible": false,
+      "pass": true
+    },
+    {
+      "row": 75,
+      "slug": "31xx-024-headrest-frame-assembly-31xx-024",
+      "status": 200,
+      "sourceLead": "最大翻折角度：精准向后 90° 限位，自带机械限位挡块，不会过度翻转；",
+      "noteVisible": false,
+      "chineseSourceVisible": false,
+      "pass": true
+    },
+    {
+      "row": 76,
+      "slug": "k04-20-001-headrest-frame-assembly-k04-20-001",
+      "status": 200,
+      "sourceLead": "调节参数 前后俯仰调节角度：向前 5°～18°、向后",
+      "noteVisible": false,
+      "chineseSourceVisible": false,
+      "pass": true
+    },
+    {
+      "row": 77,
+      "slug": "p758-rear-center-armrest-frame-assembly-p758",
+      "status": 200,
+      "sourceLead": "力学承载性能 扶手水平放置时中心施加 150kg",
+      "noteVisible": false,
+      "chineseSourceVisible": false,
+      "pass": true
+    },
+    {
+      "row": 79,
+      "slug": "a10-01-front-armrest-frame-assembly-a10-01",
+      "status": 200,
+      "sourceLead": "承载性能 扶手水平工作位置施加额定静载荷，骨架无永久弯折变形，长期倚靠不下塌； 开合耐久",
+      "noteVisible": false,
+      "chineseSourceVisible": false,
+      "pass": true
+    }
+  ]
+}

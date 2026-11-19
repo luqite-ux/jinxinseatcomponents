@@ -35,6 +35,46 @@
       "assetId": "bc541ff7-d3d4-438c-8bbb-807fb1d573c4",
       "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/site-content/bf6ecebbc90ee75983d61229.jpg",
       "sha256": "bf6ecebbc90ee75983d612297353e06f4aa09636fd11814a7cc3e4ae296449f9"
+    },
+    "facility/company-gallery/2.png": {
+      "assetId": "0014a134-ebd5-4fec-8e3e-880d802fcc85",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/company-gallery/b0be9c7be4b6ddcfd839a7ce.png",
+      "sha256": "b0be9c7be4b6ddcfd839a7ce78809742c092a260cf6800b390927a009e489bba"
+    },
+    "facility/company-gallery/3.png": {
+      "assetId": "404e3650-75f6-4c8e-9b5c-3b9260879fb5",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/company-gallery/ea0c4de6518435d3ac307b52.png",
+      "sha256": "ea0c4de6518435d3ac307b5299956de3ec456c0d18f7c09ed051cfeeb2807c62"
+    },
+    "facility/company-gallery/4.png": {
+      "assetId": "3d18e38e-4584-4245-a603-8e1ab3f1fa29",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/company-gallery/12490d2928c9cf579177724c.png",
+      "sha256": "12490d2928c9cf579177724c0ab2b92a4aed68e45e42aef1e4c6c7b6a61ddb92"
+    },
+    "facility/company-gallery/5.png": {
+      "assetId": "7f4c5785-759f-4b96-9c8f-e81757e6f023",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/company-gallery/df86826dfdeaa68c10c756d8.png",
+      "sha256": "df86826dfdeaa68c10c756d84f6b91b86cd920a3ead5aa684e6758185f0c701a"
+    },
+    "facility/company-gallery/6.png": {
+      "assetId": "088141b4-5509-448e-a211-473886279c46",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/company-gallery/49d3d3dec7e6df183f93f5bc.png",
+      "sha256": "49d3d3dec7e6df183f93f5bc05be79cc60cbaf326723103d217a438061563251"
+    },
+    "facility/company-gallery/7.png": {
+      "assetId": "d822ba42-0dfc-4824-9289-1c86cb42c1c5",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/company-gallery/fbd4943e77fecca3ea14a5dd.png",
+      "sha256": "fbd4943e77fecca3ea14a5dd031f99f4fe3f207aa9c5c018679ddef19be1f0ad"
+    },
+    "facility/company-gallery/8.png": {
+      "assetId": "5eabb0f4-1255-4f83-a228-f8eb73474ee0",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/company-gallery/fc3ade2cf5ad041f05e3cc19.png",
+      "sha256": "fc3ade2cf5ad041f05e3cc195adac7d573ef35d3dc13cef99b4d412c7f1569a3"
+    },
+    "facility/company-gallery/9.png": {
+      "assetId": "02ff7583-7330-4c7b-9d50-8530a76d20ae",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/company-gallery/38c83c24480d731fc15d47fc.png",
+      "sha256": "38c83c24480d731fc15d47fc07c5077ff81edadcb58547cc8fe24f68e6719518"
     }
   }
 }

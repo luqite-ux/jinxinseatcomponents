@@ -34,6 +34,16 @@ export default async function ManufacturingPage() {
   })
   const floorImage = siteImage(copy, 'floor_image', { src: '/facility/press-line.png', alt: 'Row of stamping presses with yellow robotic arms on the Jinxin factory floor' })
   const certificateImage = siteImage(copy, 'certificate_image', { src: '/quality/iatf-16949-certificate.jpg', alt: 'IATF 16949:2016 certificate issued by DQS to Zhoushan Jinxin Auto Parts Co., Ltd. for the design and production of seat components' })
+  const gallery = Array.isArray(copy?.gallery)
+    ? copy.gallery.map((item: unknown, index: number) => {
+        const row = item && typeof item === 'object' ? item as Record<string, unknown> : {}
+        return {
+          id: typeof row.id === 'string' ? row.id : String(index),
+          title: siteCopy(row, 'title', 'Company photograph'),
+          image: siteImage(row, 'image', { src: '/facility/press-line.png', alt: 'Company supplied production photograph' }),
+        }
+      })
+    : []
   return (
     <>
       <PageHeader
@@ -93,6 +103,29 @@ export default async function ManufacturingPage() {
           </Reveal>
         </div>
       </section>
+
+      {gallery.length > 0 && (
+        <section aria-labelledby="company-gallery-heading" className="mx-auto max-w-[88rem] px-5 py-14 md:px-10 md:py-20">
+          <SectionHeading
+            id="company-gallery-heading"
+            eyebrow="Company profile"
+            title={siteCopy(copy, 'gallery_title', 'Inside the company profile')}
+            description={siteCopy(copy, 'gallery_description', 'Photographs supplied in the company information workbook.')}
+          />
+          <ul className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {gallery.map((item, index) => (
+              <Reveal as="li" key={item.id} index={index} className="list-none">
+                <figure className="h-full overflow-hidden rounded-xl bg-mist">
+                  <div className="relative aspect-[4/3]">
+                    <Image src={item.image.src} alt={item.image.alt} fill sizes="(min-width: 1024px) 22vw, (min-width: 640px) 46vw, 92vw" className="object-cover" />
+                  </div>
+                  <figcaption className="px-4 py-3 text-sm font-medium text-ink">{item.title}</figcaption>
+                </figure>
+              </Reveal>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <section aria-labelledby="quality-heading" className="mx-auto max-w-[88rem] px-5 py-14 md:px-10 md:py-20">
         <div className="grid gap-10 lg:grid-cols-[1.1fr_1fr] lg:items-center lg:gap-16">

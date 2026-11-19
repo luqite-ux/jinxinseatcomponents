@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "fontFamilies": [
     {
       "key": "site-sans",
@@ -1903,6 +1903,45 @@
               "type": "image",
               "label": "IATF certificate scan",
               "required": true
+            },
+            {
+              "key": "gallery_title",
+              "type": "text",
+              "label": "Company photograph gallery heading",
+              "localized": true,
+              "required": true,
+              "maxLength": 160
+            },
+            {
+              "key": "gallery_description",
+              "type": "textarea",
+              "label": "Company photograph gallery description",
+              "localized": true,
+              "required": true,
+              "maxLength": 400
+            },
+            {
+              "key": "gallery",
+              "type": "repeat",
+              "label": "Company profile photographs",
+              "required": true,
+              "maxItems": 8,
+              "fields": [
+                {
+                  "key": "title",
+                  "type": "text",
+                  "label": "Photograph title",
+                  "localized": true,
+                  "required": true,
+                  "maxLength": 130
+                },
+                {
+                  "key": "image",
+                  "type": "image",
+                  "label": "Customer supplied photograph",
+                  "required": true
+                }
+              ]
             }
           ]
         },

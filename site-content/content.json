@@ -767,7 +767,111 @@
               "alt": {
                 "en": "DQS IATF 16949:2016 certificate for Zhoushan Jinxin Auto Parts"
               }
-            }
+            },
+            "gallery_title": {
+              "en": "Inside the company profile"
+            },
+            "gallery_description": {
+              "en": "Workshop, equipment, office and building photographs supplied in the company information workbook."
+            },
+            "gallery": [
+              {
+                "id": "profile-2",
+                "title": {
+                  "en": "Production equipment"
+                },
+                "image": {
+                  "assetId": "0014a134-ebd5-4fec-8e3e-880d802fcc85",
+                  "alt": {
+                    "en": "Rows of production machines with yellow robotic arms"
+                  }
+                }
+              },
+              {
+                "id": "profile-3",
+                "title": {
+                  "en": "Workshop line"
+                },
+                "image": {
+                  "assetId": "404e3650-75f6-4c8e-9b5c-3b9260879fb5",
+                  "alt": {
+                    "en": "Equipment and workstations in a production workshop"
+                  }
+                }
+              },
+              {
+                "id": "profile-4",
+                "title": {
+                  "en": "Production workshop"
+                },
+                "image": {
+                  "assetId": "3d18e38e-4584-4245-a603-8e1ab3f1fa29",
+                  "alt": {
+                    "en": "Worker beside production tanks in a workshop"
+                  }
+                }
+              },
+              {
+                "id": "profile-5",
+                "title": {
+                  "en": "Seat frame storage"
+                },
+                "image": {
+                  "assetId": "7f4c5785-759f-4b96-9c8f-e81757e6f023",
+                  "alt": {
+                    "en": "Metal seat frames stored on green racks"
+                  }
+                }
+              },
+              {
+                "id": "profile-6",
+                "title": {
+                  "en": "Trim workstations"
+                },
+                "image": {
+                  "assetId": "088141b4-5509-448e-a211-473886279c46",
+                  "alt": {
+                    "en": "Rows of workstations in a light industrial workshop"
+                  }
+                }
+              },
+              {
+                "id": "profile-7",
+                "title": {
+                  "en": "Sewing equipment"
+                },
+                "image": {
+                  "assetId": "d822ba42-0dfc-4824-9289-1c86cb42c1c5",
+                  "alt": {
+                    "en": "Rows of industrial sewing machines"
+                  }
+                }
+              },
+              {
+                "id": "profile-8",
+                "title": {
+                  "en": "Team at work"
+                },
+                "image": {
+                  "assetId": "5eabb0f4-1255-4f83-a228-f8eb73474ee0",
+                  "alt": {
+                    "en": "Team members working at office desks"
+                  }
+                }
+              },
+              {
+                "id": "profile-9",
+                "title": {
+                  "en": "Company building"
+                },
+                "image": {
+                  "assetId": "02ff7583-7330-4c7b-9d50-8530a76d20ae",
+                  "alt": {
+                    "en": "Exterior of the building shown in the company profile"
+                  }
+                }
+              }
+            ]
           }
         }
       }
