@@ -122,6 +122,7 @@ html[data-reveal='ready'] [data-reveal]:not(.is-visible) {
   .hero-media-right .hero-art {
     left: 0 !important;
     right: auto !important;
+    width: 52% !important;
     -webkit-mask-image: linear-gradient(to left, transparent, #000 22%);
     mask-image: linear-gradient(to left, transparent, #000 22%);
   }
