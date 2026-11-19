@@ -25,13 +25,14 @@ export const metadata: Metadata = {
   description:
     'Zhoushan Jinxin Auto Parts Co., Ltd. makes automotive seat assemblies, seat frames and molded foam components. Browse the product range and send your requirements.',
   applicationName: site.name,
+  robots: { index: true, follow: true, 'max-image-preview': 'large' },
   openGraph: {
     type: 'website',
     siteName: site.name,
     title: 'Automotive Seating, From Structure to Assembly',
     description: 'Seat assemblies, seat frames and molded foam components from Zhoushan Jinxin Auto Parts.',
     url: site.url,
-    images: [{ url: '/catalog/cutouts/product-row-7.webp', alt: 'Customer supplied automotive seat assembly photograph' }],
+    images: [{ url: '/catalog/cutouts/product-row-7.webp', alt: 'Automotive seat assembly' }],
   },
   icons: { icon: '/icon.png', apple: '/apple-icon.png' },
 }
