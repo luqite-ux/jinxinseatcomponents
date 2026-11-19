@@ -13,7 +13,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   ])
   return [
     ...staticPaths.map((path) => ({ url: `${site.url}${path}` })),
-    ...products.items.map((product) => ({ url: `${site.url}/products/${product.slug}` })),
+    ...products.items.map((product) => ({ url: `${site.url}/products/${product.slug}`, lastModified: product.updatedAt || undefined })),
     ...articles.map((article) => ({ url: `${site.url}/news/${article.slug}`, lastModified: article.publishedAt || undefined })),
   ]
 }

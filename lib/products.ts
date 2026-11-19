@@ -50,6 +50,7 @@ export type Category = {
 export type Product = {
   id: string
   slug: string
+  updatedAt?: string
   categorySlug: CategorySlug
   parentCategorySlug?: CategorySlug
   categoryName: string

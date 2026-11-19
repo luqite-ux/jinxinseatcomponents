@@ -4,6 +4,7 @@ import { defaultLocale, pickLocalized } from '@/lib/i18n'
 type DbProduct = {
   id: string
   slug: string
+  updated_at: string | null
   name_i18n: Record<string, string> | null
   description_i18n: Record<string, string> | null
   specs: Record<string, string> | null
@@ -21,7 +22,7 @@ async function fetchRows(): Promise<DbProduct[] | null> {
   const query = new URL(`${url}/rest/v1/products`)
   query.searchParams.set('tenant_id', `eq.${tenant}`)
   query.searchParams.set('is_active', 'eq.true')
-  query.searchParams.set('select', 'id,slug,name_i18n,description_i18n,specs,image_url,extra_data,category_slug,sort_order')
+  query.searchParams.set('select', 'id,slug,updated_at,name_i18n,description_i18n,specs,image_url,extra_data,category_slug,sort_order')
   query.searchParams.set('order', 'sort_order.asc')
   query.searchParams.set('limit', '1000')
   try {
@@ -42,6 +43,7 @@ function localize(row: DbProduct, locale: string): Product {
   return {
     id: row.id,
     slug: row.slug,
+    updatedAt: row.updated_at ?? undefined,
     categorySlug: category?.slug ?? 'seat-assemblies',
     parentCategorySlug: (row.category_slug as Product['parentCategorySlug']) ?? undefined,
     categoryName: category?.name ?? 'Products',
