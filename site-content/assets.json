@@ -75,6 +75,51 @@
       "assetId": "02ff7583-7330-4c7b-9d50-8530a76d20ae",
       "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/company-gallery/38c83c24480d731fc15d47fc.png",
       "sha256": "38c83c24480d731fc15d47fc07c5077ff81edadcb58547cc8fe24f68e6719518"
+    },
+    "supplied-gallery/1.jpg": {
+      "assetId": "d2c2fb80-2dfa-4309-864e-8d3fe9c898be",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/optimized-gallery/9fd0ec1a1726ffa6da3e73c6.jpg",
+      "sha256": "9fd0ec1a1726ffa6da3e73c6ce6cd8e4ac5583fc61ab5c54a1862e091c152324"
+    },
+    "supplied-gallery/2.jpg": {
+      "assetId": "31467f1d-8f7b-4c58-bb0f-dd1507568497",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/optimized-gallery/beb91358c6ed4f1712710fa1.jpg",
+      "sha256": "beb91358c6ed4f1712710fa14682d58f98bd33ca8be5261e5007525f1aa0ee1e"
+    },
+    "supplied-gallery/3.jpg": {
+      "assetId": "b47993af-491d-4937-9121-8e6c8f2b20c1",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/optimized-gallery/1e7f18f352e04ed0e23b3b02.jpg",
+      "sha256": "1e7f18f352e04ed0e23b3b02ea7efb9d8007839f7759ae5ba5c768e6fed5a990"
+    },
+    "supplied-gallery/4.jpg": {
+      "assetId": "bd8f05d7-49a0-4939-8983-1563eaa2d48a",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/optimized-gallery/02892852d9aa1a9e46246aec.jpg",
+      "sha256": "02892852d9aa1a9e46246aecc1665eb1b157c77e156a05e3ed03810f55411114"
+    },
+    "supplied-gallery/5.jpg": {
+      "assetId": "cd47a9a2-df4b-4e72-86d8-27b998b6625c",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/optimized-gallery/8689fdd320ce00c447bff2e2.jpg",
+      "sha256": "8689fdd320ce00c447bff2e2b08a2a4ccdb7a2ecc4e2cab2368dbb76a07da278"
+    },
+    "supplied-gallery/6.jpg": {
+      "assetId": "9d5a3b50-461b-448b-a526-793ee690187b",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/optimized-gallery/d34aef2c5a1c3c5f970f4930.jpg",
+      "sha256": "d34aef2c5a1c3c5f970f4930761ff0010fc705145bbe497c56907f80de8091c3"
+    },
+    "supplied-gallery/7.jpg": {
+      "assetId": "42f2aa92-52ce-440d-a8c5-c5ef496f3524",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/optimized-gallery/4ae8eaf66849b1ba04c72dd9.jpg",
+      "sha256": "4ae8eaf66849b1ba04c72dd987262306be1e2ae9ddee84401c64d245cc00e7b9"
+    },
+    "supplied-gallery/8.jpg": {
+      "assetId": "4245282d-f5d4-4e21-acaa-c8ec7896352d",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/optimized-gallery/df6dfe106ff1831345f57077.jpg",
+      "sha256": "df6dfe106ff1831345f57077fa90d1d707c675a2b64648468d0b253311d25eda"
+    },
+    "supplied-gallery/9.jpg": {
+      "assetId": "651f3929-1cde-4eaa-9678-d27e6a7c39ca",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/optimized-gallery/12cda15bec3a072ad01457db.jpg",
+      "sha256": "12cda15bec3a072ad01457db7bf5bcd83f020576dcc2bb2e6279b71e49ce4571"
     }
   }
 }

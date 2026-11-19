@@ -633,7 +633,123 @@
             },
             "cta_text": {
               "en": "Describe the application and we will review which products fit."
-            }
+            },
+            "gallery_title": {
+              "en": "More from the supplied photo collection"
+            },
+            "gallery_description": {
+              "en": "Additional seat, frame and foam photographs supplied by the company. These images are not assigned to a specific catalog model."
+            },
+            "gallery": [
+              {
+                "id": "optimized-1",
+                "title": {
+                  "en": "Seat back assembly"
+                },
+                "image": {
+                  "assetId": "d2c2fb80-2dfa-4309-864e-8d3fe9c898be",
+                  "alt": {
+                    "en": "Customer supplied photograph: seat back assembly"
+                  }
+                }
+              },
+              {
+                "id": "optimized-2",
+                "title": {
+                  "en": "Seat frame storage"
+                },
+                "image": {
+                  "assetId": "31467f1d-8f7b-4c58-bb0f-dd1507568497",
+                  "alt": {
+                    "en": "Customer supplied photograph: seat frame storage"
+                  }
+                }
+              },
+              {
+                "id": "optimized-3",
+                "title": {
+                  "en": "Light upholstery assembly"
+                },
+                "image": {
+                  "assetId": "b47993af-491d-4937-9121-8e6c8f2b20c1",
+                  "alt": {
+                    "en": "Customer supplied photograph: light upholstery assembly"
+                  }
+                }
+              },
+              {
+                "id": "optimized-4",
+                "title": {
+                  "en": "Molded foam storage"
+                },
+                "image": {
+                  "assetId": "bd8f05d7-49a0-4939-8983-1563eaa2d48a",
+                  "alt": {
+                    "en": "Customer supplied photograph: molded foam storage"
+                  }
+                }
+              },
+              {
+                "id": "optimized-5",
+                "title": {
+                  "en": "Seat frames in production"
+                },
+                "image": {
+                  "assetId": "cd47a9a2-df4b-4e72-86d8-27b998b6625c",
+                  "alt": {
+                    "en": "Customer supplied photograph: seat frames in production"
+                  }
+                }
+              },
+              {
+                "id": "optimized-6",
+                "title": {
+                  "en": "Black seat assembly"
+                },
+                "image": {
+                  "assetId": "9d5a3b50-461b-448b-a526-793ee690187b",
+                  "alt": {
+                    "en": "Customer supplied photograph: black seat assembly"
+                  }
+                }
+              },
+              {
+                "id": "optimized-7",
+                "title": {
+                  "en": "Metal frame assemblies"
+                },
+                "image": {
+                  "assetId": "42f2aa92-52ce-440d-a8c5-c5ef496f3524",
+                  "alt": {
+                    "en": "Customer supplied photograph: metal frame assemblies"
+                  }
+                }
+              },
+              {
+                "id": "optimized-8",
+                "title": {
+                  "en": "Foam profiles"
+                },
+                "image": {
+                  "assetId": "4245282d-f5d4-4e21-acaa-c8ec7896352d",
+                  "alt": {
+                    "en": "Customer supplied photograph: foam profiles"
+                  }
+                }
+              },
+              {
+                "id": "optimized-9",
+                "title": {
+                  "en": "Molded foam components"
+                },
+                "image": {
+                  "assetId": "651f3929-1cde-4eaa-9678-d27e6a7c39ca",
+                  "alt": {
+                    "en": "Customer supplied photograph: molded foam components"
+                  }
+                }
+              }
+            ]
           }
         }
       }

@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "fontFamilies": [
     {
       "key": "site-sans",
@@ -1633,6 +1633,45 @@
               "localized": true,
               "required": true,
               "maxLength": 350
+            },
+            {
+              "key": "gallery_title",
+              "type": "text",
+              "label": "Supplied photograph gallery heading",
+              "localized": true,
+              "required": true,
+              "maxLength": 160
+            },
+            {
+              "key": "gallery_description",
+              "type": "textarea",
+              "label": "Supplied photograph gallery description",
+              "localized": true,
+              "required": true,
+              "maxLength": 400
+            },
+            {
+              "key": "gallery",
+              "type": "repeat",
+              "label": "Additional customer supplied photographs",
+              "required": true,
+              "maxItems": 9,
+              "fields": [
+                {
+                  "key": "title",
+                  "type": "text",
+                  "label": "Photograph title",
+                  "localized": true,
+                  "required": true,
+                  "maxLength": 130
+                },
+                {
+                  "key": "image",
+                  "type": "image",
+                  "label": "Customer supplied photograph",
+                  "required": true
+                }
+              ]
             }
           ]
         },

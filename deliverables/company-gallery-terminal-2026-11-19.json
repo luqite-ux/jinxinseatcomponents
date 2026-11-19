@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "tenantId": "d189a65a-480c-4800-ab12-ac21a9d724d7",
+  "deploymentSha": "8b05a6ee76c50f7d18ea01ea0e9e9d802e5e191c",
+  "publishedVersion": "b8056df3-0e71-4a1d-b857-afeb1d091dea",
+  "checkedAt": "2026-11-19T04:02:44.704Z",
+  "pass": true,
+  "checks": [
+    {
+      "mediaId": "company-xlsx-image2.png",
+      "sourceLocator": "企业资料!C22",
+      "sourceHash": "sha256:b0be9c7be4b6ddcfd839a7ce78809742c092a260cf6800b390927a009e489bba",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/company-gallery/b0be9c7be4b6ddcfd839a7ce.png",
+      "route": "/manufacturing",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "company-xlsx-image3.png",
+      "sourceLocator": "企业资料!C23",
+      "sourceHash": "sha256:ea0c4de6518435d3ac307b5299956de3ec456c0d18f7c09ed051cfeeb2807c62",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/company-gallery/ea0c4de6518435d3ac307b52.png",
+      "route": "/manufacturing",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "company-xlsx-image4.png",
+      "sourceLocator": "企业资料!C24",
+      "sourceHash": "sha256:12490d2928c9cf579177724c0ab2b92a4aed68e45e42aef1e4c6c7b6a61ddb92",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/company-gallery/12490d2928c9cf579177724c.png",
+      "route": "/manufacturing",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "company-xlsx-image5.png",
+      "sourceLocator": "企业资料!C25",
+      "sourceHash": "sha256:df86826dfdeaa68c10c756d84f6b91b86cd920a3ead5aa684e6758185f0c701a",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/company-gallery/df86826dfdeaa68c10c756d8.png",
+      "route": "/manufacturing",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "company-xlsx-image6.png",
+      "sourceLocator": "企业资料!C26",
+      "sourceHash": "sha256:49d3d3dec7e6df183f93f5bc05be79cc60cbaf326723103d217a438061563251",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/company-gallery/49d3d3dec7e6df183f93f5bc.png",
+      "route": "/manufacturing",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "company-xlsx-image7.png",
+      "sourceLocator": "企业资料!C27",
+      "sourceHash": "sha256:fbd4943e77fecca3ea14a5dd031f99f4fe3f207aa9c5c018679ddef19be1f0ad",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/company-gallery/fbd4943e77fecca3ea14a5dd.png",
+      "route": "/manufacturing",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "company-xlsx-image8.png",
+      "sourceLocator": "企业资料!C28",
+      "sourceHash": "sha256:fc3ade2cf5ad041f05e3cc195adac7d573ef35d3dc13cef99b4d412c7f1569a3",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/company-gallery/fc3ade2cf5ad041f05e3cc19.png",
+      "route": "/manufacturing",
+      "result": "PASS"
+    },
+    {
+      "mediaId": "company-xlsx-image9.png",
+      "sourceLocator": "企业资料!C21",
+      "sourceHash": "sha256:38c83c24480d731fc15d47fc07c5077ff81edadcb58547cc8fe24f68e6719518",
+      "r2Url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/company-gallery/38c83c24480d731fc15d47fc.png",
+      "route": "/manufacturing",
+      "result": "PASS"
+    }
+  ]
+}

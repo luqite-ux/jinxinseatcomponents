@@ -32,7 +32,7 @@ const nav = [
   ['manufacturing', 'Manufacturing', '/manufacturing'], ['about', 'About', '/about'], ['news', 'News', '/news'], ['contact', 'Contact', '/contact'],
 ]
 const definition = {
-  version: 2,
+  version: 3,
   fontFamilies: [family('site-sans', 'Geist Sans'), family('site-mono', 'Geist Mono')],
   pages: [{ key: 'home', path: '/', label: 'Homepage', modules: [
     module('hero', 'Hero carousel', [type('slides', 'repeat', 'Three customer supplied slides', { maxItems: 3, required: true, fields: [
@@ -169,6 +169,11 @@ const applicationExamples = [
   { id: 'front-seating', title: 'Front seating', summary: 'Front seat assemblies with headrest, backrest and cushion, supported by seat frames and molded foam.', cta: 'Browse seat assemblies', href: '/products?category=seat-assemblies' },
   { id: 'folding-seating', title: 'Folding seating with belt', summary: 'Folding seat configurations with an integrated seat belt and an armrest, shown as a complete assembly.', cta: 'Browse seat assemblies', href: '/products?category=seat-assemblies' },
 ]
+const optimizedGallery = [
+  'Seat back assembly', 'Seat frame storage', 'Light upholstery assembly',
+  'Molded foam storage', 'Seat frames in production', 'Black seat assembly',
+  'Metal frame assemblies', 'Foam profiles', 'Molded foam components',
+]
 const applicationsPage = definition.pages.find((page) => page.key === 'applications_page')
 applicationsPage.modules.splice(1, 0, module('copy', 'Application examples and CTA', [
   type('examples', 'repeat', 'Application examples', { required: true, maxItems: 2, fields: [
@@ -180,11 +185,17 @@ applicationsPage.modules.splice(1, 0, module('copy', 'Application examples and C
   ] }),
   type('cta_title', 'text', 'CTA title', { localized: true, required: true, maxLength: 140 }),
   type('cta_text', 'textarea', 'CTA text', { localized: true, required: true, maxLength: 350 }),
+  type('gallery_title', 'text', 'Supplied photograph gallery heading', { localized: true, required: true, maxLength: 160 }),
+  type('gallery_description', 'textarea', 'Supplied photograph gallery description', { localized: true, required: true, maxLength: 400 }),
+  type('gallery', 'repeat', 'Additional customer supplied photographs', { required: true, maxItems: 9, fields: [type('title', 'text', 'Photograph title', { localized: true, required: true, maxLength: 130 }), type('image', 'image', 'Customer supplied photograph', { required: true })] }),
 ]))
 content.pages.applications_page.order.splice(1, 0, 'copy')
 content.pages.applications_page.modules.copy = { hidden: false, values: {
   examples: applicationExamples.map(({ id, title, summary, cta, href }) => ({ id, title: local(title), summary: local(summary), cta: local(cta), href, image: pageImage(id === 'front-seating' ? 'products/front-seat-assembly.jpg' : 'products/folding-seat-assembly.jpg', `Customer supplied ${title.toLowerCase()} photograph`) })),
   cta_title: local('Have a seat position in mind?'), cta_text: local('Describe the application and we will review which products fit.'),
+  gallery_title: local('More from the supplied photo collection'),
+  gallery_description: local('Additional seat, frame and foam photographs supplied by the company. These images are not assigned to a specific catalog model.'),
+  gallery: optimizedGallery.map((title, index) => ({ id: `optimized-${index + 1}`, title: local(title), image: pageImage(`supplied-gallery/${index + 1}.jpg`, `Customer supplied photograph: ${title.toLowerCase()}`) })),
 } }
 integration.modules.push('applications_page.copy')
 const simpleCopies = [
