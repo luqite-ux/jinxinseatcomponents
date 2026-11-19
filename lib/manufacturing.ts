@@ -22,7 +22,7 @@ export const manufacturingAreas: ManufacturingArea[] = [
     description: 'Molded foam for seat cushions and backs, produced to the shape of the seat it supports.',
     icon: Boxes,
     image: {
-      src: '/catalog/cutouts/product-row-46.webp',
+      src: '/catalog/cutouts/product-row-45.webp',
       alt: 'Molded seat cushion foam component',
     },
   },

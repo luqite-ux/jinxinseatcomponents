@@ -72,13 +72,13 @@ export default async function ApplicationsPage() {
               <article
                 className={`grid border border-line bg-white md:grid-cols-2 ${i % 2 ? 'md:[&>div:first-child]:order-2' : ''}`}
               >
-                <div className="relative aspect-[4/3] bg-[#f1eee9] md:aspect-auto md:min-h-[26rem]">
+                <div className="relative aspect-[4/3] bg-white md:aspect-auto md:min-h-[26rem]">
                   <Image
                     src={item.image.src}
                     alt={item.image.alt}
                     fill
                     sizes="(min-width: 768px) 45vw, 94vw"
-                    className="object-contain p-6 mix-blend-multiply"
+                    className="object-contain"
                   />
                 </div>
                 <div className="flex flex-col justify-center p-6 md:p-12">
@@ -116,8 +116,8 @@ export default async function ApplicationsPage() {
               {gallery.map((item, index) => (
                 <Reveal as="li" key={item.id} index={index} className="list-none">
                   <figure className="h-full overflow-hidden rounded-xl border border-line bg-white">
-                    <div className="relative aspect-[4/3] bg-white">
-                      <Image src={item.image.src} alt={item.image.alt} fill sizes="(min-width: 1024px) 29vw, (min-width: 640px) 46vw, 92vw" className="object-contain" />
+                    <div className="relative aspect-[3/4] bg-white">
+                      <Image src={item.image.src} alt={item.image.alt} fill sizes="(min-width: 1024px) 29vw, (min-width: 640px) 46vw, 92vw" className="object-cover" />
                     </div>
                     <figcaption className="border-t border-line px-4 py-3 text-sm font-medium text-ink">{item.title}</figcaption>
                   </figure>
@@ -133,7 +133,8 @@ export default async function ApplicationsPage() {
         title={siteCopy(copy, 'presentation_gallery_title', 'Product photographs from the supplied presentation')}
         description={siteCopy(copy, 'presentation_gallery_description', 'Additional component photographs from the customer presentation. These images are not assigned to a specific catalog model.')}
         photos={presentationGallery}
-        fit="contain"
+        fit="cover"
+        aspect="portrait"
       />
       <CtaBand title={siteCopy(copy, 'cta_title', 'Have a seat position in mind?')} text={siteCopy(copy, 'cta_text', 'Describe the application and we will review which products fit.')} />
     </>

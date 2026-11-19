@@ -1,0 +1,103 @@
+{
+  "tenantId": "d189a65a-480c-4800-ab12-ac21a9d724d7",
+  "previousVersion": "99a3df95-a391-4182-8212-b9d3af51b19b",
+  "versionId": "0840679c-e1fa-4599-8061-e49ed2b59d16",
+  "changed": [
+    {
+      "path": "content.pages.home.modules.hero.values.slides[0].mobile_image",
+      "oldAssetId": "956964ef-4ccf-451b-9cc2-ab3c1edefbdc",
+      "newAssetId": "503eda8e-11fb-4dff-86bb-2f100ae152be",
+      "row": 7
+    },
+    {
+      "path": "content.pages.home.modules.hero.values.slides[0].desktop_image",
+      "oldAssetId": "956964ef-4ccf-451b-9cc2-ab3c1edefbdc",
+      "newAssetId": "503eda8e-11fb-4dff-86bb-2f100ae152be",
+      "row": 7
+    },
+    {
+      "path": "content.pages.home.modules.hero.values.slides[1].mobile_image",
+      "oldAssetId": "2ce79809-66b1-4db1-82d8-0fb9386eb648",
+      "newAssetId": "a45edc71-8f71-4b8c-b175-01e805a21780",
+      "row": 45
+    },
+    {
+      "path": "content.pages.home.modules.hero.values.slides[1].desktop_image",
+      "oldAssetId": "2ce79809-66b1-4db1-82d8-0fb9386eb648",
+      "newAssetId": "a45edc71-8f71-4b8c-b175-01e805a21780",
+      "row": 45
+    },
+    {
+      "path": "content.pages.home.modules.hero.values.slides[2].mobile_image",
+      "oldAssetId": "b4022f26-a129-487e-be36-77ed295bb5cb",
+      "newAssetId": "1b13a0a2-19c1-482d-91fa-89f8ff48bfad",
+      "row": 65
+    },
+    {
+      "path": "content.pages.home.modules.hero.values.slides[2].desktop_image",
+      "oldAssetId": "b4022f26-a129-487e-be36-77ed295bb5cb",
+      "newAssetId": "1b13a0a2-19c1-482d-91fa-89f8ff48bfad",
+      "row": 65
+    },
+    {
+      "path": "content.pages.home.modules.applications.values.examples[0].image",
+      "oldAssetId": "d2ad77e8-a49a-4ac9-8ed1-1e41b7b8eea9",
+      "newAssetId": "393cb83f-20d3-464a-a62a-8d3781adb58b",
+      "row": 17
+    },
+    {
+      "path": "content.pages.home.modules.applications.values.examples[1].image",
+      "oldAssetId": "9c05b385-2725-4c84-8676-238f6fea6ff5",
+      "newAssetId": "503eda8e-11fb-4dff-86bb-2f100ae152be",
+      "row": 7
+    },
+    {
+      "path": "content.pages.home.modules.manufacturing.values.areas[0].image",
+      "oldAssetId": "8899fa67-0449-4a3b-a380-4d02d4073f91",
+      "newAssetId": "1b13a0a2-19c1-482d-91fa-89f8ff48bfad",
+      "row": 65
+    },
+    {
+      "path": "content.pages.home.modules.manufacturing.values.areas[1].image",
+      "oldAssetId": "bc541ff7-d3d4-438c-8bbb-807fb1d573c4",
+      "newAssetId": "a45edc71-8f71-4b8c-b175-01e805a21780",
+      "row": 45
+    },
+    {
+      "path": "content.pages.home.modules.manufacturing.values.areas[2].image",
+      "oldAssetId": "d2ad77e8-a49a-4ac9-8ed1-1e41b7b8eea9",
+      "newAssetId": "393cb83f-20d3-464a-a62a-8d3781adb58b",
+      "row": 17
+    },
+    {
+      "path": "content.pages.applications_page.modules.copy.values.examples[0].image",
+      "oldAssetId": "d2ad77e8-a49a-4ac9-8ed1-1e41b7b8eea9",
+      "newAssetId": "393cb83f-20d3-464a-a62a-8d3781adb58b",
+      "row": 17
+    },
+    {
+      "path": "content.pages.applications_page.modules.copy.values.examples[1].image",
+      "oldAssetId": "9c05b385-2725-4c84-8676-238f6fea6ff5",
+      "newAssetId": "503eda8e-11fb-4dff-86bb-2f100ae152be",
+      "row": 7
+    },
+    {
+      "path": "content.pages.manufacturing_page.modules.copy.values.areas[0].image",
+      "oldAssetId": "8899fa67-0449-4a3b-a380-4d02d4073f91",
+      "newAssetId": "1b13a0a2-19c1-482d-91fa-89f8ff48bfad",
+      "row": 65
+    },
+    {
+      "path": "content.pages.manufacturing_page.modules.copy.values.areas[1].image",
+      "oldAssetId": "bc541ff7-d3d4-438c-8bbb-807fb1d573c4",
+      "newAssetId": "a45edc71-8f71-4b8c-b175-01e805a21780",
+      "row": 45
+    },
+    {
+      "path": "content.pages.manufacturing_page.modules.copy.values.areas[2].image",
+      "oldAssetId": "d2ad77e8-a49a-4ac9-8ed1-1e41b7b8eea9",
+      "newAssetId": "393cb83f-20d3-464a-a62a-8d3781adb58b",
+      "row": 17
+    }
+  ]
+}

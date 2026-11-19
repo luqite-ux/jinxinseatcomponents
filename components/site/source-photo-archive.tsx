@@ -4,19 +4,20 @@ import { SectionHeading } from '@/components/site/section-heading'
 
 export type SourcePhoto = { id: string; title: string; image: { src: string; alt: string } }
 
-export function SourcePhotoArchive({ id, eyebrow, title, description, photos, fit }: {
+export function SourcePhotoArchive({ id, eyebrow, title, description, photos, fit, aspect = 'landscape' }: {
   id: string
   eyebrow: string
   title: string
   description: string
   photos: SourcePhoto[]
   fit: 'contain' | 'cover'
+  aspect?: 'landscape' | 'portrait'
 }) {
   if (photos.length === 0) return null
   const tile = (photo: SourcePhoto, index: number) => (
     <Reveal as="li" key={photo.id} index={index} className="list-none">
       <figure className="h-full overflow-hidden rounded-xl border border-line bg-white">
-        <div className="relative aspect-[4/3] bg-white">
+        <div className={`relative bg-white ${aspect === 'portrait' ? 'aspect-[3/4]' : 'aspect-[4/3]'}`}>
           <Image src={photo.image.src} alt={photo.image.alt} fill sizes="(min-width: 1024px) 29vw, (min-width: 640px) 46vw, 92vw" className={fit === 'cover' ? 'object-cover' : 'object-contain'} />
         </div>
         <figcaption className="border-t border-line px-4 py-3 text-sm font-medium text-ink">{photo.title}</figcaption>

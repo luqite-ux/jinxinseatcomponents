@@ -35,13 +35,13 @@
                   "en": "Complete seat assemblies, seat frames and molded foam components from one supplier. Browse the range and send us your requirements."
                 },
                 "desktop_image": {
-                  "assetId": "956964ef-4ccf-451b-9cc2-ab3c1edefbdc",
+                  "assetId": "503eda8e-11fb-4dff-86bb-2f100ae152be",
                   "alt": {
                     "en": "Customer supplied photograph of an ambulance auxiliary seat assembly"
                   }
                 },
                 "mobile_image": {
-                  "assetId": "956964ef-4ccf-451b-9cc2-ab3c1edefbdc",
+                  "assetId": "503eda8e-11fb-4dff-86bb-2f100ae152be",
                   "alt": {
                     "en": "Customer supplied photograph of an ambulance auxiliary seat assembly"
                   }
@@ -66,13 +66,13 @@
                   "en": "Explore the molded foam range for seat bases and backs. Send your drawing or sample and we will talk through the fit."
                 },
                 "desktop_image": {
-                  "assetId": "2ce79809-66b1-4db1-82d8-0fb9386eb648",
+                  "assetId": "a45edc71-8f71-4b8c-b175-01e805a21780",
                   "alt": {
                     "en": "Customer supplied photograph of a molded seat foam component"
                   }
                 },
                 "mobile_image": {
-                  "assetId": "2ce79809-66b1-4db1-82d8-0fb9386eb648",
+                  "assetId": "a45edc71-8f71-4b8c-b175-01e805a21780",
                   "alt": {
                     "en": "Customer supplied photograph of a molded seat foam component"
                   }
@@ -97,13 +97,13 @@
                   "en": "Look through the seat frame line, from complete frames to the brackets and members that carry the seat."
                 },
                 "desktop_image": {
-                  "assetId": "b4022f26-a129-487e-be36-77ed295bb5cb",
+                  "assetId": "1b13a0a2-19c1-482d-91fa-89f8ff48bfad",
                   "alt": {
                     "en": "Customer supplied photograph of a seat frame component"
                   }
                 },
                 "mobile_image": {
-                  "assetId": "b4022f26-a129-487e-be36-77ed295bb5cb",
+                  "assetId": "1b13a0a2-19c1-482d-91fa-89f8ff48bfad",
                   "alt": {
                     "en": "Customer supplied photograph of a seat frame component"
                   }
@@ -240,7 +240,7 @@
                 },
                 "href": "/products?category=seat-assemblies",
                 "image": {
-                  "assetId": "d2ad77e8-a49a-4ac9-8ed1-1e41b7b8eea9",
+                  "assetId": "393cb83f-20d3-464a-a62a-8d3781adb58b",
                   "alt": {
                     "en": "Customer supplied front seating photograph"
                   }
@@ -259,7 +259,7 @@
                 },
                 "href": "/products?category=seat-assemblies",
                 "image": {
-                  "assetId": "9c05b385-2725-4c84-8676-238f6fea6ff5",
+                  "assetId": "503eda8e-11fb-4dff-86bb-2f100ae152be",
                   "alt": {
                     "en": "Customer supplied folding seating with belt photograph"
                   }
@@ -293,7 +293,7 @@
                   "en": "Complete seat frames with slide rails, and the stamped brackets and members that carry the seat."
                 },
                 "image": {
-                  "assetId": "8899fa67-0449-4a3b-a380-4d02d4073f91",
+                  "assetId": "1b13a0a2-19c1-482d-91fa-89f8ff48bfad",
                   "alt": {
                     "en": "Customer supplied seat frames and structural parts photograph"
                   }
@@ -308,7 +308,7 @@
                   "en": "Molded foam for seat cushions and backs, produced to the shape of the seat it supports."
                 },
                 "image": {
-                  "assetId": "bc541ff7-d3d4-438c-8bbb-807fb1d573c4",
+                  "assetId": "a45edc71-8f71-4b8c-b175-01e805a21780",
                   "alt": {
                     "en": "Customer supplied molded foam components photograph"
                   }
@@ -323,7 +323,7 @@
                   "en": "Frame, foam and trim brought together into complete seat configurations."
                 },
                 "image": {
-                  "assetId": "d2ad77e8-a49a-4ac9-8ed1-1e41b7b8eea9",
+                  "assetId": "393cb83f-20d3-464a-a62a-8d3781adb58b",
                   "alt": {
                     "en": "Customer supplied seat assembly photograph"
                   }
@@ -602,7 +602,7 @@
                 },
                 "href": "/products?category=seat-assemblies",
                 "image": {
-                  "assetId": "d2ad77e8-a49a-4ac9-8ed1-1e41b7b8eea9",
+                  "assetId": "393cb83f-20d3-464a-a62a-8d3781adb58b",
                   "alt": {
                     "en": "Customer supplied front seating photograph"
                   }
@@ -621,7 +621,7 @@
                 },
                 "href": "/products?category=seat-assemblies",
                 "image": {
-                  "assetId": "9c05b385-2725-4c84-8676-238f6fea6ff5",
+                  "assetId": "503eda8e-11fb-4dff-86bb-2f100ae152be",
                   "alt": {
                     "en": "Customer supplied folding seating with belt photograph"
                   }
@@ -1371,7 +1371,7 @@
                   "en": "Complete seat frames with slide rails, and the stamped brackets and members that carry the seat."
                 },
                 "image": {
-                  "assetId": "8899fa67-0449-4a3b-a380-4d02d4073f91",
+                  "assetId": "1b13a0a2-19c1-482d-91fa-89f8ff48bfad",
                   "alt": {
                     "en": "Customer supplied seat frames and structural parts photograph"
                   }
@@ -1386,7 +1386,7 @@
                   "en": "Molded foam for seat cushions and backs, produced to the shape of the seat it supports."
                 },
                 "image": {
-                  "assetId": "bc541ff7-d3d4-438c-8bbb-807fb1d573c4",
+                  "assetId": "a45edc71-8f71-4b8c-b175-01e805a21780",
                   "alt": {
                     "en": "Customer supplied molded foam components photograph"
                   }
@@ -1401,7 +1401,7 @@
                   "en": "Frame, foam and trim brought together into complete seat configurations."
                 },
                 "image": {
-                  "assetId": "d2ad77e8-a49a-4ac9-8ed1-1e41b7b8eea9",
+                  "assetId": "393cb83f-20d3-464a-a62a-8d3781adb58b",
                   "alt": {
                     "en": "Customer supplied seat assembly photograph"
                   }
