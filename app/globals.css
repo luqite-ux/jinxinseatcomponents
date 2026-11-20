@@ -126,6 +126,34 @@ html[data-reveal='ready'] [data-reveal]:not(.is-visible) {
     -webkit-mask-image: linear-gradient(to left, transparent, #000 22%);
     mask-image: linear-gradient(to left, transparent, #000 22%);
   }
+  .hero-photo .hero-art {
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    -webkit-mask-image: none;
+    mask-image: none;
+  }
+}
+
+/* Customer supplied photographic banners: keep the subject clear and put the scrim
+   only on the side that carries the headline. */
+.hero-scrim-left {
+  background: linear-gradient(
+    90deg,
+    rgba(10, 13, 18, 0.88) 0%,
+    rgba(10, 13, 18, 0.72) 36%,
+    rgba(10, 13, 18, 0.34) 60%,
+    rgba(10, 13, 18, 0) 78%
+  );
+}
+.hero-scrim-right {
+  background: linear-gradient(
+    270deg,
+    rgba(10, 13, 18, 0.88) 0%,
+    rgba(10, 13, 18, 0.72) 36%,
+    rgba(10, 13, 18, 0.34) 60%,
+    rgba(10, 13, 18, 0) 78%
+  );
 }
 
 /* Hero slide layered entrance, restarts whenever a slide becomes active. */

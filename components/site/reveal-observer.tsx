@@ -15,17 +15,9 @@ export function RevealObserver() {
     }
 
     let observer: IntersectionObserver | undefined
+    let mutations: MutationObserver | undefined
+    let frame = 0
     try {
-      const candidates = Array.from(document.querySelectorAll<HTMLElement>('[data-reveal]:not(.is-visible)'))
-      const viewport = window.innerHeight
-      const pending: HTMLElement[] = []
-
-      for (const el of candidates) {
-        const rect = el.getBoundingClientRect()
-        if (rect.top < viewport * 0.92 && rect.bottom > 0) el.classList.add('is-visible')
-        else pending.push(el)
-      }
-
       observer = new IntersectionObserver(
         (entries) => {
           for (const entry of entries) {
@@ -37,13 +29,46 @@ export function RevealObserver() {
         },
         { rootMargin: '0px 0px -8% 0px', threshold: 0.08 },
       )
-      pending.forEach((el) => observer?.observe(el))
+
+      // Client-side navigation (pagination, category filters) mounts new blocks after
+      // this effect has run. Re-scan the document so those blocks join the same observer
+      // instead of staying hidden.
+      const register = () => {
+        const viewport = window.innerHeight
+        for (const el of Array.from(document.querySelectorAll<HTMLElement>('[data-reveal]:not(.is-visible)'))) {
+          const rect = el.getBoundingClientRect()
+          if (rect.top < viewport * 0.92 && rect.bottom > 0) el.classList.add('is-visible')
+          else observer?.observe(el)
+        }
+      }
+      const schedule = () => {
+        if (frame) return
+        frame = window.requestAnimationFrame(() => {
+          frame = 0
+          register()
+        })
+      }
+
+      register()
+      mutations = new MutationObserver((records) => {
+        for (const record of records) {
+          if (record.addedNodes.length > 0) {
+            schedule()
+            return
+          }
+        }
+      })
+      mutations.observe(document.body, { childList: true, subtree: true })
       root.setAttribute('data-reveal', 'ready')
     } catch {
       root.removeAttribute('data-reveal')
     }
 
-    return () => observer?.disconnect()
+    return () => {
+      mutations?.disconnect()
+      if (frame) window.cancelAnimationFrame(frame)
+      observer?.disconnect()
+    }
   }, [pathname])
 
   return null

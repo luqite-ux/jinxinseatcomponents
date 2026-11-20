@@ -21,6 +21,7 @@ type Slide = {
   align: 'left' | 'right'
   mobilePosition: string
   desktopPosition: string
+  photo?: boolean
 }
 
 const fallbackSlides: Slide[] = [
@@ -79,7 +80,8 @@ function publishedSlides(content: HeroContent): Slide[] {
     const ctaHref = row.cta_href
     if (!baseline || typeof row.label !== 'string' || typeof row.eyebrow !== 'string' || typeof row.title !== 'string' || typeof row.body !== 'string' || typeof row.cta_label !== 'string' || typeof ctaHref !== 'string' || typeof desktop?.url !== 'string' || typeof mobile?.url !== 'string' || typeof desktop.alt !== 'string' || typeof mobile.alt !== 'string') throw new Error('Published hero slide has invalid fields')
     return { ...baseline, label: row.label, eyebrow: row.eyebrow, title: row.title, copy: row.body,
-      cta: { label: row.cta_label, href: ctaHref }, image: desktop.url, mobileImage: mobile.url, imageAlt: desktop.alt, mobileImageAlt: mobile.alt }
+      cta: { label: row.cta_label, href: ctaHref }, image: desktop.url, mobileImage: mobile.url, imageAlt: desktop.alt, mobileImageAlt: mobile.alt,
+      photo: true }
   })
 }
 
@@ -169,7 +171,11 @@ export function HeroCarousel({ content, styles }: { content?: HeroContent; style
               )}
             >
               <div
-                className={cn('hero-media relative h-[280px] overflow-hidden bg-[#f8f6f3] md:absolute md:inset-0 md:h-auto', slide.align === 'right' && 'hero-media-right')}
+                className={cn(
+                  'hero-media relative h-[280px] overflow-hidden bg-[#f8f6f3] md:absolute md:inset-0 md:h-auto',
+                  slide.photo && 'hero-photo',
+                  slide.align === 'right' && 'hero-media-right',
+                )}
                 style={
                   {
                     '--pos-m': slide.mobilePosition,
@@ -183,7 +189,10 @@ export function HeroCarousel({ content, styles }: { content?: HeroContent; style
                   fill
                   priority={i === 0}
                   sizes="100vw"
-                  className="hero-art hidden object-contain [object-position:var(--pos-d)] md:block"
+                  className={cn(
+                    'hero-art hidden [object-position:var(--pos-d)] md:block',
+                    slide.photo ? 'object-cover' : 'object-contain',
+                  )}
                 />
                 <Image
                   src={slide.mobileImage ?? slide.image}
@@ -191,8 +200,14 @@ export function HeroCarousel({ content, styles }: { content?: HeroContent; style
                   fill
                   priority={i === 0}
                   sizes="100vw"
-                  className="hero-art object-contain [object-position:var(--pos-m)] md:hidden"
+                  className={cn('hero-art [object-position:var(--pos-m)] md:hidden', slide.photo ? 'object-cover' : 'object-contain')}
                 />
+                {slide.photo && (
+                  <div
+                    aria-hidden
+                    className={cn('pointer-events-none absolute inset-0 hidden md:block', slide.align === 'right' ? 'hero-scrim-right' : 'hero-scrim-left')}
+                  />
+                )}
               </div>
 
               <div
@@ -204,12 +219,16 @@ export function HeroCarousel({ content, styles }: { content?: HeroContent; style
                 <div
                   className={cn(
                     'w-full text-ink md:max-w-[min(34rem,46%)]',
+                    slide.photo && 'md:text-white',
                     slide.align === 'right' && 'md:border-l md:border-jx/30 md:pl-8',
                   )}
                 >
                   <p
                     style={{ '--hero-i': 0, ...siteTypographyStyle(styles, `slides.${slide.id}.eyebrow`, { 'site-mono': 'var(--font-geist-mono)' }) } as CSSProperties}
-                    className="hero-in hq-typography flex items-center gap-3 font-mono text-xs uppercase tracking-[0.16em] text-jx-deep"
+                    className={cn(
+                      'hero-in hq-typography flex items-center gap-3 font-mono text-xs uppercase tracking-[0.16em] text-jx-deep',
+                      slide.photo && 'md:text-white/85',
+                    )}
                   >
                     {slide.align === 'left' && <span aria-hidden className="h-px w-8 bg-jx" />}
                     {slide.eyebrow}
@@ -222,7 +241,10 @@ export function HeroCarousel({ content, styles }: { content?: HeroContent; style
                   </h2>
                   <p
                     style={{ '--hero-i': 2, ...siteTypographyStyle(styles, `slides.${slide.id}.body`, { 'site-sans': 'var(--font-geist-sans)' }) } as CSSProperties}
-                    className="hero-in hq-typography mt-4 max-w-prose text-pretty text-base leading-relaxed text-ink-soft md:text-lg"
+                    className={cn(
+                      'hero-in hq-typography mt-4 max-w-prose text-pretty text-base leading-relaxed text-ink-soft md:text-lg',
+                      slide.photo && 'md:text-white/80',
+                    )}
                   >
                     {slide.copy}
                   </p>

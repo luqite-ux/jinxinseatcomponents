@@ -475,6 +475,26 @@
       "assetId": "055b4858-5c3b-4bc2-82a4-f5312e6b557e",
       "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/ppt-product-gallery/ece43e73c96271a67f2a9b7f.png",
       "sha256": "ece43e73c96271a67f2a9b7fca12457414afc3304f2e018cb30e78bf3b44727f"
+    },
+    "site-content/hero-banner-01.jpg": {
+      "assetId": "c49329cd-a35f-4998-a39b-75ae2eccbb5f",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/site-content/hero-banner-01.jpg",
+      "sha256": "cd68bd94cee6812c55e90d093f7fc43b1484af1cc694dec201b01bab524e5447"
+    },
+    "site-content/hero-banner-02.jpg": {
+      "assetId": "87ba8efe-9bf6-411f-9e40-2930239ff1b6",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/site-content/hero-banner-02.jpg",
+      "sha256": "5eeaf38b1d58b4be82abd8c1ff18569e9ad912aece457e7ef452533273778410"
+    },
+    "site-content/hero-banner-03.jpg": {
+      "assetId": "369edff0-28ab-4737-88f6-848f4a9e0876",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/site-content/hero-banner-03.jpg",
+      "sha256": "02275ea47fb8351c5260feed41407754596cbfc3c224c8f90486371500e6073a"
+    },
+    "site-content/company-premises.jpg": {
+      "assetId": "d089b3e5-68a1-4413-99d4-a00f11a9b61f",
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/tenants/jinxinseatcomponents/site-content/company-premises.jpg",
+      "sha256": "afc9bc63d05b5d4c5188ad8464def0b2709473a9cb39eb0478525180aed2b6b8"
     }
   }
 }
