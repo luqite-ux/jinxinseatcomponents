@@ -140,19 +140,21 @@ html[data-reveal='ready'] [data-reveal]:not(.is-visible) {
 .hero-scrim-left {
   background: linear-gradient(
     90deg,
-    rgba(10, 13, 18, 0.88) 0%,
-    rgba(10, 13, 18, 0.72) 36%,
-    rgba(10, 13, 18, 0.34) 60%,
-    rgba(10, 13, 18, 0) 78%
+    rgba(10, 13, 18, 0.9) 0%,
+    rgba(10, 13, 18, 0.72) 24%,
+    rgba(10, 13, 18, 0.42) 34%,
+    rgba(10, 13, 18, 0.12) 40%,
+    rgba(10, 13, 18, 0) 43%
   );
 }
 .hero-scrim-right {
   background: linear-gradient(
     270deg,
-    rgba(10, 13, 18, 0.88) 0%,
-    rgba(10, 13, 18, 0.72) 36%,
-    rgba(10, 13, 18, 0.34) 60%,
-    rgba(10, 13, 18, 0) 78%
+    rgba(10, 13, 18, 0.9) 0%,
+    rgba(10, 13, 18, 0.72) 24%,
+    rgba(10, 13, 18, 0.42) 34%,
+    rgba(10, 13, 18, 0.12) 40%,
+    rgba(10, 13, 18, 0) 43%
   );
 }
 
